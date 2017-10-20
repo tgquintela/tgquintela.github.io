@@ -1,0 +1,128 @@
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #333333;
+  font-weight: 500;
+  font-size: 18px;
+/*  width: 960px;
+  height: 500px;
+*/
+  position: relative;
+  background-color: #333;
+  margin: 0 auto;
+}
+
+#buttoms {
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+
+#graph {
+  border-radius: 5px 5px 0 0;
+  padding-top: 50px;
+  margin: 0 0 0 0;
+  height: 100%;
+  background-color: #fff;
+}
+#graph svg {
+  width: 100% !important;
+}
+#graph .slice {
+  stroke: white;
+  stroke-width: 0px;
+}
+#graph .slice:hover {
+  opacity: .7;
+}
+#graph .labels text {
+  font-style: normal;
+  background-color: #333;
+  width: 200px;
+  font-weight: 700;
+  font-style: italic;
+
+}
+/*
+.hidden {
+  display: none;
+}
+*/
+svg {
+  width: 100%;
+  height: 100%;
+  /* Shadow effects */
+  -webkit-filter: drop-shadow( 0px 3px 3px rgba(0,0,0,.3) );
+  filter: drop-shadow( 0px 3px 3px rgba(0,0,0,.25) );
+}
+
+path.slice {
+  stroke-width: 5px;
+}
+
+/*Styling for the lines connecting the labels to the slices*/
+polyline {
+  opacity: .3;
+  stroke: black;
+  stroke-width: 1px;
+  fill: none;
+}
+
+
+/* Styling for the lines connecting the labels to the slices */
+/*
+path.slice.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 60px;
+  height: 12px;
+  padding: 8px;
+  margin-top: -20px;
+  font: 10px sans-serif;
+  background: #ddd;
+  pointer-events: none;
+}
+*/
+/*
+div.tooltip {
+  border-width: 1px;
+  border-radius: 25px;
+  padding: 50px;
+  color: #549CFF;
+  position: absolute;
+  text-align: left;
+  left: 80px;
+  opacity: 0.5;
+}
+
+
+#tooltip {
+    position: absolute;
+    width: 200px;
+    height: auto;
+    padding: 10px;
+    background-color: white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    -mox-box-shadow: 4px 4px 4px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 4px 4px 10px rbga(0, 0, 0, 0.4) pointer-events: none;
+}
+#tooltip.hidden {
+    opacity: 0;
+}
+#tooltip p {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+
+.legend {
+  padding: 5px;
+  font: 15px sans-serif;
+  background: yellow;
+  box-shadow: 2px 2px 1px #888;
+}
+*/

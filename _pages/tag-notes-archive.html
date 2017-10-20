@@ -1,0 +1,17 @@
+---
+layout: archive
+permalink: /notes/tags/
+title: "Notes by Tags"
+author_profile: false
+---
+
+{% include base_path %}
+{% include group-by-array collection=site.notes field="Tags" %}
+
+{% for tag in group_names %}
+  {% assign notes = group_items[forloop.index0] %}
+  <h2 id="{{ tag | slugify }}" class="archive__subtitle">{{ tag }}</h2>
+  {% for post in notes %}
+    {% include archive-single-note.html %}
+  {% endfor %}
+{% endfor %}

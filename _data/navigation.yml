@@ -1,0 +1,38 @@
+# Site navigation links
+
+main:
+#  - title: "Home"
+#    url: 
+#    active: True
+#    right: False
+
+  - title: "About"
+    url: /about/
+    active: True
+    right: True
+
+  - title: "Interests"
+    url: /interests/
+    active: False
+    right: False
+
+  - title: "Projects"
+    url: /projects/
+    active: False
+    right: False
+
+  - title: "Software"
+    url: /software/
+    active: False
+    right: False
+
+  - title: "Blog Posts"
+    url: /blog/
+    active: False
+    right: False
+
+  - title: "Notes"
+    url: /notes/
+    active: False
+    right: False
+
