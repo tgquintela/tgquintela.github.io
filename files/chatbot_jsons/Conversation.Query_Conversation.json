@@ -1,0 +1,85 @@
+{
+  "links": [
+    {
+      "source": "Query_Conversation.Explore_extra_products", 
+      "target": "Query_Conversation.Querier_DB", 
+      "transition": 0
+    }, 
+    {
+      "source": "Query_Conversation.Querier_DB", 
+      "target": "Query_Conversation.Explore_extra_products", 
+      "transition": 2
+    }, 
+    {
+      "source": "Query_Conversation.Querier_DB", 
+      "target": "Query_Conversation.Closing_Check", 
+      "transition": 3
+    }, 
+    {
+      "source": "Query_Conversation.Querier_DB", 
+      "target": "Query_Conversation.Keep_Trying", 
+      "transition": 0
+    }, 
+    {
+      "source": "Query_Conversation.Querier_DB", 
+      "target": "Query_Conversation.Explore_products", 
+      "transition": 1
+    }, 
+    {
+      "source": "Query_Conversation.Keep_Trying", 
+      "target": "Query_Conversation.Closing_Check", 
+      "transition": 0
+    }, 
+    {
+      "source": "Query_Conversation.Keep_Trying", 
+      "target": "Query_Conversation.Querier_DB", 
+      "transition": 1
+    }, 
+    {
+      "source": "Query_Conversation.Hello_DB", 
+      "target": "Query_Conversation.Querier_DB", 
+      "transition": 0
+    }, 
+    {
+      "source": "Query_Conversation.Explore_products", 
+      "target": "Query_Conversation.Explore_extra_products", 
+      "transition": 1
+    }, 
+    {
+      "source": "Query_Conversation.Explore_products", 
+      "target": "Query_Conversation.Closing_Check", 
+      "transition": 2
+    }, 
+    {
+      "source": "Query_Conversation.Explore_products", 
+      "target": "Query_Conversation.Querier_DB", 
+      "transition": 0
+    }
+  ], 
+  "nodes": [
+    {
+      "id": "Query_Conversation.Explore_extra_products", 
+      "type": "normal"
+    }, 
+    {
+      "id": "Query_Conversation.Querier_DB", 
+      "type": "normal"
+    }, 
+    {
+      "id": "Query_Conversation.Keep_Trying", 
+      "type": "normal"
+    }, 
+    {
+      "id": "Query_Conversation.Explore_products", 
+      "type": "normal"
+    }, 
+    {
+      "id": "Query_Conversation.Hello_DB", 
+      "type": "init"
+    }, 
+    {
+      "id": "Query_Conversation.Closing_Check", 
+      "type": "end"
+    }
+  ]
+}

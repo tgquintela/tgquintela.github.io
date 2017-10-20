@@ -1,0 +1,52 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "name": "Explore_extra_products"
+        }, 
+        {
+          "name": "Querier_DB"
+        }, 
+        {
+          "name": "Keep_Trying"
+        }, 
+        {
+          "name": "Hello_DB"
+        }, 
+        {
+          "name": "Closing_Check"
+        }, 
+        {
+          "name": "Explore_products"
+        }
+      ], 
+      "name": "Query_Conversation"
+    }, 
+    {
+      "children": [
+        {
+          "name": "Say_goodbye"
+        }
+      ], 
+      "name": "Say_goodbye"
+    }, 
+    {
+      "children": [
+        {
+          "name": "Hello"
+        }
+      ], 
+      "name": "Hello"
+    }, 
+    {
+      "children": [
+        {
+          "name": "Final_Asker"
+        }
+      ], 
+      "name": "Final_Asker"
+    }
+  ], 
+  "name": "Conversation"
+}
