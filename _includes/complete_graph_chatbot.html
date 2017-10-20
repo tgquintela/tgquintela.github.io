@@ -66,7 +66,7 @@ text {
     d3.json("conversation_complete_graph/complete_graph.json", function (error, graph) {
         if (error) throw error;
         update(graph.links, graph.nodes);
-    })
+    });
 
     function update(links, nodes) {
         link = svg.selectAll(".link")
@@ -74,7 +74,7 @@ text {
             .enter()
             .append("path")
             .attr("class", "link")
-            .attr('marker-end','url(#arrowhead)')
+            .attr('marker-end','url(#arrowhead)');
 
         link.append("title")
             .text(function (d) {return d.type;});
@@ -146,7 +146,7 @@ text {
 
         simulation.force("link")
             .links(links);
-    }
+    };
 
     function ticked() {
 
