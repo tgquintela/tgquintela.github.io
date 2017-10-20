@@ -66,7 +66,7 @@ text {
     d3.json("conversation_complete_graph/complete_graph.json", function (error, graph) {
         if (error) throw error;
         update(graph.links, graph.nodes);
-    })
+    });
 
     function update(links, nodes) {
         link = svg.selectAll(".link")
@@ -129,7 +129,7 @@ text {
                     return "red";
                 } else {
                     return 'steelblue';
-                };
+                }
             });
 
         node.append("title")
@@ -145,7 +145,7 @@ text {
 
         simulation.force("link")
             .links(links);
-    };
+    }
 
     function ticked() {
 
@@ -182,21 +182,21 @@ text {
             }
             else {
                 return 'rotate(0)';
-            };
+            }
         });
 
-    };
+    }
 
     function dragstarted(d) {
-        if (!d3.event.active) simulation.alphaTarget(0.3).restart()
+        if (!d3.event.active) simulation.alphaTarget(0.3).restart();
         d.fx = d.x;
         d.fy = d.y;
-    };
+    }
 
     function dragged(d) {
         d.fx = d3.event.x;
         d.fy = d3.event.y;
-    };
+    }
 
 
 </script>
