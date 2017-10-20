@@ -153,9 +153,7 @@ text {
               var dx = d.target.x - d.source.x;
               var dy = d.target.y - d.source.y;
               var dr = Math.sqrt(dx * dx + dy * dy);
-            return "M" + d.source.x + "," + d.source.y
-                 + "A" + dr + "," + dr
-                 + " 0 0,1 " + d.target.x + "," + d.target.y;
+            return "M" + d.source.x + "," + d.source.y + "A" + dr + "," + dr + " 0 0,1 " + d.target.x + "," + d.target.y;
         });
 
         node
@@ -168,8 +166,7 @@ text {
               var ddx = dy*(1-Math.sqrt(3)/2) + dy/dr*2,
                   ddy = -dx*(1-Math.sqrt(3)/2) - dx/dr*2;
 
-            return 'M ' + (d.source.x + ddx) + ' ' + (d.source.y + ddy)
-                + ' L ' + (d.target.x + ddx) + ' ' + (d.target.y + ddy);
+            return 'M ' + (d.source.x + ddx) + ' ' + (d.source.y + ddy) + ' L ' + (d.target.x + ddx) + ' ' + (d.target.y + ddy);
         });
 
 
