@@ -1,4 +1,6 @@
+<html>
 
+<head>
 <style>
     .node {
       cursor: pointer;
@@ -20,8 +22,9 @@
     }
 
 </style>
+</head>
 
-
+<body>
 <!-- <svg width="1200" height="600"></svg> -->
 <script>
 
@@ -54,7 +57,7 @@ var svg = d3.select("div#container")
   .classed("svg-content", true);
 */
 
-d3.json("/conversation_tree_graph/tree_graph.json", function(error, flare) {
+d3.json("../../../../files/chatbot_jsons/tree_graph.json", function(error, flare) {
   if (error) throw error;
 
   root = flare;
@@ -175,3 +178,5 @@ function click(d) {
 }
 
 </script>
+</body>
+</html>
