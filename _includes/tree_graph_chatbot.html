@@ -57,7 +57,7 @@ var svg = d3.select("div#container")
   .classed("svg-content", true);
 */
 
-d3.json("{{ base_path }}/files/chatbot_jsons/tree_graph.json", function(error, flare) {
+d3.json("../../files/chatbot_jsons/tree_graph.json", function(error, flare) {
   if (error) throw error;
 
   root = flare;
