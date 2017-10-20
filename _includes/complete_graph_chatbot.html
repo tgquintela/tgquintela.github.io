@@ -34,6 +34,10 @@ text {
 </head>
 
 <body>
+{% include base_path %}
+
+
+  
 <svg width="1200" height="600"></svg>
 <script type="text/javascript">
     var colors = d3.scaleOrdinal(d3.schemeCategory10);
@@ -63,7 +67,7 @@ text {
         .force("charge", d3.forceManyBody())
         .force("center", d3.forceCenter(width / 2, height / 2));
 
-    d3.json("conversation_complete_graph/complete_graph.json", function (error, graph) {
+    d3.json("{{ base_path }}/files/chatbot_jsons/complete_graph.json", function (error, graph) {
         if (error) throw error;
         update(graph.links, graph.nodes);
     });
