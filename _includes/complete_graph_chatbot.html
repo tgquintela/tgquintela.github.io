@@ -87,7 +87,7 @@ text {
                 'class': 'edgepath',
                 'fill-opacity': 0,
                 'stroke-opacity': 0,
-                'id': function (d, i) {return 'edgepath' + i}
+                'id': function (d, i) {return 'edgepath' + i;}
             })
             .style("pointer-events", "none");
 
@@ -98,17 +98,17 @@ text {
             .style("pointer-events", "none")
             .attrs({
                 'class': 'edgelabel',
-                'id': function (d, i) {return 'edgelabel' + i},
+                'id': function (d, i) {return 'edgelabel' + i;},
                 'font-size': 10,
                 'fill': '#aaa'
             });
 
         edgelabels.append('textPath')
-            .attr('xlink:href', function (d, i) {return '#edgepath' + i})
+            .attr('xlink:href', function (d, i) {return '#edgepath' + i;})
             .style("text-anchor", "middle")
             .style("pointer-events", "none")
             .attr("startOffset", "50%")
-            .text(function (d) {return d.transition});
+            .text(function (d) {return d.transition;});
 
         node = svg.selectAll(".node")
             .data(nodes)
@@ -125,11 +125,11 @@ text {
             .attr("r", 7.5)
             .style("fill", function(d) {
                 if (d.type == "init"){
-                    return "green"
+                    return "green";
                 } else if (d.type == "end"){
-                    return "red"
+                    return "red";
                 } else {
-                    return 'steelblue'
+                    return 'steelblue';
                 };
             });
 
