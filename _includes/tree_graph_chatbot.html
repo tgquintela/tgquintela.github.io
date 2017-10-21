@@ -58,6 +58,19 @@ var diagonal = d3v3.svg.diagonal()
     .projection(function(d) { return [d.y, d.x]; });
 
 
+// Toggle children on click.
+function click(d) {
+  if (d.children) {
+    d._children = d.children;
+    d.children = null;
+  } else {
+    d.children = d._children;
+    d._children = null;
+  }
+  update(d);
+}
+
+
 
 </script>
 
