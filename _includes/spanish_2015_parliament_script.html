@@ -59,7 +59,7 @@ var tooltip = svg.append("g")
     
 tooltip.append("rect")
   .attr("width", width/3.0)
-  .attr("height", height/15.)
+  .attr("height", height/15.0)
   .attr("fill", "white")
   .style("opacity", 0.5);
 
@@ -101,7 +101,7 @@ d3.json("{{}}/files/2015_spanish_parliament.json", function (error, dataset) {
               });
     MeasureSettings();
     change(dataset);
-})
+});
 
 
 function MeasureSettings () {
@@ -124,7 +124,7 @@ function mergeWithFirstEqualZero(first, second){
     var secondSet = d3.set(); second.forEach(function(d) { secondSet.add(d.label); });
 
     var onlyFirst = first
-        .filter(function(d){ return !secondSet.has(d.label) })
+        .filter(function(d){ return !secondSet.has(d.label);})
         .map(function(d) { return {label: d.label, value: 0}; });
     return d3.merge([ second, onlyFirst ])
         .sort(function(a,b) {
@@ -137,7 +137,7 @@ function defineColors (dataset){
     /* ---------------- Get variables ---------------- */
     var parties_info = Object.keys(dataset.results.Seats).map(function(label){
         return {label: label, value: dataset.results.Seats[label],
-                color: dataset.parties.filter(function(p){return p.code == label})[0].color}
+                color: dataset.parties.filter(function(p){return p.code == label;})[0].color};
     }).filter(function(d){
         return d.value > 0;
     }).sort(function(a, b){
@@ -145,10 +145,10 @@ function defineColors (dataset){
     });
 
     var parties = parties_info.map(function(party_info){
-        return party_info.label
+        return party_info.label;
     });
     var colors_parties = parties_info.map(function(party_info){
-        return party_info.color
+        return party_info.color;
     });
 
     /* ---------------- Define colors ---------------- */
@@ -169,10 +169,10 @@ function readData (dataset){
 
     /* ---------------- Compute data ---------------- */
     var measure = dataset.results[measure_name];
-    var seats = dataset.results['Seats'];
+    var seats = dataset.results.Seats;
     var labels = color.domain();
     return labels.map(function(label){
-        return {label: label, value: measure[label], seats: seats[label]}
+        return {label: label, value: measure[label], seats: seats[label]};
     }).filter(function(d){
         return d.seats > 0;
     }).sort(function(a, b){
@@ -197,7 +197,7 @@ function change(dataset) {
 
     /* ------- REBUILD PLOT -------*/
     var data0 = svg.select(".slices").selectAll("path.slice")
-        .data().map(function(d) { return d.data });
+        .data().map(function(d) { return d.data; });
     if (data0.length == 0) data0 = data;
     var was = mergeWithFirstEqualZero(data, data0);
     var is = mergeWithFirstEqualZero(data0, data);
@@ -261,8 +261,8 @@ function change(dataset) {
             .on("mousemove", function(d) {
               var xPosition = d3.mouse(this)[0] - 15;
               var yPosition = d3.mouse(this)[1] - 25;
-              tooltip.style("display", "inline")
-              tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")")
+              tooltip.style("display", "inline");
+              tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
 //              tooltip.attr("transform", "translate(" + 0 + "," + -100 + ")");
               tooltip.select("text").text(d.data.value);
             });
@@ -304,7 +304,7 @@ function change(dataset) {
 
     function midAngle(d){
         var middle = d.startAngle + (d.endAngle - d.startAngle)/2;
-        return middle
+        return middle;
     }
 
     text = svg.select(".labels").selectAll("text")
@@ -382,7 +382,7 @@ function change(dataset) {
     // Append center
 
     var InnerCircleDetails = document.getElementById("InnerCircleDetails");
-    InnerCircleDetails.parentNode.removeChild(InnerCircleDetails)
+    InnerCircleDetails.parentNode.removeChild(InnerCircleDetails);
 
     svg.append('text')
         .attr("id", "InnerCircleDetails")
@@ -396,7 +396,7 @@ function change(dataset) {
     /* ------- ADD DASHED LINE -------*/
 
     var DashedHalfSeparator = document.getElementById("DashedHalfSeparator");
-    DashedHalfSeparator.parentNode.removeChild(DashedHalfSeparator)
+    DashedHalfSeparator.parentNode.removeChild(DashedHalfSeparator);
 
     svg.append("line")
         .attr("id", "DashedHalfSeparator")
@@ -413,7 +413,7 @@ function change(dataset) {
     /* ------- ADD TEXTS INDICATIONS -------*/
 
     var HalfIndicator = document.getElementById("HalfIndicator");
-    HalfIndicator.parentNode.removeChild(HalfIndicator)
+    HalfIndicator.parentNode.removeChild(HalfIndicator);
 
     svg.append("text")
         .attr("id", "HalfIndicator")
@@ -425,7 +425,7 @@ function change(dataset) {
     /* ------- ADD LEGEND -------*/
 
     var LegendParties = document.getElementById("LegendParties");
-    LegendParties.parentNode.removeChild(LegendParties)
+    LegendParties.parentNode.removeChild(LegendParties);
 
     // add legend   
     var legend = svg.append("g")
@@ -435,7 +435,7 @@ function change(dataset) {
         //.attr("y", 50)
       .attr("height", 2/3.0*height)
       .attr("width", 1/9.0*width)
-    .attr('transform', 'translate(-20,50)')
+    .attr('transform', 'translate(-20,50)');
 
     
     legend.selectAll('rect')
@@ -444,11 +444,9 @@ function change(dataset) {
       .append("rect")
       .attr("x", width*2/5)
       .attr("y", function(d, i){ return -300 + i * 25;})
-//      .attr("y", -300)
       .attr("width", 15)
       .attr("height", 15)
-        .style("fill", function(d) { return color(d.label); })
-//       .style("fill", color("JxSi"))
+        .style("fill", function(d) { return color(d.label); });
 
 
     legend.selectAll('text')
@@ -456,8 +454,6 @@ function change(dataset) {
       .enter()
       .append("text")
       .attr("x", width*2/5+25)
-//      .attr("y", -300+12)
-//      .text("JxSi");
       .attr("y", function(d, i){ return -300 + i * 25 + 12;})
       .text(function(d) {
         var text = d.label;
