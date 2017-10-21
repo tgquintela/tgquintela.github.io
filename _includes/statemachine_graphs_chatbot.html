@@ -121,7 +121,116 @@ function prepareCanvas(){
 }
 
 
+    d3.json("{{ base_path }}/files/chatbot_jsons/statemachine_graphs.json", function (error, graph) {
+        if (error) throw error;
 
+        prepareCanvas();
+            var sect = document.getElementById("inds");
+            var smachine = sect.options[sect.selectedIndex].value;
+            var graph_i = filterJSON(graph, "name", smachine)[0];
+            update(graph_i.links, graph_i.nodes);
+
+        d3.select('#inds')
+                 .on("change", function () {
+                        prepareCanvas();
+                        var sect = document.getElementById("inds");
+                        var smachine = sect.options[sect.selectedIndex].value;
+                        var graph_i = filterJSON(graph, "name", smachine)[0];
+                        update(graph_i.links, graph_i.nodes);
+                  });
+    });
+
+    function filterJSON(json, key, value) {
+      var result = [];
+      json.forEach(function(val, idx, arr){
+        if(val[key] == value){
+          result.push(val);
+        }
+      });
+      return result;
+    }
+
+    function update(links, nodes) {
+		var  svg = d3.select("#statemachines_graph_div.svg");
+
+        link = svg.selectAll(".link")
+            .data(links)
+            .enter()
+            .append("path")
+            .attr("class", "link")
+            .attr('marker-end','url(#arrowhead)');
+
+        link.append("title")
+            .text(function (d) {return d.type;});
+
+        edgepaths = svg.selectAll(".edgepath")
+            .data(links)
+            .enter()
+            .append('path')
+            .attrs({
+                'class': 'edgepath',
+                'fill-opacity': 0,
+                'stroke-opacity': 0,
+                'id': function (d, i) {return 'edgepath' + i;}
+            })
+            .style("pointer-events", "none");
+
+        edgelabels = svg.selectAll(".edgelabel")
+            .data(links)
+            .enter()
+            .append('text')
+            .style("pointer-events", "none")
+            .attrs({
+                'class': 'edgelabel',
+                'id': function (d, i) {return 'edgelabel' + i;},
+                'font-size': 10,
+                'fill': '#aaa'
+            });
+
+        edgelabels.append('textPath')
+            .attr('xlink:href', function (d, i) {return '#edgepath' + i;})
+            .style("text-anchor", "middle")
+            .style("pointer-events", "none")
+            .attr("startOffset", "50%")
+            .text(function (d) {return d.transition;});
+
+        node = svg.selectAll(".node")
+            .data(nodes)
+            .enter()
+            .append("g")
+            .attr("class", "node")
+            .call(d3.drag()
+                    .on("start", dragstarted)
+                    .on("drag", dragged)
+                    //.on("end", dragended)
+            );
+
+        node.append("circle")
+            .attr("r", 7.5)
+            .style("fill", function(d) {
+                if (d.type == "init"){
+                    return "green";
+                } else if (d.type == "end"){
+                    return "red";
+                } else {
+                    return 'steelblue';
+                }
+            });
+
+        node.append("title")
+            .text(function (d) {return d.id;});
+
+        node.append("text")
+            .attr("dy", -3)
+            .text(function (d) {return d.id;});
+
+        simulation
+            .nodes(nodes)
+            .on("tick", ticked);
+
+        simulation.force("link")
+            .links(links);
+    }
 
     function ticked() {
 
