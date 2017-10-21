@@ -152,9 +152,9 @@ function prepareCanvas(){
 }
 
     d3.json("{{ base_path }}/files/chatbot_jsons/statemachine_graphs.json", function (error, graph) {
-        if (error) throw error
+        if (error) throw error;
 
-        prepareCanvas()
+        prepareCanvas();
             var sect = document.getElementById("inds");
             var smachine = sect.options[sect.selectedIndex].value;
             var graph_i = filterJSON(graph, "name", smachine)[0];
@@ -162,21 +162,21 @@ function prepareCanvas(){
 
         d3.select('#inds')
                  .on("change", function () {
-                        prepareCanvas()
+                        prepareCanvas();
                         var sect = document.getElementById("inds");
                         var smachine = sect.options[sect.selectedIndex].value;
                         var graph_i = filterJSON(graph, "name", smachine)[0];
                         update(graph_i.links, graph_i.nodes);
                   });
-    })
+    });
 
     function filterJSON(json, key, value) {
       var result = [];
       json.forEach(function(val, idx, arr){
         if(val[key] == value){
-          result.push(val)
+          result.push(val);
         }
-      })
+      });
       return result;
     }
 
@@ -186,7 +186,7 @@ function prepareCanvas(){
             .enter()
             .append("path")
             .attr("class", "link")
-            .attr('marker-end','url(#arrowhead)')
+            .attr('marker-end','url(#arrowhead)');
 
         link.append("title")
             .text(function (d) {return d.type;});
@@ -199,7 +199,7 @@ function prepareCanvas(){
                 'class': 'edgepath',
                 'fill-opacity': 0,
                 'stroke-opacity': 0,
-                'id': function (d, i) {return 'edgepath' + i}
+                'id': function (d, i) {return 'edgepath' + i;}
             })
             .style("pointer-events", "none");
 
@@ -210,17 +210,17 @@ function prepareCanvas(){
             .style("pointer-events", "none")
             .attrs({
                 'class': 'edgelabel',
-                'id': function (d, i) {return 'edgelabel' + i},
+                'id': function (d, i) {return 'edgelabel' + i;},
                 'font-size': 10,
                 'fill': '#aaa'
             });
 
         edgelabels.append('textPath')
-            .attr('xlink:href', function (d, i) {return '#edgepath' + i})
+            .attr('xlink:href', function (d, i) {return '#edgepath' + i;})
             .style("text-anchor", "middle")
             .style("pointer-events", "none")
             .attr("startOffset", "50%")
-            .text(function (d) {return d.transition});
+            .text(function (d) {return d.transition;});
 
         node = svg.selectAll(".node")
             .data(nodes)
@@ -237,12 +237,12 @@ function prepareCanvas(){
             .attr("r", 7.5)
             .style("fill", function(d) {
                 if (d.type == "init"){
-                    return "green"
+                    return "green";
                 } else if (d.type == "end"){
-                    return "red"
+                    return "red";
                 } else {
-                    return 'steelblue'
-                };
+                    return 'steelblue';
+                }
             });
 
         node.append("title")
@@ -339,7 +339,7 @@ function prepareCanvas(){
     }
 
     function dragstarted(d) {
-        if (!d3.event.active) simulation.alphaTarget(0.3).restart()
+        if (!d3.event.active) simulation.alphaTarget(0.3).restart();
         d.fx = d.x;
         d.fy = d.y;
     }
