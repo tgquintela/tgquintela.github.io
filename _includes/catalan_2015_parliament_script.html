@@ -296,9 +296,8 @@ function change(dataset) {
             .on("mousemove", function(d) {
               var xPosition = d3.mouse(this)[0] - 15;
               var yPosition = d3.mouse(this)[1] - 25;
-              tooltip.style("display", "inline")
+              tooltip.style("display", "inline");
               tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
-//              tooltip.attr("transform", "translate(" + 0 + "," + -100 + ")");
               tooltip.select("text").text(d.data.label+': '+d.data.value);
             });
 
@@ -417,7 +416,7 @@ function change(dataset) {
     // Append center
 
     var InnerCircleDetails = document.getElementById("InnerCircleDetails");
-    InnerCircleDetails.parentNode.removeChild(InnerCircleDetails)
+    InnerCircleDetails.parentNode.removeChild(InnerCircleDetails);
 
     svg.append('text')
         .attr("id", "InnerCircleDetails")
@@ -431,7 +430,7 @@ function change(dataset) {
     /* ------- ADD DASHED LINE -------*/
 
     var DashedHalfSeparator = document.getElementById("DashedHalfSeparator");
-    DashedHalfSeparator.parentNode.removeChild(DashedHalfSeparator)
+    DashedHalfSeparator.parentNode.removeChild(DashedHalfSeparator);
 
     svg.append("line")
         .attr("id", "DashedHalfSeparator")
@@ -448,7 +447,7 @@ function change(dataset) {
     /* ------- ADD TEXTS INDICATIONS -------*/
 
     var HalfIndicator = document.getElementById("HalfIndicator");
-    HalfIndicator.parentNode.removeChild(HalfIndicator)
+    HalfIndicator.parentNode.removeChild(HalfIndicator);
 
     svg.append("text")
         .attr("id", "HalfIndicator")
@@ -460,17 +459,15 @@ function change(dataset) {
     /* ------- ADD LEGEND -------*/
 
     var LegendParties = document.getElementById("LegendParties");
-    LegendParties.parentNode.removeChild(LegendParties)
+    LegendParties.parentNode.removeChild(LegendParties);
 
     // add legend   
     var legend = svg.append("g")
       .attr("class", "legend")
       .attr("id", "LegendParties")
-        //.attr("x", w - 65)
-        //.attr("y", 50)
       .attr("height", 200)
       .attr("width", 100)
-    .attr('transform', 'translate(-20,50)')
+    .attr('transform', 'translate(-20,50)');
 
     
     legend.selectAll('rect')
@@ -479,11 +476,9 @@ function change(dataset) {
       .append("rect")
       .attr("x", width*2/5)
       .attr("y", function(d, i){ return -300 + i * 25;})
-//      .attr("y", -300)
       .attr("width", 15)
       .attr("height", 15)
-        .style("fill", function(d) { return color(d.label); })
-//       .style("fill", color("JxSi"))
+        .style("fill", function(d) { return color(d.label); });
 
 
     legend.selectAll('text')
@@ -491,8 +486,6 @@ function change(dataset) {
       .enter()
       .append("text")
       .attr("x", width*2/5+25)
-//      .attr("y", -300+12)
-//      .text("JxSi");
       .attr("y", function(d, i){ return -300 + i * 25 + 12;})
       .text(function(d) {
         var text = d.label;
