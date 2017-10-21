@@ -70,7 +70,7 @@ function click(d) {
   update(d);
 }
 
-
+// Update function
 function update(source) {
 
   // Compute the new tree layout.
@@ -157,6 +157,26 @@ function update(source) {
     d.y0 = d.y;
   });
 }
+
+// Graph
+d3v3.json("{{ base_path }}/files/chatbot_jsons/tree_graph.json", function(error, flare) {
+  if (error) throw error;
+
+  root = flare;
+  root.x0 = height / 2;
+  root.y0 = 0;
+
+  function collapse(d) {
+    if (d.children) {
+      d._children = d.children;
+      d._children.forEach(collapse);
+      d.children = null;
+    }
+  }
+
+  root.children.forEach(collapse);
+  update(root);
+});
 
 
 </script>
