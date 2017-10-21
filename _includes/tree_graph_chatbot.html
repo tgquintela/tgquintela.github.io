@@ -42,27 +42,6 @@ var i = 0,
     duration = 750,
     root;
 
-var tree = d3v3.layout.tree()
-    .size([height, width]);
-
-var diagonal = d3v3.svg.diagonal()
-    .projection(function(d) { return [d.y, d.x]; });
-
-
-var svg = d3v3.select("body").append("svg")
-    .attr("width", width + margin.right + margin.left)
-    .attr("height", height + margin.top + margin.bottom)
-  .append("g")
-    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-
-/*
-var svg = d3.select("div#container")
-  .append("svg")
-  .attr("preserveAspectRatio", "xMinYMin meet")
-  .attr("viewBox", "0 0 300 300")
-  .classed("svg-content", true);
-*/
-
 
 
 </script>
