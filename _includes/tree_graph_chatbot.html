@@ -44,12 +44,6 @@ var i = 0,
     duration = 750,
     root;
 
-var tree = d3.tree()
-    .size([height, width]);
-
-var diagonal = d3.svg.diagonal()
-    .projection(function(d) { return [d.y, d.x]; });
-
 // append the svg object to the body of the page
 // appends a 'group' element to 'svg'
 // moves the 'group' element to the top left margin
@@ -80,6 +74,14 @@ d3.json("{{ base_path }}/files/chatbot_jsons/tree_graph.json", function(error, t
   root.children.forEach(collapse);
   update(root);
 });
+
+
+function collapse(d) {
+  if (d.children) {
+    d._children = d.children;
+    d._children.forEach(collapse);
+    d.children = null;
+  }
 
 
 function update(source) {
