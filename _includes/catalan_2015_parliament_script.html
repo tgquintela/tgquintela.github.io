@@ -232,7 +232,7 @@ function change(dataset) {
 
     /* ------- REBUILD PLOT -------*/
     var data0 = svg.select(".slices").selectAll("path.slice")
-        .data().map(function(d) { return d.data });
+        .data().map(function(d) { return d.data; });
     if (data0.length == 0) data0 = data;
     var was = mergeWithFirstEqualZero(data, data0);
     var is = mergeWithFirstEqualZero(data0, data);
@@ -301,24 +301,6 @@ function change(dataset) {
               tooltip.select("text").text(d.data.label+': '+d.data.value);
             });
 
-
-/*          .append("rect")
-            .attr("width", 140)
-            .attr("height", 140)
-/*        .on("mouseover", function (d) {
-        d3.select(".tooltip")
-            .style("left", d3.event.pageX + "px")
-            .style("top", d3.event.pageY + "px")
-            .style("opacity", 0.9)
-            .select("#value")
-            .text("100");
-    })
-        .on("mouseout", function () {
-        // Hide the tooltip
-        d3.select(".tooltip")
-            .style("opacity", 0);
-    });
-*/
 
     /* ------- TEXT LABELS -------*/
 
@@ -421,7 +403,6 @@ function change(dataset) {
     svg.append('text')
         .attr("id", "InnerCircleDetails")
         .attr('class', 'toolCircle')
-//        .attr('dy', -20) // hard-coded. can adjust this to adjust text vertical alignment in tooltip
         .html('<tspan x="0" dy="-35" font-size="30" fill="red">'+n_seats+'</tspan>'+'<tspan x="0" dy="28" style="font-weight:bold" font-size="12">'+name_parlament+'</tspan>')
         .style('font-size', '.9em')
         .style('color', 'black')
