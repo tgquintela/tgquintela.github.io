@@ -151,24 +151,7 @@ function prepareCanvas(){
 
 }
 
-    d3.json("{{ base_path }}/files/chatbot_jsons/statemachine_graphs.json", function (error, graph) {
-        if (error) throw error;
 
-        prepareCanvas();
-            var sect = document.getElementById("inds");
-            var smachine = sect.options[sect.selectedIndex].value;
-            var graph_i = filterJSON(graph, "name", smachine)[0];
-            update(graph_i.links, graph_i.nodes);
-
-        d3.select('#inds')
-                 .on("change", function () {
-                        prepareCanvas();
-                        var sect = document.getElementById("inds");
-                        var smachine = sect.options[sect.selectedIndex].value;
-                        var graph_i = filterJSON(graph, "name", smachine)[0];
-                        update(graph_i.links, graph_i.nodes);
-                  });
-    });
 
     function filterJSON(json, key, value) {
       var result = [];
