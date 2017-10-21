@@ -70,6 +70,17 @@ function click(d) {
   update(d);
 }
 
+
+// Collapse function
+function collapse(d) {
+  if (d.children) {
+    d._children = d.children;
+    d._children.forEach(collapse);
+    d.children = null;
+  }
+}
+
+
 // Update function
 function update(source) {
 
