@@ -145,24 +145,7 @@ function prepareCanvas(){
 
 }
 
-    d3.json("{{ base_path }}/files/chatbot_jsons/statemachine_graphs.json", function (error, graph) {
-        if (error) throw error;
 
-        prepareCanvas();
-            var sect = document.getElementById("inds");
-            var smachine = sect.options[sect.selectedIndex].value;
-            var graph_i = filterJSON(graph, "name", smachine)[0];
-            update(graph_i.links, graph_i.nodes);
-
-        d3.select('#inds')
-                 .on("change", function () {
-                        prepareCanvas();
-                        var sect = document.getElementById("inds");
-                        var smachine = sect.options[sect.selectedIndex].value;
-                        var graph_i = filterJSON(graph, "name", smachine)[0];
-                        update(graph_i.links, graph_i.nodes);
-                  });
-    });
 
     function filterJSON(json, key, value) {
       var result = [];
@@ -255,14 +238,6 @@ function prepareCanvas(){
     }
 
     function ticked() {
-
-/*
-        link
-            .attr("x1", function (d) {return d.source.x;})
-            .attr("y1", function (d) {return d.source.y;})
-            .attr("x2", function (d) {return d.target.x;})
-            .attr("y2", function (d) {return d.target.y;});
-*/
 
         link.attr('d', function (d) {
               var dx = d.target.x - d.source.x,
