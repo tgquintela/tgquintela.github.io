@@ -48,7 +48,7 @@
 
 var svg = d3.select("#graph")
     .append("svg")
-    .append("g")
+    .append("g");
 
 svg.append("g")
     .attr("class", "slices");
@@ -58,20 +58,20 @@ svg.append("g")
     .attr("class", "lines");
 
 svg.append("text")
-    .attr("id", "titleMeasure")
+    .attr("id", "titleMeasure");
 
 svg.append("g")
     .attr("class", "legend")
-    .attr("id", "LegendParties")
+    .attr("id", "LegendParties");
 
 svg.append("line")
-    .attr("id", "DashedHalfSeparator")
+    .attr("id", "DashedHalfSeparator");
 
 svg.append('text')
-    .attr("id", "InnerCircleDetails")
+    .attr("id", "InnerCircleDetails");
 
 svg.append("text")
-    .attr("id", "HalfIndicator")
+    .attr("id", "HalfIndicator");
 
 var width = $("#d3div").width(),
     height = width/9.6,
@@ -131,17 +131,17 @@ d3.json("{{ base_path }}/files/2015_catalan_parliament.json", function (error, d
     if (error) throw error;
     d3.select('#inds')
               .on("change", function () {
-                    MeasureSettings()
+                    MeasureSettings();
                     change(dataset);
               });
-    MeasureSettings()
+    MeasureSettings();
     change(dataset);
 })
 
 
 function MeasureSettings () {
     var titleMeasure = document.getElementById("titleMeasure");
-    titleMeasure.parentNode.removeChild(titleMeasure)
+    titleMeasure.parentNode.removeChild(titleMeasure);
 
     var sect = document.getElementById("inds");
     var measure_name = sect.options[sect.selectedIndex].value;
@@ -172,7 +172,7 @@ function defineColors (dataset){
     /* ---------------- Get variables ---------------- */
     var parties_info = Object.keys(dataset.results.Seats).map(function(label){
         return {label: label, value: dataset.results.Seats[label],
-                color: dataset.parties.filter(function(p){return p.code == label})[0].color}
+                color: dataset.parties.filter(function(p){return p.code == label;})[0].color};
     }).filter(function(d){
         return d.value > 0;
     }).sort(function(a, b){
@@ -180,10 +180,10 @@ function defineColors (dataset){
     });
 
     var parties = parties_info.map(function(party_info){
-        return party_info.label
+        return party_info.label;
     });
     var colors_parties = parties_info.map(function(party_info){
-        return party_info.color
+        return party_info.color;
     });
 
     /* ---------------- Define colors ---------------- */
@@ -339,8 +339,8 @@ function change(dataset) {
 
     function midAngle(d){
         var middle = d.startAngle + (d.endAngle - d.startAngle)/2;
-        return middle
-    }
+        return middle;
+    };
 
     text = svg.select(".labels").selectAll("text")
         .data(pie(is), key);
