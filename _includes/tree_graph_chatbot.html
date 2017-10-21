@@ -68,7 +68,7 @@ function click(d) {
     d._children = null;
   }
   update(d);
-}
+};
 
 
 // Collapse function
@@ -78,7 +78,7 @@ function collapse(d) {
     d._children.forEach(collapse);
     d.children = null;
   }
-}
+};
 
 
 // Update function
@@ -167,7 +167,7 @@ function update(source) {
     d.x0 = d.x;
     d.y0 = d.y;
   });
-}
+};
 
 // Graph
 d3v3.json("{{ base_path }}/files/chatbot_jsons/tree_graph.json", function(error, flare) {
