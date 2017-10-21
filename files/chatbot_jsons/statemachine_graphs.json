@@ -1,0 +1,161 @@
+[
+  {
+    "links": [
+      {
+        "source": "Query_Conversation.Explore_extra_products", 
+        "target": "Query_Conversation.Querier_DB", 
+        "transition": 0
+      }, 
+      {
+        "source": "Query_Conversation.Querier_DB", 
+        "target": "Query_Conversation.Explore_extra_products", 
+        "transition": 2
+      }, 
+      {
+        "source": "Query_Conversation.Querier_DB", 
+        "target": "Query_Conversation.Closing_Check", 
+        "transition": 3
+      }, 
+      {
+        "source": "Query_Conversation.Querier_DB", 
+        "target": "Query_Conversation.Keep_Trying", 
+        "transition": 0
+      }, 
+      {
+        "source": "Query_Conversation.Querier_DB", 
+        "target": "Query_Conversation.Explore_products", 
+        "transition": 1
+      }, 
+      {
+        "source": "Query_Conversation.Keep_Trying", 
+        "target": "Query_Conversation.Closing_Check", 
+        "transition": 0
+      }, 
+      {
+        "source": "Query_Conversation.Keep_Trying", 
+        "target": "Query_Conversation.Querier_DB", 
+        "transition": 1
+      }, 
+      {
+        "source": "Query_Conversation.Hello_DB", 
+        "target": "Query_Conversation.Querier_DB", 
+        "transition": 0
+      }, 
+      {
+        "source": "Query_Conversation.Explore_products", 
+        "target": "Query_Conversation.Explore_extra_products", 
+        "transition": 1
+      }, 
+      {
+        "source": "Query_Conversation.Explore_products", 
+        "target": "Query_Conversation.Closing_Check", 
+        "transition": 2
+      }, 
+      {
+        "source": "Query_Conversation.Explore_products", 
+        "target": "Query_Conversation.Querier_DB", 
+        "transition": 0
+      }
+    ], 
+    "name": "Conversation.Query_Conversation", 
+    "nodes": [
+      {
+        "id": "Query_Conversation.Explore_extra_products", 
+        "type": "normal"
+      }, 
+      {
+        "id": "Query_Conversation.Querier_DB", 
+        "type": "normal"
+      }, 
+      {
+        "id": "Query_Conversation.Keep_Trying", 
+        "type": "normal"
+      }, 
+      {
+        "id": "Query_Conversation.Explore_products", 
+        "type": "normal"
+      }, 
+      {
+        "id": "Query_Conversation.Hello_DB", 
+        "type": "init"
+      }, 
+      {
+        "id": "Query_Conversation.Closing_Check", 
+        "type": "end"
+      }
+    ]
+  }, 
+  {
+    "links": [
+      {
+        "source": "Query_Conversation", 
+        "target": "Final_Asker", 
+        "transition": 0
+      }, 
+      {
+        "source": "Hello", 
+        "target": "Query_Conversation", 
+        "transition": 0
+      }, 
+      {
+        "source": "Final_Asker", 
+        "target": "Query_Conversation", 
+        "transition": 1
+      }, 
+      {
+        "source": "Final_Asker", 
+        "target": "Say_goodbye", 
+        "transition": 0
+      }
+    ], 
+    "name": "Conversation", 
+    "nodes": [
+      {
+        "id": "Query_Conversation", 
+        "type": "normal"
+      }, 
+      {
+        "id": "Final_Asker", 
+        "type": "normal"
+      }, 
+      {
+        "id": "Hello", 
+        "type": "init"
+      }, 
+      {
+        "id": "Say_goodbye", 
+        "type": "end"
+      }
+    ]
+  }, 
+  {
+    "links": [], 
+    "name": "Conversation.Final_Asker", 
+    "nodes": [
+      {
+        "id": "Final_Asker.Final_Asker", 
+        "type": "init"
+      }
+    ]
+  }, 
+  {
+    "links": [], 
+    "name": "Conversation.Say_goodbye", 
+    "nodes": [
+      {
+        "id": "Say_goodbye.Say_goodbye", 
+        "type": "init"
+      }
+    ]
+  }, 
+  {
+    "links": [], 
+    "name": "Conversation.Hello", 
+    "nodes": [
+      {
+        "id": "Hello.Hello", 
+        "type": "init"
+      }
+    ]
+  }
+]
