@@ -81,6 +81,8 @@ d3v3.json("{{ base_path }}/files/chatbot_jsons/tree_graph.json", function(error,
   update(root);
 });
 
+d3.select(self.frameElement).style("height", "600px");
+
 
 function collapse(d) {
   if (d.children) {
