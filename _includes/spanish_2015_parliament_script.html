@@ -18,7 +18,7 @@
 
 var svg = d3.select("#graph")
     .append("svg")
-    .append("g")
+    .append("g");
 
 svg.append("g")
     .attr("class", "slices");
@@ -28,20 +28,20 @@ svg.append("g")
     .attr("class", "lines");
 
 svg.append("text")
-    .attr("id", "titleMeasure")
+    .attr("id", "titleMeasure");
 
 svg.append("g")
     .attr("class", "legend")
-    .attr("id", "LegendParties")
+    .attr("id", "LegendParties");
 
 svg.append("line")
-    .attr("id", "DashedHalfSeparator")
+    .attr("id", "DashedHalfSeparator");
 
 svg.append('text')
-    .attr("id", "InnerCircleDetails")
+    .attr("id", "InnerCircleDetails");
 
 svg.append("text")
-    .attr("id", "HalfIndicator")
+    .attr("id", "HalfIndicator");
 
 
 var width = 960,
@@ -96,17 +96,17 @@ d3.json("{{}}/files/2015_spanish_parliament.json", function (error, dataset) {
     if (error) throw error;
     d3.select('#inds')
               .on("change", function () {
-                    MeasureSettings()
+                    MeasureSettings();
                     change(dataset);
               });
-    MeasureSettings()
+    MeasureSettings();
     change(dataset);
 })
 
 
 function MeasureSettings () {
     var titleMeasure = document.getElementById("titleMeasure");
-    titleMeasure.parentNode.removeChild(titleMeasure)
+    titleMeasure.parentNode.removeChild(titleMeasure);
 
     var sect = document.getElementById("inds");
     var measure_name = sect.options[sect.selectedIndex].value;
