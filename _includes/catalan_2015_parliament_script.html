@@ -1,8 +1,5 @@
-<html >
 
-{% include base_path %}
-
-
+<html>
 <head>
   <meta charset="UTF-8">
     <meta charset="utf-8">
@@ -18,9 +15,10 @@
   
 </head>
 
-
-<html>
 <body>
+{% include base_path %}
+
+
 <div id="buttoms">
   <select id="inds">
     <option value="Seats" selected="selected">Seats</option>
@@ -41,7 +39,6 @@
 
   </select>
 </div>
-
 
 <div id="catalan_parliament_div" class="svg-container" style="width: 100%;"></div>
 <script type="text/javascript">
@@ -69,8 +66,8 @@ svg.append("text")
     .attr("id", "HalfIndicator");
 
 var width = $("#catalan_parliament_div").width(),
-    height = width/4.0,
-    radius = width/6.0;
+    height = width/3.0,
+    radius = width/4.0;
 
 document.getElementById('catalan_parliament_div').setAttribute("style", "height:"+height+"px");
 
@@ -82,7 +79,7 @@ var width = 960,
 
 //    radius = Math.min(width,height) / 2;
 
-svg.attr("transform", "translate(" + 2*width / 5.0 + "," + height/1.1  + ")");
+svg.attr("transform", "translate(" + 2*width / 5.0 + "," + height  + ")");
 //svg.attr("transform", "translate(" + 2*width / 5.0 + "," + 3.0*height  + ")");
 
 /* ------ TOOLTIP formating ------ */
@@ -147,7 +144,7 @@ function MeasureSettings () {
 
     svg.append("text")
         .attr("id", "titleMeasure")
-        .html('<tspan x="-300" dy="-270" font-size="25" fill="green" style="font-weight:bold">'+measure_name+'</tspan>')
+        .html('<tspan x="'+ -width/3.5 +'" dy="'+ -1.2*radius +'" font-size="2vw" fill="green" style="font-weight:bold">'+measure_name+'</tspan>')
         .style('font-size', '.9em')
         .style('color', 'green')
         .style('text-anchor', 'left');
@@ -289,17 +286,16 @@ function change(dataset) {
         });
 
     slice = svg.select(".slices").selectAll("path.slice")
-        .data(pie(data), key)
-          .on("mouseover", function() { tooltip.style("display", null); })
-            .on("mouseout", function() { tooltip.style("display", "none"); })
-            .on("mousemove", function(d) {
-              var xPosition = d3.mouse(this)[0] - 15;
-              var yPosition = d3.mouse(this)[1] - 25;
-              tooltip.style("display", "inline");
-              tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
-//              tooltip.attr("transform", "translate(" + 0 + "," + -100 + ")");
-              tooltip.select("text").text(d.data.label+': '+d.data.value);
-            });
+        .data(pie(data), key);
+//          .on("mouseover", function() { tooltip.style("display", null); })
+//            .on("mouseout", function() { tooltip.style("display", "none"); })
+//            .on("mousemove", function(d) {
+//              var xPosition = d3.mouse(this)[0] - 15;
+//              var yPosition = d3.mouse(this)[1] - 25;
+//              tooltip.style("display", "inline");
+//              tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
+//              tooltip.select("text").text(d.data.label+': '+d.data.value);
+//            });
 
 
 /*          .append("rect")
@@ -422,7 +418,7 @@ function change(dataset) {
         .attr("id", "InnerCircleDetails")
         .attr('class', 'toolCircle')
 //        .attr('dy', -20) // hard-coded. can adjust this to adjust text vertical alignment in tooltip
-        .html('<tspan x="0" dy="-35" font-size="30" fill="red">'+n_seats+'</tspan>'+'<tspan x="0" dy="28" style="font-weight:bold" font-size="12">'+name_parlament+'</tspan>')
+        .html('<tspan x="0" dy="'+-radius/7.0+'" font-size="3.2vw" fill="red">'+n_seats+'</tspan>'+'<tspan x="0" dy="'+0.12*radius+'" style="font-weight:bold" font-size="1.3vw">'+name_parlament+'</tspan>')
         .style('font-size', '.9em')
         .style('color', 'black')
         .style('text-anchor', 'middle'); // centres text in tooltip
@@ -451,7 +447,7 @@ function change(dataset) {
 
     svg.append("text")
         .attr("id", "HalfIndicator")
-        .html('<tspan x="0" dy="'+-radius*1.06+'" font-size="15" fill="green">1/2</tspan>')
+        .html('<tspan x="0" dy="'+-radius*1.06+'" font-size="1.3vw" fill="green">1/2</tspan>')
         .style('font-size', '.9em')
         .style('color', 'black')
         .style('text-anchor', 'middle');
@@ -465,11 +461,9 @@ function change(dataset) {
     var legend = svg.append("g")
       .attr("class", "legend")
       .attr("id", "LegendParties")
-        //.attr("x", w - 65)
-        //.attr("y", 50)
-      .attr("height", 200)
-      .attr("width", 100)
-    .attr('transform', 'translate(-20,50)');
+      .attr("height", 2.0/3.0*height)
+      .attr("width", width/13.0)
+    .attr('transform', 'translate('+ -width/65.0 +','+ height/4.0 +')');
 
     
     legend.selectAll('rect')
@@ -477,22 +471,19 @@ function change(dataset) {
       .enter()
       .append("rect")
       .attr("x", width*2/5)
-      .attr("y", function(d, i){ return -300 + i * 25;})
-//      .attr("y", -300)
-      .attr("width", height/20.0)
-      .attr("height", height/20.0)
+      .attr("y", function(d, i){ return -height*9.0/10.0 + i * height/12.5;})
+      .attr("width", height/24.0)
+      .attr("height", height/24.0)
         .style("fill", function(d) { return color(d.label); });
-//       .style("fill", color("JxSi"))
 
 
     legend.selectAll('text')
       .data(data)
       .enter()
       .append("text")
-      .attr("x", width*2/5+25)
-//      .attr("y", -300+12)
-//      .text("JxSi");
-      .attr("y", function(d, i){ return -300 + i * 25 + 12;})
+      .attr("x", width*2/5+width/30.0)
+      .attr("y", function(d, i){ return -height*9.0/10.0 + height/30.0 + i * height/12.5;})
+      .style('font-size', '1.5vw')
       .text(function(d) {
         var text = d.label;
         return text;
