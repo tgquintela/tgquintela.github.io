@@ -126,7 +126,7 @@ function readData (){
 change(readData());
 */
 
-d3.json("catalan_parliament/catalan_parliament.json", function (error, dataset) {
+d3.json("{{ base_path }}/files/2015_catalan_parliament.json", function (error, dataset) {
     if (error) throw error;
     d3.select('#inds')
               .on("change", function () {
