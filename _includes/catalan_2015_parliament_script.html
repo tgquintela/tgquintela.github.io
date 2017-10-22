@@ -123,6 +123,14 @@ function readData (){
 change(readData());
 */
 
+svg.append("text")
+    .attr("id", "titleMeasure")
+    .html('<tspan x="'+ -width/3.5 +'" dy="'+ -1.2*radius +'" font-size="2vw" fill="green" style="fweight:bold">'+measure_name+'</tspan>')
+    .style('font-size', '.9em')
+    .style('color', 'green')
+    .style('text-anchor', 'left');
+
+
 d3.json("{{ base_path }}/files/2015_catalan_parliament.json", function (error, dataset) {
     if (error) throw error;
     d3.select('#inds')
