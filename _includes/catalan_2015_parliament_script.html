@@ -17,8 +17,10 @@
     <!-- load the d3.js library --> 
   
 </head>
-<body>
 
+
+<html>
+<body>
 <div id="buttoms">
   <select id="inds">
     <option value="Seats" selected="selected">Seats</option>
@@ -41,14 +43,12 @@
 </div>
 
 
-<div id="graph" class="svg-container" style="width: 960;">
-
-
+<div id="catalan_parliament_div" class="svg-container" style="width: 100%;"></div>
 <script type="text/javascript">
 
-var svg = d3.select("#graph")
+var svg = d3.select("#catalan_parliament_div")
     .append("svg")
-    .append("g");
+    .append("g")
 
 svg.append("g")
     .attr("class", "slices");
@@ -56,35 +56,34 @@ svg.append("g")
     .attr("class", "labels");
 svg.append("g")
     .attr("class", "lines");
-
 svg.append("text")
-    .attr("id", "titleMeasure");
-
+    .attr("id", "titleMeasure")
 svg.append("g")
     .attr("class", "legend")
-    .attr("id", "LegendParties");
-
+    .attr("id", "LegendParties")
 svg.append("line")
-    .attr("id", "DashedHalfSeparator");
-
+    .attr("id", "DashedHalfSeparator")
 svg.append('text')
-    .attr("id", "InnerCircleDetails");
-
+    .attr("id", "InnerCircleDetails")
 svg.append("text")
-    .attr("id", "HalfIndicator");
+    .attr("id", "HalfIndicator")
 
-var width = $("#d3div").width(),
-    height = width/9.6,
-    radius = width/4.0;
+var width = $("#catalan_parliament_div").width(),
+    height = width/4.0,
+    radius = width/6.0;
+
+document.getElementById('catalan_parliament_div').setAttribute("style", "height:"+height+"px")
 
 /*
 var width = 960,
-    height = 100,
+    height = 800,
     radius = 225;
-//    radius = Math.min(width,height) / 2;
 */
 
-svg.attr("transform", "translate(" + 2*width / 5.0 + "," + 3.0*height  + ")");
+//    radius = Math.min(width,height) / 2;
+
+svg.attr("transform", "translate(" + 2*width / 5.0 + "," + height/1.1  + ")");
+//svg.attr("transform", "translate(" + 2*width / 5.0 + "," + 3.0*height  + ")");
 
 /* ------ TOOLTIP formating ------ */
 
@@ -127,8 +126,501 @@ function readData (){
 change(readData());
 */
 
+d3.json("catalan_parliament/catalan_parliament.json", function (error, dataset) {
+    if (error) throw error;
+    d3.select('#inds')
+              .on("change", function () {
+                    MeasureSettings()
+                    change(dataset);
+              });
+    MeasureSettings()
+    change(dataset);
+})
 
 
+function MeasureSettings () {
+    var titleMeasure = document.getElementById("titleMeasure");
+    titleMeasure.parentNode.removeChild(titleMeasure)
+
+    var sect = document.getElementById("inds");
+    var measure_name = sect.options[sect.selectedIndex].value;
+
+    svg.append("text")
+        .attr("id", "titleMeasure")
+        .html('<tspan x="-300" dy="-270" font-size="25" fill="green" style="font-weight:bold">'+measure_name+'</tspan>')
+        .style('font-size', '.9em')
+        .style('color', 'green')
+        .style('text-anchor', 'left');
+}
+
+/* ------- AUXILIAR FUNCTIONS -------*/
+function mergeWithFirstEqualZero(first, second){
+    var secondSet = d3.set(); second.forEach(function(d) { secondSet.add(d.label); });
+
+    var onlyFirst = first
+        .filter(function(d){ return !secondSet.has(d.label) })
+        .map(function(d) { return {label: d.label, value: 0}; });
+    return d3.merge([ second, onlyFirst ])
+        .sort(function(a,b) {
+            return d3.ascending(a.label, b.label);
+        });
+}
+
+
+function defineColors (dataset){
+    /* ---------------- Get variables ---------------- */
+    var parties_info = Object.keys(dataset.results.Seats).map(function(label){
+        return {label: label, value: dataset.results.Seats[label],
+                color: dataset.parties.filter(function(p){return p.code == label})[0].color}
+    }).filter(function(d){
+        return d.value > 0;
+    }).sort(function(a, b){
+        return d3.descending(a.value, b.value);
+    });
+
+    var parties = parties_info.map(function(party_info){
+        return party_info.label
+    });
+    var colors_parties = parties_info.map(function(party_info){
+        return party_info.color
+    });
+
+    /* ---------------- Define colors ---------------- */
+    var color = d3.scale.category20()
+        .domain(parties)
+        .range(colors_parties);
+
+    return color;
+}
+
+function readData (dataset){
+    /* ---------------- Define colors ---------------- */
+    var color = defineColors(dataset);
+
+    /* ------------ Get measure from buttom ------------ */
+    var sect = document.getElementById("inds");
+    var measure_name = sect.options[sect.selectedIndex].value;
+
+    /* ---------------- Compute data ---------------- */
+    var measure = dataset.results[measure_name];
+    var seats = dataset.results['Seats'];
+    var labels = color.domain();
+    return labels.map(function(label){
+        return {label: label, value: measure[label], seats: seats[label]}
+    }).filter(function(d){
+        return d.seats > 0;
+    }).sort(function(a, b){
+        return d3.descending(a.seats, b.seats);
+    });
+}
+
+
+
+/* ------- REPLOT FUNCTION -------*/
+function change(dataset) {
+
+    /* ------- MAIN DATA -------*/
+//  var duration = +document.getElementById("duration").value;
+    var duration = 500,
+        data = readData(dataset),
+        color = defineColors(dataset),
+        n_seats = dataset.parliament.seats,
+        name_parlament = dataset.parliament.name;
+
+    var key = function(d){ return d.data.label; };
+
+    /* ------- REBUILD PLOT -------*/
+    var data0 = svg.select(".slices").selectAll("path.slice")
+        .data().map(function(d) { return d.data });
+    if (data0.length == 0) data0 = data;
+    var was = mergeWithFirstEqualZero(data, data0);
+    var is = mergeWithFirstEqualZero(data0, data);
+
+    /* ------- MAIN FUNCTIONS -------*/
+/*    var width = 960,
+        height = 290,
+        radius = 225;
+*/
+    //    radius = Math.min(width,height) / 2;
+
+    var pie = d3.layout.pie()
+        .startAngle(-90 * (Math.PI/180))
+        .endAngle(90 * (Math.PI/180))
+        .sort(null)
+        .value(function(d) {
+            return d.value;
+        });
+
+    var arc = d3.svg.arc()
+        .outerRadius(radius * 1.0)
+        .innerRadius(radius * 0.4)
+        .cornerRadius(7) // sets how rounded the corners are on each slice
+        .padAngle(0.015); // effectively dictates the gap between slices
+
+    var outerArc = d3.svg.arc()
+        .innerRadius(radius * 0.5)
+        .outerRadius(radius * 1.1);
+
+    /* ------- SLICE ARCS -------*/
+
+    var slice = svg.select(".slices").selectAll("path.slice")
+        .data(pie(was), key);
+
+    slice.enter()
+        .insert("path")
+        .attr("class", "slice")
+        .style("fill", function(d) { return color(d.data.label); })
+        .each(function(d) {
+            this._current = d;
+        });
+
+    slice = svg.select(".slices").selectAll("path.slice")
+        .data(pie(is), key);
+
+    slice       
+        .transition().duration(duration)
+        .attrTween("d", function(d) {
+            var interpolate = d3.interpolate(this._current, d);
+            var _this = this;
+            return function(t) {
+                _this._current = interpolate(t);
+                return arc(_this._current);
+            };
+        });
+
+    slice = svg.select(".slices").selectAll("path.slice")
+        .data(pie(data), key)
+          .on("mouseover", function() { tooltip.style("display", null); })
+            .on("mouseout", function() { tooltip.style("display", "none"); })
+            .on("mousemove", function(d) {
+              var xPosition = d3.mouse(this)[0] - 15;
+              var yPosition = d3.mouse(this)[1] - 25;
+              tooltip.style("display", "inline")
+              tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
+//              tooltip.attr("transform", "translate(" + 0 + "," + -100 + ")");
+              tooltip.select("text").text(d.data.label+': '+d.data.value);
+            });
+
+
+/*          .append("rect")
+            .attr("width", 140)
+            .attr("height", 140)
+/*        .on("mouseover", function (d) {
+        d3.select(".tooltip")
+            .style("left", d3.event.pageX + "px")
+            .style("top", d3.event.pageY + "px")
+            .style("opacity", 0.9)
+            .select("#value")
+            .text("100");
+    })
+        .on("mouseout", function () {
+        // Hide the tooltip
+        d3.select(".tooltip")
+            .style("opacity", 0);
+    });
+*/
+
+    /* ------- TEXT LABELS -------*/
+
+    var text = svg.select(".labels").selectAll("text")
+        .data(pie(was), key);
+
+    text.enter()
+        .append("text")
+        .attr("dy", ".35em")
+        .style("opacity", 0)
+        .text(function(d) {
+            return d.data.label;
+        })
+        .each(function(d) {
+            this._current = d;
+        });
+
+    function midAngle(d){
+        var middle = d.startAngle + (d.endAngle - d.startAngle)/2;
+        return middle
+    }
+
+    text = svg.select(".labels").selectAll("text")
+        .data(pie(is), key);
+
+    text.transition().duration(duration)
+        .style("opacity", function(d) {
+            return d.data.value == 0 ? 0 : 1;
+        })
+        .attrTween("transform", function(d) {
+            var interpolate = d3.interpolate(this._current, d);
+            var _this = this;
+            return function(t) {
+                var d2 = interpolate(t);
+                _this._current = d2;
+                var pos = outerArc.centroid(d2);
+                pos[0] = 1.1*radius * (midAngle(d2) > 0 ? 1 : -1);
+                return "translate("+ pos +")";
+            };
+        })
+        .styleTween("text-anchor", function(d){
+            var interpolate = d3.interpolate(this._current, d);
+            return function(t) {
+                var d2 = interpolate(t);
+                return midAngle(d2) > 0 ? "start":"end";
+            };
+        });
+    
+    text = svg.select(".labels").selectAll("text")
+        .data(pie(data), key);
+
+    text
+        .exit().transition().delay(duration)
+        .remove();
+
+    /* ------- SLICE TO TEXT POLYLINES -------*/
+
+    var polyline = svg.select(".lines").selectAll("polyline")
+        .data(pie(was), key);
+    
+    polyline.enter()
+        .append("polyline")
+        .style("opacity", 0)
+        .each(function(d) {
+            this._current = d;
+        });
+
+    polyline = svg.select(".lines").selectAll("polyline")
+        .data(pie(is), key);
+    
+    polyline.transition().duration(duration)
+        .style("opacity", function(d) {
+            return d.data.value == 0 ? 0 : 1;
+        })
+        .attrTween("points", function(d){
+            this._current = this._current;
+            var interpolate = d3.interpolate(this._current, d);
+            var _this = this;
+            return function(t) {
+                var d2 = interpolate(t);
+                _this._current = d2;
+                var pos = outerArc.centroid(d2);
+                pos[0] = radius * 1.05 * (midAngle(d2) > 0 ? 1 : -1);
+                return [arc.centroid(d2), outerArc.centroid(d2), pos];
+            };          
+        });
+
+    polyline = svg.select(".lines").selectAll("polyline")
+        .data(pie(data), key);
+
+    polyline
+        .exit().transition().delay(duration)
+        .remove();
+
+    // Append center
+
+    var InnerCircleDetails = document.getElementById("InnerCircleDetails");
+    InnerCircleDetails.parentNode.removeChild(InnerCircleDetails)
+
+    svg.append('text')
+        .attr("id", "InnerCircleDetails")
+        .attr('class', 'toolCircle')
+//        .attr('dy', -20) // hard-coded. can adjust this to adjust text vertical alignment in tooltip
+        .html('<tspan x="0" dy="-35" font-size="30" fill="red">'+n_seats+'</tspan>'+'<tspan x="0" dy="28" style="font-weight:bold" font-size="12">'+name_parlament+'</tspan>')
+        .style('font-size', '.9em')
+        .style('color', 'black')
+        .style('text-anchor', 'middle'); // centres text in tooltip
+
+    /* ------- ADD DASHED LINE -------*/
+
+    var DashedHalfSeparator = document.getElementById("DashedHalfSeparator");
+    DashedHalfSeparator.parentNode.removeChild(DashedHalfSeparator)
+
+    svg.append("line")
+        .attr("id", "DashedHalfSeparator")
+        .attr("x1", 0)  //<<== change your code here
+        .attr("y1", -radius*0.3)
+        .attr("x2", 0)  //<<== and here
+        .attr("y2", -radius*1.05)
+        .style("stroke-dasharray", ("3, 3"))
+        .style("stroke-width", 2.5)
+        .style("stroke", "red")
+        .style("fill", "none");
+
+
+    /* ------- ADD TEXTS INDICATIONS -------*/
+
+    var HalfIndicator = document.getElementById("HalfIndicator");
+    HalfIndicator.parentNode.removeChild(HalfIndicator)
+
+    svg.append("text")
+        .attr("id", "HalfIndicator")
+        .html('<tspan x="0" dy="'+-radius*1.06+'" font-size="15" fill="green">1/2</tspan>')
+        .style('font-size', '.9em')
+        .style('color', 'black')
+        .style('text-anchor', 'middle');
+
+    /* ------- ADD LEGEND -------*/
+
+    var LegendParties = document.getElementById("LegendParties");
+    LegendParties.parentNode.removeChild(LegendParties)
+
+    // add legend   
+    var legend = svg.append("g")
+      .attr("class", "legend")
+      .attr("id", "LegendParties")
+        //.attr("x", w - 65)
+        //.attr("y", 50)
+      .attr("height", 200)
+      .attr("width", 100)
+    .attr('transform', 'translate(-20,50)')
+
+    
+    legend.selectAll('rect')
+      .data(data)
+      .enter()
+      .append("rect")
+      .attr("x", width*2/5)
+      .attr("y", function(d, i){ return -300 + i * 25;})
+//      .attr("y", -300)
+      .attr("width", height/20.0)
+      .attr("height", height/20.0)
+        .style("fill", function(d) { return color(d.label); })
+//       .style("fill", color("JxSi"))
+
+
+    legend.selectAll('text')
+      .data(data)
+      .enter()
+      .append("text")
+      .attr("x", width*2/5+25)
+//      .attr("y", -300+12)
+//      .text("JxSi");
+      .attr("y", function(d, i){ return -300 + i * 25 + 12;})
+      .text(function(d) {
+        var text = d.label;
+        return text;
+      });
+
+};
+
+
+/*
+    // function that creates and adds the tool tip to a selected element
+    function toolTip(selection) {
+        var html_center_text = '<tspan x="0" dy="1.2em"> Parlament de Catalunya</tspan>';
+
+        // add tooltip (svg circle element) when mouse enters label or slice
+        selection.on('mouseenter', function () {
+            svg.append('text')
+                .attr('class', 'toolCircle')
+                .attr('dy', -15) // hard-coded. can adjust this to adjust text vertical alignment in tooltip
+                .html('<tspan x="0" dy="1.2em"> Parlament de Catalunya</tspan>') // add text to the circle.
+                .style('font-size', '.9em')
+                .style('text-anchor', 'middle'); // centres text in tooltip
+            svg.append('circle')
+                .attr('class', 'toolCircle')
+                .attr('r', radius * 0.55) // radius of tooltip circle
+                .style('fill', colour(data.data[category])) // colour based on category mouse is over
+                .style('fill-opacity', 0.35);
+        });
+        // remove the tooltip when mouse leaves the slice/label
+        selection.on('mouseout', function () {
+            d3.selectAll('.toolCircle').remove();
+        });
+*/
+
+
+/*
+    slices
+        .append("path")
+        .attr("class", function(d) {
+      return "slice" + color(d.data);
+    })
+    .attr("d", path)
+    .on("mousemove", function(d) {
+        var slicecolor = this;
+        d3.select(this).style("opacity", 1);
+
+        .on("mouseout", function(d) {
+          d3.selectAll("path")
+            .style({
+              "opacity": 0.5
+            });
+        });
+*/
+
+/*
+    slice = svg.select(".slices").selectAll("path.slice")
+        .data(pie(data), key)
+          .append("rect")
+            .attr("width", 140)
+            .attr("height", 140)
+        .on("mouseover", function (d) {
+        d3.select(".tooltip")
+            .style("left", d3.event.pageX + "px")
+            .style("top", d3.event.pageY + "px")
+            .style("opacity", 0.9)
+            .select("#value")
+            .text("100");
+    })
+        .on("mouseout", function () {
+        // Hide the tooltip
+        d3.select(".tooltip")
+            .style("opacity", 0);;
+    });
+*/
+/*
+    slice
+        .exit().transition().delay(duration).duration(0)
+        .remove();
+*/
+//https://stackoverflow.com/questions/34179006/d3-text-on-mouseover#34179633
+//http://jsfiddle.net/5PENv/
+//https://stackoverflow.com/questions/27668236/d3-pie-chart-arctween-in-mouseover-doesnt-work
+//https://chartio.com/resources/tutorials/how-to-show-data-on-mouseover-in-d3js/
+
+//    d3.selectAll('.labelName text, .slices path').call("#toolTip");
+/*
+    slices = svg.select(".slices").selectAll("path.slice")
+        .on("mouseover", function (d) {
+        d3.select("#tooltip")
+            .style("left", d3.event.pageX + "px")
+            .style("top", d3.event.pageY + "px")
+            .style("opacity", 0.9)
+            .select("#value")
+            .text("100");
+    })
+        .on("mouseout", function () {
+        // Hide the tooltip
+        d3.select("#tooltip")
+            .style("opacity", 0);;
+    });
+*/
+
+/*
+    slice
+        .exit().transition().delay(duration).duration(0)
+        .remove();
+*/
+//https://stackoverflow.com/questions/34179006/d3-text-on-mouseover#34179633
+//http://jsfiddle.net/5PENv/
+//https://stackoverflow.com/questions/27668236/d3-pie-chart-arctween-in-mouseover-doesnt-work
+//https://chartio.com/resources/tutorials/how-to-show-data-on-mouseover-in-d3js/
+
+//    d3.selectAll('.labelName text, .slices path').call("#toolTip");
+/*
+    slices = svg.select(".slices").selectAll("path.slice")
+        .on("mouseover", function (d) {
+        d3.select("#tooltip")
+            .style("left", d3.event.pageX + "px")
+            .style("top", d3.event.pageY + "px")
+            .style("opacity", 0.9)
+            .select("#value")
+            .text("100");
+    })
+        .on("mouseout", function () {
+        // Hide the tooltip
+        d3.select("#tooltip")
+            .style("opacity", 0);;
+    });
+*/
 </script>
-</div>
 </body>
+</html>
