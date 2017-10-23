@@ -39,7 +39,7 @@ The classification in fields is merely an orientation. The fields and my specifi
 * Microservices for the integration of machine learning techniques in the new requirements data infrastructure. The Data science in a IoT world requires an adapted infrastructure to deal with that, not only new machine learning techniques.
 
 ### *Artificial Intelligence* and *Machine Learning*
-* Small data science and One Shot Learners: there are problems with too few samples but high dimensionality. In this problems we can learn the "mechanics" of each sample in order to extract and use that information. It is been developed mainly in the context of OCR problem but it could be very util for problems in *digital humanities*.
+* Small data science and One Shot Learners: there are problems with too few samples but high dimensionality. In this problems we can learn the "mechanics" of each sample in order to extract and use that information. It is been developed mainly in the context of OCR problem but it could be very useful for problems in *digital humanities*.
 * The cooperation of logic and statics in new trends of AI. The new machine learning techniques brought us far in the path of seeking true artificial intelligence. But it still seems that we not need only data-driven techniques but a strong cooperation with logic techniques.
 * The paper of ecology in the use of evolutionary techniques in ensemble learning.
 * Generative Adversarial Networks to make more robust to random noise learners.

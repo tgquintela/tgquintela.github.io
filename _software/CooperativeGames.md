@@ -23,6 +23,7 @@ In this first version it contains:
 The easy way to use this functions are:
 
 * Shapley value
+
 ```python
 from Cooperativegames import shapley_value
 
@@ -33,6 +34,7 @@ sh_v1 = shapley_value(entities, funct)
 ```
 
 * Shapley-Shubik power index
+
 ```python
 from Cooperativegames import shapley_index
 
@@ -43,6 +45,7 @@ sh_sh_ind = shapley_index(distrib_repr, win_thr)
 ```
 
 * Banzhaf power index
+
 ```python
 from Cooperativegames import banzhaf_index
 
