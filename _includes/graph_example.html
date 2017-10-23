@@ -26,18 +26,18 @@
 var width = $("#d3div").width(),
     height = 500;
 
-var color = d3.scale.category20();
+var color = d3v3.scale.category20();
 
-var force = d3.layout.force()
+var force = d3v3.layout.force()
     .charge(-120)
     .linkDistance(30)
     .size([width, height]);
 
-var svg = d3.select("#d3div").append("svg")
+var svg = d3v3.select("#d3div").append("svg")
     .attr("width", width)
     .attr("height", height);
 
-d3.json("{{base_path}}/files/miserables.json", function(error, graph) {
+d3v3.json("{{base_path}}/files/miserables.json", function(error, graph) {
   if (error) throw error;
 
   force
