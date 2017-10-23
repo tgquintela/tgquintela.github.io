@@ -1,9 +1,16 @@
 ---
 title: "HP-model_Protein-folding"
+excerpt: "Software coded in python which provides to the user a bunch of measures related to cooperative game theory."
 collection: software
 type: "Software package"
 date: 2013-02-01
 permalink: /software/HP-model_Protein-folding
+header:
+  overlay_image: software/protein_folding_foldit.jpg
+  overlay_filter: 0.4
+  caption: "Different Foldit Protein"
+  cta_label: "Download"
+  cta_url: "https://github.com/tgquintela/HP-model_Protein-folding/archive/master.zip"
 ---
 
 Project developed in the context of the CI subject of MAI which tries to tackle the problem of the protein folding in a [HP model](https://en.wikipedia.org/wiki/Hydrophobic-polar_protein_folding_model)
