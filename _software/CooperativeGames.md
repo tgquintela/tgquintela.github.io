@@ -7,7 +7,7 @@ date: 2016-07-01
 permalink: /software/CooperativeGames
 header:
   overlay_image: software/eu_parliament.jpg
-  overlay_filter: 0.4
+  overlay_filter: 0.7
   caption: "EU parliament on 2014"
   cta_label: "Download"
   cta_url: "https://github.com/tgquintela/CooperativeGames/archive/master.zip"
