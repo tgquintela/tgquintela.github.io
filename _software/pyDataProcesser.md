@@ -6,7 +6,7 @@ type: "Software package"
 date: 2015-07-01
 permalink: /software/pyDataProcesser
 header:
-  overlay_image: software/data_process.jpg
+  overlay_image: software/data_flow.jpg
   overlay_filter: 0.4
   caption: ""
   cta_label: "Download"

@@ -1,9 +1,16 @@
 ---
 title: "pySpatialTools"
+excerpt:"Framework which provides prototyping tools in python to deal with spatial data in python and model spatial-derived relations between different elements in a system."
 collection: software
 type: "Software package"
 date: 2016-11-01
 permalink: /software/pySpatialTools
+header:
+  overlay_image: software/bus_london.png
+  overlay_filter: 0.4
+  caption: "Bus trips in London (by UCL Centre for Advanced Spatial Analysis)"
+  cta_label: "Download"
+  cta_url: "https://github.com/tgquintela/pySpatialTools/archive/master.zip"
 ---
 
 [![Build Status](https://travis-ci.org/tgquintela/pySpatialTools.svg?branch=master)](https://travis-ci.org/tgquintela/pySpatialTools)
