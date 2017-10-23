@@ -1,5 +1,5 @@
 ---
-title: "Blocksworld problem with goal-stack-planer-solver"
+title: "Blocksworld_problem_with_goal-stack-planer-solver"
 excerpt: "Program to solve block Honoi-Towers-like problemw with a goal-stack planer solver."
 collection: software
 type: "Software package"
