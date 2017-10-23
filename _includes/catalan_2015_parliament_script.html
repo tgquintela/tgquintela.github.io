@@ -5,9 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!--
-    <link rel="stylesheet" href="{{ base_path }}/assets/css/parliament_style.css">
--->
+
+    <link rel="stylesheet" href="{{ base_path }}/assets/css/catalan_parliament_style.css">
+
 <!--
     <link rel="stylesheet" type="text/css" href="/static/commons/css/bootstrap.min.css">
     <script src="/static/commons/js/jquery.min.js"></script>
@@ -19,7 +19,6 @@
 
 <body>
 {% include base_path %}
-
 
 <div id="buttoms">
   <select id="inds">
@@ -42,7 +41,10 @@
   </select>
 </div>
 
-<div id="catalan_parliament_div" style="width: 100%;"></div>
+
+
+
+<div id="catalan_parliament_div" class="svg-container" style="width: 100%;"></div>
 <script type="text/javascript">
 
 var svg = d3.select("#catalan_parliament_div")
@@ -85,7 +87,7 @@ svg.attr("transform", "translate(" + 2*width / 5.0 + "," + height  + ")");
 //svg.attr("transform", "translate(" + 2*width / 5.0 + "," + 3.0*height  + ")");
 
 /* ------ TOOLTIP formating ------ */
-/*
+
 var tooltip = svg.append("g")
   .attr("class", "tooltip")
   .style("display", "none");
@@ -102,7 +104,7 @@ tooltip.append("text")
   .style("text-anchor", "left")
   .attr("font-size", "12px")
   .attr("font-weight", "bold");
-*/
+
 /*
 var key = function(d){ return d.data.label; };
 
@@ -125,7 +127,170 @@ function readData (){
 change(readData());
 */
 
-d3.json("{{ base_path }}/files/2015_catalan_parliament.json", function (error, dataset) {
+dataset = {
+  "parliament": {
+    "name": "Parlament de Catalunya", 
+    "seats": "135"
+  }, 
+  "parties": [
+    {
+      "code": "JxSi", 
+      "color": "#34cbcb", 
+      "name": "Junts pel S\u00ed"
+    }, 
+    {
+      "code": "C's", 
+      "color": "#ff8000", 
+      "name": "Ciutadans"
+    }, 
+    {
+      "code": "PSC", 
+      "color": "#e60000", 
+      "name": "Partit Socialista de Catalunya"
+    }, 
+    {
+      "code": "CSQP", 
+      "color": "#e60073", 
+      "name": "Catalunya S\u00ed Que es Pot"
+    }, 
+    {
+      "code": "PPC", 
+      "color": "#3333ff", 
+      "name": "Partit Popular de Catalunya"
+    }, 
+    {
+      "code": "CUP", 
+      "color": "#ffff00", 
+      "name": "Candidatures d'Unitat Popular"
+    }
+  ], 
+  "results": {
+    "Banzhaf": {
+      "C's": 0.05, 
+      "CSQP": 0.05, 
+      "CUP": 0.05, 
+      "JxSi": 0.75, 
+      "PPC": 0.05, 
+      "PSC": 0.05
+    }, 
+    "Proportional": {
+      "C's": 0.185185, 
+      "CSQP": 0.0814815, 
+      "CUP": 0.074074, 
+      "JxSi": 0.45926, 
+      "PPC": 0.0814815, 
+      "PSC": 0.11852
+    }, 
+    "Seats": {
+      "C's": 25, 
+      "CSQP": 11, 
+      "CUP": 10, 
+      "JxSi": 62, 
+      "PPC": 11, 
+      "PSC": 16
+    }, 
+    "Shapley": {
+      "C's": 0.06666666666666667, 
+      "CSQP": 0.06666666666666667, 
+      "CUP": 0.06666666666666667, 
+      "JxSi": 0.6666666666666666, 
+      "PPC": 0.06666666666666667, 
+      "PSC": 0.06666666666666667
+    }, 
+    "Winnable-Auto-Ideologia": {
+      "C's": 0.138, 
+      "CSQP": 0.147, 
+      "CUP": 0.127, 
+      "JxSi": 0.322, 
+      "PPC": 0.113, 
+      "PSC": 0.153
+    }, 
+    "Winnable-Auto-Nacionalismo": {
+      "C's": 0.124, 
+      "CSQP": 0.145, 
+      "CUP": 0.144, 
+      "JxSi": 0.351, 
+      "PPC": 0.106, 
+      "PSC": 0.13
+    }, 
+    "Winnable-Ideologia": {
+      "C's": 0.122, 
+      "CSQP": 0.15, 
+      "CUP": 0.103, 
+      "JxSi": 0.363, 
+      "PPC": 0.095, 
+      "PSC": 0.165
+    }, 
+    "Winnable-Independentismo": {
+      "C's": 0.073, 
+      "CSQP": 0.102, 
+      "CUP": 0.214, 
+      "JxSi": 0.438, 
+      "PPC": 0.077, 
+      "PSC": 0.094
+    }, 
+    "Winnable-Nacionalismo": {
+      "C's": 0.095, 
+      "CSQP": 0.165, 
+      "CUP": 0.15, 
+      "JxSi": 0.383, 
+      "PPC": 0.07, 
+      "PSC": 0.135
+    }, 
+    "Worsable-Auto-Ideologia": {
+      "C's": 0.128, 
+      "CSQP": 0.144, 
+      "CUP": 0.111, 
+      "JxSi": 0.368, 
+      "PPC": 0.093, 
+      "PSC": 0.155
+    }, 
+    "Worsable-Auto-Nacionalismo": {
+      "C's": 0.117, 
+      "CSQP": 0.15, 
+      "CUP": 0.153, 
+      "JxSi": 0.362, 
+      "PPC": 0.092, 
+      "PSC": 0.126
+    }, 
+    "Worsable-Ideologia": {
+      "C's": 0.109, 
+      "CSQP": 0.146, 
+      "CUP": 0.085, 
+      "JxSi": 0.412, 
+      "PPC": 0.077, 
+      "PSC": 0.17
+    }, 
+    "Worsable-Independentismo": {
+      "C's": 0.067, 
+      "CSQP": 0.101, 
+      "CUP": 0.24, 
+      "JxSi": 0.431, 
+      "PPC": 0.071, 
+      "PSC": 0.091
+    }, 
+    "Worsable-Nacionalismo": {
+      "C's": 0.082, 
+      "CSQP": 0.173, 
+      "CUP": 0.151, 
+      "JxSi": 0.408, 
+      "PPC": 0.057, 
+      "PSC": 0.129
+    }
+  }
+}
+
+
+d3.select('#inds')
+            .on("change", function () {
+                MeasureSettings();
+                change(dataset);
+            });
+MeasureSettings();
+change(dataset);
+
+/*
+d3.json("catalan_parliament/catalan_parliament.json", function (error, dataset) {
     if (error) throw error;
     d3.select('#inds')
               .on("change", function () {
@@ -135,6 +300,7 @@ d3.json("{{ base_path }}/files/2015_catalan_parliament.json", function (error, d
     MeasureSettings();
     change(dataset);
 });
+*/
 
 
 function MeasureSettings () {
