@@ -4,6 +4,14 @@ collection: software
 type: "Software package"
 date: 2016-08-01
 permalink: /software/pythonUtils
+
+header:
+  overlay_image: software/paleo_tools.jpg
+  overlay_filter: 0.4
+  caption: ""
+  cta_label: "Download"
+  cta_url: "https://github.com/tgquintela/pythonUtils/archive/master.zip"
+
 ---
 
 

@@ -4,6 +4,13 @@ collection: software
 type: "Software package"
 date: 2017-07-01
 permalink: /software/NoteManager
+header:
+  overlay_image: software/data_management.jpg
+  overlay_filter: 0.4
+  caption: ""
+  cta_label: "Download"
+  cta_url: "https://github.com/tgquintela/NoteManager/archive/master.zip"
+
 ---
 
 
