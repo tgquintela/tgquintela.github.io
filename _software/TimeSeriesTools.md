@@ -4,6 +4,12 @@ collection: software
 type: "Software package"
 date: 2016-02-01
 permalink: /software/TimeSeriesTools
+header:
+  overlay_image: software/TimeSeries.png
+  overlay_filter: 0.4
+  caption: ""
+  cta_label: "Download"
+  cta_url: "https://github.com/tgquintela/TimeSeriesTools/archive/master.zip"
 ---
 
 [![Build Status](https://travis-ci.org/tgquintela/TimeSeriesTools.svg?branch=master)](https://travis-ci.org/tgquintela/TimeSeriesTools)
