@@ -1,9 +1,16 @@
 ---
 title: "ChaosFunctions"
+excerpt: "Package to simulate 1d and 2d dynamical processes which can produce chaotic behaviour."
 collection: software
 type: "Software package"
 date: 2015-10-01
 permalink: /software/ChaosFunctions
+header:
+  overlay_image: software/fractals.jpg
+  overlay_filter: 0.4
+  caption: "Fractals created with that program"
+  cta_label: "Download"
+  cta_url: "https://github.com/tgquintela/ChaosFunctions/archive/master.zip"
 ---
 
 
