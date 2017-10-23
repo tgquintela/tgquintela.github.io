@@ -1,5 +1,6 @@
 ---
 title: "pythonUtils"
+excerpt: "This package is a collection of different subpackages that they do not have connection between each other but the use to complement other codes in python."
 collection: software
 type: "Software package"
 date: 2016-08-01
