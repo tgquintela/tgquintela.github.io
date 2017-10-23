@@ -6,7 +6,7 @@ type: "Software package"
 date: 2015-10-01
 permalink: /software/ChaosFunctions
 header:
-  overlay_image: software/fractals.jpg
+  overlay_image: software/fractals.png
   overlay_filter: 0.4
   caption: "Fractals created with that program"
   cta_label: "Download"
