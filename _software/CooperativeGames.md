@@ -10,7 +10,7 @@ header:
   overlay_filter: 0.4
   caption: "EU parliament on 2014"
   cta_label: "Download"
-  cta_url: ""
+  cta_url: "https://github.com/tgquintela/CooperativeGames/archive/master.zip"
 
 
 ---
