@@ -1,9 +1,18 @@
 ---
 title: "CooperativeGames"
+excerpt: "Software coded in python which provides to the user a bunch of measures related with cooperative game theory."
 collection: software
 type: "Software package"
 date: 2016-07-01
 permalink: /software/CooperativeGames
+header:
+  overlay_image: software/eu_parliament.jpg
+  overlay_filter: 0.4
+  caption: "EU parliament on 2014"
+  cta_label: "Download"
+  cta_url: ""
+
+
 ---
 
 [![Build Status](https://travis-ci.org/tgquintela/CooperativeGames.svg?branch=master)](https://travis-ci.org/tgquintela/CooperativeGames)
