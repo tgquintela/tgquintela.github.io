@@ -47,7 +47,7 @@
 <div id="catalan_parliament_div" class="svg-container" style="width: 100%;"></div>
 <script type="text/javascript">
 
-var svg = d3.select("#catalan_parliament_div")
+var svg = d3v3.select("#catalan_parliament_div")
     .append("svg")
     .append("g");
 
@@ -281,7 +281,7 @@ dataset = {
 }
 
 
-d3.select('#inds')
+d3v3.select('#inds')
             .on("change", function () {
                 MeasureSettings();
                 change(dataset);
@@ -320,14 +320,14 @@ function MeasureSettings () {
 
 /* ------- AUXILIAR FUNCTIONS -------*/
 function mergeWithFirstEqualZero(first, second){
-    var secondSet = d3.set(); second.forEach(function(d) { secondSet.add(d.label); });
+    var secondSet = d3v3.set(); second.forEach(function(d) { secondSet.add(d.label); });
 
     var onlyFirst = first
         .filter(function(d){ return !secondSet.has(d.label); })
         .map(function(d) { return {label: d.label, value: 0}; });
-    return d3.merge([ second, onlyFirst ])
+    return d3v3.merge([ second, onlyFirst ])
         .sort(function(a,b) {
-            return d3.ascending(a.label, b.label);
+            return d3v3.ascending(a.label, b.label);
         });
 }
 
@@ -340,7 +340,7 @@ function defineColors (dataset){
     }).filter(function(d){
         return d.value > 0;
     }).sort(function(a, b){
-        return d3.descending(a.value, b.value);
+        return d3v3.descending(a.value, b.value);
     });
 
     var parties = parties_info.map(function(party_info){
@@ -351,7 +351,7 @@ function defineColors (dataset){
     });
 
     /* ---------------- Define colors ---------------- */
-    var color = d3.scale.category20()
+    var color = d3v3.scale.category20()
         .domain(parties)
         .range(colors_parties);
 
@@ -375,7 +375,7 @@ function readData (dataset){
     }).filter(function(d){
         return d.seats > 0;
     }).sort(function(a, b){
-        return d3.descending(a.seats, b.seats);
+        return d3v3.descending(a.seats, b.seats);
     });
 }
 
@@ -408,7 +408,7 @@ function change(dataset) {
 */
     //    radius = Math.min(width,height) / 2;
 
-    var pie = d3.layout.pie()
+    var pie = d3v3.layout.pie()
         .startAngle(-90 * (Math.PI/180))
         .endAngle(90 * (Math.PI/180))
         .sort(null)
@@ -416,13 +416,13 @@ function change(dataset) {
             return d.value;
         });
 
-    var arc = d3.svg.arc()
+    var arc = d3v3.svg.arc()
         .outerRadius(radius * 1.0)
         .innerRadius(radius * 0.4)
         .cornerRadius(7) // sets how rounded the corners are on each slice
         .padAngle(0.015); // effectively dictates the gap between slices
 
-    var outerArc = d3.svg.arc()
+    var outerArc = d3v3.svg.arc()
         .innerRadius(radius * 0.5)
         .outerRadius(radius * 1.1);
 
@@ -445,7 +445,7 @@ function change(dataset) {
     slice       
         .transition().duration(duration)
         .attrTween("d", function(d) {
-            var interpolate = d3.interpolate(this._current, d);
+            var interpolate = d3v3.interpolate(this._current, d);
             var _this = this;
             return function(t) {
                 _this._current = interpolate(t);
@@ -513,7 +513,7 @@ function change(dataset) {
             return d.data.value == 0 ? 0 : 1;
         })
         .attrTween("transform", function(d) {
-            var interpolate = d3.interpolate(this._current, d);
+            var interpolate = d3v3.interpolate(this._current, d);
             var _this = this;
             return function(t) {
                 var d2 = interpolate(t);
@@ -524,7 +524,7 @@ function change(dataset) {
             };
         })
         .styleTween("text-anchor", function(d){
-            var interpolate = d3.interpolate(this._current, d);
+            var interpolate = d3v3.interpolate(this._current, d);
             return function(t) {
                 var d2 = interpolate(t);
                 return midAngle(d2) > 0 ? "start":"end";
@@ -559,7 +559,7 @@ function change(dataset) {
         })
         .attrTween("points", function(d){
             this._current = this._current;
-            var interpolate = d3.interpolate(this._current, d);
+            var interpolate = d3v3.interpolate(this._current, d);
             var _this = this;
             return function(t) {
                 var d2 = interpolate(t);
