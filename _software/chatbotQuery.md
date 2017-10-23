@@ -1,9 +1,17 @@
 ---
 title: "ChatbotQuery"
+excerpt:"Framework to easily build functional simple chatbots with purpose of maintain basic conversations for querying databases."
 collection: software
 type: "Software package"
 date: 2017-10-01
 permalink: /software/chatbotquery
+header:
+  overlay_image: software/robot_humanoid_library_books.jpg
+  overlay_filter: 0.4
+  caption: ""
+  cta_label: "Download"
+  cta_url: "https://github.com/tgquintela/ChatbotQuery/archive/master.zip"
+
 ---
 
 

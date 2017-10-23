@@ -1,11 +1,17 @@
 ---
 title: "NetTools"
+excerpt: "Package which groups different tools for network study. It is composed by network structure and network evolution."
 collection: software
 type: "Software package"
 date: 2016-03-01
 permalink: /software/NetTools
+header:
+  overlay_image: software/complex-network2.png
+  overlay_filter: 0.4
+  caption: ""
+  cta_label: "Download"
+  cta_url: "https://github.com/tgquintela/NetTools/archive/master.zip"
 ---
-
 
 [![Build Status](https://travis-ci.org/tgquintela/NetTools.svg?branch=master)](https://travis-ci.org/tgquintela/NetTools)
 [![Coverage Status](https://coveralls.io/repos/github/tgquintela/NetTools/badge.svg?branch=master)](https://coveralls.io/github/tgquintela/NetTools?branch=master)
