@@ -7,7 +7,7 @@ date: 2015-10-01
 permalink: /software/ElectionsTools
 
 header:
-  overlay_image: software/spain_eleccions.jpg
+  overlay_image: software/spain_eleccions.png
   overlay_filter: 0.4
   caption: "Spain results 2016 elections by municipalities"
   cta_label: "Download"
