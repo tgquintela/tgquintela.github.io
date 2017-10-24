@@ -3,6 +3,12 @@ title: 'Poder, parlamentos y democracia (I)'
 excerpt: 'Un primer análisis sobre los parlamentos de Catalunya y España en 2015'
 date: 2016-09-15
 permalink: /blog/2016/09/poder-parlamentos-y-democracia-i/
+
+header:
+  overlay_image: blog/parlamento-poder-i/header_poder.jpg
+  overlay_filter: 0.4
+  caption: ""
+
 tags:
   - politics
   - game theory
