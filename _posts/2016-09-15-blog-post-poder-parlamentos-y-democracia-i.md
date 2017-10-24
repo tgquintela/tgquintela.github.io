@@ -201,8 +201,7 @@ wor_ind = weighted_worsable_coalitions(seats, matrix_independencia, win_thr)
 
 En estos resultados podemos ver que la CUP pasa a tener más poder que otros como Cs, PSC, CSQEP y PP, a pesar de tener menos representantes. Esto es debido a que es el aliado más natural al partido con más cercanía a la mayoría absoluta y solo basta con su alianza para conseguirla.
 
-Aquí podemos ver los resultados de forma gráfica:
-[http://bl.ocks.org/tgquintela/raw/ad60b975db5edb19fa11daef159656b4/](http://bl.ocks.org/tgquintela/raw/ad60b975db5edb19fa11daef159656b4/)
+([![]("{{ base_path }}/images/blog/parlamento-poder-i/2015-parlamento-catalunya.png")](http://bl.ocks.org/tgquintela/raw/ad60b975db5edb19fa11daef159656b4/))
 
 
 En el caso extremo de solo considerar la variable binaria independencia (independencia SI o independencia NO) veriamos que dividiriamos el parlamento en dos grupos: los que están a favor (JxSi y CUP) y los que estan en contra (Cs, PSC, CSQEP y PP), con todos los matices que podamos poner. En este caso extremo de total polaridad y discrepancia, bastante similar lo que llevamos vivido hasta hoy en Junio de 2016, quedaría:
@@ -274,8 +273,7 @@ wor_i_d = weighted_worsable_coalitions(seats, matrix_i_d, win_thr)
 
 No hemos incluido los pequeños matices, ni otros ejes que pueden ser relevantes en las discrepancias para pactos, pero podemos sacar pequeñas conclusiones de estas medidas y lo que nos dicen. PSOE tiene más poder que la proporción representativa de diputados que tienen. PP y Podemos mucho menos de la proporción de escaños que tiene. El parlamento se lo da o parece ser que así nos lo indican estas medidas. Pero quedan lejos de acercarse a una proporción dominante.
 
-Aquí podemos ver los resultados de forma gráfica:
-[https://bl.ocks.org/tgquintela/raw/9159fe0f4718377496d39c17a44ef7af/](https://bl.ocks.org/tgquintela/raw/9159fe0f4718377496d39c17a44ef7af/)
+[![]("{{ base_path }}/images/blog/parlamento-poder-i/2015-parlamento-españa.png")](https://bl.ocks.org/tgquintela/raw/9159fe0f4718377496d39c17a44ef7af/)
 
 
 Mientras en el caso del Parlament nos encontramos dos *clusters* (grupos) practicamente cerrados en los que parece que cada *cluster* va por su lado y hay una desconexión clara entre ambos (una polarización clara). En el que uno de los dos tiene claramente más tamaño que el otro y por tanto guía el camino y controla el poder.
