@@ -1,5 +1,6 @@
 ---
 title: "TimeSeriesTools"
+excerpt: "Packages with tools to deal and study time series in python."
 collection: software
 type: "Software package"
 date: 2016-02-01
