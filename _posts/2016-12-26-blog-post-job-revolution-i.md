@@ -3,6 +3,12 @@ title: 'Job revolution (I) - Qualitative basics about job dynamics and informati
 excerpt: 'Qualitative basics about job dynamics and information revolution'
 date: 2016-12-26
 permalink: /blog/2016/12/job-revolution-i/
+
+header:
+  overlay_image: blog/job-revolution/header_eat_machine.jpg
+  overlay_filter: 0.4
+  caption: ""
+
 tags:
   - politics
   - robolution
