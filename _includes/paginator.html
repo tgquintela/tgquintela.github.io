@@ -1,4 +1,5 @@
 {% include base_path %}
+{% set base_path_blog = [base_path, 'blog']|join("") %}
 
 {% if paginator.total_pages > 1 %}
 <nav class="pagination">
