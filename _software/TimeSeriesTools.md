@@ -1,6 +1,6 @@
 ---
 title: "TimeSeriesTools"
-excerpt:"Package to create tools in order to deal with groups of time series. The purpose of that software is to use, extend and complement the main tools and packages used in python."
+excerpt:"Package to extend and complement the main tools and packages used in python for time series analysis."
 collection: software
 type: "Software package"
 date: 2016-02-01

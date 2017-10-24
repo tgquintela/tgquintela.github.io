@@ -1,6 +1,6 @@
 ---
 title: "pySpatialTools"
-excerpt:"Framework which provides prototyping tools in python to deal with spatial data in python and model spatial-derived relations between different elements in a system."
+excerpt:"Framework which provides prototyping tools in python to deal with spatial data in python."
 collection: software
 type: "Software package"
 date: 2016-11-01
