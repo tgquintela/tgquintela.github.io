@@ -275,9 +275,7 @@ wor_i_d = weighted_worsable_coalitions(seats, matrix_i_d, win_thr)
 
 No hemos incluido los pequeños matices, ni otros ejes que pueden ser relevantes en las discrepancias para pactos, pero podemos sacar pequeñas conclusiones de estas medidas y lo que nos dicen. PSOE tiene más poder que la proporción representativa de diputados que tienen. PP y Podemos mucho menos de la proporción de escaños que tiene. El parlamento se lo da o parece ser que así nos lo indican estas medidas. Pero quedan lejos de acercarse a una proporción dominante.
 
-<img src="{{ base_path }}/images/blog/parlamento-poder-i/2015-parlamento-españa.png">
-
-(https://bl.ocks.org/tgquintela/raw/9159fe0f4718377496d39c17a44ef7af/)
+[<img src="{{ base_path }}/images/blog/parlamento-poder-i/2015-parlamento-españa.png">](https://bl.ocks.org/tgquintela/raw/9159fe0f4718377496d39c17a44ef7af/)
 
 
 Mientras en el caso del Parlament nos encontramos dos *clusters* (grupos) practicamente cerrados en los que parece que cada *cluster* va por su lado y hay una desconexión clara entre ambos (una polarización clara). En el que uno de los dos tiene claramente más tamaño que el otro y por tanto guía el camino y controla el poder.
