@@ -3,6 +3,12 @@ title: 'How to code a framework software?'
 excerpt: 'Description of the whole adventure coding a framework'
 date: 2016-10-20
 permalink: /blog/2016/10/how-to-code-a-framework-software/
+
+header:
+  overlay_image: blog/how-to-code-a-framework/header_navaja_suiza.png
+  overlay_filter: 0.4
+  caption: ""
+
 tags:
   - software engineer
   - programming

@@ -7,7 +7,7 @@ permalink: /blog/2016/09/poder-parlamentos-y-democracia-i/
 header:
   overlay_image: blog/parlamento-poder-i/header_poder.jpg
   overlay_filter: 0.4
-  caption: ""
+  caption: "León del Congreso de los Diputados"
 
 tags:
   - politics
