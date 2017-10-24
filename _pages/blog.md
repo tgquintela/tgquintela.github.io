@@ -1,5 +1,5 @@
 ---
-layout: archive_pagination
+layout: archive-pagination
 permalink: /blog/
 title: "All Posts"
 author_profile: true
