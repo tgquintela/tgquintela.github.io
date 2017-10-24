@@ -1,5 +1,6 @@
 ---
 title: "ChatbotQuery"
+excerpt: "ChatbotQuery is a framework to build easily contextual chatbots for small business."
 collection: projects
 type: "Software package"
 date: 2017-10-01

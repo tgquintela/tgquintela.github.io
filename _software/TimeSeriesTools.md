@@ -1,6 +1,5 @@
 ---
 title: "TimeSeriesTools"
-excerpt:"Package to extend and complement the main tools and packages used in python for time series analysis."
 collection: software
 type: "Software package"
 date: 2016-02-01
