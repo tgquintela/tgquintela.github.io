@@ -10,6 +10,8 @@ categories:
   - politics
 ---
 
+{% include base_path %}
+
 ## Introducción
 Año 2015. España sufre una invasión mediática. Sus televisiones, periódicos y cualquier massive media, redes sociales, pequeños periódicos digitales, televisiones y foros se ven '*okupados*' por una serie de especimenes que nos dicen siempre lo que queremos oir y nos venden soluciones fáciles a problemas complejos. Son los políticos. El año 2015 se consagra como el año electoral por excelencia de la historia democrática de España.
 Nunca antes habían coincidido elecciones municipales, catalanas (convertidas en centrales en el sistema político español) y estatales, con un pequeño aperitivo de las europeas de 2014 donde se nos dejó intuir que las cosas habían cambiado.
