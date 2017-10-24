@@ -6,6 +6,8 @@ permalink: /blog/2016/10/how-to-code-a-framework-software/
 tags:
   - software engineer
   - programming
+categories:
+  - tech
 ---
 
 ## What is a framework?

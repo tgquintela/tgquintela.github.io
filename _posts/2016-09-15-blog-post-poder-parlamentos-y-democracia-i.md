@@ -6,6 +6,8 @@ permalink: /blog/2016/09/poder-parlamentos-y-democracia-i/
 tags:
   - politics
   - game theory
+categories:
+  - politics
 ---
 
 ## Introducción

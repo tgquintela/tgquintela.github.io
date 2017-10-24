@@ -7,6 +7,8 @@ tags:
   - politics
   - robolution
   - ai and society
+categories:
+  - future and tech
 ---
 
 ## Introduction
