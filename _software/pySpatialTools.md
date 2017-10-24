@@ -1,6 +1,6 @@
 ---
 title: "pySpatialTools"
-excerpt: ""
+excerpt: "Framework to study spatial data."
 collection: software
 type: "Software package"
 date: 2016-11-01
