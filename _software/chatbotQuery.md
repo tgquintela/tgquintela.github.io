@@ -1,6 +1,5 @@
 ---
 title: "ChatbotQuery"
-excerpt:"Framework ."
 collection: software
 type: "Software package"
 date: 2017-10-01
