@@ -1,6 +1,5 @@
 ---
 title: "pySpatialTools"
-excerpt:"Framework which provides tools to deal with spatial data in python."
 collection: software
 type: "Software package"
 date: 2016-11-01
