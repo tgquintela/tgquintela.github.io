@@ -1,5 +1,6 @@
 ---
 title: "pySpatialTools"
+excerpt: ""
 collection: software
 type: "Software package"
 date: 2016-11-01
