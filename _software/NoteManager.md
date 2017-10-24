@@ -10,7 +10,6 @@ header:
   caption: ""
   cta_label: "Download"
   cta_url: "https://github.com/tgquintela/NoteManager/archive/master.zip"
-
 ---
 
 

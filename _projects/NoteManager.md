@@ -4,6 +4,10 @@ collection: projects
 type: "Software package"
 date: 2017-07-01
 permalink: /projects/NoteManager
+header:
+  overlay_image: software/data_management.jpg
+  overlay_filter: 0.4
+  caption: ""
 ---
 
 
