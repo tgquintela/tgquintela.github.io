@@ -1,6 +1,6 @@
 ---
 title: "ChatbotQuery"
-excerpt: "Framework"
+excerpt: "Framework to build easily contextual chatbots for small business."
 collection: projects
 type: "Software package"
 date: 2017-10-01

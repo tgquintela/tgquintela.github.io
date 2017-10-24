@@ -1,6 +1,6 @@
 ---
 title: "ChatbotQuery"
-excerpt:"Framework to build simple chatbots for querying databases."
+excerpt:"Framework ."
 collection: software
 type: "Software package"
 date: 2017-10-01
