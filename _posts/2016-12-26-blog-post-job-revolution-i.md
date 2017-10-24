@@ -1,6 +1,6 @@
 ---
 title: 'Job revolution (I)'
-excerpt: 'Qualitative basics about job dynamics and information revolution.
+excerpt: 'Qualitative basics about job dynamics and information revolution.\n
 A first approach.'
 date: 2016-12-26
 permalink: /blog/2016/12/job-revolution-i/
