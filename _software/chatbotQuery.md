@@ -10,7 +10,7 @@ header:
   overlay_filter: 0.4
   caption: ""
   cta_label: "Download"
-  cta_url: "https://github.com/tgquintela/ChatbotQuery/archive/master.zip"
+  cta_url: "https://github.com/tgquintela/chatbot_query/archive/master.zip"
 
 ---
 
