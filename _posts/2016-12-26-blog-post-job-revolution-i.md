@@ -5,7 +5,7 @@ date: 2016-12-26
 permalink: /blog/2016/12/job-revolution-i/
 
 header:
-  overlay_image: blog/job-revolution-i/header_eat_machine.jpg
+  overlay_image: blog/job-revolution-i/header_eat_machine_cut.png
   overlay_filter: 0.4
   caption: ""
 
