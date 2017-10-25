@@ -1,0 +1,132 @@
+{
+  "parliament": {
+    "name": "Congreso de los Diputados", 
+    "seats": "350"
+  }, 
+  "parties": [
+    {
+      "code": "PP", 
+      "color": "#3333ff", 
+      "name": "Partido Popular"
+    }, 
+    {
+      "code": "PSOE", 
+      "color": "#e60000", 
+      "name": "Partido Socialista Obrero Espa\u00f1ol"
+    }, 
+    {
+      "code": "Podemos", 
+      "color": "#660033", 
+      "name": "Podemos"
+    }, 
+    {
+      "code": "C's", 
+      "color": "#ff8000", 
+      "name": "Ciutadans"
+    }, 
+    {
+      "code": "ERC", 
+      "color": "#ffd11a", 
+      "name": "Esquerra Republicana de Catalunya"
+    }, 
+    {
+      "code": "DiL", 
+      "color": "#000066", 
+      "name": "Democr\u00e0cia i Llibertat"
+    }, 
+    {
+      "code": "PNV", 
+      "color": "#009933", 
+      "name": "Partido Nacionalista Vasco"
+    }, 
+    {
+      "code": "IU", 
+      "color": "#660000", 
+      "name": "Izquierda Unida"
+    }, 
+    {
+      "code": "Bildu", 
+      "color": "#99ff33", 
+      "name": "EH Bildu"
+    }, 
+    {
+      "code": "CC", 
+      "color": "#e6e600", 
+      "name": "Coalicion Canarias"
+    }
+  ], 
+  "results": {
+    "Banzhaf": {
+      "Bildu": 0.008, 
+      "C's": 0.084, 
+      "CC": 0.003, 
+      "DiL": 0.033, 
+      "ERC": 0.04, 
+      "IU": 0.008, 
+      "PNV": 0.026, 
+      "PP": 0.378, 
+      "PSOE": 0.21, 
+      "Podemos": 0.21
+    }, 
+    "Proportional": {
+      "Bildu": 0.006, 
+      "C's": 0.114, 
+      "CC": 0.003, 
+      "DiL": 0.023, 
+      "ERC": 0.026, 
+      "IU": 0.006, 
+      "PNV": 0.017, 
+      "PP": 0.351, 
+      "PSOE": 0.257, 
+      "Podemos": 0.197
+    }, 
+    "Seats": {
+      "Bildu": 2, 
+      "C's": 40, 
+      "CC": 1, 
+      "DiL": 8, 
+      "ERC": 9, 
+      "IU": 2, 
+      "PNV": 6, 
+      "PP": 123, 
+      "PSOE": 90, 
+      "Podemos": 69
+    }, 
+    "Shapley": {
+      "Bildu": 0.006, 
+      "C's": 0.07, 
+      "CC": 0.002, 
+      "DiL": 0.025, 
+      "ERC": 0.03, 
+      "IU": 0.006, 
+      "PNV": 0.02, 
+      "PP": 0.402, 
+      "PSOE": 0.22, 
+      "Podemos": 0.22
+    }, 
+    "Winnable-Ideologia": {
+      "Bildu": 0.053, 
+      "C's": 0.106, 
+      "CC": 0.074, 
+      "DiL": 0.089, 
+      "ERC": 0.067, 
+      "IU": 0.043, 
+      "PNV": 0.088, 
+      "PP": 0.192, 
+      "PSOE": 0.172, 
+      "Podemos": 0.117
+    }, 
+    "Worsable-Ideologia": {
+      "Bildu": 0.05, 
+      "C's": 0.11, 
+      "CC": 0.086, 
+      "DiL": 0.097, 
+      "ERC": 0.062, 
+      "IU": 0.036, 
+      "PNV": 0.098, 
+      "PP": 0.156, 
+      "PSOE": 0.203, 
+      "Podemos": 0.101
+    }
+  }
+}

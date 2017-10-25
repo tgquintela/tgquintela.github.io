@@ -192,6 +192,9 @@ collections:
   blog:
     output: true
     permalink: /:collection/:path/
+  notebooks:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
@@ -289,6 +292,16 @@ defaults:
       author_profile: true
       read_time: true
       comments: true
+      share: true
+      related: true
+  # _notebooks
+  - scope:
+      path: ""
+      type: notebooks
+    values:
+      read_time: false
+      layout: single
+      comments: false
       share: true
       related: true
 
