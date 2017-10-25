@@ -4,7 +4,7 @@ title: "Preprocessing Timeseries"
 collection: notebooks
 permalink: /notebooks/preprocessing_ts
 date: 2017-10-01
-
+excerpt:"."
 ---
 
 {% include base_path %}
