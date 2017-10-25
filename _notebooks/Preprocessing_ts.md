@@ -7,3 +7,7 @@ date: 2017-10-01
 ---
 
 <--<object type="text/html" data="" width="100%" height="80%"></object>-->
+
+{% include base_path %}
+
+<iframe src="{{ base_path }}/projects/chatbotquery"></iframe>
