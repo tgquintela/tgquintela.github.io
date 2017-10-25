@@ -10,6 +10,6 @@ Exploratory Data Analysis of the Data from the Sberbank Kaggle Competition.
 
 {% include base_path %}
 
-<iframe src="{{ base_path }}/files/notebooks_html/Exploratory Example.html" width="100%" height="800"></iframe>
+<iframe src="{{ base_path }}/files/notebooks_html/Exploratory_Example.html" width="100%" height="800"></iframe>
 
 
