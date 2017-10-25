@@ -12,4 +12,4 @@ In that notebook its coded from scracht a simple svm and we study how it learns 
 
 {% include base_path %}
 
-<iframe src="{{ base_path }}/files/notebooks_html/Report-ToyProblem-SVM.html" width="95%" height="800" align="middle"></iframe>
+<iframe align="middle" src="{{ base_path }}/files/notebooks_html/Report-ToyProblem-SVM.html" width="95%" height="800"></iframe>
