@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="UTF-8">
+  <title>D3 Parliament Power Measures: Spanish parliament 2015 Case Study</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+      #buttoms {
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+      }
+
+      #spanish_parliament_div {
+        font-family: "Roboto", sans-serif;
+        color: #333333;
+        font-weight: 500;
+        font-size: 18px;
+        border-radius: 5px 5px 0 0;
+        padding-top: 0px;
+        padding-left: 0px;
+        margin: 0 0 0 0;
+        height: 100%;
+        background-color: #fff;
+      }
+      #spanish_parliament_div svg {
+        width: 100% !important;
+        height: 100%;
+        /* Shadow effects */
+      /*  -webkit-filter: drop-shadow( 0px 3px 3px rgba(0,0,0,.3) );
+        filter: drop-shadow( 0px 3px 3px rgba(0,0,0,.25) );*/
+      }
+
+      #spanish_parliament_div .slice {
+        stroke: white;
+        stroke-width: 0px;
+      }
+
+      #spanish_parliament_div .slice:hover {
+        opacity: .7;
+      }
+
+      #spanish_parliament_div .labels text {
+        font-style: normal;
+        font-size: 1.5vw;
+        background-color: #333;
+        width: 200px;
+      /*  font-weight: 700;*/
+        font-style: italic;
+
+      }
+
+      #spanish_parliament_div
+      .hidden {
+        display: none;
+      }
+
+      /*Styling for the lines connecting the labels to the slices*/
+      #spanish_parliament_div polyline {
+        opacity: .3;
+        stroke: black;
+        stroke-width: 1px;
+        fill: none;
+      }
+  </style>  
+   <script src="D3%20Parliament%20Power%20Measures:%20Spanish%20parliament%202015%20Case%20Study_files/d3.js"></script>
+  <script src="D3%20Parliament%20Power%20Measures:%20Spanish%20parliament%202015%20Case%20Study_files/jquery.js"></script>
+  
+</head>
+  
+<body>
+<div id="buttoms">
+  <select id="inds_spanish_parliament">
+    <option value="Seats" selected="selected">Seats</option>
+    <option value="Proportional">Proportional</option>
+    <option value="Shapley">Shapley</option>
+    <option value="Banzhaf">Banzhaf</option>
+    <option value="Winnable-Ideologia">Winnable-Ideologia</option>
+    <option value="Worsable-Ideologia">Worsable-Ideologia</option>
+
+  </select>
+</div>
+<div id="spanish_parliament_div" class="svg-container" style="height:450px"></div>
+<script type="text/javascript">
+var svg = d3.select("#spanish_parliament_div")
+    .append("svg")
+    .append("g");
+svg.append("g")
+    .attr("class", "slices");
+svg.append("g")
+    .attr("class", "labels");
+svg.append("g")
+    .attr("class", "lines");
+svg.append("text")
+    .attr("id", "titleMeasure");
+svg.append("g")
+    .attr("class", "legend")
+    .attr("id", "LegendParties");
+svg.append("line")
+    .attr("id", "DashedHalfSeparator");
+svg.append('text')
+    .attr("id", "InnerCircleDetails");
+svg.append("text")
+    .attr("id", "HalfIndicator");
+var width = $("#spanish_parliament_div").width(),
+    height = width/3.0,
+    radius = width/4.0;
+document.getElementById('spanish_parliament_div').setAttribute("style", "height:"+height+"px");
+//    radius = Math.min(width,height) / 2;
+svg.attr("transform", "translate(" + 2*width / 5.0 + "," + height  + ")");
+//svg.attr("transform", "translate(" + 2*width / 5.0 + "," + 3.0*height  + ")");
+/* ------ TOOLTIP formating ------ */
+var tooltip = svg.append("g")
+  .attr("class", "tooltip")
+  .style("display", "none");
+    
+tooltip.append("rect")
+  .attr("width", width/9.0)
+  .attr("height", height/6.0)
+  .attr("fill", "white")
+  .style("opacity", 0.5);
+tooltip.append("text")
+  .attr("x", 15)
+  .attr("dy", "1.2em")
+  .style("text-anchor", "left")
+  .attr("font-size", "12px")
+  .attr("font-weight", "bold");
+/*
+var key = function(d){ return d.data.label; };
+var color = d3.scale.category20()
+    .domain(["JxSi", "C's", "PSC", "CSQP", "PPC", "CUP"])
+    .range(["#34cbcb", "#ff8000", "#e60000", "#e60073", "#3333ff", "#ffff00"]);
+function readData (){
+    var labels = color.domain();
+    return labels.map(function(label){
+        return { label: label, value: seats[label] }
+    }).filter(function(d){
+        return d.value > 0;
+    }).sort(function(a, b){
+        return d3.descending(a.value, b.value);
+    });
+}
+change(readData());
+*/
+  
+dataset = {
+  "parliament": {
+    "name": "Congreso de los Diputados", 
+    "seats": "350"
+  }, 
+  "parties": [
+    {
+      "code": "PP", 
+      "color": "#3333ff", 
+      "name": "Partido Popular"
+    }, 
+    {
+      "code": "PSOE", 
+      "color": "#e60000", 
+      "name": "Partido Socialista Obrero Espa\u00f1ol"
+    }, 
+    {
+      "code": "Podemos", 
+      "color": "#660033", 
+      "name": "Podemos"
+    }, 
+    {
+      "code": "C's", 
+      "color": "#ff8000", 
+      "name": "Ciutadans"
+    }, 
+    {
+      "code": "ERC", 
+      "color": "#ffd11a", 
+      "name": "Esquerra Republicana de Catalunya"
+    }, 
+    {
+      "code": "DiL", 
+      "color": "#000066", 
+      "name": "Democr\u00e0cia i Llibertat"
+    }, 
+    {
+      "code": "PNV", 
+      "color": "#009933", 
+      "name": "Partido Nacionalista Vasco"
+    }, 
+    {
+      "code": "IU", 
+      "color": "#660000", 
+      "name": "Izquierda Unida"
+    }, 
+    {
+      "code": "Bildu", 
+      "color": "#99ff33", 
+      "name": "EH Bildu"
+    }, 
+    {
+      "code": "CC", 
+      "color": "#e6e600", 
+      "name": "Coalicion Canarias"
+    }
+  ], 
+  "results": {
+    "Banzhaf": {
+      "Bildu": 0.008, 
+      "C's": 0.084, 
+      "CC": 0.003, 
+      "DiL": 0.033, 
+      "ERC": 0.04, 
+      "IU": 0.008, 
+      "PNV": 0.026, 
+      "PP": 0.378, 
+      "PSOE": 0.21, 
+      "Podemos": 0.21
+    }, 
+    "Proportional": {
+      "Bildu": 0.006, 
+      "C's": 0.114, 
+      "CC": 0.003, 
+      "DiL": 0.023, 
+      "ERC": 0.026, 
+      "IU": 0.006, 
+      "PNV": 0.017, 
+      "PP": 0.351, 
+      "PSOE": 0.257, 
+      "Podemos": 0.197
+    }, 
+    "Seats": {
+      "Bildu": 2, 
+      "C's": 40, 
+      "CC": 1, 
+      "DiL": 8, 
+      "ERC": 9, 
+      "IU": 2, 
+      "PNV": 6, 
+      "PP": 123, 
+      "PSOE": 90, 
+      "Podemos": 69
+    }, 
+    "Shapley": {
+      "Bildu": 0.006, 
+      "C's": 0.07, 
+      "CC": 0.002, 
+      "DiL": 0.025, 
+      "ERC": 0.03, 
+      "IU": 0.006, 
+      "PNV": 0.02, 
+      "PP": 0.402, 
+      "PSOE": 0.22, 
+      "Podemos": 0.22
+    }, 
+    "Winnable-Ideologia": {
+      "Bildu": 0.053, 
+      "C's": 0.106, 
+      "CC": 0.074, 
+      "DiL": 0.089, 
+      "ERC": 0.067, 
+      "IU": 0.043, 
+      "PNV": 0.088, 
+      "PP": 0.192, 
+      "PSOE": 0.172, 
+      "Podemos": 0.117
+    }, 
+    "Worsable-Ideologia": {
+      "Bildu": 0.05, 
+      "C's": 0.11, 
+      "CC": 0.086, 
+      "DiL": 0.097, 
+      "ERC": 0.062, 
+      "IU": 0.036, 
+      "PNV": 0.098, 
+      "PP": 0.156, 
+      "PSOE": 0.203, 
+      "Podemos": 0.101
+    }
+  }
+}
+  
+  
+d3.select('#inds_spanish_parliament')
+          .on("change", function () {
+                MeasureSettings();
+                change(dataset);
+          });
+MeasureSettings();
+change(dataset);
+  
+d3.json("2015_spanish_parliament.json", function (error, dataset) {
+    if (error) throw error;
+    d3.select('#inds_spanish_parliament')
+              .on("change", function () {
+                    MeasureSettings();
+                    change(dataset);
+              });
+    MeasureSettings();
+    change(dataset);
+});
+function MeasureSettings () {
+    var titleMeasure = document.getElementById("titleMeasure");
+    titleMeasure.parentNode.removeChild(titleMeasure);
+    var sect = document.getElementById("inds_spanish_parliament");
+    var measure_name = sect.options[sect.selectedIndex].value;
+    svg.append("text")
+        .attr("id", "titleMeasure")
+        .html('<tspan x="'+ -width/3.5 +'" dy="'+ -1.2*radius +'" font-size="2vw" fill="green" style="font-weight:bold">'+measure_name+'</tspan>')
+        .style('font-size', '.9em')
+        .style('color', 'green')
+        .style('text-anchor', 'left');
+}
+/* ------- AUXILIAR FUNCTIONS -------*/
+function mergeWithFirstEqualZero(first, second){
+    var secondSet = d3.set(); second.forEach(function(d) { secondSet.add(d.label); });
+    var onlyFirst = first
+        .filter(function(d){ return !secondSet.has(d.label); })
+        .map(function(d) { return {label: d.label, value: 0}; });
+    return d3.merge([ second, onlyFirst ])
+        .sort(function(a,b) {
+            return d3.ascending(a.label, b.label);
+        });
+}
+function defineColors (dataset){
+    /* ---------------- Get variables ---------------- */
+    var parties_info = Object.keys(dataset.results.Seats).map(function(label){
+        return {label: label, value: dataset.results.Seats[label],
+                color: dataset.parties.filter(function(p){return p.code == label;})[0].color};
+    }).filter(function(d){
+        return d.value > 0;
+    }).sort(function(a, b){
+        return d3.descending(a.value, b.value);
+    });
+    var parties = parties_info.map(function(party_info){
+        return party_info.label;
+    });
+    var colors_parties = parties_info.map(function(party_info){
+        return party_info.color;
+    });
+    /* ---------------- Define colors ---------------- */
+    var color = d3.scale.category20()
+        .domain(parties)
+        .range(colors_parties);
+    return color;
+}
+function readData (dataset){
+    /* ---------------- Define colors ---------------- */
+    var color = defineColors(dataset);
+    /* ------------ Get measure from buttom ------------ */
+    var sect = document.getElementById("inds_spanish_parliament");
+    var measure_name = sect.options[sect.selectedIndex].value;
+    /* ---------------- Compute data ---------------- */
+    var measure = dataset.results[measure_name];
+    var seats = dataset.results.Seats;
+    var labels = color.domain();
+    return labels.map(function(label){
+        return {label: label, value: measure[label], seats: seats[label]};
+    }).filter(function(d){
+        return d.seats > 0;
+    }).sort(function(a, b){
+        return d3.descending(a.seats, b.seats);
+    });
+}
+/* ------- REPLOT FUNCTION -------*/
+function change(dataset) {
+    /* ------- MAIN DATA -------*/
+//  var duration = +document.getElementById("duration").value;
+    var duration = 500,
+        data = readData(dataset),
+        color = defineColors(dataset),
+        n_seats = dataset.parliament.seats,
+        name_parlament = dataset.parliament.name;
+    var key = function(d){ return d.data.label; };
+    /* ------- REBUILD PLOT -------*/
+    var data0 = svg.select(".slices").selectAll("path.slice")
+        .data().map(function(d) { return d.data ;});
+    if (data0.length == 0) data0 = data;
+    var was = mergeWithFirstEqualZero(data, data0);
+    var is = mergeWithFirstEqualZero(data0, data);
+    /* ------- MAIN FUNCTIONS -------*/
+    var pie = d3.layout.pie()
+        .startAngle(-90 * (Math.PI/180))
+        .endAngle(90 * (Math.PI/180))
+        .sort(null)
+        .value(function(d) {
+            return d.value;
+        });
+    var arc = d3.svg.arc()
+        .outerRadius(radius * 1.0)
+        .innerRadius(radius * 0.4)
+        .cornerRadius(7) // sets how rounded the corners are on each slice
+        .padAngle(0.015); // effectively dictates the gap between slices
+    var outerArc = d3.svg.arc()
+        .innerRadius(radius * 0.5)
+        .outerRadius(radius * 1.1);
+    /* ------- SLICE ARCS -------*/
+    var slice = svg.select(".slices").selectAll("path.slice")
+        .data(pie(was), key);
+    slice.enter()
+        .insert("path")
+        .attr("class", "slice")
+        .style("fill", function(d) { return color(d.data.label); })
+        .each(function(d) {
+            this._current = d;
+        });
+    slice = svg.select(".slices").selectAll("path.slice")
+        .data(pie(is), key);
+    slice       
+        .transition().duration(duration)
+        .attrTween("d", function(d) {
+            var interpolate = d3.interpolate(this._current, d);
+            var _this = this;
+            return function(t) {
+                _this._current = interpolate(t);
+                return arc(_this._current);
+            };
+        });
+    slice = svg.select(".slices").selectAll("path.slice")
+        .data(pie(data), key);
+//          .on("mouseover", function() { tooltip.style("display", null); })
+//            .on("mouseout", function() { tooltip.style("display", "none"); })
+//            .on("mousemove", function(d) {
+//              var xPosition = d3.mouse(this)[0] - 15;
+//              var yPosition = d3.mouse(this)[1] - 25;
+//              tooltip.style("display", "inline");
+//              tooltip.attr("transform", "translate(" + xPosition + "," + yPosition + ")");
+//              tooltip.select("text").text(d.data.label+': '+d.data.value);
+//            });
+    /* ------- TEXT LABELS -------*/
+    var text = svg.select(".labels").selectAll("text")
+        .data(pie(was), key);
+    text.enter()
+        .append("text")
+        .attr("dy", ".35em")
+        .style("opacity", 0)
+        .text(function(d) {
+            return d.data.label;
+        })
+        .each(function(d) {
+            this._current = d;
+        });
+    function midAngle(d){
+        var middle = d.startAngle + (d.endAngle - d.startAngle)/2;
+        return middle;
+    }
+    text = svg.select(".labels").selectAll("text")
+        .data(pie(is), key);
+    text.transition().duration(duration)
+        .style("opacity", function(d) {
+            return d.data.value == 0 ? 0 : 1;
+        })
+        .attrTween("transform", function(d) {
+            var interpolate = d3.interpolate(this._current, d);
+            var _this = this;
+            return function(t) {
+                var d2 = interpolate(t);
+                _this._current = d2;
+                var pos = outerArc.centroid(d2);
+                pos[0] = 1.1*radius * (midAngle(d2) > 0 ? 1 : -1);
+                return "translate("+ pos +")";
+            };
+        })
+        .styleTween("text-anchor", function(d){
+            var interpolate = d3.interpolate(this._current, d);
+            return function(t) {
+                var d2 = interpolate(t);
+                return midAngle(d2) > 0 ? "start":"end";
+            };
+        });
+    
+    text = svg.select(".labels").selectAll("text")
+        .data(pie(data), key);
+    text
+        .exit().transition().delay(duration)
+        .remove();
+    /* ------- SLICE TO TEXT POLYLINES -------*/
+    var polyline = svg.select(".lines").selectAll("polyline")
+        .data(pie(was), key);
+    
+    polyline.enter()
+        .append("polyline")
+        .style("opacity", 0)
+        .each(function(d) {
+            this._current = d;
+        });
+    polyline = svg.select(".lines").selectAll("polyline")
+        .data(pie(is), key);
+    
+    polyline.transition().duration(duration)
+        .style("opacity", function(d) {
+            return d.data.value == 0 ? 0 : 1;
+        })
+        .attrTween("points", function(d){
+            this._current = this._current;
+            var interpolate = d3.interpolate(this._current, d);
+            var _this = this;
+            return function(t) {
+                var d2 = interpolate(t);
+                _this._current = d2;
+                var pos = outerArc.centroid(d2);
+                pos[0] = radius * 1.05 * (midAngle(d2) > 0 ? 1 : -1);
+                return [arc.centroid(d2), outerArc.centroid(d2), pos];
+            };          
+        });
+    polyline = svg.select(".lines").selectAll("polyline")
+        .data(pie(data), key);
+    polyline
+        .exit().transition().delay(duration)
+        .remove();
+    // Append center
+    var InnerCircleDetails = document.getElementById("InnerCircleDetails");
+    InnerCircleDetails.parentNode.removeChild(InnerCircleDetails);
+    svg.append('text')
+        .attr("id", "InnerCircleDetails")
+        .attr('class', 'toolCircle')
+//        .attr('dy', -20) // hard-coded. can adjust this to adjust text vertical alignment in tooltip
+        .html('<tspan x="0" dy="'+-radius/7.0+'" font-size="3.2vw" fill="red">'+n_seats+'</tspan>'+'<tspan x="0" dy="'+0.12*radius+'" style="font-weight:bold" font-size="1.25vw">'+name_parlament+'</tspan>')
+        .style('font-size', '.9em')
+        .style('color', 'black')
+        .style('text-anchor', 'middle'); // centres text in tooltip
+    /* ------- ADD DASHED LINE -------*/
+    var DashedHalfSeparator = document.getElementById("DashedHalfSeparator");
+    DashedHalfSeparator.parentNode.removeChild(DashedHalfSeparator);
+    svg.append("line")
+        .attr("id", "DashedHalfSeparator")
+        .attr("x1", 0)  //<<== change your code here
+        .attr("y1", -radius*0.3)
+        .attr("x2", 0)  //<<== and here
+        .attr("y2", -radius*1.05)
+        .style("stroke-dasharray", ("3, 3"))
+        .style("stroke-width", 2.5)
+        .style("stroke", "red")
+        .style("fill", "none");
+    /* ------- ADD TEXTS INDICATIONS -------*/
+    var HalfIndicator = document.getElementById("HalfIndicator");
+    HalfIndicator.parentNode.removeChild(HalfIndicator);
+    svg.append("text")
+        .attr("id", "HalfIndicator")
+        .html('<tspan x="0" dy="'+-radius*1.06+'" font-size="1.3vw" fill="green">1/2</tspan>')
+        .style('font-size', '.9em')
+        .style('color', 'black')
+        .style('text-anchor', 'middle');
+    /* ------- ADD LEGEND -------*/
+    var LegendParties = document.getElementById("LegendParties");
+    LegendParties.parentNode.removeChild(LegendParties);
+    // add legend   
+    var legend = svg.append("g")
+      .attr("class", "legend")
+      .attr("id", "LegendParties")
+      .attr("height", 2.5/3.0*height)
+      .attr("width", width/13.0)
+    .attr('transform', 'translate('+ -width/65.0 +','+ height/15.0 +')');
+    
+    legend.selectAll('rect')
+      .data(data)
+      .enter()
+      .append("rect")
+      .attr("x", width*2/5)
+      .attr("y", function(d, i){ return -height*9.0/10.0 + i * height/12.5;})
+      .attr("width", height/24.0)
+      .attr("height", height/24.0)
+        .style("fill", function(d) { return color(d.label); });
+    legend.selectAll('text')
+      .data(data)
+      .enter()
+      .append("text")
+      .attr("x", width*2/5+width/30.0)
+      .attr("y", function(d, i){ return -height*9.0/10.0 + height/30.0 + i * height/12.5;})
+      .style('font-size', '1.5vw')
+      .text(function(d) {
+        var text = d.label;
+        return text;
+      });
+}
+</script>
+
+
+</body></html>
