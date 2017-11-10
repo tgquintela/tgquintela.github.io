@@ -75,7 +75,7 @@ Recordemos los resultados de las elecciones que fueron los siguientes:
 
 
 <iframe class="spanish_parliament" src="{{ base_path }}/files/parliament_html/D3 Parliament Power Measures: Spanish parliament 2015 Case Study.html" width="100%"></iframe>
-$(".spanish_parliament").height($(window).height() / 2);
+document.getElementById("spanish_parliament").style.height = document.getElementById("spanish_parliament").style.width / 2
 
 
 Si aplicamos el índice de Shapley-Shubik, sobre un mínimo de victoria de la mitad de los diputados (comparados con la proporción de diputados que tienen), nos encontraremos estos resultados:
