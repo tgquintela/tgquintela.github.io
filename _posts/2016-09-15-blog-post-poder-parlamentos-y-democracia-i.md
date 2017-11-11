@@ -73,8 +73,15 @@ Recordemos los resultados de las elecciones que fueron los siguientes:
 
 </div>
 
-
-<iframe id="2015_spanish_parliament" src="{{ base_path }}/files/parliament_html/D3 Parliament Power Measures: Spanish parliament 2015 Case Study.html" scrolling="no" width="100%"></iframe>
+<style>
+.2015_spanish_parliament {
+  width: 100%
+  padding-top: 100%
+}
+</style>
+<div>
+<iframe class="2015_spanish_parliament" src="{{ base_path }}/files/parliament_html/D3 Parliament Power Measures: Spanish parliament 2015 Case Study.html" scrolling="no" frameborder="0" width="100%"></iframe>
+</div>
 <script>
 document.getElementById("2015_spanish_parliament").style.height = document.getElementById("spanish_parliament").style.width / 2;
 </script>
