@@ -73,21 +73,6 @@ Recordemos los resultados de las elecciones que fueron los siguientes:
 
 </div>
 
-<div id="2015_spanish_parliament" style="width:100%">
-<iframe src="{{ base_path }}/files/parliament_html/D3 Parliament Power Measures: Spanish parliament 2015 Case Study.html" scrolling="no" frameborder="0" width="100%" height="100%"></iframe>
-</div>
-<script>
-$("#2015_spanish_parliament").height($("#2015_spanish_parliament").width() * 0.4);
-</script>
-
-<div id="2015_catalan_parliament" style="width:100%">
-<iframe src="{{ base_path }}/files/parliament_html/D3 Parliament Power Measures: Catalan parliament 2015 Case Study.html" scrolling="no" frameborder="0" width="100%" height="100%"></iframe>
-</div>
-<script>
-$("#2015_catalan_parliament").height($("#2015_catalan_parliament").width() * 0.4);
-</script>
-
-
 Si aplicamos el índice de Shapley-Shubik, sobre un mínimo de victoria de la mitad de los diputados (comparados con la proporción de diputados que tienen), nos encontraremos estos resultados:
 
 | *medida* | JxSi | Cs | PSC | CSQEP | PP | CUP |
@@ -225,6 +210,15 @@ En estos resultados podemos ver que la CUP pasa a tener más poder que otros com
 
 [<img src="{{ base_path }}/images/blog/parlamento-poder-i/2015-parlamento-catalunya.png">](http://bl.ocks.org/tgquintela/raw/c09890d9a81759510c0f4d6854ef5e79/)
 
+
+<div id="2015_spanish_parliament" style="width:100%">
+<iframe src="{{ base_path }}/files/parliament_html/D3 Parliament Power Measures: Spanish parliament 2015 Case Study.html" scrolling="no" frameborder="0" width="100%" height="100%"></iframe>
+</div>
+<script>
+$("#2015_spanish_parliament").height($("#2015_spanish_parliament").width() * 0.4);
+</script>
+
+
 En el caso extremo de solo considerar la variable binaria independencia (independencia SI o independencia NO) veriamos que dividiriamos el parlamento en dos grupos: los que están a favor (JxSi y CUP) y los que estan en contra (Cs, PSC, CSQEP y PP), con todos los matices que podamos poner. En este caso extremo de total polaridad y discrepancia, bastante similar lo que llevamos vivido hasta hoy en Junio de 2016, quedaría:
 
 | *medida* | JxSi | Cs | PSC | CSQEP | PP | CUP |
@@ -295,6 +289,13 @@ wor_i_d = weighted_worsable_coalitions(seats, matrix_i_d, win_thr)
 No hemos incluido los pequeños matices, ni otros ejes que pueden ser relevantes en las discrepancias para pactos, pero podemos sacar pequeñas conclusiones de estas medidas y lo que nos dicen. PSOE tiene más poder que la proporción representativa de diputados que tienen. PP y Podemos mucho menos de la proporción de escaños que tiene. El parlamento se lo da o parece ser que así nos lo indican estas medidas. Pero quedan lejos de acercarse a una proporción dominante.
 
 [<img src="{{ base_path }}/images/blog/parlamento-poder-i/2015-parlamento-españa.png">](https://bl.ocks.org/tgquintela/raw/9159fe0f4718377496d39c17a44ef7af/)
+
+<div id="2015_catalan_parliament" style="width:100%">
+<iframe src="{{ base_path }}/files/parliament_html/D3 Parliament Power Measures: Catalan parliament 2015 Case Study.html" scrolling="no" frameborder="0" width="100%" height="100%"></iframe>
+</div>
+<script>
+$("#2015_catalan_parliament").height($("#2015_catalan_parliament").width() * 0.4);
+</script>
 
 Mientras en el caso del Parlament nos encontramos dos *clusters* (grupos) practicamente cerrados en los que parece que cada *cluster* va por su lado y hay una desconexión clara entre ambos (una polarización clara). En el que uno de los dos tiene claramente más tamaño que el otro y por tanto guía el camino y controla el poder.
 En el caso del Congreso de Diputados de la XI legislatura, tenemos muchos más '*puentes*'. No parece haber unos grupos claros, con varios partidos que pueden pivotar con cierta libertad según les convengan para conseguir más poder e influencia sobre decisiones. Estas medidas lo que acaban pareciendo premiar es una cierta centralidad relativa, la centralidad que es asignada por el parlamento votado por la gente. En este congreso la media ponderada de ideología política que representa al congreso parece ser *5.64* y por tanto los más beneficiados por estas medidas de poder son CC (*5.96*), PNV (*5.97*), DiL (*6.34*) o PSOE (*4.49*).
