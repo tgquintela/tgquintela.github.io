@@ -75,8 +75,8 @@ Recordemos los resultados de las elecciones que fueron los siguientes:
 
 <style>
 .2015_spanish_parliament {
-  width: 100%
-  padding-top: 100%
+  width: 100%;
+  padding-top: 100%;
 }
 </style>
 <div class="2015_spanish_parliament">
