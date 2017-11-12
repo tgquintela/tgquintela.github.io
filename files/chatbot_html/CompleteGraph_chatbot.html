@@ -42,19 +42,30 @@ text {
 
 <body>
 
-<div id="container" class="svg-container">
-<svg width="1200" height="600"></svg>
+<div id="complete_graph" class="svg-container" style="width: 100%;"></div>
+
 <script src="CompleteGraph_chatbot_files/d3_002.js" type="text/javascript"></script>
 <script src="CompleteGraph_chatbot_files/d3-selection-multi.js"></script>
 
 <script type="text/javascript">
     var colors = d3.scaleOrdinal(d3.schemeCategory10);
 
+    var width = $("#complete_graph").width(),
+        height = width/2.5,
+        node,
+        link;
+
+    var svg = d3.select("#complete_graph").append("svg")
+        .attr("width", width)
+        .attr("height", height);
+
+/*
     var svg = d3.select("svg"),
         width = +svg.attr("width"),
         height = +svg.attr("height"),
         node,
         link;
+*/
 
     svg.append('defs').append('marker')
         .attrs({'id':'arrowhead',
@@ -384,7 +395,7 @@ var graph = {
 //    }
 
 </script>
-</div>
+
 
 
 </body></html>
