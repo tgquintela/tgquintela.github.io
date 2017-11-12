@@ -38,9 +38,12 @@ var width = $("#tree_graph").width(),
     duration = 750,
     root;
 
-var margin = {top: 0, right: width/9.0, bottom: 0, left: width/9.0},
+var margin = {top: 0, right: 0, bottom: 0, left: Math.max(width/9.0, 90)},
     width = width - margin.right - margin.left,
     height = height - margin.top - margin.bottom;
+
+var depth_size = width/6.0,
+    radius = 4.5;
 
 var svg = d3.select("#tree_graph").append("svg")
     .attr("width", width)
@@ -159,7 +162,7 @@ function update(source) {
       links = tree.links(nodes);
 
   // Normalize for fixed-depth.
-  nodes.forEach(function(d) { d.y = d.depth * 180; });
+  nodes.forEach(function(d) { d.y = d.depth * depth_size; });
 
   // Update the nodes…
   var node = svg.selectAll("g.node")
@@ -188,7 +191,7 @@ function update(source) {
       .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; });
 
   nodeUpdate.select("circle")
-      .attr("r", 4.5)
+      .attr("r", radius)
       .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
 
   nodeUpdate.select("text")
@@ -253,11 +256,6 @@ function click(d) {
 
 </script>
 
+  </body>
+</html>
 
-
-
-  
-  
-  
-  
-  </body></html>
