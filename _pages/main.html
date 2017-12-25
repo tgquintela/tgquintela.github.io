@@ -1,0 +1,24 @@
+---
+permalink:
+title: "Main"
+excerpt: "Main"
+author_profile: true
+redirect_from:
+  - /
+---
+
+{% include base_path %}
+
+{% for post in site.projects | reversed | list[0:4] %}
+  {% include archive-single.html %}
+{% endfor %}
+
+
+{% for post in site.software | reversed | list[0:4] %}
+  {% include archive-single.html %}
+{% endfor %}
+
+
+{% for post in site.blog | reversed | list[0:4] %}
+  {% include archive-single.html %}
+{% endfor %}

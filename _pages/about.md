@@ -3,8 +3,7 @@ permalink: /about/
 title: ""
 excerpt: "About me"
 author_profile: true
-redirect_from: 
-  - /
+redirect_from:
   - /about
   - /about.html
 ---
@@ -168,7 +167,3 @@ In order to help me to do it, I will put into context every skill in how I acqui
 # Curious?
 
 Are you interested to collaborate with me in some project or hire me? Don't hesitate and contact me: [tgq.spm@gmail.com](mailto:tgq.spm@gmail.com)
-
-
-
-
