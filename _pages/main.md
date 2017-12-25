@@ -6,7 +6,9 @@ author_profile: true
 ---
 
 <style>
-div {
+#roundedbox {
+  border-radius: 25px;
+  background: #73AD21;
 }
 </style>
 
@@ -14,14 +16,14 @@ div {
 {% include base_path %}
 
 ## Projects
-<div>
+<div id="roundedbox">
 {% for post in site.projects | reversed | list[0:4] %}
   {% include archive-single.html %}
 {% endfor %}
 </div>
 
 ## Software
-<div>
+<div id="roundedbox">
 {% for post in site.software | reversed | list[0:4] %}
   {% include archive-single.html %}
 {% endfor %}
@@ -29,7 +31,7 @@ div {
 
 
 ## Blog entries
-<div>
+<div id="roundedbox">
 {% for post in site.blog | reversed | list[0:4] %}
   {% include archive-single.html %}
 {% endfor %}
