@@ -4,8 +4,9 @@ excerpt: 'An experience playing with chatbots'
 date: 2017-09-10
 permalink: /blog/2017/09/chatbot-my-own-solution/
 tags:
-  - robolution
+  - business
   - ai and society
+  - chatbots
 ---
 
 

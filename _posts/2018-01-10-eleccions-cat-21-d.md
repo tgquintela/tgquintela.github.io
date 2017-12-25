@@ -1,7 +1,7 @@
 ---
 title: 'Eleccions Catalunya 21-D (Parlament 2017)'
 excerpt: 'Analysis i nous instruments d'anàlisis.'
-date: 2017-09-10
+date: 2018-01-10
 permalink: /blog/2017/01/eleccions-cat-21-d/
 tags:
   - politics
@@ -9,7 +9,6 @@ tags:
   - Data Analysis
   - Data visualization
 ---
-
 
 
 <div id="geojson_llobregat_censal" style="width:100%">
