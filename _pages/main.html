@@ -5,22 +5,36 @@ excerpt: "Main"
 author_profile: true
 ---
 
+<style>
+div {
+    width: 320px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+}
+</style>
+
+
 {% include base_path %}
 
 
 # Blog entries
+<div>
 {% for post in site.blog | reversed | list[0:4] %}
   {% include archive-single.html %}
 {% endfor %}
-
+</div>
 
 # Projects
+<div>
 {% for post in site.projects | reversed | list[0:4] %}
   {% include archive-single.html %}
 {% endfor %}
-
+</div>
 
 # Software
+<div>
 {% for post in site.software | reversed | list[0:4] %}
   {% include archive-single.html %}
 {% endfor %}
+</div>
