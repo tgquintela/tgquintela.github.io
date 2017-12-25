@@ -16,7 +16,7 @@ gsfgsfg
 <script src="https://embed.github.com/view/geojson//tgquintela/temporal_tasks/master/geoenredos/trio_llobregat.geojson"></script>
 </div>
 <script>
-$("#geojson_llobregat_censal").height($("#geojson_llobregat_censal").width()*2/3);
+$("#geojson_llobregat_censal").height($("#geojson_llobregat_censal").width() * 2/3);
 </script>
 
 
@@ -28,5 +28,5 @@ $('iframe').width("100%");
 $('iframe').height("100%");
 </script>
 <script>
-$("#barcelona_censal").height($("#barcelona_censal").width()*2/3);
+$("#barcelona_censal").height($("#barcelona_censal").width() * 2/3);
 </script>
