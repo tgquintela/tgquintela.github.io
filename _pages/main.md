@@ -14,14 +14,14 @@ author_profile: true
 }
 </style>
 
-v6
+v7
 
 {% include base_path %}
 
 ## Projects
 <div id="roundedbox">
 {% for post in site.projects %}
-  {%- if loop.index < 2}
+  {%- if loop.index < 2 %}
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
