@@ -14,7 +14,7 @@ author_profile: true
 }
 </style>
 
-v3
+v4
 
 {% include base_path %}
 
@@ -41,13 +41,7 @@ v3
 
 ## Blog entries
 <div id="roundedbox">
-{% capture written_year %}'None'{% endcapture %}
-{% for post in paginator.posts %}
-  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-  {% if year != written_year %}
-   <!-- <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2> -->
-    {% capture written_year %}{{ year }}{% endcapture %}
-  {% endif %}
+{% for post in site.blog | reversed limit:3 %}
   {% include archive-single.html %}
 {% endfor %}
 
