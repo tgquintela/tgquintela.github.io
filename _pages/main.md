@@ -21,8 +21,11 @@ v2
 ## Projects
 <div id="roundedbox">
 <ul>
-{% for post in site.projects|slice(2)|first %}
+{% for bunch in site.projects|slice(2) %}
+.............................
+{% for post in bunch %}
 <li>{{ loop.index }}</li>
+{% endfor %}
 {% endfor %}
 </ul>
 
