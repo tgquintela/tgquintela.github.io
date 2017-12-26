@@ -32,6 +32,16 @@ v1
 ... see more
 </div>
 
+
+<div id="roundedbox">
+{% for i in [0, 1] %}
+{% assign post = site.projects[i] %}
+    {% include archive-single.html %}
+{% endfor %}
+
+... see more
+</div>
+
 ## Software
 <div id="roundedbox">
 {% for recent in site.software[:4] %}
