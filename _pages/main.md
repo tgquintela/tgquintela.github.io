@@ -14,7 +14,7 @@ author_profile: true
 }
 </style>
 
-v3
+v4
 
 {% include base_path %}
 
@@ -28,7 +28,7 @@ v3
 
 ## Software
 <div id="roundedbox">
-{% for post in site.software | reversed | list[0:4] %}
+{% for post in site.software[0:5] %}
   {% include archive-single.html %}
 {% endfor %}
 ... see more
