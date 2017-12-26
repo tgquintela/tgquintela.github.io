@@ -11,7 +11,7 @@ author_profile: true
   background: #f2f3f3;
   padding: 0.5em 0.5em 2em 2em;
   width: 100%;
-  margin: 3em;
+  border: 1px solid #bdc1c4;
 }
 </style>
 
