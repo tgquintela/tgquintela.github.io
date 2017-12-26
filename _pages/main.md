@@ -14,7 +14,7 @@ author_profile: true
 }
 </style>
 
-v5
+v6
 
 {% include base_path %}
 
@@ -22,7 +22,7 @@ v5
 <div id="roundedbox">
 <ul>
 {% for post in site.projects %}
-<li>{{ loop.index0 }}</li>
+<li>{{loop.index}}</li>
 {% endfor %}
 </ul>
 
