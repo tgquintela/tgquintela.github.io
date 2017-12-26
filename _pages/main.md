@@ -17,9 +17,10 @@ author_profile: true
 
 ## Projects
 <div id="roundedbox">
-{% for post in site.projects | reversed | list[0:4] %}
+{% for post in site.projects | reversed | list[0:2] %}
   {% include archive-single.html %}
 {% endfor %}
+... see more
 </div>
 
 ## Software
@@ -27,6 +28,7 @@ author_profile: true
 {% for post in site.software | reversed | list[0:4] %}
   {% include archive-single.html %}
 {% endfor %}
+... see more
 </div>
 
 
@@ -35,4 +37,5 @@ author_profile: true
 {% for post in site.blog | reversed | list[0:4] %}
   {% include archive-single.html %}
 {% endfor %}
+... see more
 </div>
