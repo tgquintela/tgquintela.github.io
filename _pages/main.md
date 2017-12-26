@@ -1,22 +1,32 @@
 ---
 permalink: /
-title: "Main"
-excerpt: "Main"
+title: "tgquintela"
+excerpt: "Personal Webpage"
 author_profile: true
 ---
 
 <style>
 #roundedbox {
   border-radius: 25px;
-  background: LightGray;
+  background: #b4b4b4;
   padding: 5px 5px 20px 20px;
   width: 100%;
 }
 </style>
 
-v5
+
 
 {% include base_path %}
+
+## Blog entries
+<div id="roundedbox">
+{% for post in site.posts limit:3 %}
+  {% include archive-single.html %}
+{% endfor %}
+
+<a href="{{ base_path }}/blog" rel="permalink">... see more</a>
+</div>
+
 
 ## Projects
 <div id="roundedbox">
@@ -37,14 +47,4 @@ v5
 {% endfor %}
 
 <a href="{{ base_path }}/software" rel="permalink">... see more</a>
-</div>
-
-
-## Blog entries
-<div id="roundedbox">
-{% for post in site.posts limit:3 %}
-  {% include archive-single.html %}
-{% endfor %}
-
-<a href="{{ base_path }}/blog" rel="permalink">... see more</a>
 </div>
