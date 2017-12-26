@@ -14,13 +14,13 @@ author_profile: true
 }
 </style>
 
-v2
+v3
 
 {% include base_path %}
 
 ## Projects
 <div id="roundedbox">
-{% for post in site.projects | reversed | batch(2) | first %}
+{% for post in site.projects | batch(2) | first %}
   {% include archive-single.html %}
 {% endfor %}
 ... see more
