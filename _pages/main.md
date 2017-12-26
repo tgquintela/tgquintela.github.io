@@ -12,7 +12,6 @@ author_profile: true
   padding: 0.5em 0.5em 2em 2em;
   width: 100%;
   margin: 3em;
-  color: #f2f3f3;
 }
 </style>
 
