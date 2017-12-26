@@ -14,7 +14,7 @@ author_profile: true
 }
 </style>
 
-v3
+v1
 
 {% include base_path %}
 
@@ -22,10 +22,10 @@ v3
 <div id="roundedbox">
 {% assign countsi = 0 %}
 <ul>
-{% for post in site.projects | slice(2) %}
+{% for post in site.projects %}
 <li>Iteration</li>
 <li>{{countsi}}</li>
-{{% assign countsi = countsi+1 %}}
+{{% assign countsi = countsi + 1 %}}
 {% endfor %}
 </ul>
 
