@@ -14,15 +14,18 @@ author_profile: true
 }
 </style>
 
-v2
+v3
 
 {% include base_path %}
 
 ## Projects
 <div id="roundedbox">
+<ul>
 {% for post in site.projects %}
-  {{ loop.index }}
+<li>Prueba</li>
 {% endfor %}
+</ul>
+
 ... see more
 </div>
 
