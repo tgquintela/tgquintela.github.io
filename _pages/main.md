@@ -14,7 +14,7 @@ author_profile: true
 }
 </style>
 
-v1
+v2
 
 {% include base_path %}
 
@@ -25,7 +25,6 @@ v1
   {% include archive-single.html %}
 {% endfor %}
 
-[... see more]({{ base_path }}/projects)
 <a href="{{ base_path }}/projects" rel="permalink">... see more</a>
 </div>
 
@@ -35,15 +34,24 @@ v1
 {% for post in site.software limit:3 %}
   {% include archive-single.html %}
 {% endfor %}
-[... see more]({{ base_path }}/software)
+
 <a href="{{ base_path }}/software" rel="permalink">... see more</a>
 </div>
 
 
 ## Blog entries
 <div id="roundedbox">
-{% for post in paginator.posts limit:4 %}
+{% capture written_year %}'None'{% endcapture %}
+{% for post in paginator.posts %}
+  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+  {% if year != written_year %}
+   <!-- <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2> -->
+    {% capture written_year %}{{ year }}{% endcapture %}
+  {% endif %}
   {% include archive-single.html %}
 {% endfor %}
-[... see more](/blog)
+
+{% include paginator.html %}
+
+<a href="{{ base_path }}/blog" rel="permalink">... see more</a>
 </div>
