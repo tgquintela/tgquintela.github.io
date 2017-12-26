@@ -14,14 +14,14 @@ author_profile: true
 }
 </style>
 
-v2
+v3
 
 {% include base_path %}
 
 ## Projects
 <div id="roundedbox">
-{% assign countsi = 0 %}
-{% for post in site.projects limit:2 %}
+{% assign projectslist = site.projects | reversed %}
+{% for post in projectslist limit:2 %}
   {% include archive-single.html %}
 {% endfor %}
 
@@ -31,7 +31,7 @@ v2
 
 ## Software
 <div id="roundedbox">
-{% for post in site.software limit:3 %}
+{% for post in site.software | reversed limit:3 %}
   {% include archive-single.html %}
 {% endfor %}
 
