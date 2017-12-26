@@ -9,7 +9,7 @@ author_profile: true
 #roundedbox {
   border-radius: 25px;
   background: LightGray;
-  padding: 20px;
+  padding: 15px 15px 20px 20px;
   width: 100%;
 }
 </style>
@@ -25,7 +25,7 @@ v1
   {% include archive-single.html %}
 {% endfor %}
 
-[... see more](/projects)
+[... see more]({{ base_path }}/projects)
 </div>
 
 
@@ -34,7 +34,7 @@ v1
 {% for post in site.software limit:3 %}
   {% include archive-single.html %}
 {% endfor %}
-[... see more](/software)
+[... see more]({{ base_path }}/software)
 </div>
 
 
