@@ -36,7 +36,7 @@ author_profile: true
 
 ## Blog entries
 <div id="roundedbox">
-{% for post in site.blog | reversed | list[0:4] %}
+{% for post in paginator.posts | list[0:4] %}
   {% include archive-single.html %}
 {% endfor %}
 ... see more
