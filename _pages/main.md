@@ -8,7 +8,7 @@ author_profile: true
 <style>
 #roundedbox {
   border-radius: 25px;
-  background: #9ba1a6;
+  background: #f2f3f3;
   padding: 5px 5px 20px 20px;
   width: 100%;
 }
@@ -17,7 +17,7 @@ author_profile: true
 
 # Personal Webpage
 
-That my digital home. The place in which my all digital "I"s around the web meet.
+That's my digital home. The place in which my all digital "me"s around the web meet each other.
 
 {% include base_path %}
 
