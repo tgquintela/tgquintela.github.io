@@ -19,7 +19,8 @@ author_profile: true
 # Personal Webpage
 
 That's my digital home. The place in which my all digital "me"s around the web meet each other.
-A place on even the rules of  and subject to my criteria. Welcome here!
+A place on even the social rules of order or aesthetic are subjected to my criteria. Welcome to my free myself.
+Welcome here!
 
 {% include base_path %}
 
