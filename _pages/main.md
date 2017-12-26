@@ -14,16 +14,17 @@ author_profile: true
 }
 </style>
 
-v4
+v1
 
 {% include base_path %}
 
 ## Projects
 <div id="roundedbox">
+{ set count = 0}
 <ul>
 {% for post in site.projects | slice(2) %}
 <li>Iteration</li>
-<li>"{{ loop.index }}"</li>
+<li>"{{ count }}"</li>
 {% endfor %}
 </ul>
 
