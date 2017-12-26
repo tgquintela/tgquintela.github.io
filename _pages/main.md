@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "tgquintela"
+title: ""
 excerpt: "Personal Webpage"
 author_profile: true
 ---
@@ -8,13 +8,16 @@ author_profile: true
 <style>
 #roundedbox {
   border-radius: 25px;
-  background: #b4b4b4;
+  background: hsl(147, 50%, 47%);
   padding: 5px 5px 20px 20px;
   width: 100%;
 }
 </style>
 
 
+# Personal Webpage
+
+That my digital home. The place in which my all digital "I"s around the web meet.
 
 {% include base_path %}
 
