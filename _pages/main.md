@@ -34,9 +34,9 @@ v1
 
 
 <div id="roundedbox">
-{% for i in [0, 1] %}
-{% assign post = site.projects[i] %}
-    {% include archive-single.html %}
+{% for i in [1] %}
+  {% assign post = site.projects[i] %}
+  {% include archive-single.html %}
 {% endfor %}
 
 ... see more
