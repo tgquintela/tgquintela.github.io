@@ -14,14 +14,14 @@ author_profile: true
 }
 </style>
 
-v1
+v2
 
 {% include base_path %}
 
 ## Projects
 <div id="roundedbox">
 <ul>
-{% for post in site.projects %}
+{% for post in site.projects|slice(2)|first %}
 <li>{{ loop.index }}</li>
 {% endfor %}
 </ul>
