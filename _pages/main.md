@@ -14,20 +14,16 @@ author_profile: true
 }
 </style>
 
-v1
+v2
 
 {% include base_path %}
 
 ## Projects
 <div id="roundedbox">
 {% assign countsi = 0 %}
-<ul>
 {% for post in site.projects limit:2 %}
-<li>Iteration</li>
-<li>{{post.url}}</li>
-{{% assign countsi = countsi + 1 %}}
+  {% include archive-single.html %}
 {% endfor %}
-</ul>
 
 ... see more
 </div>
