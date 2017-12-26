@@ -14,7 +14,7 @@ author_profile: true
 }
 </style>
 
-v8
+v1
 
 {% include base_path %}
 
@@ -30,7 +30,7 @@ v8
 
 ## Software
 <div id="roundedbox">
-{% for recent in site.software[0:4] %}
+{% for recent in site.software[:4] %}
   {% for post in recent %}
     {% include archive-single.html %}
   {% endfor %}
