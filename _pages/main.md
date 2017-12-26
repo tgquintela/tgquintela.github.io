@@ -19,7 +19,7 @@ author_profile: true
 
 ## Projects
 <div id="roundedbox">
-{% for post in site.projects | reversed | list[0:1] %}
+{% for post in site.projects | reversed | batch(2) | first %}
   {% include archive-single.html %}
 {% endfor %}
 ... see more
