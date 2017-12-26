@@ -20,7 +20,7 @@ v2
 
 ## Projects
 <div id="roundedbox">
-{% set countsi = 0 %}
+{% assign countsi = 0 %}
 <ul>
 {% for post in site.projects | slice(2) %}
 <li>Iteration</li>
