@@ -24,7 +24,7 @@ v2
 <ul>
 {% for post in site.projects | slice(2) %}
 <li>Iteration</li>
-<li>"{{ count_i }}"</li>
+<li>"{{ count }}"</li>
 {% endfor %}
 </ul>
 
