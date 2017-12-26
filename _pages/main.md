@@ -7,10 +7,12 @@ author_profile: true
 
 <style>
 #roundedbox {
-  border-radius: 25px;
+  border-radius: 20em;
   background: #f2f3f3;
-  padding: 5px 5px 20px 20px;
+  padding: 5em 5em 20em 20em;
   width: 100%;
+  margin: 3em;
+  color: #f2f3f3;
 }
 </style>
 
