@@ -20,8 +20,8 @@ v4
 
 ## Projects
 <div id="roundedbox">
-{% assign projectslist = site.projects | reversed %}
-{% for post in projectslist limit:2 %}
+{% assign items = site.projects | sort: 'date' | reverse %}
+{% for post in items limit:2 %}
   {% include archive-single.html %}
 {% endfor %}
 
