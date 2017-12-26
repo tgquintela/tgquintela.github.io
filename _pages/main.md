@@ -9,7 +9,7 @@ author_profile: true
 #roundedbox {
   border-radius: 25px;
   background: LightGray;
-  padding: 15px 15px 20px 20px;
+  padding: 5px 5px 20px 20px;
   width: 100%;
 }
 </style>
@@ -26,6 +26,7 @@ v1
 {% endfor %}
 
 [... see more]({{ base_path }}/projects)
+<a href="{{ base_path }}/projects" rel="permalink">... see more</a>
 </div>
 
 
@@ -35,6 +36,7 @@ v1
   {% include archive-single.html %}
 {% endfor %}
 [... see more]({{ base_path }}/software)
+<a href="{{ base_path }}/software" rel="permalink">... see more</a>
 </div>
 
 
