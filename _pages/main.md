@@ -25,6 +25,7 @@ v3
 {% for post in site.projects | slice(2) %}
 <li>Iteration</li>
 <li>{{countsi}}</li>
+{{countsi++}}
 {% endfor %}
 </ul>
 
