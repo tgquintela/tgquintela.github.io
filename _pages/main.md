@@ -14,7 +14,7 @@ author_profile: true
 }
 </style>
 
-v1
+v2
 
 {% include base_path %}
 
@@ -24,7 +24,7 @@ v1
 <ul>
 {% for post in site.projects %}
 <li>Iteration</li>
-<li>{{countsi}}</li>
+<li>post.url</li>
 {{% assign countsi = countsi + 1 %}}
 {% endfor %}
 </ul>
@@ -44,7 +44,7 @@ v1
 
 ## Software
 <div id="roundedbox">
-{% for recent in site.software[:4] %}
+{% for recent in site.software limit:3 %}
   {% for post in recent %}
     {% include archive-single.html %}
   {% endfor %}
