@@ -19,6 +19,7 @@ author_profile: true
 # Personal Webpage
 
 That's my digital home. The place in which my all digital "me"s around the web meet each other.
+A place on even the rules of  and subject to my criteria. Welcome here!
 
 {% include base_path %}
 
@@ -45,7 +46,7 @@ That's my digital home. The place in which my all digital "me"s around the web m
 
 ## Software
 <div id="roundedbox">
-{% assign items = site.projects | sort: 'date' | reverse %}
+{% assign items = site.software | sort: 'date' | reverse %}
 {% for post in items limit:3 %}
   {% include archive-single.html %}
 {% endfor %}
