@@ -14,7 +14,7 @@ author_profile: true
 }
 </style>
 
-v4
+v5
 
 {% include base_path %}
 
@@ -31,7 +31,8 @@ v4
 
 ## Software
 <div id="roundedbox">
-{% for post in site.software | reversed limit:3 %}
+{% assign items = site.projects | sort: 'date' | reverse %}
+{% for post in items limit:3 %}
   {% include archive-single.html %}
 {% endfor %}
 
@@ -41,11 +42,9 @@ v4
 
 ## Blog entries
 <div id="roundedbox">
-{% for post in site.blog | reversed limit:3 %}
+{% for post in site.posts limit:3 %}
   {% include archive-single.html %}
 {% endfor %}
-
-{% include paginator.html %}
 
 <a href="{{ base_path }}/blog" rel="permalink">... see more</a>
 </div>
