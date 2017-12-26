@@ -14,7 +14,7 @@ author_profile: true
 }
 </style>
 
-v2
+v1
 
 {% include base_path %}
 
@@ -25,32 +25,23 @@ v2
   {% include archive-single.html %}
 {% endfor %}
 
-... see more
+[... see more](/projects)
 </div>
 
-
-<div id="roundedbox">
-{% for i in [1] %}
-  {% assign post = site.projects[i] %}
-  {% include archive-single.html %}
-{% endfor %}
-
-... see more
-</div>
 
 ## Software
 <div id="roundedbox">
-{% for recent in site.software limit:3 %}
+{% for post in site.software limit:3 %}
   {% include archive-single.html %}
 {% endfor %}
-... see more
+[... see more](/software)
 </div>
 
 
 ## Blog entries
 <div id="roundedbox">
-{% for post in paginator.posts | list[0:4] %}
+{% for post in paginator.posts limit:4 %}
   {% include archive-single.html %}
 {% endfor %}
-... see more
+[... see more](/blog)
 </div>
