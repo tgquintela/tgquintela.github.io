@@ -25,6 +25,7 @@ v3
 .............................
 {% for post in bunch %}
 <li>Iteration</li>
+<li>"{{loop.index}}"</li>
 {% endfor %}
 {% endfor %}
 </ul>
