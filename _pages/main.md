@@ -14,7 +14,7 @@ author_profile: true
 }
 </style>
 
-v2
+v3
 
 {% include base_path %}
 
@@ -24,7 +24,7 @@ v2
 <ul>
 {% for post in site.projects | slice(2) %}
 <li>Iteration</li>
-<li>""</li>
+<li>{{countsi}}</li>
 {% endfor %}
 </ul>
 
