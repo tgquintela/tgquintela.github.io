@@ -7,6 +7,8 @@ tags:
   - business
   - ai and society
   - chatbots
+categories:
+  - tech
 ---
 
 
