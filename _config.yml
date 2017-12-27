@@ -195,7 +195,7 @@ collections:
   notebooks:
     output: true
     permalink: /:collection/:path/
-  temporal:
+  temporales:
     output: true
     permalink: /:collection/:path/
 
@@ -307,10 +307,10 @@ defaults:
       comments: false
       share: true
       related: true
-  # _temporal
+  # _temporales
   - scope:
       path: ""
-      type: temporal
+      type: temporales
     values:
       layout: single
       author_profile: true
