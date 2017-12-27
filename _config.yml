@@ -195,6 +195,9 @@ collections:
   notebooks:
     output: true
     permalink: /:collection/:path/
+  temporal:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
@@ -304,6 +307,17 @@ defaults:
       comments: false
       share: true
       related: true
+  # _temporal
+  - scope:
+      path: ""
+      type: temporal
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: false
+      related: false
 
 # Sass/SCSS
 sass:
