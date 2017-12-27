@@ -1,7 +1,7 @@
 ---
 title: 'Prueba post'
 date: 2017-12-30
-permalink: /blog/2017/12/blog-post-prueba/
+permalink: /blog/2017/12/eleccions-cat-21d/
 ---
 
 Algunas pruebas.
