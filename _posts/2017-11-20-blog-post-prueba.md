@@ -1,5 +1,5 @@
 ---
-title: 'Eleccions Parlament Catalunya 21-D-2017'
+title: 'Eleccions Parlament Catalunya 21-D (2017)'
 date: 2017-12-30
 permalink: /blog/2017/12/eleccions-cat-21d/
 ---
