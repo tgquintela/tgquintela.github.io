@@ -9,6 +9,7 @@ tags:
   - chatbots
 categories:
   - tech
+  - business
 ---
 
 
@@ -36,6 +37,16 @@ A partir de 2005 comenzou unha outra época na AI, entrou en xogo o que chámase
 
 Ístas novas ferramentas estadísticas e computacionais permeten ser obtimistas e aprender patrones estadísticos en complicados textos e atacar o problema de aprendizaxe do lenguaxe natural. O que chaman como Recurrent Neural Networks e o uso de LTSM redes neuronais artificiais fan que pódase intentar extraer automáticamente información sintáctica dun texto calquera.
 
+
+## Mercado e oportunidade dos chatbots
+
+Uns dos problemas no mercado tecnolóxico ven explicado polo factor de red. A xente utiliza as cousas que esten xeneralizadas e poden ser familiares polos usuarios. O mercado tecnolóxico ven movido por avalanchas e efectos domino. As tecnoloxias comenzan sendo probadas polos chamados ["early adopters"](https://en.wikipedia.org/wiki/Early_adopter) (adoptares tempranos). Se convencen e crecen con un bo modelo de mercado e máis adiante vanse adoptando por xente máis xeral do pobo. Moitos destes productos quedanse atrapados nos *early adopters* ata que morren. Outros consiguen romper a barreira e pasan ese "tipping point" o punto de transición e xeneralizanse.
+Ísto provoca que cando algo asemellase ao que esta a funcionar, danse fenómenos de avalancha e modas nos modelos comerciais no sector tecnolóxico. Todos queren competir por ise mesmo produto e facerse co mercado. Agora está a pasar.
+
+Os chatbots poden ser unha forma de cambiar e facer mais escalable e fluida a estratéxia comunicativa dunha empresa o mellorar o servizo ao cliente. Estando activo 24 horas o dia tódolos dias do ano. E sempre ao mesmo nivel de calidade, que non depende de paciencia dun treballador ni da xente que procura de reclamar información ao mesmo tempo que o usuario.
+Pero os chatbots non veñen a sustituir as persoas. Nin veñen a sustituir as pàxinas webs das empresas. Veñen a complementar todas as vias comunicativas de cadauhna das vias comunicativas das que dispoñen cada empresa.
+
+Pero non só depende das posibilidades de facerlo se non as espectativas de uso. Se ben é certo que as reduccións de coste empresarial son un forte incentivo pra a parte das empresas iso non sempre ven acompañado polo interés do usuario. Cales son as espectativas de que o usuario termine usando chatbots? Pois ven, as aplicacións móbiles de mensaxeria (Facebook Messenger, Telegram, Whatsapp ...) xa son máis utilizadas (en número de usuarios e horas de tempo) que as redes sociais, aplicacións de xogos o tempo empregado a navegar polo internet [[3](http://www.microsiervos.com/archivo/gadgets/aplicaciones-mensajerias-redes-sociales.html)]. Hai profesionais e expertos que dín que a revolución pode ser tan grande coma a que se experimentou fai un lustro no mundo das aplicacións móbiles.
 
 
 
@@ -69,6 +80,7 @@ $("#statemachines_chatbot").height($("#statemachines_chatbot").width() * 0.4);
 ## Referencias
 * [1] http://www.businessinsider.com/chatbot-monetization-market-business-strategies-opportunites-2016-11
 * [2] http://www.businessinsider.com/how-to-create-chatbot-business-2017-10
+* [3] http://www.microsiervos.com/archivo/gadgets/aplicaciones-mensajerias-redes-sociales.html
 
 
 
