@@ -56,12 +56,12 @@ Encara que algunes d'aquestes millores prometen tenir un cost reduït, altres no
 
 
 ## Agregació intel·ligent de l'ús
-Quan es parla del cotxe autoconduït, es parla de una pèrdua del concepte de propietat privada. Avui en dia el cost d'un cotxe és molt alt, per l'ús en temps que fem d'ells (2 o 3 hores en un dia de 24 hores). A la majoria dels mortals solament vol el cotxe per tenir un mitjà de transport ràpid i útil i es compren un cotxe considerant el pitjor dels casos i no considerant el seu ús diari. L'advantatge d'un ús col·lectiu, ja sigui per lloguer a una propietat privada, d'una propietat comú d'uns quants propietaris que comparteixen l'interès del vehicle o per una propietat pública, que una institució finança mitjançant impostos.
+Quan es parla del cotxe autoconduït, es parla de una pèrdua del concepte de propietat privada. Avui en dia el cost d'un cotxe és molt alt, per l'ús en temps que fem d'ells (2 o 3 hores en un dia de 24 hores). La majoria dels mortals solament vol el cotxe per tenir un mitjà de transport ràpid i útil i es compren un cotxe considerant el pitjor dels casos (els casos especials pels quals necessiten el cotxe i difícilment es pot considerar alternativa) i no considerant el seu ús diari. L'advantatge d'un ús col·lectiu, ja sigui per lloguer a una propietat privada, d'una propietat comú d'uns quants propietaris que comparteixen l'interès del vehicle o per una propietat pública, que una institució finança mitjançant impostos; serà molt significativa.
 
-No és una cosa aliena a molts dels electrodomèstics que utilitzem. Sembla llavors que la introducció de l'inici era més un spot empresarial que la vida real que ens trobarem (al menys la majoria) en un futur. Això no vol dir que no ens vagi a canviar la vida aquests avanços. Però haurem de renunciar una mica a l'individualisme  estúpid introduït a la intro i fer un millor balanç de costos i usos.
+No és una cosa aliena a molts dels electrodomèstics que utilitzem. Sembla llavors que la introducció de l'inici era més un spot empresarial que la vida real que ens trobarem (al menys la majoria) en un futur. Això no vol dir que no ens vagi a canviar la vida aquests avanços. Però haurem de renunciar una mica a l'individualisme estúpid introduït a la intro i fer un millor balanç de costos i usos.
 
 Els costs i les millores que obtendríem en la agregació de la seva propietat i ús podria ser una tendència (ja sigui per l'espai que ocupi en una casa com pel cost directe de tenir i mantenir aquests nous electrodomèstics automàtics). Alguns d'ells s'incorporaran a les cases (fins i tot a les de baixa renta) com la mateixa neteja del pis o l'enmagatzem d'aliments, altres com la cuina o la rentadora de roba potser son forçades de sortir de la majoria de les llars (aquelles amb no exuberants ingressos).
-La forma en les que surtin es caracteritzarà per les nostres decisions socials i polítiques.
+La forma en les que surtin (de qui serà la propietat) es caracteritzarà per les nostres decisions socials i polítiques.
 
 Edificis amb zones comuns i serveis de neteja de roba i cuina (amb distribució de preus per cada plat demanat) inclosos com si fos un ascensor, bars/restaurants que puguis demanar el menjar abans i tenir taula per menjar i empreses per netejar roba com ara hi ha bugaderies o serveis públics de menjar i netejar.
 
@@ -72,3 +72,4 @@ Hem de tenir cura, hi ha vegades que no fem un bon ús col·lectiu de les noves 
 
 ## Avisos
 * La gent continuaran desitjant menjar de qualitat en dies especials (la bona cuina no està en perill d'automatització).
+* Hi ha serveis que no desapareixeran per un desig (eco-natural) o una voluntat humana de negar-se a delegar aquesta tasca a les màquines.
