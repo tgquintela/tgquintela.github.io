@@ -76,6 +76,8 @@ Os puntos nos que se basa ista proposición són especialmente en:
 * Non é un chatbot xenérico. Non trata de poder facer unha conversación xenérica. Dentro de un contexto delimitado con unhas posibles tipo de preguntas.
 * Configurable en términos abstractos como a delicadez, educación, efectivista o simpatía. Característicos da personalidade humana.
 
+As soluciones presentadas estan disponible baixo licencia de código aperto en [[4](https://github.com/tgquintela/chatbot_query)][[5](https://tgquintela.github.io/software/chatbotquery)]. Sentídevos libres pra xogar e propoñer melloras.
+
 ### Modelo
 A miña solución está basada en *Finite State Machines* (FSM), o Máquinas de estados finitos. Cada nodo do grafo representa un posible *intend* (intención) e as transicións concentran a "intelixencia" do chatbot.
 
@@ -99,7 +101,7 @@ Pra facer iso o que podemos facer é agrupar algunhos *indends* en sub-conversac
 
 Facendo isto, podemos chegar a estructuras e subestructuras conversacionais moito mas faciles de configurar. Cada parte pode ser configurada de forma separada e independente das outras.
 
-Esta estructura modular axuda na configuración, e no entendemento de como "pensa" e actúa a maquina. Podemos ver exemplos desto nos seguintes gráficos.
+Esta estructura xerárquica e modular axuda na configuración, e no entendemento de como "pensa" e actúa a maquina. Podemos ver exemplos desto nos seguintes gráficos.
 
 <div id="treegraph_chatbot" style="width:100%">
 <iframe src="{{ base_path }}/files/chatbot_html/TreeGraph_chatbot.html" scrolling="no" frameborder="0" width="100%" height="100%"></iframe>
@@ -118,7 +120,11 @@ $("#statemachines_chatbot").height($("#statemachines_chatbot").width() * 0.4);
 
 
 ### Uso comercial
+Está claro que o meu código non é comercialmente explotable pero camiña na dirección de chatbots pra pequenas empresas. Aquelas que han de contestar as mesmas preguntas unha e outra vez e que a páxina web non é a mellor forma de mostrar isa información. Información como a locación e os horarios do local, o información de productos o mesmo, reservar e tramitar compra de forma máis "*human friendly*" o máis simpático pra a xente.
 
+Esto tamén causa problemas. Hai que ter un servidor o un servizo contratado e dende logo non todo o mundo pode ter o facer iso pola súa conta. Como non poden facer o perder tempo en aprender a facer unha páxina web. E por ese mesmo motivo polo que ábrese un mundo de negocio basado en facer, diseñar e configurar chatbots pra as necesidades de cada negocio.
+
+Os chatbots pode convertirse en algo similar ao papel que fan as empresas de diseño web e *content management* no ecosistema empresarial. Hata pode que pra grandes empresas, teñan todo un departamento de información chéo de informáticos, técnicos e profesionales da comunicación treballando xuntos pra conseguilo.
 
 ## Conclusión
 Os chatbots viñeron pra quedarse. Nas revolucións tecnolóxicas hai fases, e cada unha está articulada en pequenos cambios que axudan a acelerar outros cambios. Os chatbots son os artífices e cómplices dun cambio no modelo de consumo de servizos. A xente quere estar atendida tódolos minutos posibles. Hai moitas solucións de chatbots que intentan facer o chatbot xeneralista e humano. Pra certos servizos, non é desexable. Queremos ter control sobre a nosa estratéxia comunicativa.
