@@ -40,7 +40,7 @@ A partir de 2005 comenzou unha outra época na AI, entrou en xogo o que chámase
 
 ## Mercado e oportunidade dos chatbots
 
-Uns dos problemas no mercado tecnolóxico ven explicado polo factor de red. A xente utiliza as cousas que esten xeneralizadas e poden ser familiares polos usuarios. O mercado tecnolóxico ven movido por avalanchas e efectos domino. As tecnoloxias comenzan sendo probadas polos chamados ["early adopters"](https://en.wikipedia.org/wiki/Early_adopter) (adoptares tempranos). Se convencen e crecen con un bo modelo de mercado e máis adiante vanse adoptando por xente máis xeral do pobo. Moitos destes productos quedanse atrapados nos *early adopters* ata que morren. Outros consiguen romper a barreira e pasan ese "tipping point" o punto de transición e xeneralizanse.
+Uns dos problemas no mercado tecnolóxico ven explicado polo factor de red. A xente utiliza as cousas que esten xeneralizadas e poden ser familiares polos usuarios. O mercado tecnolóxico ven movido por avalanchas e efectos domino. As tecnoloxias comenzan sendo probadas polos chamados ["early adopters"](https://en.wikipedia.org/wiki/Early_adopter) (adoptares tempranos). Se convencen e crecen con un bo modelo de mercado e máis adiante vanse adoptando por xente máis xeral do pobo. Moitos destes productos quedanse atrapados nos *early adopters* ata que morren. Outros consiguen romper a barreira e pasan ese "*tipping point*" o punto de transición e xeneralizanse.
 Ísto provoca que cando algo asemellase ao que esta a funcionar, danse fenómenos de avalancha e modas nos modelos comerciais no sector tecnolóxico. Todos queren competir por ise mesmo produto e facerse co mercado. Agora está a pasar.
 
 Os chatbots poden ser unha forma de cambiar e facer mais escalable e fluida a estratéxia comunicativa dunha empresa o mellorar o servizo ao cliente. Estando activo 24 horas o dia tódolos dias do ano. E sempre ao mesmo nivel de calidade, que non depende de paciencia dun treballador ni da xente que procura de reclamar información ao mesmo tempo que o usuario.
@@ -67,6 +67,21 @@ As empresas teñen a necesidade de coidar a marca e en consecuencia coidar os de
 É por iso que os chatbots, non só deben ser efectivos á ora de dar a información, pero tamén han de poder ser *tuneables*. Han de poder ser configurables e poder darlles unha *personalidade* distinta pros distintos servizos.
 
 
+## A miña humilde solución
+
+Tendo todo isto en mente vou explicar a miña solución de *software* dintro da miña limitada experiencia no mundo dos chatbots. A miña experiencia ven de buscar unha solución a alto nivel (nivel abstracto). Non veño a explicar cousas de baixo nivel ni de problemas coa integración coas plataformas de mensaxeria e coas bases de datos.
+
+Os puntos nos que se basa ista proposición són especialmente en:
+* Facilidade de programar e de configurar. Posibilidade de configuralo por un humano.
+* Non é un chatbot xenérico. Non trata de poder facer unha conversación xenérica. Dentro de un contexto delimitado con unhas posibles tipo de preguntas.
+* Configurable en términos abstractos como a delicadez, educación, efectivista o simpatía. Característicos da personalidade humana.
+
+### Modelo
+A miña solución está basada en *Finite State Machines* (FSM), o Máquinas de estados finitos. Cada nodo do grafo representa un posible *intend* (intención) e as transicións concentran a "intelixencia" do chatbot.
+
+En cada *intend* temos a posibilidade de contactar coa base de datos, selecciona o crea a posible resposta, selecciona o seguinte estado o *intend* según a interacción co usuario...
+
+O chatbot queda definido por como xenera as respostas a cada interacción, cal é o grafo que define a posible conversación e como percorre o grafo facendo transicións dun nodo a outro. Un exemplo de grafo que represente a conversación pode ser tal que:
 
 <div id="completegraph_chatbot" style="width:100%">
 <iframe src="{{ base_path }}/files/chatbot_html/CompleteGraph_chatbot.html" scrolling="no" frameborder="0" width="100%" height="100%"></iframe>
@@ -74,6 +89,9 @@ As empresas teñen a necesidade de coidar a marca e en consecuencia coidar os de
 <script>
 $("#completegraph_chatbot").height($("#completegraph_chatbot").width() * 0.5);
 </script>
+
+
+### Estructura
 
 
 <div id="treegraph_chatbot" style="width:100%">
