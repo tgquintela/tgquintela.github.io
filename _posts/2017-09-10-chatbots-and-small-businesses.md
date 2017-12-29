@@ -3,6 +3,10 @@ title: 'Chatbot: oportunidades e a miña propia proposición'
 excerpt: 'Descrición da miña aventura experimentando con chatbots.'
 date: 2017-09-10
 permalink: /blog/2017/09/chatbot-my-own-solution/
+
+header:
+  overlay_image: blog/chatbot/social-network-reduced.png
+  overlay_filter: 0.4
 tags:
   - business
   - ai and society
