@@ -93,6 +93,13 @@ $("#completegraph_chatbot").height($("#completegraph_chatbot").width() * 0.5);
 
 ### Estructura
 
+Pra conversacións pequenas e moi delimitadas, co ésta estructura plana é suficiente. Pero agora podemos ter conversacións relativamente complexas que poden ter centenares de *intends*. Manexar grafos de centenares de nodos pode ser impracticable. É por iso que hai que estructurar o programa pra poder configuralo facilmente e mellorar a súa usabilidade.
+
+Pra facer iso o que podemos facer é agrupar algunhos *indends* en sub-conversacións nos que se fale dun tema (*topic*) particular. Estas conversacións poden ser configuradas como se fosen unha conversación propia. Con nodos iniciais e terminales.
+
+Facendo isto, podemos chegar a estructuras e subestructuras conversacionais moito mas faciles de configurar. Cada parte pode ser configurada de forma separada e independente das outras.
+
+Esta estructura modular axuda na configuración, e no entendemento de como "pensa" e actúa a maquina. Podemos ver exemplos desto nos seguintes gráficos.
 
 <div id="treegraph_chatbot" style="width:100%">
 <iframe src="{{ base_path }}/files/chatbot_html/TreeGraph_chatbot.html" scrolling="no" frameborder="0" width="100%" height="100%"></iframe>
@@ -110,14 +117,21 @@ $("#statemachines_chatbot").height($("#statemachines_chatbot").width() * 0.4);
 </script>
 
 
+### Uso comercial
+
+
+## Conclusión
+Os chatbots viñeron pra quedarse. Nas revolucións tecnolóxicas hai fases, e cada unha está articulada en pequenos cambios que axudan a acelerar outros cambios. Os chatbots son os artífices e cómplices dun cambio no modelo de consumo de servizos. A xente quere estar atendida tódolos minutos posibles. Hai moitas solucións de chatbots que intentan facer o chatbot xeneralista e humano. Pra certos servizos, non é desexable. Queremos ter control sobre a nosa estratéxia comunicativa.
+
+Unha solución posible é basear o chatbot en *FSM*, de maneira que o usuario podea axustar o modelo xenérico ao problema particular que quere solucionar. Pra facelo presento unha solución modular facilmente configurable que pode axudar a facer unha solución simplemente e limitadamente funcional, sencilla de por a funcionar.
 
 
 ## Referencias
 * [1] http://www.businessinsider.com/chatbot-monetization-market-business-strategies-opportunites-2016-11
 * [2] http://www.businessinsider.com/how-to-create-chatbot-business-2017-10
 * [3] http://www.microsiervos.com/archivo/gadgets/aplicaciones-mensajerias-redes-sociales.html
-
-
+* [4] https://github.com/tgquintela/chatbot_query
+* [5] https://tgquintela.github.io/software/chatbotquery
 
 
 
