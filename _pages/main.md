@@ -53,5 +53,5 @@ Welcome here!
   {% include archive-single.html %}
 {% endfor %}
 
-<a href="{{ base_path }}/software" rel="permalink">... see more</a>
+<a href="{{ base_path }}/software" rel="permalink" class="btn btn-primary">... see more</a>
 </div>
