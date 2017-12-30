@@ -14,7 +14,9 @@ author_profile: true
   border: 1px solid #bdc1c4;
 }
 #btn-main {
-  background-color: blue
+  background-color: #428bca;
+  border-color: #357ebd;
+  border-radius: 4px;
 }
 </style>
 
