@@ -3,6 +3,10 @@ title: 'Sistema educativo y robolución'
 excerpt: 'Exploración de la coexistencia entre la educación y la nueva tecnología.'
 date: 2017-06-10
 permalink: /temporales/2017/06/sistema-educativo-y-robolucion/
+
+header:
+  overlay_image: blog/educacion-robolucion-i/Universitat-Barcelona3_Carrusel.jpg
+  overlay_filter: 0.4
 tags:
   - robolution
   - education
