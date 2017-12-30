@@ -14,7 +14,7 @@ author_profile: true
   border: 1px solid #bdc1c4;
 }
 #btn.btn-primary.btn-main {
-  background: blue
+  background-color: blue
 }
 </style>
 
