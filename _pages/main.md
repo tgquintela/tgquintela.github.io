@@ -13,6 +13,9 @@ author_profile: true
   width: 100%;
   border: 1px solid #bdc1c4;
 }
+#btn.btn-primary.btn-main {
+  background: blue
+}
 </style>
 
 
@@ -31,7 +34,7 @@ Welcome here!
   {% include archive-single.html %}
 {% endfor %}
 
-<a href="{{ base_path }}/blog" rel="permalink">... see more</a>
+<a href="{{ base_path }}/software" class="btn btn-primary btn-main" rel="permalink">... see more</a>
 </div>
 
 
@@ -42,7 +45,7 @@ Welcome here!
   {% include archive-single.html %}
 {% endfor %}
 
-<a href="{{ base_path }}/projects" rel="permalink">... see more</a>
+<a href="{{ base_path }}/software" class="btn btn-primary btn-main" rel="permalink">... see more</a>
 </div>
 
 
@@ -53,5 +56,5 @@ Welcome here!
   {% include archive-single.html %}
 {% endfor %}
 
-<a href="{{ base_path }}/software" rel="permalink" class="btn btn-primary">... see more</a>
+<a href="{{ base_path }}/software" class="btn btn-primary btn-main" rel="permalink">... see more</a>
 </div>
