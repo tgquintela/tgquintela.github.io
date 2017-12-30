@@ -13,7 +13,7 @@
 {% endif %}
 
 <style>
-#roundedbox {
+#project__item {
   border-radius: 20px;
   background: #f2f3f3;
   padding: 0.5em 0.5em 2em 2em;
@@ -22,7 +22,7 @@
 }
 </style>
 
-<div class="{{ include.type | default: "list" }}__item roundedbox">
+<div class="{{ include.type | default: "project" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
