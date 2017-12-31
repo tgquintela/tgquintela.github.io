@@ -6,7 +6,7 @@ type: "Software package"
 date: 2016-07-01
 permalink: /software/CooperativeGames
 header:
-  overlay_image: software/eu_parliament.jpg
+  overlay_image: software/eu_parliament-2.jpg
   overlay_filter: 0.4
   caption: "EU parliament on 2014"
   cta_label: "Download"
