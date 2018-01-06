@@ -10,8 +10,27 @@ header:
   caption: ""
 ---
 
+<style>
+#roundedbox {
+  border-radius: 20px;
+  background: #f2f3f3;
+  padding: 0.5em 0.5em 2em 2em;
+  width: 100%;
+  border: 1px solid #bdc1c4;
+}
+#btn-main {
+  background-color: #52adc8;
+  border-color: #357ebd;
+  border-radius: 4px;
+}
+</style>
+
+
 {% include base_path %}
 
 {% for post in site.projects reversed %}
+  <div id="roundedbox">
   {% include archive-single-project.html %}
+  </div>
+
 {% endfor %}
