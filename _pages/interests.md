@@ -34,7 +34,7 @@ The classification in fields is merely an orientation. The fields and my specifi
 
 ## Computer Science
 ### *Data Engineering*
-* Flexible and scalable data architectures for highly parallelization requirements.
+* Flexible and scalable data architectures for highly parallelization requirements. Using Cloud Computation to run applications able to handle huge data volumes in an efficient way.
 * ETL process and new software to deal with multiple heterogeneous sources, automatize transformation and accelerate the process of populating the databases.
 * Microservices for the integration of machine learning techniques in the new requirements data infrastructure. The Data science in a IoT world requires an adapted infrastructure to deal with that, not only new machine learning techniques.
 
@@ -48,12 +48,12 @@ The classification in fields is merely an orientation. The fields and my specifi
 ### *Data Science*
 * Spatial Data Analysis and GIS, and its applications to the new urbanism required in the world of IoT and reactive and smart spaces and services.
 * Mobility optimization by understanding patterns and using proper statistical matching algorithms.
-* Data visualization and dashboards. The improvement of my skills in data visualization and mastering *D3.js*.
+* Data visualization and dashboards. The improvement of my skills in data visualization and mastering *D3.js*, *Tableau* and other Data Visualization tools.
 
 ### *Programming*
-* Python development. From pure data science applications to more web-based framework to automatize interaction with databases and show visualizations.
-* R programming language. Exploratory data analysis.
-* Julia programming language. It is a high-level dynamic programming language designed to address the needs of high-performance numerical analysis and it has a fast growing Machine Learning community. It has the possibility to call **C** and **Fortran** function through `ccall` and Python code through `PyCall` package. It allows concurrent, parallel and distributed computing.
+* Python development. From pure data science applications to more web-based framework to automatize interaction with databases and show visualizations. Python is my main computation language. Improving from the point of view of software design and coding efficiency is a everyday purpose challenge.
+* R programming language. Mainly for exploratory data analysis, at least in the last times.
+* Julia programming language. It is a high-level dynamic programming language designed to address the needs of high-performance numerical analysis and it has a fast growing Machine Learning community. It has the possibility to call **C** and **Fortran** function through `ccall` and Python code through `PyCall` package. It allows concurrent, parallel and distributed computing. I am still in playing level.
 * Software engineering. The art of better programming optimal structures for the specific problems. The correct use of SOLID principles, simplicity and correct adaptation of the software patterns to the problems.
 
 
@@ -87,7 +87,7 @@ The classification in fields is merely an orientation. The fields and my specifi
 ### *Complex Systems*
 * Use of complex networks theoretical framework to better and more intuitive clustering algorithms.
 * Study and understanding of fashion processes and contagion processes and its connections with the social networks structure.
-
+* Study how network infraestracture can help prediction of collapse or ensure network growth.
 
 ## Economics & Digital humanities
 ### *Finance*
