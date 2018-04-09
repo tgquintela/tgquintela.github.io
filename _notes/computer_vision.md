@@ -1,13 +1,15 @@
 ---
-title: "Computer vision"
+title: "# Computer vision
+"
 collection: notes
 permalink: /notes/computer_vision
 date: 2016-06-01
-Tags:
-  - Computer science
-  - Data Analysis
-  - Artificial Intelligence
+
 ---
+
+# Computer vision
+
+2016-06-01
 
 Computer vision is a field of computer science and mathematics. Computer science takcles the problem of understanding images. That is the field that includes methods for acquiring, processing, analyzing, and understanding images and, in general, high-dimensional data from the real world in order to produce numerical or symbolic information. 
 As a scientific discipline, computer vision is concerned with the theory behind artificial systems that extract information from images. The image data can take many forms, such as video sequences, views from multiple cameras, or multi-dimensional data from a medical scanner. As a technological discipline, computer vision seeks to apply its theories and models to the construction of computer vision systems.
@@ -33,16 +35,14 @@ The direct applications of computer vision includes:
 * Interaction, e.g., as the input to a device for computer-human interaction.
 * Automatic inspection, e.g., in manufacturing applications.
 
+***Tags***: Computer science, Data Analysis, Artificial Intelligence
 
 #### See also
 [Computational intelligence](/notes/computational_intelligence), [Mathematical optimization](/notes/mathematical_optimization), [Computer vision](/notes/computer_vision), [Artificial Intelligence](/notes/artificial_intelligence), [Data Analysis](/notes/data_analysis), [Machine Learning](/notes/machine_learning)
 
-
 ## Material
 * http://opencv.org/
 * http://opencv-python-tutroals.readthedocs.io/en/latest/
-
-
 
 
 ## Books

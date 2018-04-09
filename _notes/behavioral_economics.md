@@ -1,12 +1,15 @@
 ---
-title: "Behavioral economics"
+title: "# Behavioral economics
+"
 collection: notes
 permalink: /notes/behavioral_economics
 date: 2016-06-01
-Tags:
-  - Economics
-  - Neuroscience
+
 ---
+
+# Behavioral economics
+
+2016-06-01
 
 Behavioral financial markets is a model of financial markets in the behavioral economics context. There follow assumptions of how the effects of psychological, social, cognitive, and emotional factors influence on the economic decisions of individuals and institutions and the consequences for market prices, returns, and resource allocation, although not always that narrowly, but also more generally, of the impact of different kinds of behavior, in different environments of varying experimental values.
 
@@ -21,22 +24,20 @@ There are three prevalent themes in behavioral finances:
 
 Note: Study more the relation with behavioral game theory.
 
+***Tags***: Economics, Neuroscience
 
 #### See also
 [Neuroeconomics](/notes/neuroeconomics)
-
 
 ## Material
 * [The Behavioral Economics Guide](http://www.behavioraleconomics.com/)
 * [Overview of Behavioral Finance](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=1488110)
 * [The Institute of Behavioral Finance](http://www.dremanbehavioralfinance.org/)
 
-
 ## Papers
 * Kahneman, D. (2003). [Maps of bounded rationality: Psychology for behavioral economics](http://www.cs.unibo.it/~ruffino/Letture%20TDPC/Kahneman.%20am.ec.rev.,%205,%202003.pdf). The American economic review, 93(5), 1449-1475.
 * Mullainathan, S., & Thaler, R. H. (2000). [Behavioral economics](http://www.aiinfinance.com/Mullainathan.pdf) (No. w7948). National Bureau of Economic Research.
 * Posner, R. A. (1998). [Rational choice, behavioral economics, and the law](http://chicagounbound.uchicago.edu/cgi/viewcontent.cgi?article=2879&context=journal_articles). Stanford Law Review, 1551-1575.
-
 
 ## Books
 * Camerer, C. F., Loewenstein, G., & Rabin, M. (Eds.). (2011). [Advances in behavioral economics](https://www.goodreads.com/book/show/226649.Advances_in_Behavioral_Economics). Princeton University Press.

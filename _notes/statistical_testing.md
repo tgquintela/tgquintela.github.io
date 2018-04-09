@@ -1,11 +1,15 @@
 ---
-title: "Statistical testing"
+title: "# Statistical testing
+"
 collection: notes
 permalink: /notes/statistical_testing
 date: 2016-06-01
-Tags:
-  - Statistics
+
 ---
+
+# Statistical testing
+
+2016-06-01
 
 A statistical hypothesis is a hypothesis that is testable framework process to study and compare data assumption of observing a process that are modeled via a set of random variables. A statistical hypothesis test is a method of statistical inference (frequentist and bayesian).
 
@@ -50,16 +54,14 @@ Possible statistical tests to use:
 * Mann-Whitney U test (no assumption of distribution).
 * Student's t-tests are appropriate for comparing means under relaxed conditions when less is assumed.
 
+***Tags***: Statistics
 
 #### See also
 [Resampling methods](/notes/resampling_methods)
 
 
-
-
 ## Papers
 * Loftus, G R (1991). [On the Tyranny of Hypothesis Testing in the Social Sciences](https://www.ics.uci.edu/~sternh/courses/210/loftus91_tyranny.pdf). Contemporary Psychology 36 (2): 102-105.
-
 
 ## Books
 * Huff, Darrell (1993). [How to lie with statistics](https://www.goodreads.com/book/show/51291.How_to_Lie_with_Statistics). New York: Norton.

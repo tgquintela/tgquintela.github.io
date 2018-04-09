@@ -1,11 +1,15 @@
 ---
-title: "Unbalance data problem"
+title: "# Unbalance data problem
+"
 collection: notes
 permalink: /notes/unbalance_data_problem
 date: 2016-06-01
-Tags:
-  - Data Science
+
 ---
+
+# Unbalance data problem
+
+2016-06-01
 
 Unbalance data problem is the problem that the machine learning algorithms have to face in order to model data that have unbalance labels. That's there are a minority of classes that have little instances in comparison to the total of the dataset and the cost to miss in them is much lower to the majority class.
 
@@ -35,14 +39,13 @@ The most general basic methods are thought:
 
 It is important to consider how noisy is the data and how many instances you have (or better, the information value per instance), or if there is heterogeneity value for instance (in order to data model) in the data. Regarding the previous information we have to select our methods. Direct properties that can conditioned this values are the overlap between classes and the density.
 
+***Tags***: Data Science
 
 #### See also
 
 
-
 ## Material
 * [imblanced-learn python package](http://glemaitre.github.io/UnbalancedDataset/index.html)
-
 
 ## Papers
 * Dal Pozzolo, A., Caelen, O., Waterschoot, S., & Bontempi, G. (2013, October). [Racing for unbalanced methods selection](http://www.oliviercaelen.be/doc/Racing_unbalanced_IDEAL.pdf). In International Conference on Intelligent Data Engineering and Automated Learning (pp. 24-31). Springer Berlin Heidelberg.
@@ -60,7 +63,6 @@ It is important to consider how noisy is the data and how many instances you hav
 * Sun, Y., Kamel, M. S., Wong, A. K., & Wang, Y. (2007). [Cost-sensitive boosting for classification of imbalanced data](https://uwspace.uwaterloo.ca/bitstream/handle/10012/3000/thesis.pdf?sequence=1&isAllowed=y). Pattern Recognition, 40(12), 3358-3378.
 * Provost, F. (2000, July). [Machine learning from imbalanced data sets 101](http://www.aaai.org/Papers/Workshops/2000/WS-00-05/WS00-05-001.pdf). In Proceedings of the AAAI’2000 workshop on imbalanced data sets (pp. 1-3).
 * Beckmann, M., Ebecken, N. F., & de Lima, B. S. P. (2015). [A KNN Undersampling Approach for Data Balancing](http://www.scirp.org/journal/PaperDownload.aspx?paperID=60996). Journal of Intelligent Learning Systems and Applications, 7(04), 104.
-
 
 
 

@@ -1,12 +1,15 @@
 ---
-title: "Spatial ecology"
+title: "# Spatial ecology
+"
 collection: notes
 permalink: /notes/spatial_ecology
 date: 2016-06-01
-Tags:
-  - Ecology
-  - Spatial data analysis
+
 ---
+
+# Spatial ecology
+
+2016-06-01
 
 Spatial ecology is a specialization in ecology and geography that is concerned with the identification of spatial patterns and their relationships to ecological phenomena. Ecological events can be explained through the detection of patterns at a given spatial scale: local, regional, or global. Through the application of spatial statistical analysis, factors leading to ecological events can be determined and verified. Spatial ecology can be distinguished by two different approaches:
 * the field of landscape ecology.
@@ -16,11 +19,10 @@ In nature, organisms are neither distributed uniformly nor at random, forming in
 
 Although spatial ecology deals with spatial patterns, it is usually based on observational data rather than on an existing model. This is because nature rarely follows set expected order. To properly research a spatial pattern or population, the spatial extent to which it occurs must be detected. Ideally, this would be accomplished beforehand via a benchmark spatial survey, which would determine whether the pattern or process is on a local, regional, or global scale. This is rare in actual field research, however, due to the lack of time and funding, as well as the ever-changing nature of such widely-studied organisms such as insects and wildlife. With detailed information about a species' life-stages, dynamics, demography, movement, behavior, etc., models of spatial pattern may be developed to estimate and predict events in unsampled locations.
 
+***Tags***: Ecology, Spatial data analysis
 
 #### See also
 [Ecosystems](/notes/ecosystems), [Spatial data analysis](/notes/spatial_data_analysis), [Ecosystems](/notes/ecosystems)
-
-
 
 
 ## Papers
@@ -31,7 +33,6 @@ Although spatial ecology deals with spatial patterns, it is usually based on obs
 * Moilanen, A., & Nieminen, M. (2002). [Simple connectivity measures in spatial ecology](http://carmelacanzonieri.com/library/6108-LandscapeEcoPlanning/Moilanen-SimpleConnectivityMeasSpatialEcology.pdf). Ecology, 83(4), 1131-1145.
 * Tilman, D., Lehman, C. L., & Kareiva, P. (1997). [Population dynamics in spatial habitats](https://books.google.co.uk/books?hl=en&lr=&id=QdqC8PvWB7AC&oi=fnd&pg=PA3&dq=spatial+ecology&ots=bKWwdlAbWd&sig=VTyx4MvBfFzWWGhAgs3Tf5_GrzI). Spatial ecology, 3-20.
 * Orrock, J. L., Danielson, B. J., Burns, M. J., & Levey, D. J. (2003). [Spatial ecology of predator–prey interactions: corridors and patch shape influence seed predation](http://www.public.iastate.edu/~jessie/Publications/2003%20Orrock%20et%20al%20Ecology%202003.pdf). Ecology, 84(10), 2589-2599.
-
 
 ## Books
 * Bailey, Robert G. (2009). [Ecosystem Geography](https://www.goodreads.com/book/show/6449465-ecosystem-geography. 2nd Edition, New York: Springer.

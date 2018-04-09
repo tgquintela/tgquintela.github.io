@@ -1,30 +1,30 @@
 ---
-title: "Lambda calculus"
+title: "# Lambda calculus
+"
 collection: notes
 permalink: /notes/lambda_calculus
 date: 2016-06-01
-Tags:
-  - Computer science
-  - Artificial Intelligence
-  - Computation theory
+
 ---
+
+# Lambda calculus
+
+2016-06-01
 
 Lambda calculus (also written as λ-calculus) is a formal system in mathematical logic for expressing computation based on function abstraction and application using variable binding and substitution. It is a universal model of computation that can be used to simulate any single-taped Turing machine and was first introduced by mathematician Alonzo Church in the 1930s as part of an investigation into the foundations of mathematics.
 
 *I should improve this note with new information when I have time.*
 
+***Tags***: Computer science, Artificial Intelligence, Computation theory
 
 #### See also
 [Artificial Intelligence](/notes/artificial_intelligence), [Computer Complexity](/notes/computer_complexity), [Turing Machines](/notes/turing_machines), [Automata theory](/notes/automata_theory), [Theory of computation](/notes/theory_of_computation)
-
 
 ## Material
 * https://www.quora.com/How-is-Lambda-Calculus-equivalent-to-the-Turing-machine#
 * Achim Jung, [A Short Introduction to the Lambda Calculus](http://www.cs.bham.ac.uk/~axj/pub/papers/lambda-calculus.pdf)
 * Marius Buliga, [Graphic lambda calculus](http://imar.ro/~mbuliga/graphic_revised.pdf)
 * [Implementing the Lambda calculus using C++ Templates](http://matt.might.net/articles/c++-template-meta-programming-with-lambda-calculus/)
-
-
 
 
 ## Books

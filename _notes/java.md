@@ -1,13 +1,15 @@
 ---
-title: "Java"
+title: "# Java
+"
 collection: notes
 permalink: /notes/java
 date: 2016-06-01
-Tags:
-  - Computer science
-  - Computer engineering
-  - Programming language
+
 ---
+
+# Java
+
+2016-06-01
 
 Java is a general-purpose computer programming language that is concurrent, class-based, object-oriented, and specifically designed to have as few implementation dependencies as possible. Originally it was released by Sun under proprietary licenses by it has liberated under GNU General Public License. It is intended to let application developers "write once, run anywhere" (WORA), meaning that compiled Java code can run on all platforms that support Java without the need for recompilation. Java applications are typically compiled to bytecode that can run on any Java virtual machine (JVM) regardless of computer architecture. The language derives much of its syntax from C and C++, but it is more focus in high-level programming. 
 
@@ -19,15 +21,13 @@ The main features of Java are:
 
 Java became the main programming language paradigm of object-oriented programming. Its ability to be cross-platform is the main explanation of its success. It was used to build platforms as Android and its applications.
 
+***Tags***: Computer science, Computer engineering, Programming language
 
 #### See also
 [Python](/notes/python), [Julia](/notes/julia), [SAS](/notes/sas), [Matlab](/notes/matlab), [Go (Programming language)](/notes/go_(programming_language)), [R](/notes/r), [C](/notes/c), [Fortran](/notes/fortran)
 
-
 ## Material
 * https://en.wikibooks.org/wiki/Java_Programming
-
-
 
 
 ## Books

@@ -1,13 +1,15 @@
 ---
-title: "Algorithmics"
+title: "# Algorithmics
+"
 collection: notes
 permalink: /notes/algorithmics
 date: 2016-06-01
-Tags:
-  - Computer science
-  - Artificial Intelligence
-  - Computation theory
+
 ---
+
+# Algorithmics
+
+2016-06-01
 
 Algorithmics is the science of algorithms. In mathematics and computer science, an algorithm is a self-contained step-by-step set of operations to be performed. Algorithms perform calculation, data processing, and/or automated reasoning tasks. An algorithm is an effective method that can be expressed within a finite amount of space and time and in a well-defined formal language for calculating a function. Starting from an initial state and initial input (perhaps empty), the instructions describe a computation that, when executed, proceeds through a finite number of well-defined successive states, eventually producing "output" and terminating at a final ending state. The transition from one state to the next is not necessarily deterministic; some algorithms, known as randomized algorithms, incorporate random input.
 
@@ -16,16 +18,14 @@ Algorithmics includes:
 * Algorithmic complexity theory: the study of estimating the hardness of problems by studying the properties of algorithm that solves them
 * Algorithm analysis: the science of studying the properties of a problem, such as quantifying resources in time and memory space needed by this algorithm to solve this problem
 
+***Tags***: Computer science, Artificial Intelligence, Computation theory
 
 #### See also
 [Artificial Intelligence](/notes/artificial_intelligence), [Computer Complexity](/notes/computer_complexity), [Turing Machines](/notes/turing_machines), [Automata theory](/notes/automata_theory), [Theory of computation](/notes/theory_of_computation)
 
-
 ## Material
 * http://jeffe.cs.illinois.edu/teaching/algorithms/
 * https://www.dmoz.org/Computers/Algorithms/
-
-
 
 
 ## Books

@@ -1,13 +1,15 @@
 ---
-title: "R"
+title: "# R
+"
 collection: notes
 permalink: /notes/r
 date: 2016-06-01
-Tags:
-  - Computer science
-  - Computer engineering
-  - Programming language
+
 ---
+
+# R
+
+2016-06-01
 
 R is a dynamic statistical focused programming language supported by the R Foundation for Statistical Computing. Its power relies in the fact that is a open-source (GNU project) programming language with a strong, large and active community. This is why R programming language is complemented with a lot of tools as RStudio or a lot of specific packages that helps you to face different problems related specially with Statistical analysis, statistical learning, machine learning, but also other problems more general problems. R language has a good plotting and reporting tools as well as a good documented packages. That features made R language is widely used among statisticians and data miners for developing statistical software and data analysis. The source code for the R software environment is written primarily in C, Fortran, and R.
 
@@ -18,17 +20,15 @@ wide variety of statistical and graphical techniques, including linear and nonli
 * High-quality static graphics, which can produce graphs for publication, including mathematical symbols. Dynamic and interactive graphics are available through additional packages.
 * Easy documentation formats as Rd, and Rmarkdown.
 
+***Tags***: Computer science, Computer engineering, Programming language
 
 #### See also
 [Python](/notes/python), [Julia](/notes/julia), [SAS](/notes/sas), [Matlab](/notes/matlab), [Go (Programming language)](/notes/go_(programming_language)), [Java](/notes/java), [C](/notes/c), [Fortran](/notes/fortran)
-
 
 ## Material
 * https://intellipaat.com/blog/choosing-between-sas-r-and-python-for-big-data-solution/
 * https://cran.r-project.org/
 * https://www.rstudio.com/
-
-
 
 
 ## Books

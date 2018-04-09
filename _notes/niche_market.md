@@ -1,12 +1,15 @@
 ---
-title: "Niche market"
+title: "# Niche market
+"
 collection: notes
 permalink: /notes/niche_market
 date: 2016-06-01
-Tags:
-  - Marketing
-  - Business
+
 ---
+
+# Niche market
+
+2016-06-01
 
 A niche market is the subset of the market on which a specific product is focused. The market niche defines as the product features aimed at satisfying specific market needs, as well as the price range, production quality and the demographics that is intended to impact.
 
@@ -16,20 +19,18 @@ In practice, product vendors and trade businesses are commonly referred as mains
 
 The final product quality (low or high) is not dependent on the price elasticity of demand, but the specific needs that the product is aimed to satisfy and, in some cases, aspects of brand recognition (e.g. prestige, practicability, money saving, expensiveness, environmental conscience, or social status).
 
+***Tags***: Marketing, Business
 
 #### See also
 [Business models](/notes/business_models), [Market segmentation](/notes/market_segmentation), [Business Intelligence](/notes/business_intelligence)
 
-
 ## Material
 * Britten, Fleur (2006-09-29). "[New meaning for the term 'niche market'](http://www.nytimes.com/2006/09/29/style/29iht-Rshop.html?pagewanted=all)". NY Times.
-
 
 ## Papers
 * Linneman, R. E. (1991). [Making Niche Market Work: How to Grow Bigger by Acting Smaller](http://scholarship.sju.edu/food_mkt_fac/808/).
 * Caragher, Jean Marie (2008). [Expand Your Horizons: Niche Marketing Success Stories](http://ezproxy.aut.ac.nz/login?url=http://search.proquest.com/docview/206796610?accountid=8440). Journal of Accountancy.
 * Parrish, E. D., Cassill, N. L., & Oxenham, W. (2006). [Niche market strategy for a mature marketplace](http://www.emeraldinsight.com/doi/abs/10.1108/02634500610711860). Marketing Intelligence & Planning, 24(7), 694-707.
-
 
 
 

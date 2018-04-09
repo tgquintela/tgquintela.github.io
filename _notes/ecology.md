@@ -1,13 +1,15 @@
 ---
-title: "Ecology"
+title: "# Ecology
+"
 collection: notes
 permalink: /notes/ecology
 date: 2016-06-01
-Tags:
-  - Ecology
-  - Economics
-  - Urbanism
+
 ---
+
+# Ecology
+
+2016-06-01
 
 Ecology is the scientific analysis and study of interactions among organisms and their environment. It is an interdisciplinary field that includes biology, geography, and Earth science. Ecology includes the study of interactions organisms have with each other, other organisms, and with abiotic components of their environment. Topics of interest to ecologists include the diversity, distribution, amount (biomass), and number (population) of particular organisms, as well as cooperation and competition between organisms, both within and among ecosystems. Ecosystems are composed of dynamically interacting parts including organisms, the communities they make up, and the non-living components of their environment. Ecosystem processes, such as primary production, pedogenesis, nutrient cycling, and various niche construction activities, regulate the flux of energy and matter through an environment. These processes are sustained by organisms with specific life history traits, and the variety of organisms is called biodiversity. Biodiversity, which refers to the varieties of species, genes, and ecosystems, enhances certain ecosystem services.
 
@@ -27,16 +29,14 @@ Ecology is a human science as well. There are many practical applications of eco
 
 The word "ecology" ("Ökologie") was coined in 1866 by the German scientist Ernst Haeckel (1834-1919). Ecological thought is derivative of established currents in philosophy, particularly from ethics and politics. Ancient Greek philosophers such as Hippocrates and Aristotle laid the foundations of ecology in their studies on natural history. Modern ecology became a much more rigorous science in the late 19th century. Evolutionary concepts relating to adaptation and natural selection became the cornerstones of modern ecological theory.
 
+***Tags***: Ecology, Economics, Urbanism
 
 #### See also
 [Spatial Ecology](/notes/spatial_ecology), [Coevolution](/notes/coevolution), [Ecosystems](/notes/ecosystems), [Urban ecology](/notes/urban_ecology)
 
 
-
-
 ## Papers
 * Willis, A.J. (1997). [The Ecosystem: An Evolving Concept Viewed Historically](http://www.pelagicos.net/MARS6910_spring2013/readings/Willis_1997.pdf). Functional Ecology 11 (2): 268-271. doi:10.1111/j.1365-2435.1997.00081.x.
-
 
 ## Books
 * Molles, Manuel C. (1999). [Ecology: Concepts and Applications](https://www.goodreads.com/book/show/764624.Ecology). Boston: WCB/McGraw-HIll.

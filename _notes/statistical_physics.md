@@ -1,11 +1,15 @@
 ---
-title: "Statistical physics"
+title: "# Statistical physics
+"
 collection: notes
 permalink: /notes/statistical_physics
 date: 2016-06-01
-Tags:
 
 ---
+
+# Statistical physics
+
+2016-06-01
 
 Statistical mechanics is a branch of theoretical physics that studies, using probability theory, the average behaviour of a mechanical system where the state of the system is uncertain. A common use of statistical mechanics is in explaining the thermodynamic behaviour of large systems.
 
@@ -21,10 +25,10 @@ To understand the global behavior of the system we can do:
 * Solving the complete interlace-equations system of large N (as it is done in the High-performance simulations)
 * Using tools (statistical tools basically) to get some specific descriptors and predictors of the global phenomena of the system.
 
+***Tags***: 
 
 #### See also
 [Nonequilibrium Statistical Mechanics](/notes/nonequilibrium_statistical_mechanics)
-
 
 ## Material
 * [Philosophy of Statistical Mechanics article](http://plato.stanford.edu/entries/statphys-statmech/) by Lawrence Sklar for the Stanford Encyclopedia of Philosophy.
@@ -33,10 +37,8 @@ To understand the global behavior of the system we can do:
 * [Thermodynamics and Statistical Mechanics](http://farside.ph.utexas.edu/teaching/sm1/statmech.pdf) by Richard Fitzpatrick
 * Doron Cohen. [Lecture Notes in Statistical Mechanics and Mesoscopics](http://arxiv.org/abs/1107.0568). ArXiv
 
-
 ## Papers
 * Balescu, R. (1968). [A unified formulation of the kinetic equations](http://www.sciencedirect.com/science/article/pii/0031891468900645). Physica, 38(1), 98-118.
-
 
 ## Books
 * Huang, K. (2005). [Lectures on statistical physics and protein folding](https://www.goodreads.com/book/show/276787.Lectures_on_Statistical_Physics_and_Protein_Folding). Singapore: World Scientific.

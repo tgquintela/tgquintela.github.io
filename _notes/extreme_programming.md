@@ -1,13 +1,15 @@
 ---
-title: "Extreme programming"
+title: "# Extreme programming
+"
 collection: notes
 permalink: /notes/extreme_programming
 date: 2016-06-01
-Tags:
-  - Programming
-  - Programming paradigms
-  - Software development
+
 ---
+
+# Extreme programming
+
+2016-06-01
 
 Extreme programming (XP) is a software development methodology which is intended to improve software quality and responsiveness to changing customer requirements.
 The extreme programming strategy is centered in the code production. Its philosophy is that the product is the code and we do not have other things as planning lose the focus and the attention over the code.
@@ -21,19 +23,17 @@ So, in summary:
 - Software developers are usually required to work in pairs.
 - A customer representative is attached to the project in order to accomplish requirements.
 
+***Tags***: Programming, Programming paradigms, Software development
 
 #### See also
 [Pair programming](/notes/pair_programming), [Agile software development](/notes/agile_software_development), [Software development](/notes/software_development)
 
-
 ## Material
 * Beck, Kent; et al. (2001). ["Manifesto for Agile Software Development"](http://agilemanifesto.org/). Agile Alliance. Retrieved 14 June 2010
-
 
 ## Papers
 * Beck, K. (1999). Embracing change with extreme programming. Computer, 32(10), 70-77.
 * Erickson, J., Lyytinen, K., & Siau, K. (2005). Agile modeling, agile software development, and extreme programming: the state of research. Journal of database Management, 16(4), 88.
-
 
 ## Books
 * Beck, K. (2000). [Extreme programming explained: embrace change](https://www.goodreads.com/book/show/67833.Extreme_Programming_Explained). Addison-Wesley Professional.

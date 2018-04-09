@@ -1,11 +1,15 @@
 ---
-title: "Shallow banking"
+title: "# Shallow banking
+"
 collection: notes
 permalink: /notes/shallow_banking
 date: 2016-06-01
-Tags:
-  - Economics
+
 ---
+
+# Shallow banking
+
+2016-06-01
 
 The shadow banking system is a term for the collection of non-bank financial intermediaries that provide services similar to traditional commercial banks but outside normal financial regulations. Former US Federal Reserve Chair Ben Bernanke provided the following definition in November 2013:
 
@@ -19,10 +23,9 @@ The core activities of investment banks are subject to regulation and monitoring
 
 The term Shadow banking is strongly related with the Great Recession which started in 2008. Prior to the 2008 financial crisis, major investment banks were subject to considerably less stringent regulation than depository banks. In 2008, investment banks Morgan Stanley and Goldman Sachs became bank holding companies, Merrill Lynch and Bear Stearns were acquired by bank holding companies, and Lehman Brothers declared bankruptcy, essentially bringing the largest investment banks into the regulated depository sphere.
 
+***Tags***: Economics
 
 #### See also
-
-
 
 
 
@@ -31,7 +34,6 @@ The term Shadow banking is strongly related with the Great Recession which start
 * Pozsar, Z., Adrian, T., Ashcraft, A. B., & Boesky, H. (2010). [Shadow banking](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.178.7070&rep=rep1&type=pdf). Available at SSRN 1640545.
 * Gorton, G., & Metrick, A. (2010). [Regulating the shadow banking system](http://www.brookings.edu/~/media/Research/Files/Articles/2010/9/bpea%20fall%20summary%20romer%20wolfers/2010b_bpea_gorton.PDF). Brookings Papers on Economic Activity, 2010(2), 261-297.
 * Gennaioli, N., Shleifer, A., & Vishny, R. W. (2013). [A model of shadow banking](https://repositori.upf.edu/bitstream/handle/10230/19874/1283.pdf?sequence=1). The Journal of Finance, 68(4), 1331-1363.
-
 
 ## Books
 * Adrian, T. (2010). [Shadow Banking System: Implications for Financial Regulation](). DIANE Publishing.

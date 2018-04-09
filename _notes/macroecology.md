@@ -1,11 +1,15 @@
 ---
-title: "Macroecology"
+title: "# Macroecology
+"
 collection: notes
 permalink: /notes/macroecology
 date: 2016-06-01
-Tags:
-  - Ecology
+
 ---
+
+# Macroecology
+
+2016-06-01
 
 Macroecology is the subfield of ecology that deals with the study of relationships between organisms and their environment at large spatial scales to characterise and explain statistical patterns of abundance, distribution and diversity. The term was coined by James Brown of the University of New Mexico and Brian Maurer of Michigan State University in a 1989 paper in Science.
 
@@ -14,12 +18,10 @@ Macroecology examines how global development in climate change affect wildlife p
 
 I have my serious doubts of the real apportation of this subfield into the field.
 
+***Tags***: Ecology
 
 #### See also
 [Spatial Ecology](/notes/spatial_ecology), [Ecology](/notes/ecology)
-
-
-
 
 
 

@@ -1,12 +1,15 @@
 ---
-title: "EEG"
+title: "# EEG
+"
 collection: notes
 permalink: /notes/eeg
 date: 2016-06-01
-Tags:
-  - Neuroscience
-  - Imaging technique
+
 ---
+
+# EEG
+
+2016-06-01
 
 EEG (Electroencephalography) is an electrophysiological monitoring method that uses electrodes on the scalp and other techniques to detect the electrical flow of currents in order to record electrical activity of the brain. It is typically noninvasive although invasive electrodes are sometimes used in specific applications. 
 EEG measures voltage fluctuations resulting from ionic current within the neurons of the brain. EEG refers to the recording of the brain's spontaneous electrical activity over a period of time, as recorded from multiple electrodes placed on the scalp. Diagnostic applications generally focus on the spectral content of EEG, that is, the type of neural oscillations (popularly called "brain waves") that can be observed in EEG signals.
@@ -21,16 +24,14 @@ EEG can be recorded at the same time as MEG so that data from these complementar
 
 Studies on numerical modeling of EEG and MEG have also been done.
 
+***Tags***: Neuroscience, Imaging technique
 
 #### See also
 [fMRI](/notes/fmri), [PET](/notes/pet), [dMRI](/notes/dmri)
 
 
-
-
 ## Papers
 * Delorme, A., & Makeig, S. (2004). [EEGLAB: an open source toolbox for analysis of single-trial EEG dynamics including independent component analysis](https://escholarship.org/uc/item/52k1t4sz.pdf). Journal of neuroscience methods, 134(1), 9-21.
-
 
 ## Books
 * Niedermeyer E.; da Silva F.L. (2004). [Electroencephalography: Basic Principles, Clinical Applications, and Related Fields](https://www.goodreads.com/book/show/3611368-electroencephalography). Lippincot Williams & Wilkins.

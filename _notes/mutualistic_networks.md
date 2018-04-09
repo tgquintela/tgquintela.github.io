@@ -1,13 +1,15 @@
 ---
-title: "Mutualistic networks"
+title: "# Mutualistic networks
+"
 collection: notes
 permalink: /notes/mutualistic_networks
 date: 2016-06-01
-Tags:
-  - Ecology
-  - Complex systems
-  - Complex networks
+
 ---
+
+# Mutualistic networks
+
+2016-06-01
 
 Mutualistic networks are the networks that maps all the mutualistic interaction between all the species in the studied ecosystem. Mutualism is the way two organisms of different species exist in a relationship in which each individual benefits from the activity of the other. Similar interactions within a species are known as co-operation. Mutualism can be contrasted with interspecific competition, in which each species experiences reduced fitness, and exploitation, or parasitism, in which one species benefits at the expense of the other. Symbiosis involves two species living in close proximity and includes relationships that are mutualistic, parasitic, and commensal. Symbiotic relationships are sometimes, but not always, mutualistic.
 The term "mutualism" was introduced by Pierre-Joseph van Beneden in 1876.
@@ -16,11 +18,10 @@ Measuring the exact fitness benefit to the individuals in a mutualistic relation
 
 The study of the mutualistic networks uses common tools of complex networks as robustness to study cascade extinctions or the structure of the network to understand patterns and process of the ecosystem.
 
+***Tags***: Ecology, Complex systems, Complex networks
 
 #### See also
 [Coevolution](/notes/coevolution), [Complex networks](/notes/complex_networks)
-
-
 
 
 ## Papers
@@ -31,7 +32,6 @@ The study of the mutualistic networks uses common tools of complex networks as r
 * Olesen, J. M., & Jordano, P. (2002). [Geographic patterns in plant-pollinator mutualistic networks](http://digital.csic.es/bitstream/10261/42356/1/OlesenJordano2002Ecol.pdf). Ecology, 83(9), 2416-2424.
 * Bastolla, U., Fortuna, M. A., Pascual-García, A., Ferrera, A., Luque, B., & Bascompte, J. (2009). [The architecture of mutualistic networks minimizes competition and increases biodiversity](http://www.nature.com/nature/journal/v458/n7241/abs/nature07950.html). Nature, 458(7241), 1018-1020.
 * Lever, J. J., Nes, E. H., Scheffer, M., & Bascompte, J. (2014). [The sudden collapse of pollinator communities](http://digital.csic.es/bitstream/10261/91808/1/REVISION2_Lever_etal_Collapse_Pollinators.pdf). Ecology letters, 17(3), 350-359.
-
 
 ## Books
 * Bascompte, J., & Jordano, P. (2013). [Mutualistic networks](). Princeton University Press.

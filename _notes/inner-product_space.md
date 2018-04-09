@@ -1,12 +1,15 @@
 ---
-title: "Inner-product space"
+title: "# Inner-product space
+"
 collection: notes
 permalink: /notes/inner-product_space
 date: 2016-06-01
-Tags:
-  - Topology
-  - Functional analysis
+
 ---
+
+# Inner-product space
+
+2016-06-01
 
 Inner product space is a *normed vector space* with an additional structure called an inner product. This additional structure associates each pair of vectors in the space with a scalar quantity known as the inner product of the vectors. Inner products allow the rigorous introduction of intuitive geometrical notions such as the length of a vector or the angle between two vectors. They also provide the means of defining orthogonality between vectors (zero inner product). Inner product spaces generalize Euclidean spaces (in which the inner product is the dot product, also known as the scalar product) to vector spaces of any (possibly infinite) dimension, and are studied in functional analysis.
 
@@ -19,12 +22,10 @@ that satisfies the following three axioms for all vectors ${\displaystyle x,y,z\
 * Linearity in the first argument: ${\displaystyle \langle ax,y\rangle =a\langle x,y\rangle }$ and ${\displaystyle \langle x+y,z\rangle =\langle x,z\rangle +\langle y,z\rangle }$.
 * Positive-definiteness: ${\displaystyle \langle x,x\rangle \geq 0}$ and ${\displaystyle \langle x,x\rangle =0\Leftrightarrow x=\mathbf {0} }$.
 
+***Tags***: Topology, Functional analysis
 
 #### See also
 [Functional analysis](/notes/functional_analysis), [Normed space](/notes/normed_space), [Hilbert space](/notes/hilbert_space)
-
-
-
 
 
 

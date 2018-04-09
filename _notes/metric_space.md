@@ -1,12 +1,15 @@
 ---
-title: "Metric space"
+title: "# Metric space
+"
 collection: notes
 permalink: /notes/metric_space
 date: 2016-06-01
-Tags:
-  - Topology
-  - Functional analysis
+
 ---
+
+# Metric space
+
+2016-06-01
 
 A metric space is a set for which *distances* between all members of the set are defined. Those distances, taken together, are called a metric on the set. A metric on a space induces topological properties like open and closed sets, which lead to the study of more abstract topological spaces.
 
@@ -25,12 +28,10 @@ The first condition follows from the other three. Since for any ${\displaystyle 
 * ${\displaystyle d(x,y)\geq 0}$ we have non-negativity
 wheren the function d {\displaystyle d} d is also called distance function or simply distance.
 
+***Tags***: Topology, Functional analysis
 
 #### See also
 [Functional analysis](/notes/functional_analysis), [Normal space](/notes/normal_space), [Complete metric space](/notes/complete_metric_space)
-
-
-
 
 
 

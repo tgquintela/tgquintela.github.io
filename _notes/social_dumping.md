@@ -1,12 +1,15 @@
 ---
-title: "Social dumping"
+title: "# Social dumping
+"
 collection: notes
 permalink: /notes/social_dumping
 date: 2016-06-01
-Tags:
-  - Sociology
-  - Game Theory
+
 ---
+
+# Social dumping
+
+2016-06-01
 
 "Social dumping" is a term that is used to describe a practice of employers to use cheaper labour, than is usually available at their site of production and/or selling. 
 It could be done by two basic ways:
@@ -15,16 +18,15 @@ It could be done by two basic ways:
 
 While it happens some states are in a dumping-like game where the Nash-equilibrium is less environmental protection, labor protection in order to compensate the losses of having the production in a high-wage region.
 
+***Tags***: Sociology, Game Theory
 
 #### See also
 [Game Theory](/notes/game_theory), [Race to the bottom](/notes/race_to_the_bottom), [Public goods game](/notes/public_goods_game), [Prisoner's dilemma](/notes/prisoner's_dilemma), [Price dumping](/notes/price_dumping), [Fiscal dumping](/notes/fiscal_dumping), [Paradox of competition](/notes/paradox_of_competition)
-
 
 ## Material
 * http://www.collinsdictionary.com/dictionary/english/social-dumping
 * http://europa.eu/rapid/press-release_MEMO-14-344_en.htm
 * http://www.stopsocialdumping.eu/
-
 
 ## Papers
 * Alber, J., & Standing, G. (2000). [Social dumping, catch-up or convergence? Europe in a comparative global context](). Journal of European Social Policy, 10(2), 99-119.
@@ -32,7 +34,6 @@ While it happens some states are in a dumping-like game where the Nash-equilibri
 * Barnard, C. (2000). [Social dumping and the race to the bottom: Some lessons for the European Union from Delaware?](). European Law Review, (1), 57-78.
 * Ericksno, C. L., & Kuruvilla, S. (1994). [Labor costs and the social dumping debate in the European Union](http://digitalcommons.ilr.cornell.edu/cgi/viewcontent.cgi?article=2065&context=articles). Industrial & Labor Relations Review, 48(1), 28-47.
 * Cordella, Tito; Grilo, Isabel (2001). [Social dumping and relocation: is there a case for imposing a social clause?](http://www.sciencedirect.com/science/article/pii/S0166046201000631), Regional Science and Urban Economics, Volume 31, Issue 6, 643-668.
-
 
 ## Books
 * Bernaciak, Magdalena (2015). [Market Expansion and Social Dumping in Europe](https://www.goodreads.com/book/show/26407217-market-expansion-and-social-dumping-in-europe). Routledge

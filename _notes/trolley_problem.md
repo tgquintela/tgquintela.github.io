@@ -1,13 +1,15 @@
 ---
-title: "Trolley problem"
+title: "# Trolley problem
+"
 collection: notes
 permalink: /notes/trolley_problem
 date: 2016-06-01
-Tags:
-  - Ethics
-  - Artificial Intelligence
-  - List
+
 ---
+
+# Trolley problem
+
+2016-06-01
 
 Trolley problem is a thought experiment in ethics. The general problem states:
 
@@ -27,11 +29,9 @@ In the self-driving cars there appears the variations on the problems and the co
 * [Self-driving cars and the Trolley problem](https://medium.com/@tanayj/self-driving-cars-and-the-trolley-problem-5363b86cb82d#.k8v2fc4h4). Tanay Jaipuria
 * [Don’t worry, self-driving cars are likely to be better at ethics than we are](http://www.vox.com/2016/6/13/11896166/self-driving-cars-ethics)
 
+***Tags***: Ethics, Artificial Intelligence, List
 
 #### See also
-
-
-
 
 
 

@@ -1,22 +1,22 @@
 ---
-title: "Machine Learning"
+title: "# Machine Learning
+"
 collection: notes
 permalink: /notes/machine_learning
 date: 2016-06-01
-Tags:
-  - Computer science
-  - Data Analysis
-  - Artificial Intelligence
+
 ---
 
+# Machine Learning
+
+2016-06-01
 
 
+
+***Tags***: Computer science, Data Analysis, Artificial Intelligence
 
 #### See also
 [Computational intelligence](/notes/computational_intelligence), [Mathematical optimization](/notes/mathematical_optimization), [Computer vision](/notes/computer_vision), [Artificial Intelligence](/notes/artificial_intelligence), [Spatial Data Analysis](/notes/spatial_data_analysis), [Data Analysis](/notes/data_analysis)
-
-
-
 
 
 

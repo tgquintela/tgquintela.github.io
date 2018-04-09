@@ -1,11 +1,15 @@
 ---
-title: "Levy process"
+title: "# Levy process
+"
 collection: notes
 permalink: /notes/levy_process
 date: 2016-06-01
-Tags:
-  - Stochastic processes
+
 ---
+
+# Levy process
+
+2016-06-01
 
 Lévy process, named after the French mathematician Paul Lévy, is a càdlàg stochastic process with independent, stationary increments: it represents the motion of a point whose successive displacements are random and independent, and statistically identical over different time intervals of the same length. A Lévy process may thus be viewed as the continuous-time analog of a random walk.
 
@@ -21,17 +25,15 @@ A stochastic process $X_t$ is said to be a Lévy process if it satisfies the fol
 
 If ${\displaystyle X}$ is a Lévy process then one may construct a version of ${\displaystyle X}$ such that ${\displaystyle t\mapsto X_{t}}$ is almost surely right continuous with left limits.
 
+***Tags***: Stochastic processes
 
 #### See also
 [Wiener process](/notes/wiener_process)
 
 
-
-
 ## Papers
 * Eberlein, E. (2001). [Application of generalized hyperbolic Lévy motions to finance](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.469.5237&rep=rep1&type=pdf). In Lévy processes (pp. 319-336). Birkhäuser Boston.
 * Rosiński, J. (2001). [Series representations of Lévy processes from the perspective of point processes](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.606.8241&rep=rep1&type=pdf). In Lévy processes (pp. 401-415). Birkhäuser Boston.
-
 
 ## Books
 * Bertoin, J. (1998). [Lévy processes](https://www.goodreads.com/book/show/5109634-livy-processes). Cambridge university press.

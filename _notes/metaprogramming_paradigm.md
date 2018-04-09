@@ -1,12 +1,15 @@
 ---
-title: "Metaprogramming paradigm"
+title: "# Metaprogramming paradigm
+"
 collection: notes
 permalink: /notes/metaprogramming_paradigm
 date: 2016-06-01
-Tags:
-  - Computer engineering
-  - Programming
+
 ---
+
+# Metaprogramming paradigm
+
+2016-06-01
 
 Metaprogramming is the programming paradigm about writing of computer programs with the ability to treat programs as their data. It means that a program could be designed to read, generate, analyse or transform other programs, and even modify itself while running. In some cases, this allows programmers to minimize the number of lines of code to express a solution (hence reducing development time), or it gives programs greater flexibility to efficiently handle new situations without recompilation.
 
@@ -22,12 +25,10 @@ Metaprogramming usually works in one of three ways:
 ### TODO:
 * Relate that with Templates and Macros.
 
+***Tags***: Computer engineering, Programming
 
 #### See also
 [Programming paradigm](/notes/programming_paradigm)
-
-
-
 
 
 

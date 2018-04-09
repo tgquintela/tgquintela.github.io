@@ -1,11 +1,15 @@
 ---
-title: "Data munging"
+title: "# Data munging
+"
 collection: notes
 permalink: /notes/data_munging
 date: 2016-06-01
-Tags:
-  - Data science
+
 ---
+
+# Data munging
+
+2016-06-01
 
 Data munging or data wrangling is loosely the process of manually converting or mapping data from one "raw" form into another format that allows for more convenient consumption of the data with the help of semi-automated tools.
 
@@ -26,12 +30,10 @@ The related activities with data munging are:
 * Data curation: organization and integration of data collected from various sources, annotation of the data, and publication and presentation of the data such that the value of the data is maintained over time, and the data remains available for reuse and preservation.
 * Data pre-processing. Step before the machine learning step or the data mining process. There are data that has to be cleaned.
 
+***Tags***: Data science
 
 #### See also
 [Data extraction](/notes/data_extraction), [Data visualization](/notes/data_visualization)
-
-
-
 
 
 

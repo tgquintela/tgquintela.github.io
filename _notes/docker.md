@@ -1,12 +1,15 @@
 ---
-title: "Docker"
+title: "# Docker
+"
 collection: notes
 permalink: /notes/docker
 date: 2016-06-01
-Tags:
-  - Computer engineering
-  - Software management tools
+
 ---
+
+# Docker
+
+2016-06-01
 
 Docker is an open-source project that automates the deployment of applications inside software containers. Docker containers wrap up a piece of software in a complete filesystem that contains everything it needs to run: code, runtime, system tools, system libraries (anything you can install on a server). This guarantees that it will always run the same, regardless of the environment it is running in.
 Docker provides an additional layer of abstraction and automation of operating-system-level virtualization on Linux. Docker uses the resource isolation features of the Linux kernel such as cgroups and kernel namespaces, and a union-capable file system such as aufs and others to allow independent "containers" to run within a single Linux instance, avoiding the overhead of starting and maintaining virtual machines.
@@ -18,16 +21,14 @@ By using containers, resources can be isolated, services restricted, and process
 
 Using Docker to create and manage containers may simplify the creation of highly distributed systems by allowing multiple applications, worker tasks and other processes to run autonomously on a single physical machine or across multiple virtual machines. This allows the deployment of nodes to be performed as the resources become available or when more nodes are needed, allowing a platform as a service (PaaS)-style of deployment and scaling for systems like Apache Cassandra, MongoDB or Riak. Docker also simplifies the creation and operation of task or workload queues and other distributed systems
 
+***Tags***: Computer engineering, Software management tools
 
 #### See also
 [DevOps](/notes/devops)
 
-
 ## Material
 * https://www.docker.com/
 * https://docs.docker.com/
-
-
 
 
 ## Books

@@ -1,13 +1,15 @@
 ---
-title: "Agile software development"
+title: "# Agile software development
+"
 collection: notes
 permalink: /notes/agile_software_development
 date: 2016-06-01
-Tags:
-  - Programming
-  - Programming paradigms
-  - Software development
+
 ---
+
+# Agile software development
+
+2016-06-01
 
 Agile programming is a paradigm of programming which is composed by a set of solutions and techniques with a common driven principles focused in collaboration, self-organization and adaptability.
 In the opposite of waterfall paradigm, agile development consider the software projects are more flexible then industrial or building projects. In order to get adaptatible planning, evolutionary development and early response to change, the organization structure of the software development team has to acomplish:
@@ -24,21 +26,19 @@ The main and most well known tools and techniques used which are strongly relate
 
 Agile tries to create frameworks of software development in order to be easy adapted to changes in the needs of the project or changing circumstances. The main goal is matching the needings of the customers.
 
+***Tags***: Programming, Programming paradigms, Software development
 
 #### See also
 [Pair programming](/notes/pair_programming), [Agile software development](/notes/agile_software_development)
-
 
 ## Material
 * Beck, Kent; et al. (2001). ["Manifesto for Agile Software Development"](http://agilemanifesto.org/). Agile Alliance. Retrieved 14 June 2010
 * http://www.martinfowler.com/articles/designDead.html
 * http://www.martinfowler.com/agile.html
 
-
 ## Papers
 * Abrahamsson, P., Salo, O., Ronkainen, J., & Warsta, J. (2002). Agile Software Development Methods: Review and Analysis. VTT Publications 478.
 * Cohen, D., Lindvall, M., & Costa, P. (2004). [An introduction to agile methods. In Advances in Computers](http://robertfeldt.net/courses/agile/cohen_2004_intro_to_agile_methods.pdf). New York: Elsevier Science.
-
 
 ## Books
 * Shore, J., & Warden S. (2008). [The Art of Agile Development](https://www.goodreads.com/book/show/1654215.The_Art_of_Agile_Development). O'Reilly Media, Inc.

@@ -1,31 +1,31 @@
 ---
-title: "Matlab"
+title: "# Matlab
+"
 collection: notes
 permalink: /notes/matlab
 date: 2016-06-01
-Tags:
-  - Computer science
-  - Computer engineering
-  - Programming language
+
 ---
+
+# Matlab
+
+2016-06-01
 
 MATLAB (matrix laboratory) is a multi-paradigm numerical computing environment and fourth-generation and high-level scripting programming language. A proprietary programming language developed by MathWorks, MATLAB allows matrix manipulations, plotting of functions and data, implementation of algorithms, creation of user interfaces, and interfacing with programs written in other languages, including C, C++, Java, Fortran and Python. MATLAB is broadly used in academy and also in industry.
 There are also free open source alternatives to MATLAB, in particular GNU Octave(open source clone of MATLAB), Scilab, FreeMat, Julia, and Sage which are intended to be mostly compatible with the MATLAB language.
 
 It has interesting tools for verizable computation as well as easy parallelization tools for numerical computations.
 
+***Tags***: Computer science, Computer engineering, Programming language
 
 #### See also
 [Python](/notes/python), [Julia](/notes/julia), [SAS](/notes/sas), [R](/notes/r), [Go (Programming language)](/notes/go_(programming_language)), [Java](/notes/java), [C](/notes/c), [Fortran](/notes/fortran), [Sage](/notes/sage)
-
 
 ## Material
 * http://www.tutorialspoint.com/matlab/
 * http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-094-introduction-to-matlab-january-iap-2010/
 * https://es.mathworks.com/academia/student_center/tutorials/mltutorial_launchpad.html?requestedDomain=www.mathworks.com&requestedDomain=in.mathworks.com
 * https://iversity.org/en/courses/modelling-and-simulation-using-matlab?r=ad450
-
-
 
 
 ## Books

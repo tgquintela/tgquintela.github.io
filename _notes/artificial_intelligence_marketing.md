@@ -1,13 +1,15 @@
 ---
-title: "Artificial intelligence marketing"
+title: "# Artificial intelligence marketing
+"
 collection: notes
 permalink: /notes/artificial_intelligence_marketing
 date: 2016-06-01
-Tags:
-  - Marketing
-  - Business
-  - Artificial intelligence
+
 ---
+
+# Artificial intelligence marketing
+
+2016-06-01
 
 Artificial intelligence marketing (AIM) is a concept of in direct marketing based on leveraging database marketing techniques as well as AI concept and model such as machine learning and Bayesian Network. The main difference resides in the reasoning part which suggests it is performed by computer and algorithm instead of human. Artificial intelligence marketing provides a set of tools and techniques that enable behavioral targeting.
 
@@ -18,11 +20,10 @@ It is based mainly in 3 steps:
 
 It is usually applied by *market segmentation*, *target marketing* and the use of *recommender systems* as a extra-functionality.
 
+***Tags***: Marketing, Business, Artificial intelligence
 
 #### See also
 [Market segmentation](/notes/market_segmentation), [Target market](/notes/target_market)
-
-
 
 
 ## Papers
@@ -30,7 +31,6 @@ It is usually applied by *market segmentation*, *target marketing* and the use o
 * Büchner, A. G., & Mulvenna, M. D. (1998). [Discovering internet marketing intelligence through online analytical web usage mining](https://www.researchgate.net/profile/Maurice_Mulvenna/publication/220415836_Discovering_Internet_Marketing_Intelligence_through_Online_Analytical_Web_Usage_Mining/links/54230b030cf26120b7a6b989.pdf). ACM Sigmod Record, 27(4), 54-61.
 * Wierenga, B. (2010). [Marketing and artificial intelligence: Great opportunities, reluctant partners](http://www.academia.edu/download/46097775/SOFT_COMPUTING.pdf#page=16). In Marketing intelligent systems using soft computing (pp. 1-8). Springer Berlin Heidelberg.
 * Cheung, K. W., Kwok, J. T., Law, M. H., & Tsui, K. C. (2003). [Mining customer product ratings for personalized marketing](https://www.researchgate.net/profile/Kwok_Ching_Tsui/publication/262406306_Mining_customer_product_rating_for_personalized_marketing/links/0fcfd50bdec4840fe5000000.pdf). Decision Support Systems, 35(2), 231-243.
-
 
 ## Books
 * Blattberg, R. C., Glazer, R., & Little, J. D. (1994). [The marketing information revolution](https://www.goodreads.com/book/show/1254431.The_Marketing_Information_Revolution). Harvard Business School Press.

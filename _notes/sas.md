@@ -1,13 +1,15 @@
 ---
-title: "SAS"
+title: "# SAS
+"
 collection: notes
 permalink: /notes/sas
 date: 2016-06-01
-Tags:
-  - Computer science
-  - Computer engineering
-  - Programming language
+
 ---
+
+# SAS
+
+2016-06-01
 
 SAS (Statistical Analysis System) is a privative software suite developed by SAS Institute for advanced analytics, multivariate analyses, business intelligence, data management, and predictive analytics. Initially written in PL/I, Fortran, and assembly language, it was re-written in C in order to run in UNIX, MS-DOS, and Windows. SAS is composed with different modules and framework in order to tackle problems as Supply Chain Intelligence, Customer Relationship Management, Fraud, "Governance, Risk and Compliance", among others. It is useful for easy and close statistical problems in the fields of statistics and Business Analytics. 
 
@@ -25,16 +27,14 @@ The main features of the SAS language are:
 
 As we mentioned SAS is a commercial language, and so you can have technical support. SAS is recommended for doing commercial solutions without any owned large group of technical support. It is easy to learn, it has a good error handling and good reporting tools. When you have a limited problem with limited solutions and it is difficult to generalize or adapt this problem to others. SAS could give you a quick and easy solution. In other hand if you need more flexible solutions it is better to go to R.
 
+***Tags***: Computer science, Computer engineering, Programming language
 
 #### See also
 [Python](/notes/python), [Julia](/notes/julia), [R](/notes/r), [Matlab](/notes/matlab), [Go (Programming language)](/notes/go_(programming_language)), [Java](/notes/java), [C](/notes/c), [Fortran](/notes/fortran), [Business Intelligence](/notes/business_intelligence)
 
-
 ## Material
 * https://groups.google.com/forum/#!forum/comp.soft-sys.sas
 * http://www.sascommunity.org/wiki/Sasopedia/Language_elements
-
-
 
 
 ## Books

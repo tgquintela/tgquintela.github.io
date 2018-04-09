@@ -1,13 +1,15 @@
 ---
-title: "Bagging"
+title: "# Bagging
+"
 collection: notes
 permalink: /notes/bagging
 date: 2016-06-01
-Tags:
-  - Artificial Intelligence
-  - Machine Learning
-  - Statistics
+
 ---
+
+# Bagging
+
+2016-06-01
 
 Bagging (bootstrap aggregating), also called bagging, is a machine learning ensemble meta-algorithm designed to improve the stability and accuracy of machine learning algorithms used in statistical classification and regression. It also reduces variance and helps to avoid overfitting. Although it is usually applied to decision tree methods, it can be used with any type of method. Bagging is a special case of the **model averaging approach**.
 
@@ -23,17 +25,15 @@ One of the uses of bagging is random subspace method (or attribute bagging) whic
 	* classification problems
 	* where the number of features is much larger than the number of training objects, such as fMRI data or gene expression data.
 
+***Tags***: Artificial Intelligence, Machine Learning, Statistics
 
 #### See also
 [Machine Learning](/notes/machine_learning), [Artificial Neural Networks](/notes/artificial_neural_networks), [Random Forest](/notes/random_forest)
 
 
-
-
 ## Papers
 * Breiman, L. (1996). [Bagging predictors](http://www.machine-learning.martinsewell.com/ensembles/bagging/Breiman1996.pdf). Machine learning, 24(2), 123-140.
 * Quinlan, J. R. (1996, August). [Bagging, boosting, and C4. 5](http://www.cs.ecu.edu/~dingq/CSCI6905/readings/BaggingBoosting.pdf). In AAAI/IAAI, Vol. 1 (pp. 725-730).
-
 
 
 

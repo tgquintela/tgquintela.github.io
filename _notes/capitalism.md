@@ -1,11 +1,15 @@
 ---
-title: "Capitalism"
+title: "# Capitalism
+"
 collection: notes
 permalink: /notes/capitalism
 date: 2016-06-01
-Tags:
-  - Economics
+
 ---
+
+# Capitalism
+
+2016-06-01
 
 Capitalism is an economic system based on private ownership of the means of production and their operation for profit. Characteristics central to capitalism include private property, capital accumulation, wage labor, voluntary exchange, a price system, and competitive markets. In a capitalist market economy, decision-making and investment is determined by the owners of the factors of production in financial and capital markets, and prices and the distribution of goods are mainly determined by competition in the market.
 
@@ -17,12 +21,10 @@ Literature agreed in different types of capitalism as example:
 Most existing capitalist economies are mixed economies, which combine elements of free markets with state intervention, and in some cases, with economic planning.
 Capitalism has existed under many forms of government, in many different times, places, and cultures. Following the decline of mercantilism, mixed capitalist systems became dominant in the Western world and continue to spread.
 
+***Tags***: Economics
 
 #### See also
 [Economic liberalism](/notes/economic_liberalism)
-
-
-
 
 
 

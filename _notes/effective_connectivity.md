@@ -1,20 +1,23 @@
 ---
-title: "Effective connectivity"
+title: "# Effective connectivity
+"
 collection: notes
 permalink: /notes/effective_connectivity
 date: 2016-06-01
-Tags:
-  - Neuroscience
+
 ---
+
+# Effective connectivity
+
+2016-06-01
 
 Effective connectivity is the brain connectivity associated to causal relations between parts or elements of the brain. The units correspond to individual neurons, neuronal populations, or anatomically segregated brain regions. The connectivity pattern is formed by causal relationships mesured as information flow or other causal measures.
 Effective brain connectivity has been studied using various techniques. Covariance modeling has allowed the identification of significant differences in effective connectivity between a given set of brain regions when estimated in different cognitive tasks, thus illustrating the time- and task-dependent nature of these patterns (McIntosh and Gonzalez-Lima, 1994). Granger causality has been applied to EEG as well as fMRI time series and has provided information about directed interactions between neural elements in the course of behavioral and cognitive tasks (Brovelli et al., 2004). The combination of transcranial magnetic stimulation (TMS) with functional neuroimaging allows the use of localized perturbations of brain networks while they are engaged in the performance of specific tasks. For example, a combination of TMS and high-density electroencephalography has revealed a striking reduction in the extent of cortical effective connectivity during non-REM sleep compared to waking (Massimini et al., 2005).
 
+***Tags***: Neuroscience
 
 #### See also
 [Structural connectivity](/notes/structural_connectivity), [Functional connectivity](/notes/functional_connectivity), [Connectomics](/notes/connectomics)
-
-
 
 
 ## Papers
@@ -23,7 +26,6 @@ Effective brain connectivity has been studied using various techniques. Covarian
 * Massimini, M., Ferrarelli, F., Huber, R., Esser, S. K., Singh, H., & Tononi, G. (2005). [Breakdown of cortical effective connectivity during sleep](ftp://ftp.psy.gla.ac.uk/pub/gregor/tmseeg4Marine/massimini%20Science%202005.pdf). Science, 309(5744), 2228-2232.
 * Aertsen, A. M., Gerstein, G. L., Habib, M. K., & Palm, G. (1989). [Dynamics of neuronal firing correlation: modulation of" effective connectivity"](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.324.6767&rep=rep1&type=pdf). Journal of neurophysiology, 61(5), 900-917.
 * Friston, K. J. (2011). [Functional and effective connectivity: a review](http://cercor.oxfordjournals.org/content/17/10/2400.long). Brain connectivity, 1(1), 13-36.
-
 
 
 

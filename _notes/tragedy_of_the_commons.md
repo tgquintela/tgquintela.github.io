@@ -1,11 +1,15 @@
 ---
-title: "Tragedy of the commons"
+title: "# Tragedy of the commons
+"
 collection: notes
 permalink: /notes/tragedy_of_the_commons
 date: 2016-06-01
-Tags:
-  - Game Theory
+
 ---
+
+# Tragedy of the commons
+
+2016-06-01
 
 The tragedy of the commons is an economic theory of a situation within a shared-resource system where individual users acting independently according to their own self-interest behave contrary to the common good of all users by depleting that resource through their collective action.
 
@@ -15,19 +19,17 @@ The tragedy of the commons is often cited in connection with sustainable develop
 
 Although commons have been known to collapse due to overuse (such as in over-fishing), many examples exist which prosper without collapse. The political economist Elinor Ostrom stated that it is often claimed that only private ownership or government regulation can prevent the "tragedy", however it is in the interests of the users of a commons to keep it running, and complex social schemes are often devised by them for maintaining common resources efficiently.
 
+***Tags***: Game Theory
 
 #### See also
 [Game Theory](/notes/game_theory)
 
-
 ## Material
 * [Governing The Commons](http://www.forbes.com/2009/10/12/elinor-ostrom-commons-nobel-economics-opinions-contributors-vernon-l-smith.html)
-
 
 ## Papers
 * Hardin, Garrett. [The Tragedy of the Commons∗](). Journal of Natural Resources Policy Research 1.3 (2009): 243-253.
 * Tornell, A., & Velasco, A. (1992). [The tragedy of the commons and economic growth: why does capital flow from poor to rich countries?](http://www.aaron-tornell.com/s/7-The-tragedy-of-commons.pdf). Journal of Political Economy, 1208-1231.
-
 
 
 

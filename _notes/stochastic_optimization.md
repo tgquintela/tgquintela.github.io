@@ -1,15 +1,15 @@
 ---
-title: "Stochastic optimization"
+title: "# Stochastic optimization
+"
 collection: notes
 permalink: /notes/stochastic_optimization
 date: 2016-06-01
-Tags:
-  - Computer science
-  - Mathematics
-  - Optimization
-  - Economics
-  - Operations Research
+
 ---
+
+# Stochastic optimization
+
+2016-06-01
 
 Stochastic optimization (SO) methods are optimization methods that generate and use random variables. For stochastic problems, the random variables appear in the formulation of the optimization problem itself, which involve random objective functions or random constraints, for example. Stochastic optimization methods also include methods with random iterates. Some stochastic optimization methods use random iterates to solve stochastic problems, combining both meanings of stochastic optimization. Stochastic optimization methods generalize deterministic methods for deterministic problems.
 
@@ -35,17 +35,15 @@ The common randomized search methods are:
 * swarm algorithms
 * evolutionary algorithms
 
+***Tags***: Computer science, Mathematics, Optimization, Economics, Operations Research
 
 #### See also
 [Mathematical Optimization](/notes/mathematical_optimization)
 
 
-
-
 ## Papers
 * Neely, Michael J. [Stochastic network optimization with application to communication and queueing systems](). Synthesis Lectures on Communication Networks 3.1 (2010): 1-211.
 * Kingma, Diederik, and Jimmy Ba. [Adam: A method for stochastic optimization](http://arxiv.org/abs/1412.6980). arXiv preprint arXiv:1412.6980 (2014).
-
 
 ## Books
 * Schneider, Johannes J.; Kirkpatrick, Scott (2006). [Stochastic Optimization](https://www.goodreads.com/book/show/2787488-stochastic-optimization). Springer

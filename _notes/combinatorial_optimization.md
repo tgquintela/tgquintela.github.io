@@ -1,15 +1,15 @@
 ---
-title: "Combinatorial optimization"
+title: "# Combinatorial optimization
+"
 collection: notes
 permalink: /notes/combinatorial_optimization
 date: 2016-06-01
-Tags:
-  - Computer science
-  - Mathematics
-  - Optimization
-  - Economics
-  - Operations Research
+
 ---
+
+# Combinatorial optimization
+
+2016-06-01
 
 Combinatorial optimization is a subfield of applied mathematics and theoretical computer science in which is based on find an optimal composed element from a combination of finite set of elements. In many such problems, exhaustive search is not feasible. The huge amount of possible solutions increase too fast with the size of the problem. It operates on the domain of those optimization problems, in which the set of feasible solutions is discrete or can be reduced to discrete, and in which the goal is to find the best solution. 
 
@@ -40,18 +40,16 @@ Typical related problems
 * Vehicle rescheduling problem
 * Weapon target assignment problem
 
+***Tags***: Computer science, Mathematics, Optimization, Economics, Operations Research
 
 #### See also
 [Mathematical Optimization](/notes/mathematical_optimization), [Combinatorics](/notes/combinatorics)
 
-
 ## Material
 * http://www.journals.elsevier.com/discrete-optimization
 
-
 ## Papers
 * Nemhauser, George L., and Laurence A. Wolsey. [Integer programming and combinatorial optimization](https://www.researchgate.net/profile/George_Nemhauser/publication/230596114_The_Scope_of_Integer_and_Combinatorial_Optimization/links/53d6964a0cf2f57be98eb884.pdf). Wiley, Chichester. GL Nemhauser, MWP Savelsbergh, GS Sigismondi (1992). Constraint Classification for Mixed Integer Programming Formulations. COAL Bulletin 20 (1988): 8-12.
-
 
 ## Books
 * Schrijver, Alexander (2002). [Combinatorial Optimization: Polyhedra and Efficiency. Algorithms and Combinatorics](https://www.goodreads.com/book/show/1186653.Combinatorial_Optimization).  24. Springer.

@@ -1,12 +1,15 @@
 ---
-title: "Coevolution"
+title: "# Coevolution
+"
 collection: notes
 permalink: /notes/coevolution
 date: 2016-06-01
-Tags:
-  - Ecology
-  - Computer Science
+
 ---
+
+# Coevolution
+
+2016-06-01
 
 Coevolution occurs when changes in at least two species' genetic compositions reciprocally affect each other’s evolution.
 
@@ -22,14 +25,13 @@ The parasite/host relationship probably drove the prevalence of sexual reproduct
 
 Coevolution is primarily a biological concept, but researchers have applied it by analogy to fields such as computer science, sociology, international political economy and astronomy, among others.
 
+***Tags***: Ecology, Computer Science
 
 #### See also
 [Mutualistic networks](/notes/mutualistic_networks), [Ecology](/notes/ecology)
 
-
 ## Material
 * [Lecture on coevolution](https://cosmolearning.org/video-lectures/coevolution-6703/)
-
 
 ## Papers
 * Perc, M., & Szolnoki, A. (2010). [Coevolutionary games-a mini review](http://arxiv.org/pdf/0910.0826). BioSystems, 99(2), 109-125.
@@ -41,7 +43,6 @@ Coevolution is primarily a biological concept, but researchers have applied it b
 * Burgelman, R. A. (2002). [Strategy as vector and the inertia of coevolutionary lock-in](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.200.1656&rep=rep1&type=pdf). Administrative Science Quarterly, 47(2), 325-357.
 * Gross, T., & Blasius, B. (2008). [Adaptive coevolutionary networks: a review](http://rsif.royalsocietypublishing.org/content/5/20/259.short). Journal of the Royal Society Interface, 5(20), 259-271.
 * Dunbar, R. I. (1993). [Coevolution of neocortical size, group size and language in humans](http://www.cogsci.ucsd.edu/~johnson/COGS184/3Dunbar93.pdf). Behavioral and brain sciences, 16(04), 681-694.
-
 
 ## Books
 * Thompson, J. N. (1994). [The coevolutionary process](https://www.goodreads.com/book/show/3379455-the-coevolutionary-process). University of Chicago Press.

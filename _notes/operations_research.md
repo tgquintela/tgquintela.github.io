@@ -1,13 +1,15 @@
 ---
-title: "Operations Research"
+title: "# Operations Research
+"
 collection: notes
 permalink: /notes/operations_research
 date: 2016-06-01
-Tags:
-  - Computer science
-  - Mathematics
-  - Optimization
+
 ---
+
+# Operations Research
+
+2016-06-01
 
 Operations research (or operational research in British usage), is a discipline that deals with the application of advanced analytical methods to help make better decisions. Operations research is fuzzy field of research with a very broad collection of very different sub-fields of research related with urbanism, supply-chain management, theoretical decision making, among others and try to provide a universal tools and methods to solve all these problems. It is often considered to be a sub-field of mathematics. The terms management science and decision science are sometimes used as synonyms.
 
@@ -22,23 +24,21 @@ Most important problems related with Operations Research:
 * Supply chain management: managing the flow of raw materials and products based on uncertain demand for the finished products.
 * Scheduling: optimal assignation of temporal and workload resources.
 
+***Tags***: Computer science, Mathematics, Optimization
 
 #### See also
 [Computational intelligence](/notes/computational_intelligence), [Mathematical optimization](/notes/mathematical_optimization), [Machine learning](/notes/machine_learning), [Artificial Intelligence](/notes/artificial_intelligence)
-
 
 ## Material
 * https://www.me.utexas.edu/~jensen/ORMM/instructor.html
 * http://home.deib.polimi.it/amaldi/SlidesFOR-14-15.php
 * http://textofvideo.nptel.iitm.ac.in/112106134/lec1.pdf
 
-
 ## Papers
 * Churchman, C. West, Russell L. Ackoff, and E. Leonard Arnoff. [Introduction to operations research](http://psycnet.apa.org/psycinfo/1957-05210-000). (1957).
 * Simon, Herbert A., and Allen Newell. [Heuristic problem solving: The next advance in operations research](https://www.u-picardie.fr/~furst/docs/Newell_Simon_Heuristic_Problem_Solving_1958.pdf). Operations research 6.1 (1958): 1-10.
 * Wagner, Harvey M. [Principles of operations research: with applications to managerial decisions](). Principles of operations research: with applications to managerial decisions. Prentice-Hall, 1969.
 * Vidale, M. L., and H. B. Wolfe. [An operations-research study of sales response to advertising](http://pubsonline.informs.org/doi/abs/10.1287/opre.5.3.370). Operations research 5.3 (1957): 370-381.
-
 
 ## Books
 * Bronson, Richard; Naadimuthu, Govindasami (1997). [Schaum's Outline of Operations Research](https://www.goodreads.com/book/show/606387.Schaum_s_Outline_of_Operations_Research). McGraw-Hill

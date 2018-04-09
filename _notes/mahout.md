@@ -1,14 +1,15 @@
 ---
-title: "Mahout"
+title: "# Mahout
+"
 collection: notes
 permalink: /notes/mahout
 date: 2016-06-01
-Tags:
-  - Computer science
-  - Data Analysis
-  - Big Data
-  - Hadoop ecosystem
+
 ---
+
+# Mahout
+
+2016-06-01
 
 Mahout, formally known as Apache Mahout, is a project of the Apache Software Foundation to produce free implementations of distributed or otherwise scalable machine learning algorithms focused primarily in the areas of collaborative filtering, clustering and classification. Many of the implementations use the Apache Hadoop platform. Mahout also provides Java libraries for common maths operations (focused on linear algebra and statistics) and primitive Java collections. Mahout is a work in progress; the number of implemented algorithms has grown quickly, but various algorithms are still missing.
 
@@ -16,17 +17,15 @@ While Mahout's core algorithms for clustering, classification and batch based co
 
 Starting with the release 0.10.0, the project shifts its focus to building backend-independent programming environment, code named "Samsara". The environment consists of an algebraic backend-independent optimizer and an algebraic Scala DSL unifying in-memory and distributed algebraic operators. At the time of this writing supported algebraic platforms are Apache Spark and H20, and Apache Flink. Support for MapReduce algorithms is being gradually phased out.
 
+***Tags***: Computer science, Data Analysis, Big Data, Hadoop ecosystem
 
 #### See also
 [Computational intelligence](/notes/computational_intelligence), [Mathematical optimization](/notes/mathematical_optimization), [Computer vision](/notes/computer_vision), [Machine learning](/notes/machine_learning), [Artificial Intelligence](/notes/artificial_intelligence), [Spatial Data Analysis](/notes/spatial_data_analysis), [Data Analysis](/notes/data_analysis)
-
 
 ## Material
 * http://mahout.apache.org/
 * http://www.ibm.com/developerworks/java/library/j-mahout/
 * http://mahout.apache.org/users/basics/algorithms.html
-
-
 
 
 ## Books

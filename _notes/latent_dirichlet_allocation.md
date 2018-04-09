@@ -1,13 +1,15 @@
 ---
-title: "Latent Dirichlet Allocation"
+title: "# Latent Dirichlet Allocation
+"
 collection: notes
 permalink: /notes/latent_dirichlet_allocation
 date: 2016-06-01
-Tags:
-  - Computer Science
-  - Information Retrieval
-  - Natural Language Processing
+
 ---
+
+# Latent Dirichlet Allocation
+
+2016-06-01
 
 Latent Dirichlet allocation (LDA) is a generative statistical model that allows sets of observations to be explained by unobserved groups that explain why some parts of the data are similar. In the case of NLP, if observations are words collected into documents, it posits that each document is a mixture of a small number of topics and that each word's creation is attributable to one of the document's topics. 
 
@@ -30,17 +32,16 @@ using the assumptions of the distributions.
 
 LDA is an example of a topic model and was first presented as a graphical model for topic discovery by David Blei, Andrew Ng, and Michael I. Jordan in 2003. Essentially the same model was also proposed independently by J. K. Pritchard, M. Stephens, and P. Donnelly in the study of population genetics in 2000.
 
+***Tags***: Computer Science, Information Retrieval, Natural Language Processing
 
 #### See also
 [Latent Semantic Analysis](/notes/latent_semantic_analysis)
-
 
 ## Material
 * http://radimrehurek.com/gensim/
 * [LDA and Topic Modelling Video Lecture by David Blei](http://videolectures.net/mlss09uk_blei_tm/) or [same lecture on YouTube](https://www.youtube.com/watch?v=DDq3OVp9dNA/)
 * [LDA in Mahout implementation of LDA using MapReduce on the Hadoop platform](https://mahout.apache.org/users/clustering/latent-dirichlet-allocation.html)
 * [LDA in Spark: Since version 1.3.0](https://spark.apache.org/docs/latest/mllib-clustering.html#latent-dirichlet-allocation-lda)
-
 
 ## Papers
 * Blei, D. M., Ng, A. Y., & Jordan, M. I. (2003). [Latent dirichlet allocation](http://www.jmlr.org/papers/v3/blei03a.html). Journal of machine Learning research, 3(Jan), 993-1022.
@@ -51,7 +52,6 @@ LDA is an example of a topic model and was first presented as a graphical model 
 * Krestel, R., Fankhauser, P., & Nejdl, W. (2009, October). [Latent dirichlet allocation for tag recommendation](https://www.researchgate.net/profile/Ralf_Krestel/publication/221141032_Latent_dirichlet_allocation_for_tag_recommendation/links/02e7e51e42a994f415000000.pdf). In Proceedings of the third ACM conference on Recommender systems (pp. 61-68). ACM.
 * Wang, Xiaogang; Grimson, Eric (2007). [Spatial Latent Dirichlet Allocation](http://machinelearning.wustl.edu/mlpapers/paper_files/NIPS2007_102.pdf). Proceedings of Neural Information Processing Systems Conference (NIPS).
 * Lancichinetti, A., Sirer, M. I., Wang, J. X., Acuna, D., Körding, K., & Amaral, L. A. N. (2015). [High-reproducibility and high-accuracy method for automated topic classification](http://link.aps.org/pdf/10.1103/PhysRevX.5.011007). Physical Review X, 5(1), 011007.
-
 
 
 

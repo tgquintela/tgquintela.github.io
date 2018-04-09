@@ -1,12 +1,15 @@
 ---
-title: "Chainstore paradox"
+title: "# Chainstore paradox
+"
 collection: notes
 permalink: /notes/chainstore_paradox
 date: 2016-06-01
-Tags:
-  - Game Theory
-  - Decision Theory
+
 ---
+
+# Chainstore paradox
+
+2016-06-01
 
 Chainstore paradox is a concept which purpose of existence is refusing the standard game theory reasoning. It lies in the debate of a non-credible threat response enter in a rational or irrational model, whether we can use a complete information game or not to model that situation.
 
@@ -20,17 +23,15 @@ These outcomes lead to two theories for the game, the induction (game theoretica
 If Player A follows the game theory payoff matrix to achieve the optimal payoff, he or she will have a lower payoff than with the "deterrence" strategy. This creates an apparent game theory paradox: game theory states that induction strategy should be optimal, but it looks like "deterrence strategy" is optimal instead.
 The "deterrence strategy" is not a Nash equilibrium: It relies on the non-credible threat of responding to in with aggressive. A rational player will not carry out a non-credible threat, but the paradox is that it nevertheless seems to benefit Player A to carry out the threat.
 
+***Tags***: Game Theory, Decision Theory
 
 #### See also
 [Game Theory](/notes/game_theory), [Selten's levels of decision making](/notes/selten's_levels_of_decision_making)
 
 
-
-
 ## Papers
 * Selten, Reinhard (1978). "The chain store paradox". Theory and Decision 9 (2): 127-159.
 * Ordeshook, Peter C. (1992). "Reputation and the Chain-Store Paradox". A Political Theory Primer. Routledge. pp. 247-249.
-
 
 
 

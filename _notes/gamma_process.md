@@ -1,11 +1,15 @@
 ---
-title: "Gamma process"
+title: "# Gamma process
+"
 collection: notes
 permalink: /notes/gamma_process
 date: 2016-06-01
-Tags:
-  - Stochastic processes
+
 ---
+
+# Gamma process
+
+2016-06-01
 
 A gamma process ${\displaystyle \Gamma (t;\gamma ,\lambda )}$ is a random process with independent gamma distributed increments. It is a pure-jump increasing Lévy process with intensity measure ${\displaystyle \nu (x)=\gamma x^{-1}\exp(-\lambda x)}$ for $x > 0$. Thus jumps whose size lies in the interval ${\displaystyle [x,x+dx]}$ occur as a Poisson process with intensity ${\displaystyle \nu (x)dx}$.
 
@@ -20,12 +24,10 @@ The main properties are:
 * Moment generating function: ${\displaystyle \mathbb {E} {\Big (}\exp(\theta X_{t}){\Big )}=(1-\theta /\lambda )^{-\gamma t},\ \quad \theta <\lambda } \mathbb {E} {\Big (}\exp(\theta X_{t}){\Big )}=(1-\theta /\lambda )^{-\gamma t},\ \quad \theta <\lambda 
 * Correlation: ${\displaystyle \operatorname {Corr} (X_{s},X_{t})={\sqrt {s/t}},\ s<t}$, for any gamma process ${\displaystyle X(t)}$.
 
+***Tags***: Stochastic processes
 
 #### See also
 [Wiener process](/notes/wiener_process), [Levy process](/notes/levy_process), [Markov process](/notes/markov_process), [Poisson process](/notes/poisson_process)
-
-
-
 
 
 

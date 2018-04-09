@@ -1,13 +1,15 @@
 ---
-title: "Context-free grammars"
+title: "# Context-free grammars
+"
 collection: notes
 permalink: /notes/context-free_grammars
 date: 2016-06-01
-Tags:
-  - Computer science
-  - Artificial Intelligence
-  - Computation theory
+
 ---
+
+# Context-free grammars
+
+2016-06-01
 
 A context-free grammar (CFG) is a term used in *formal language theory* to describe a certain type of formal grammar. A context free grammar is a set of production rules that describe all possible strings in a given formal language. Production rules are simple replacements.
 
@@ -21,18 +23,16 @@ Context-free grammars arise in linguistics where they are used to describe the s
 
 In linguistics, some authors use the term phrase structure grammar to refer to context-free grammars, whereby phrase structure grammars are distinct from dependency grammars. In computer science, a popular notation for context-free grammars is Backus-Naur Form, or BNF.
 
+***Tags***: Computer science, Artificial Intelligence, Computation theory
 
 #### See also
 [Artificial Intelligence](/notes/artificial_intelligence), [Computer Complexity](/notes/computer_complexity), [Turing Machines](/notes/turing_machines), [Automata theory](/notes/automata_theory), [Theory of computation](/notes/theory_of_computation)
-
-
 
 
 ## Papers
 * Chomsky, Noam (Sep 1956), [Three models for the description of language](http://www.chomsky.info/articles/195609--.pdf), Information Theory, IEEE Transactions 2 (3): 113–124.
 * Norvell, Theodore. [A Short Introduction to Regular Expressions and Context-Free Grammars](http://www.engr.mun.ca/~theo/Courses/fm/pub/context-free.pdf).
 * Shieber, Stuart (1985), [Evidence against the context-freeness of natural language](http://www.eecs.harvard.edu/~shieber/Biblio/Papers/shieber85.pdf), Linguistics and Philosophy 8 (3): 333-343.
-
 
 
 

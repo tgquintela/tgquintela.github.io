@@ -1,12 +1,15 @@
 ---
-title: "Social Choice Theory"
+title: "# Social Choice Theory
+"
 collection: notes
 permalink: /notes/social_choice_theory
 date: 2016-06-01
-Tags:
-  - Game Theory
-  - Social Choice Theory
+
 ---
+
+# Social Choice Theory
+
+2016-06-01
 
 Social choice theory or social choice is a theoretical framework for analysis of combining individual opinions, preferences, interests, or welfares to reach a collective decision or social welfare in some sense. A non-theoretical example of a collective decision is enacting a law or set of laws under a constitution. Social choice theory dates from Condorcet's formulation of the voting paradox. Kenneth Arrow's Social Choice and Individual Values (1951) and Arrow's impossibility theorem in it are generally acknowledged as the basis of the modern social choice theory. In addition to Arrow's theorem and the voting paradox, the Gibbard-Satterthwaite theorem, the Condorcet jury theorem, the median voter theorem, and May's theorem are among the more well known results from social choice theory.
 
@@ -14,16 +17,14 @@ Social choice blends elements of welfare economics and voting theory. It is meth
 
 Later work also considers approaches to compensations and fairness, liberty and rights, axiomatic domain restrictions on preferences of agents, variable populations, strategy-proofing of social-choice mechanisms, natural resources, capabilities and functionings, and welfare, justice, and poverty.
 
+***Tags***: Game Theory, Social Choice Theory
 
 #### See also
 [Game Theory](/notes/game_theory), [Voting paradox](/notes/voting_paradox), [Arrow's impossibility theorem](/notes/arrow's_impossibility_theorem)
 
-
 ## Material
 * http://plato.stanford.edu/entries/social-choice/
 * http://faculty.maxwell.syr.edu/jskelly/biblioho.htm
-
-
 
 
 ## Books

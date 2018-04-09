@@ -1,12 +1,15 @@
 ---
-title: "Data-driven programming"
+title: "# Data-driven programming
+"
 collection: notes
 permalink: /notes/data-driven_programming
 date: 2016-06-01
-Tags:
-  - Computer engineering
-  - Programming
+
 ---
+
+# Data-driven programming
+
+2016-06-01
 
 Data-driven programming is a programming paradigm in which the program statements describe the data to be matched and the processing required rather than defining a sequence of steps to be taken.
 
@@ -26,12 +29,10 @@ While the benefits and issues may vary between implementation, there are a few b
 * prevent coupling of data and functionality
 * Sometimes it has been argued to lead to bad object-oriented design, especially when dealing with more abstract data.
 
+***Tags***: Computer engineering, Programming
 
 #### See also
 [Programming paradigm](/notes/programming_paradigm), [Concurrent programming](/notes/concurrent_programming)
-
-
-
 
 
 

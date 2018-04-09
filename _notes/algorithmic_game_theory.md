@@ -1,13 +1,15 @@
 ---
-title: "Algorithmic game theory"
+title: "# Algorithmic game theory
+"
 collection: notes
 permalink: /notes/algorithmic_game_theory
 date: 2016-06-01
-Tags:
-  - Game Theory
-  - Multi-agent systems
-  - Algorithmics
+
 ---
+
+# Algorithmic game theory
+
+2016-06-01
 
 Algorithmic game theory is an area in the intersection of game theory and algorithm design, whose objective is to design algorithms in strategic environments. Typically, in Algorithmic Game Theory problems, the input to a given algorithm is distributed among many players who have a personal interest in the output. In those situations, the agents might not report the input truthfully because of their own personal interests. On top of the usual requirements in classical algorithm design, say polynomial-time running time, good approximation ratio, ... the designer must also care about incentive constraints. We can see Algorithmic Game Theory from two perspectives:
 * Analysis: look at the current implemented algorithms and analyze them using Game Theory tools: calculate and prove properties on their Nash equilibria, price of anarchy, best-response dynamics ...
@@ -18,10 +20,10 @@ The field was started when Nisan and Ronen in STOC'99 drew the attention of the 
 "We consider algorithmic problems in a distributed setting where the participants cannot be assumed to follow the algorithm but rather their own self-interest. As such participants, termed agents, are capable of manipulating the algorithm, the algorithm designer should ensure in advance that the agents’ interests are best served by behaving correctly.
 Following notions from the field of mechanism design, we suggest a framework for studying such algorithms. In this model the algorithmic solution is adorned with payments to the participants and is termed a mechanism. The payments should be carefully chosen as to motivate all participants to act as the algorithm designer wishes. We apply the standard tools of mechanism design to algorithmic problems and in particular to the shortest path problem."
 
+***Tags***: Game Theory, Multi-agent systems, Algorithmics
 
 #### See also
 [Game Theory](/notes/game_theory)
-
 
 ## Material
 * [Gambit: Software Tools for Game Theory](http://gambit.sourceforge.net/)
@@ -30,10 +32,8 @@ Following notions from the field of mechanism design, we suggest a framework for
 * [Éva Tardos' Cornell course: CS684 Spring 2004](http://www.cs.cornell.edu/courses/cs684/2004sp/)
 * [Columbia course: COMS 6998-3](http://www.cs.columbia.edu/coms6998-3/)
 
-
 ## Papers
 * Adkins, Robert. [Algorithmic Game Theory](https://www.semanticscholar.org/paper/Algorithmic-Game-Theory-Final-Report-for-Cmsc451-Adkins-Advisor/1afd6b07eefaff73f937eeb4dda37680949bdcc3/pdf). (2015). Random University Report
-
 
 ## Books
 * Vazirani, Vijay V.; Nisan, Noam; Roughgarden, Tim; Tardos, Éva (2007), [Algorithmic Game Theory](http://www.cambridge.org/journals/nisan/downloads/Nisan_Non-printable.pdf), Cambridge, UK: Cambridge University Press.

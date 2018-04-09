@@ -1,15 +1,15 @@
 ---
-title: "Linear programming"
+title: "# Linear programming
+"
 collection: notes
 permalink: /notes/linear_programming
 date: 2016-06-01
-Tags:
-  - Computer science
-  - Mathematics
-  - Optimization
-  - Economics
-  - Operations Research
+
 ---
+
+# Linear programming
+
+2016-06-01
 
 Linear programming (LP; also called linear optimization) is a type of optimization problem in which requirements are represented by linear relationships. Linear programming is a special case of mathematical programming (mathematical optimization).
 
@@ -35,16 +35,14 @@ The main methods for solving linear programming are:
 * Affine scaling: interior point algorithm.
 * ...
 
+***Tags***: Computer science, Mathematics, Optimization, Economics, Operations Research
 
 #### See also
 [Mathematical Optimization](/notes/mathematical_optimization)
 
 
-
-
 ## Papers
 * Bland, Robert G. (1977). "New Finite Pivoting Rules for the Simplex Method". Mathematics of Operations Research 2 (2): 103–107
-
 
 ## Books
 * George B. Dantzig and Mukund N. Thapa. 1997. [Linear programming 1: Introduction](https://www.goodreads.com/book/show/1595942.Linear_Programming_1). Springer-Verlag.

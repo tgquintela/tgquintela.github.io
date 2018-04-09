@@ -1,13 +1,15 @@
 ---
-title: "AB testing"
+title: "# AB testing
+"
 collection: notes
 permalink: /notes/ab_testing
 date: 2016-06-01
-Tags:
-  - Statistics
-  - Business intelligence
-  - Marketing
+
 ---
+
+# AB testing
+
+2016-06-01
 
 A/B testing is a term for a randomized experiment with two variants, A and B, which are the control and variation in the controlled experiment. A/B testing is a form of statistical hypothesis testing with two variants leading to the technical term, two-sample hypothesis testing, used in the field of statistics. 
 
@@ -22,10 +24,10 @@ Examples of possible statistical tests to use:
 * Mann-Whitney U test (no assumption of distribution).
 * Student's t-tests are appropriate for comparing means under relaxed conditions when less is assumed.
 
+***Tags***: Statistics, Business intelligence, Marketing
 
 #### See also
 [Statistical testing](/notes/statistical_testing)
-
 
 ## Material
 * [scipy.stats](http://docs.scipy.org/doc/scipy/reference/stats.html)
@@ -33,8 +35,6 @@ Examples of possible statistical tests to use:
 * "[The Beginners Guide To AB Testing](http://www.marketizator.com/blog/ab-testing-beginners-guide.html)". Marketizator. Retrieved 2014-10-29.
 * "[A/B Split Testing | Multivariate Testing | Case Studies](https://vwo.com/resources/casestudy/)". Visual Website Optimizer. Retrieved 2015-09-08.
 * "[A/B Testing Case Studies](https://www.optimizely.com/case-studies/)". Optimizely. Retrieved 2015-11-24.
-
-
 
 
 

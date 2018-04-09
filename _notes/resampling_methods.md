@@ -1,11 +1,15 @@
 ---
-title: "Resampling methods"
+title: "# Resampling methods
+"
 collection: notes
 permalink: /notes/resampling_methods
 date: 2016-06-01
-Tags:
-  - Statistics
+
 ---
+
+# Resampling methods
+
+2016-06-01
 
 Resampling is any of a variety of methods for doing one of the following:
 * Estimating the precision of sample statistics (medians, variances, percentiles) by using subsets of available data (jackknifing) or drawing randomly with replacement from a set of data points (bootstrapping).
@@ -18,11 +22,10 @@ Common resampling techniques include:
 * permutation tests
 * cross-validation
 
+***Tags***: Statistics
 
 #### See also
 [Statistical testing](/notes/statistical_testing), [Sampling](/notes/sampling)
-
-
 
 
 ## Papers
@@ -32,7 +35,6 @@ Common resampling techniques include:
 * Kish, L. and Frankel M.R. (1974). [Inference from complex samples](). Journal of the Royal Statistical Society B. Vol. 36, 1, pp. 1–37.
 * Krewski, D.; Rao, J.N.K. (1981). [Inference from stratified samples: properties of the linearization, jackknife and balanced repeated replication methods](). The Annals of Statistics 9 (5): 1010-1019.
 * Cramer, R. D., Bunce, J. D., Patterson, D. E., & Frank, I. E. (1988). [Crossvalidation, bootstrapping, and partial least squares compared with multiple regression in conventional QSAR studies](http://onlinelibrary.wiley.com/doi/10.1002/qsar.19880070105/abstract). Quantitative Structure‐Activity Relationships, 7(1), 18-25.
-
 
 ## Books
 * Good, P. (2006) [Resampling Methods](https://www.goodreads.com/book/show/22578972-resampling-methods). 3rd Ed. Birkhauser.

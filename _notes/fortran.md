@@ -1,13 +1,15 @@
 ---
-title: "Fortran"
+title: "# Fortran
+"
 collection: notes
 permalink: /notes/fortran
 date: 2016-06-01
-Tags:
-  - Computer science
-  - Computer engineering
-  - Programming language
+
 ---
+
+# Fortran
+
+2016-06-01
 
 Fortran (derived from "Formula Translation") is a general-purpose, imperative programming language that is especially suited to numeric computation and scientific computing. Originally developed by IBM in the 1950s for scientific and engineering applications. Fortran came to dominate this area of programming early on and has been in continuous use for over half a century in computationally intensive areas such as numerical weather prediction, finite element analysis, computational fluid dynamics, computational physics and computational chemistry. It is a popular language for high-performance computing and is used for programs that benchmark and rank the world's fastest supercomputers.
 
@@ -19,16 +21,14 @@ When do you have to use Fortran:
 * Flexible numerical high-performance needs.
 (Yes, I do not recommend other cases)
 
+***Tags***: Computer science, Computer engineering, Programming language
 
 #### See also
 [Python](/notes/python), [Julia](/notes/julia), [SAS](/notes/sas), [Matlab](/notes/matlab), [Go (Programming language)](/notes/go_(programming_language)), [Java](/notes/java), [R](/notes/r), [C](/notes/c), [Sage](/notes/sage)
 
-
 ## Material
 * https://en.wikibooks.org/wiki/Fortran
 * [Manual Fortran 90/95 UPC](http://www-eio.upc.edu/lceio/manuals/Fortran95-manual.pdf)
-
-
 
 
 ## Books

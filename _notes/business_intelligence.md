@@ -1,11 +1,15 @@
 ---
-title: "Business Intelligence"
+title: "# Business Intelligence
+"
 collection: notes
 permalink: /notes/business_intelligence
 date: 2016-06-01
-Tags:
-  - Business Intelligence
+
 ---
+
+# Business Intelligence
+
+2016-06-01
 
 Business intelligence (BI) is the set of techniques and tools for the acquisition and transformation of raw data into meaningful and useful information for business analysis purposes. The term "data surfacing" is also more often associated with BI functionality. BI technologies are capable of handling large amounts of unstructured data to help identify, develop and otherwise create new strategic business opportunities. The goal of BI is to allow for the easy interpretation of these large volumes of data. Identifying new opportunities and implementing an effective strategy based on insights can provide businesses with a competitive market advantage and long-term stability.
 
@@ -59,9 +63,9 @@ We can do a simplistic pragmatic ad-hoc definition of BI through the path it fol
 
 It appeared the concept of Business Intelligence 2.0 as an update of new methods in data science and tools as cloud computing and other support systems.
 
+***Tags***: Business Intelligence
 
 #### See also
-
 
 
 ## Material
@@ -70,12 +74,10 @@ It appeared the concept of Business Intelligence 2.0 as an update of new methods
 * Berners-Lee, Tim (2006). "[Linked Data](http://www.w3.org/DesignIssues/LinkedData.html)". w3c.org.
 * "[The Key Role Hadoop Plays in Business Intelligence and Data Warehousing](http://online.sju.edu/resource/engineering-technology/key-role-hadoop-plays-in-business-intelligence)" - St. Joseph's University
 
-
 ## Papers
 * Chen, H., Chiang, R. H., & Storey, V. C. (2012). [Business Intelligence and Analytics: From Big Data to Big Impact](http://www.academia.edu/download/32970305/FROM_BIG_DATA_TO_BIG_IMPACT.pdf). MIS quarterly, 36(4), 1165-1188.
 * Watson, H. J., & Wixom, B. H. (2007). [The current state of business intelligence](http://www.academia.edu/download/29208458/watsonwixom.pdf). Computer, 40(9), 96-99.
 * Golfarelli, M., Rizzi, S., & Cella, I. (2004, November). [Beyond data warehousing: what's next in business intelligence?](http://www.cci.drexel.edu/faculty/song/dolap/dolap04/paper/p1-rizzi.pdf). In Proceedings of the 7th ACM international workshop on Data warehousing and OLAP (pp. 1-6). ACM.
-
 
 ## Books
 * Turban, E., Sharda, R., & Delen, D. (2011). [Decision support and business intelligence systems](https://www.goodreads.com/book/show/12490308-decision-support-and-business-intelligence-systems). Pearson Education India.

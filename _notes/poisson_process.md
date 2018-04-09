@@ -1,11 +1,15 @@
 ---
-title: "Poisson process"
+title: "# Poisson process
+"
 collection: notes
 permalink: /notes/poisson_process
 date: 2016-06-01
-Tags:
-  - Stochastic processes
+
 ---
+
+# Poisson process
+
+2016-06-01
 
 A Poisson point process or Poisson process (also called a Poisson random measure, Poisson random point field or Poisson point field) is a type of random mathematical object that consists of points randomly located on a mathematical space. The process has convenient mathematical properties, which has led to it being frequently defined in Euclidean space and used as a mathematical model for seemingly random processes in numerous discipline.
 
@@ -16,12 +20,10 @@ Main properties:
 * ${\displaystyle P\{N=n\}={\frac {\Lambda ^{n}}{n!}}e^{-\Lambda }}$
 * Complete independence
 
+***Tags***: Stochastic processes
 
 #### See also
 [Wiener process](/notes/wiener_process), [Levy process](/notes/levy_process), [Gamma process](/notes/gamma_process), [Markov process](/notes/markov_process)
-
-
-
 
 
 

@@ -1,12 +1,15 @@
 ---
-title: "Theory of computation"
+title: "# Theory of computation
+"
 collection: notes
 permalink: /notes/theory_of_computation
 date: 2016-06-01
-Tags:
-  - Computer science
-  - Artificial Intelligence
+
 ---
+
+# Theory of computation
+
+2016-06-01
 
 The theory of computation is the branch that deals with how efficiently problems can be solved on a model of computation, using an algorithm. The field is divided into three major branches:
 * Automata theory and language
@@ -30,16 +33,14 @@ In addition to the general computational models, some simpler computational mode
 
 Different models of computation have the ability to do different tasks. One way to measure the power of a computational model is to study the class of formal languages that the model can generate; in such a way to the Chomsky hierarchy of languages is obtained.
 
+***Tags***: Computer science, Artificial Intelligence
 
 #### See also
 [Artificial Intelligence](/notes/artificial_intelligence), [Computer Complexity](/notes/computer_complexity), [Church-Turing thesis](/notes/church-turing_thesis), [Turing Machines](/notes/turing_machines)
 
 
-
-
 ## Papers
 * Alan Turing (1937). [On computable numbers, with an application to the Entscheidungsproblem](https://people.cs.umass.edu/~immerman/cs601/TuringPaper1936.pdf). Proceedings of the London Mathematical Society (IEEE) 2 (42): 230-265
-
 
 ## Books
 * Sipser, Michael (2013). [Introduction to the Theory of Computation 3rd](https://www.goodreads.com/book/show/16599897-introduction-to-the-theory-of-computation-michael-sipser). Cengage Learning

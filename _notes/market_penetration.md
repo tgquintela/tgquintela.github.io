@@ -1,12 +1,15 @@
 ---
-title: "Market penetration"
+title: "# Market penetration
+"
 collection: notes
 permalink: /notes/market_penetration
 date: 2016-06-01
-Tags:
-  - Marketing
-  - Business
+
 ---
+
+# Market penetration
+
+2016-06-01
 
 Market penetration is a growth strategy stemming from the Ansoff Matrix (Richardson, M., & Evans, C. (2007). H. Igor Ansoff first devised and published The Ansoff Matrix in the Harvard Business Review in 1957, within an article titled "Strategies for Diversification." The grid/ matrix is utilised across businesses to help evaluate and determine the next stages the company must take in order to grow. With numerous options available, this matrix helps narrow down the best fit for your organisation. As shown in figure 1 by moving into a new quadrant (either vertically or horizontally) risk increases but the return on growth may outweigh this risk. However, if the risk proves too high for the expected return it may be best to look into different market penetration methods or wait till the timing proves more suitable.
 
@@ -28,15 +31,13 @@ Market penetration is a very good way to determine successfulness of the busines
 4. Understanding competitors market penetration. What benchmark should you go for? When you have the penetration that other products have reached calculate the number that you should reach in your demographic by multiplying the total number of your demographic by whatever the percentage that other products are reaching (Jensen, 2001).
 5. Calculate the amount of customers that your business needs to sell to too earn a profit and then compare that to the amount other competitors are reaching, if your business does not make a profit with average market penetration it’s time to rethink your business strategy. Market penetration is a very important tool for understanding potential earnings of a business and is integral to calculating a resourceful business model. There’s always more you can do for a larger market penetration so a good advertising strategy is very important. Market Penetration in an emerging market A model was theorized for market penetration by Yan Dong, Martin Dresner and Chaodong Han.
 
+***Tags***: Marketing, Business
 
 #### See also
 [Market segmentation](/notes/market_segmentation), [Business Intelligence](/notes/business_intelligence), [Market positioning](/notes/market_positioning)
 
-
 ## Material
 * "[Market Penetration Strategy: Everything You Need to Know](http://inevitablesteps.com/marketing/market-penetration-strategy/)". Inevitable Steps. June 6, 2015
-
-
 
 
 ## Books

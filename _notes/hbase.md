@@ -1,14 +1,15 @@
 ---
-title: "Hbase"
+title: "# Hbase
+"
 collection: notes
 permalink: /notes/hbase
 date: 2016-06-01
-Tags:
-  - Computer science
-  - Data Analysis
-  - Big Data
-  - Hadoop ecosystem
+
 ---
+
+# Hbase
+
+2016-06-01
 
 HBase, or Apache HBase, is an open source, non-relational, distributed database modeled after Google's BigTable and written in Java. It is developed as part of Apache Software Foundation's Apache Hadoop project and runs on top of HDFS (Hadoop Distributed Filesystem), providing BigTable-like capabilities for Hadoop. That is, it provides a fault-tolerant way of storing large quantities of sparse data (small amounts of information caught within a large collection of empty or unimportant data, such as finding the 50 largest items in a group of 2 billion records, or finding the non-zero items representing less than 0.1% of a huge collection).
 
@@ -18,18 +19,16 @@ HBase is not a direct replacement for a classic SQL database, however Apache Pho
 
 Hbase is now serving several data-driven websites, including Facebook's Messaging Platform. Unlike relational and traditional databases, HBase does not support SQL scripting instead written in Java employing similarity with MapReduce application.
 
+***Tags***: Computer science, Data Analysis, Big Data, Hadoop ecosystem
 
 #### See also
 [Computational intelligence](/notes/computational_intelligence), [Mathematical optimization](/notes/mathematical_optimization), [Computer vision](/notes/computer_vision), [Machine learning](/notes/machine_learning), [Artificial Intelligence](/notes/artificial_intelligence), [Spatial Data Analysis](/notes/spatial_data_analysis), [Data Analysis](/notes/data_analysis)
 
-
 ## Material
 * http://hbase.apache.org/
 
-
 ## Papers
 * Chang, et al. (2006). [Bigtable: A Distributed Storage System for Structured Data](https://www.usenix.org/legacy/events/osdi06/tech/chang/chang_html/) ACM Transactions on Computer Systems (TOCS) 26.2 (2008): 4.
-
 
 ## Books
 * EMC editor (2014) [Data Science and Big Data Analytics: Discovering, Analyzing, Visualizing and Presenting Data](https://www.goodreads.com/book/show/22263956-data-science-and-big-data-analytics). John Wiley & Sons.

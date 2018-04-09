@@ -1,13 +1,15 @@
 ---
-title: "Python"
+title: "# Python
+"
 collection: notes
 permalink: /notes/python
 date: 2016-06-01
-Tags:
-  - Computer science
-  - Computer engineering
-  - Programming language
+
 ---
+
+# Python
+
+2016-06-01
 
 Python is a widely used high-level, general-purpose, interpreted, dynamic programming language. Its design philosophy emphasizes code readability, and its syntax allows programmers to express concepts in fewer lines of code than possible in languages such as C++ or Java. The language provides constructs intended to enable clear programs on both a small and large scale.
 
@@ -46,18 +48,16 @@ The main special object types we have in python are:
 * Context manager: a user-defined runtime context that is entered before the statement body is executed and exited when the statement ends. The object has the functions __enter__ and __exit__ to define the enter functionality and the exit function when some error arises.
 * Decorators: a function which is able to get a function or a class and call it surrounded by the decorator definition. It is used with '@' to call the function and it is placed in the previous line to the function or class we want to decorate.
 
+***Tags***: Computer science, Computer engineering, Programming language
 
 #### See also
 [R](/notes/r), [Julia](/notes/julia), [SAS](/notes/sas), [Matlab](/notes/matlab), [Go (Programming language)](/notes/go_(programming_language)), [Java](/notes/java), [C](/notes/c), [Fortran](/notes/fortran), [Sage](/notes/sage)
-
 
 ## Material
 * https://www.python.org/
 * https://en.wikibooks.org/wiki/Python_Programming
 * https://wiki.python.org/moin/BeginnersGuide
 * https://docs.python.org/devguide/
-
-
 
 
 ## Books

@@ -1,12 +1,15 @@
 ---
-title: "Stochastic processes"
+title: "# Stochastic processes
+"
 collection: notes
 permalink: /notes/stochastic_processes
 date: 2016-06-01
-Tags:
-  - Stochastic processes
-  - Stochastic Partial Differential equations
+
 ---
+
+# Stochastic processes
+
+2016-06-01
 
 A stochastic process, or often random process, is a collection of random variables representing the evolution of some system of random values over time. This is the probabilistic counterpart to a deterministic process (or deterministic system). Instead of describing a process which can only evolve in one way (as in the case, for example, of solutions of an ordinary differential equation), in a stochastic, or random process, there is some indeterminacy: even if the initial condition (or starting point) is known, there are several (often infinitely many) directions in which the process may evolve.
 
@@ -19,17 +22,15 @@ Examples of stochastic processes:
 
 A generalization, the **random field**, is defined by letting the variables be parametrized by members of a topological space instead of time. Examples of random fields include static images, random terrain (landscapes), wind waves and composition variations of a heterogeneous material.
 
+***Tags***: Stochastic processes, Stochastic Partial Differential equations
 
 #### See also
-
 
 
 ## Material
 * [Popular Stochastic Processes used in Quantitative Finance](http://www.sitmo.com/article/popular-stochastic-processes-in-finance/)
 * [Interactive Web Application: Stochastic Processes used in Quantitative Finance](http://turingfinance.com/interactive-stochastic-processes/). TuringFinance.com.
 * [StochPy](http://stochpy.sourceforge.net/). Sourgeforce
-
-
 
 
 ## Books

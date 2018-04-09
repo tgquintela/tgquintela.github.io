@@ -1,15 +1,15 @@
 ---
-title: "Linear-fractional programming"
+title: "# Linear-fractional programming
+"
 collection: notes
 permalink: /notes/linear-fractional_programming
 date: 2016-06-01
-Tags:
-  - Computer science
-  - Mathematics
-  - Optimization
-  - Economics
-  - Operations Research
+
 ---
+
+# Linear-fractional programming
+
+2016-06-01
 
 Linear-fractional programming (LFP) is a generalization of linear programming (LP). Whereas the objective function in a linear program is a linear function, the objective function in a linear-fractional program is a ratio of two linear functions. A linear program can be regarded as a special case of a linear-fractional program in which the denominator is the constant function one.
 
@@ -21,12 +21,10 @@ where ${\displaystyle \mathbf {x} \in \mathbb {R} ^{n}}$ represents the vector o
 
 There is the possiblity to transform a linear-fractional optimization problem to a linear optimization problem.
 
+***Tags***: Computer science, Mathematics, Optimization, Economics, Operations Research
 
 #### See also
 [Mathematical Optimization](/notes/mathematical_optimization), [Linear programming](/notes/linear_programming)
-
-
-
 
 
 

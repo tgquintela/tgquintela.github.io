@@ -1,11 +1,15 @@
 ---
-title: "IPSP"
+title: "# IPSP
+"
 collection: notes
 permalink: /notes/ipsp
 date: 2016-06-01
-Tags:
-  - Neuroscience
+
 ---
+
+# IPSP
+
+2016-06-01
 
 IPSP (inhibitory postsynaptic potential) is a kind of synaptic potential that makes a postsynaptic neuron less likely to generate an action potential. The opposite of an inhibitory postsynaptic potential is an excitatory postsynaptic potential (EPSP), which is a synaptic potential that makes a postsynaptic neuron more likely to generate an action potential. They can take place at all chemical synapses, which use the secretion of neurotransmitters to create cell to cell signalling. Inhibitory presynaptic neurons release neurotransmitters that then bind to the postsynaptic receptors; this induces a postsynaptic conductance change as ion channels open or close. An electric current that changes the postsynaptic membrane potential to create a more negative postsynaptic potential is generated. Depolarization can also occur due to an IPSP if the reverse potential is between the resting threshold and the action potential threshold. Another way to look at inhibitory postsynaptic potentials is that they are also a chloride conductance change in the neuronal cell because it decreases the driving force. Microelectrodes can be used to measure postsynaptic potentials at either excitatory or inhibitory synapses.
 
@@ -13,12 +17,10 @@ In general, a postsynaptic potential is dependent on the type and combination of
 
 ![EPSP and IPSP in action](https://upload.wikimedia.org/wikipedia/commons/a/a1/IPSPsummation.JPG)
 
+***Tags***: Neuroscience
 
 #### See also
 [EPSP](/notes/epsp), [Action potentials](/notes/action_potentials)
-
-
-
 
 
 

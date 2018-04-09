@@ -1,12 +1,15 @@
 ---
-title: "Non-price competition"
+title: "# Non-price competition
+"
 collection: notes
 permalink: /notes/non-price_competition
 date: 2016-06-01
-Tags:
-  - Marketing
-  - Neuroscience
+
 ---
+
+# Non-price competition
+
+2016-06-01
 
 Non-price competition is a marketing strategy "in which one firm tries to distinguish its product or service from competing products on the basis of attributes like design and workmanship". The firm can also distinguish its product offering through quality of service, extensive distribution, customer focus, or any sustainable competitive advantage other than price. It can be contrasted with price competition, which is where a company tries to distinguish its product or service from competing products on the basis of low price. Non-price competition typically involves promotional expenditures (such as advertising, selling staff, the locations convenience, sales promotions, coupons, special orders, or free gifts), marketing research, new product development, and brand management costs.
 
@@ -23,11 +26,9 @@ The different types of non-price values to compete with are:
 * Brand satisfaction
 * ...
 
+***Tags***: Marketing, Neuroscience
 
 #### See also
-
-
-
 
 
 

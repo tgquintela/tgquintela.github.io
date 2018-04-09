@@ -1,29 +1,27 @@
 ---
-title: "Nonlinear programming"
+title: "# Nonlinear programming
+"
 collection: notes
 permalink: /notes/nonlinear_programming
 date: 2016-06-01
-Tags:
-  - Computer science
-  - Mathematics
-  - Optimization
-  - Economics
-  - Operations Research
+
 ---
+
+# Nonlinear programming
+
+2016-06-01
 
 Nonlinear programming is the process of solving an optimization problem defined by a system of equalities and inequalities, collectively termed constraints, over a set of unknown real variables, along with an objective function to be maximized or minimized, where some of the constraints or the objective function are nonlinear. It is the sub-field of mathematical optimization that deals with problems that are not linear.
 
+***Tags***: Computer science, Mathematics, Optimization, Economics, Operations Research
 
 #### See also
 [Mathematical Optimization](/notes/mathematical_optimization)
 
 
-
-
 ## Papers
 * Shirangi, Mehrdad Gharib [History matching production data and uncertainty assessment with an efficient TSVD parameterization algorith](http://www.sciencedirect.com/science/article/pii/S0920410513003227). Journal of Petroleum Science and Engineering 113: 54-71.
 * Nash, S. G., & Sofer, A. (1996). Linear and nonlinear programming.
-
 
 ## Books
 * Bertsekas, Dimitri P. (1999). [Nonlinear Programming](https://www.goodreads.com/book/show/1352341.Nonlinear_Programming). Athena Scientific

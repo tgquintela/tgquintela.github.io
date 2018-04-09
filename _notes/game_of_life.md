@@ -1,13 +1,15 @@
 ---
-title: "Game of life"
+title: "# Game of life
+"
 collection: notes
 permalink: /notes/game_of_life
 date: 2016-06-01
-Tags:
-  - Computer science
-  - Artificial Intelligence
-  - Computation theory
+
 ---
+
+# Game of life
+
+2016-06-01
 
 The Game of Life, also known simply as Conway's Game of Life, is a cellular automaton devised by the British mathematician John Horton Conway in 1970.
 The "game" is a zero-player game, meaning that its evolution is determined by its initial state, requiring no further input. One interacts with the Game of Life by creating an initial configuration and observing how it evolves, or, for advanced "players", by creating patterns with particular properties.
@@ -20,18 +22,16 @@ The universe of the Game of Life is an infinite two-dimensional orthogonal grid 
 
 The initial pattern constitutes the seed of the system. The first generation is created by applying the above rules simultaneously to every cell in the seed-births and deaths occur simultaneously, and the discrete moment at which this happens is sometimes called a tick (in other words, each generation is a pure function of the preceding one). The rules continue to be applied repeatedly to create further generations.
 
+***Tags***: Computer science, Artificial Intelligence, Computation theory
 
 #### See also
 [Artificial Intelligence](/notes/artificial_intelligence), [Computer Complexity](/notes/computer_complexity), [Turing Machines](/notes/turing_machines), [Automata theory](/notes/automata_theory), [Theory of computation](/notes/theory_of_computation)
-
 
 ## Material
 * [Game of life news](http://pentadecathlon.com/lifeNews/index.php)
 * http://rosettacode.org/wiki/Conway%27s_Game_of_Life
 * https://github.com/thearn/game-of-life
 * [MATHEMATICAL GAMES: The fantastic combinations of John Conway's new solitaire game "life"](http://web.archive.org/web/20090603015231/http://ddi.cs.uni-potsdam.de/HyFISCH/Produzieren/lis_projekt/proj_gamelife/ConwayScientificAmerican.htm)
-
-
 
 
 ## Books

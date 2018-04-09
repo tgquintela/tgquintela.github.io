@@ -1,13 +1,15 @@
 ---
-title: "Computational intelligence"
+title: "# Computational intelligence
+"
 collection: notes
 permalink: /notes/computational_intelligence
 date: 2016-06-01
-Tags:
-  - Computer science
-  - Artificial Intelligence
-  - Optimization
+
 ---
+
+# Computational intelligence
+
+2016-06-01
 
 Computational intelligence is the ability to obtain near-optimal solutions to tasks that requires some type of intelligence. Usally is defined also as the ability of a computer to learn a specific task from data or experimental observation. Computational Intelligence was defined by For Bezdek (1994), "a system is called computationally intelligent if it deals with low-level data such as numerical data, if it has a pattern-recognition component and if it does not use knowledge as exact and complete as the Artificially Intelligent one".
 
@@ -28,19 +30,17 @@ Except those main principles, currently popular approaches include biologically 
 
 Computational Intelligence is thus a way of performing like human beings. Indeed, the characteristic of "intelligence" is usually attributed to humans. More recently, many products and items also claim to be "intelligent", an attribute which is directly linked to the reasoning and decision making.
 
+***Tags***: Computer science, Artificial Intelligence, Optimization
 
 #### See also
 [Artificial Intelligence](/notes/artificial_intelligence), [Mathematical optimization](/notes/mathematical_optimization)
-
 
 ## Material
 * http://www.andata.at/en/answer/artificial-intelligence-computational-intelligence-softcomputing-natural-computation-whats-the-difference.html
 * Worrell, James. [Computational Learning Theory: 2014-2015](). University of Oxford. Presentation page of CLT course. University of Oxford.
 
-
 ## Papers
 * Somers, Casal, Mark John, Jose C. (July 2009). [Using Artificial Neural Networks to Model Nonlinearity](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.727.6836&rep=rep1&type=pdf). SAGE Journals. Retrieved 2015-10-31.
-
 
 ## Books
 * Engelbrecht, Andries (2007). [Computational Intelligence: An Introduction](https://www.goodreads.com/book/show/1657259.Computational_Intelligence). Wiley & Sons.

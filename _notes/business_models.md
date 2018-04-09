@@ -1,12 +1,15 @@
 ---
-title: "Business models"
+title: "# Business models
+"
 collection: notes
 permalink: /notes/business_models
 date: 2016-06-01
-Tags:
-  - Marketing
-  - Business
+
 ---
+
+# Business models
+
+2016-06-01
 
 A business model is an "abstract representation of an organization, be it conceptual, textual, and/or graphical, of all core interrelated architectural, co-operational, and financial arrangements designed and developed by an organization presently and in the future, as well as all core products and/or services the organization offers, or will offer, based on these arrangements that are needed to achieve its strategic goals and objectives." That indicates that value proposition, value architecture (the organizational infrastructure and technological architecture that allows the movement of products, services, and information), value finance (modeling information related to total cost of ownership, pricing methods, and revenue structure), and value network articulate the primary constructs or dimensions of business models.
 
@@ -33,21 +36,19 @@ Differnt business models:
 * Pay what you can (PWYC) is a non-profit or for-profit business model which does not depend on set prices for its goods, but instead asks customers to pay what they feel the product or service is worth to them.[46][47][48] It is often used as a promotional tactic, but can also be the regular method of doing business. It is a variation on the gift economy and cross-subsidization, in that it depends on reciprocity and trust to succeed.
 * "Pay what you want" (PWYW) is sometimes used synonymously, but "pay what you can" is often more oriented to charity or socially oriented uses, based more on ability to pay, while "pay what you want" is often more broadly oriented to perceived value in combination with willingness and ability to pay.
 
+***Tags***: Marketing, Business
 
 #### See also
 [Market segmentation](/notes/market_segmentation), [Business Intelligence](/notes/business_intelligence), [Business plan](/notes/business_plan)
 
-
 ## Material
 * [Why Business Models fail: Pipes vs. Platforms](http://www.wired.com/insights/2013/10/why-business-models-fail-pipes-vs-platforms/), Sangeet Paul Choudary, Wired Magazine
-
 
 ## Papers
 * Al-Debei, M. M., El-Haddadeh, R., & Avison, D. (2008). [Defining the business model in the new world of digital business](http://bura.brunel.ac.uk/bitstream/2438/2887/1/AMCIS2008.pdf). In Proceedings of the Americas Conference on Information Systems (AMCIS) (Vol. 2008, pp. 1-11).
 * O'reilly, T. (2007). [What is Web 2.0: Design patterns and business models for the next generation of software](https://mpra.ub.uni-muenchen.de/4578/1/mpra_paper_4578.pdf). Communications & strategies, (1), 17.
 * Magretta, J. (2002). [Why business models matter](http://repository.binus.ac.id/2009-2/content/A0154/A015481231.pdf).
 * Teece, D. J. (2010). [Business models, business strategy and innovation](http://www.fce.austral.edu.ar/aplic/webSIA/webSIA2004.nsf/6905fd7e3ce10eca03256e0b0056c5b9/355c3d55983b170d03257d3a006eff18/$FILE/Teece%20Busines%20Models.pdf). Long range planning, 43(2), 172-194.
-
 
 ## Books
 * Afuah, A., & Tucci, C. L. (2000). [Internet business models and strategies: Text and cases](https://www.goodreads.com/book/show/4132536-internet-business-models-and-strategies). McGraw-Hill Higher Education.

@@ -1,14 +1,15 @@
 ---
-title: "Hive"
+title: "# Hive
+"
 collection: notes
 permalink: /notes/hive
 date: 2016-06-01
-Tags:
-  - Computer science
-  - Data Analysis
-  - Big Data
-  - Hadoop ecosystem
+
 ---
+
+# Hive
+
+2016-06-01
 
 Hive, formally known as Apache Hive, is a data warehouse infrastructure built on top of Hadoop for providing data summarization, query, and analysis.
 
@@ -26,15 +27,13 @@ It provides an SQL-like language called HiveQL with schema on read and transpare
 
 Four file formats are supported in Hive, which are TEXTFILE, SEQUENCEFILE, ORC and RCFILE. Apache Parquet can be read via plugin in versions later than 0.10 and natively starting at 0.13. Additional Hive plugins support querying of the Bitcoin Blockchain.
 
+***Tags***: Computer science, Data Analysis, Big Data, Hadoop ecosystem
 
 #### See also
 [Computational intelligence](/notes/computational_intelligence), [Mathematical optimization](/notes/mathematical_optimization), [Computer vision](/notes/computer_vision), [Machine learning](/notes/machine_learning), [Artificial Intelligence](/notes/artificial_intelligence), [Spatial Data Analysis](/notes/spatial_data_analysis), [Data Analysis](/notes/data_analysis)
 
-
 ## Material
 * https://hive.apache.org/
-
-
 
 
 ## Books

@@ -1,12 +1,15 @@
 ---
-title: "Parallel programming"
+title: "# Parallel programming
+"
 collection: notes
 permalink: /notes/parallel_programming
 date: 2016-06-01
-Tags:
-  - Computer engineering
-  - Programming
+
 ---
+
+# Parallel programming
+
+2016-06-01
 
 Parallel computing is a type of computation in which many calculations are carried out simultaneously, operating on the principle that large problems can often be divided into smaller ones, which are then solved at the same time. There are several different forms of parallel computing: bit-level, instruction-level, data, and task parallelism. Parallelism has been employed for many years, mainly in high-performance computing, but interest in it has grown lately due to the physical constraints preventing frequency scaling. As power consumption (and consequently heat generation) by computers has become a concern in recent years, parallel computing has become the dominant paradigm in computer architecture, mainly in the form of multi-core processors.
 
@@ -25,12 +28,10 @@ A theoretical upper bound on the speed-up of a single program as a result of par
 * MPI
 * OpenHMPP
 
+***Tags***: Computer engineering, Programming
 
 #### See also
 [Programming paradigm](/notes/programming_paradigm), [Concurrent programming](/notes/concurrent_programming), [Amdahl's law](/notes/amdahl's_law)
-
-
-
 
 
 

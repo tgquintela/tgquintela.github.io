@@ -1,12 +1,15 @@
 ---
-title: "Business plan"
+title: "# Business plan
+"
 collection: notes
 permalink: /notes/business_plan
 date: 2016-06-01
-Tags:
-  - Marketing
-  - Business
+
 ---
+
+# Business plan
+
+2016-06-01
 
 A business plan is a formal statement of business goals, reasons they are attainable, and plans for reaching them. It may also contain background information about the organization or team attempting to reach those goals.
 
@@ -41,15 +44,13 @@ Typical questions addressed by a business plan for a start up venture:
 * What are the company's capital and resource requirements?
 * What are the company's historical and projected financial statements?
 
+***Tags***: Marketing, Business
 
 #### See also
 [Market segmentation](/notes/market_segmentation), [Business Intelligence](/notes/business_intelligence), [Business models](/notes/business_models)
 
-
 ## Material
 * [Small business administration](http://www.smallbusinessnotes.com/starting-a-business/small-business-administration-sba-business-plan-outline.html)
-
-
 
 
 ## Books

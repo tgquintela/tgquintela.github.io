@@ -1,11 +1,15 @@
 ---
-title: "Sampling"
+title: "# Sampling
+"
 collection: notes
 permalink: /notes/sampling
 date: 2016-06-01
-Tags:
-  - Statistics
+
 ---
+
+# Sampling
+
+2016-06-01
 
 Sampling is the activity of choosing or selecting a subset of individuals from within a statistical population in order to estimate characteristics of the whole population. Each observation measures one or more properties (such as weight, location, color) of observable bodies distinguished as independent objects or individuals.
 
@@ -50,18 +54,16 @@ Other common methods:
 * **Snowball sampling**: involves finding a small group of initial respondents and using them to recruit more respondents. It is particularly useful in cases where the population is hidden or difficult to enumerate.
 * **Theoretical sampling**: occurs when samples are selected on the basis of the results of the data collected so far with a goal of developing a deeper understanding of the area or develop theory.
 
+***Tags***: Statistics
 
 #### See also
 [Resampling methods](/notes/resampling_methods)
-
-
 
 
 ## Papers
 * Altmann, J. (1974). [Observational study of behavior: sampling methods](http://www.uwyo.edu/animalcognition/altmann1974.pdf). Behaviour, 49(3), 227-266.
 * Hastings, W. K. (1970). [Monte Carlo sampling methods using Markov chains and their applications](http://down.cenet.org.cn/upfile/10/20053515710146.pdf). Biometrika, 57(1), 97-109.
 * Candès, E. J., & Wakin, M. B. (2008). [An introduction to compressive sampling](http://authors.library.caltech.edu/10092/1/CANieeespm08.pdf). IEEE signal processing magazine, 25(2), 21-30.
-
 
 ## Books
 * Lohr, S. (2009). [Sampling: design and analysis](https://www.goodreads.com/book/show/7725521-sampling). Nelson Education.

@@ -1,13 +1,15 @@
 ---
-title: "Julia"
+title: "# Julia
+"
 collection: notes
 permalink: /notes/julia
 date: 2016-06-01
-Tags:
-  - Computer science
-  - Computer engineering
-  - Programming language
+
 ---
+
+# Julia
+
+2016-06-01
 
 Julia is a high-level dynamic programming language designed to address the requirements of high-performance numerical and scientific computing while also being effective for general-purpose programming, web use or as a specification language.
 
@@ -23,10 +25,10 @@ The main features of Julia are:
 * Built-in package manager
 * Good performance, approaching that of statically-typed languages like C
 
+***Tags***: Computer science, Computer engineering, Programming language
 
 #### See also
 [Python](/notes/python), [R](/notes/r), [SAS](/notes/sas), [Matlab](/notes/matlab), [Go (Programming language)](/notes/go_(programming_language)), [Java](/notes/java), [C](/notes/c), [Fortran](/notes/fortran), [Sage](/notes/sage)
-
 
 ## Material
 * http://julialang.org/
@@ -35,8 +37,6 @@ The main features of Julia are:
 * https://medium.com/@acidflask/smoothing-data-with-julia-s-generated-functions-c80e240e05f3#.o3h6leeni
 * [Julia for R programmers](http://www.stat.wisc.edu/~bates/JuliaForRProgrammers.pdf)
 * http://www.wired.com/2014/02/julia/
-
-
 
 
 ## Books

@@ -1,11 +1,15 @@
 ---
-title: "Dissipative structures"
+title: "# Dissipative structures
+"
 collection: notes
 permalink: /notes/dissipative_structures
 date: 2016-06-01
-Tags:
-  - Statistical physics
+
 ---
+
+# Dissipative structures
+
+2016-06-01
 
 A dissipative system is a thermodynamically open system which is operating out of, and often far from, thermodynamic equilibrium in an environment with which it exchanges energy and matter.
 
@@ -16,16 +20,14 @@ Critics say that,  however hings are not well-isolated from the rest of the worl
 
 "Far-from-equilibrium" means that your system is so far from its thermal equilibrium that the linear laws I mentioned a moment ago no longer apply; non-linear terms become important. The only general rule about the solution to non-linear differential equations is that there are no general rules; hence the interest in the subject. (Cf. Chaos and non-linear dynamics.) This is not good news, of course, if what you want to do is extend thermodynamics to the far-from-equilibrium case. But, one might suppose, matters are not totally hopeless; we aren't talking about just any arbitrary system of equations, but the particular ones important in thermodynamics; perhaps there is some general principle (like those of maximum entropy, or minimum entropy production) which can guide us to solutions.
 
+***Tags***: Statistical physics
 
 #### See also
 [Nonequilibrium Statistical Mechanics](/notes/nonequilibrium_statistical_mechanics), [Self-organization](/notes/self-organization), [Irreversible Thermodynamics](/notes/irreversible_thermodynamics)
 
 
-
-
 ## Papers
 * Kugler, P. N., Kelso, J. S., & Turvey, M. T. (1980). [On the concept of coordinative structures as dissipative structures: I. Theoretical lines of convergence](http://web.haskins.yale.edu/Reprints/HL0297.pdf). Tutorials in motor behavior, 3, 3-47.
-
 
 ## Books
 * Kondepudi, D., & Prigogine, I. (2014). [Modern thermodynamics: from heat engines to dissipative structures](https://www.goodreads.com/book/show/2144228.Modern_Thermodynamics). John Wiley & Sons.

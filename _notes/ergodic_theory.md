@@ -1,13 +1,15 @@
 ---
-title: "Ergodic Theory"
+title: "# Ergodic Theory
+"
 collection: notes
 permalink: /notes/ergodic_theory
 date: 2016-06-01
-Tags:
-  - Dynamical systems
-  - Statistical Physics
-  - Stochastic processes
+
 ---
+
+# Ergodic Theory
+
+2016-06-01
 
 Ergodic theory is a branch of mathematics that studies dynamical systems with an invariant measure and related problems. Its initial development was motivated by problems of statistical physics.
 
@@ -16,21 +18,19 @@ The problem of metric classification of systems is another important part of the
 
 The concepts of ergodicity and the ergodic hypothesis are central to applications of ergodic theory. The underlying idea is that for certain systems the time average of their properties is equal to the average over the entire space. Applications of ergodic theory to other parts of mathematics usually involve establishing ergodicity properties for systems of special kind. In geometry, methods of ergodic theory have been used to study the geodesic flow on Riemannian manifolds, starting with the results of Eberhard Hopf for Riemann surfaces of negative curvature. Markov chains form a common context for applications in probability theory. Ergodic theory has fruitful connections with harmonic analysis, Lie theory (representation theory, lattices in algebraic groups), and number theory (the theory of diophantine approximations, L-functions).
 
+***Tags***: Dynamical systems, Statistical Physics, Stochastic processes
 
 #### See also
 [Dynamical systems](/notes/dynamical_systems), [Statistical Physics](/notes/statistical_physics), [Stochastic processes](/notes/stochastic_processes), [Ergodicity](/notes/ergodicity), [Ergodic hypothesis](/notes/ergodic_hypothesis)
-
 
 ## Material
 * [Cosma's note](http://bactra.org/notebooks/ergodic-theory.html)
 * https://www.encyclopediaofmath.org/index.php/Ergodic_theory
 
-
 ## Papers
 * Eckmann, J. P., & Ruelle, D. (1985). [Ergodic theory of chaos and strange attractors](https://math.dartmouth.edu/archive/m53f11/public_html/Eckmann1985RMP_review_ergodic_theory.pdf). Reviews of modern physics, 57(3), 617.
 * Bowen, R., & Ruelle, D. (1975). [The ergodic theory of Axiom A flows. In The Theory of Chaotic Attractors](http://www.academia.edu/download/46241902/bf0138984820160605-9606-1azbdwc.pdf). Springer New York, 55-76
 * Pesin, Y. B. (1977). [Characteristic Lyapunov exponents and smooth ergodic theory](http://www.turpion.org/php/full/infoFT.phtml?journal_id=rm&paper_id=1639). Russian Mathematical Surveys, 32(4), 55-114.
-
 
 ## Books
 * Walters, P. (2000). [An introduction to ergodic theory](https://www.goodreads.com/book/show/769299.An_Introduction_to_Ergodic_Theory) (Vol. 79). Springer Science & Business Media.

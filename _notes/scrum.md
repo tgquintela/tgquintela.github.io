@@ -1,13 +1,15 @@
 ---
-title: "Scrum"
+title: "# Scrum
+"
 collection: notes
 permalink: /notes/scrum
 date: 2016-06-01
-Tags:
-  - Programming
-  - Programming paradigms
-  - Software development
+
 ---
+
+# Scrum
+
+2016-06-01
 
 Scrum is an iterative and incremental agile software development framework for managing product development.
 It enables teams to self-organize by encouraging physical co-location or close online collaboration of all team members, as well as daily face-to-face communication among all team members and disciplines in the project.
@@ -28,21 +30,19 @@ The specific elements of scrum are:
 Some utilities:
 - Burn-down chart: also used in other agile development frameworks. It is a visualization of the progress of the project.
 
+***Tags***: Programming, Programming paradigms, Software development
 
 #### See also
 [Pair programming](/notes/pair_programming), [Agile software development](/notes/agile_software_development)
-
 
 ## Material
 * Beck, Kent; et al. (2001). ["Manifesto for Agile Software Development"](http://agilemanifesto.org/). Agile Alliance. Retrieved 14 June 2010
 * https://www.scruminc.com/scrum-papers/
 
-
 ## Papers
 * Sutherland, J., Schwaber, K., Scrum, C. C. O., & Sutherl, C. J. (2007). [The scrum papers: Nuts, bolts, and origins of an agile process.](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.108.814)
 * Schwaber, K. (1997). [Scrum development process. In Business Object Design and Implementation](https://www.cpe.ku.ac.th/~jim/common/articles/Schwaber1995%20-%20Scrum%20Development%20Process.pdf) (pp. 117-134). Springer London.
 * Moe, N. B., Dingsøyr, T., & Dybå, T. (2010). [A teamwork model for understanding an agile team: A case study of a Scrum project](http://www.sciencedirect.com/science/article/pii/S0950584909002043). Information and Software Technology, 52(5), 480-491.
-
 
 ## Books
 * Sims, Chris; Johnson, Hillary Louise. (2012). [Scrum: a Breathtakingly Brief and Agile Introduction](https://www.goodreads.com/book/show/18674785-scrum). Dymaxicon.
