@@ -36,7 +36,7 @@ Welcome here!
   {% include archive-single.html %}
 {% endfor %}
 
-<a href="{{ base_path }}/software" class="btn btn-primary" id="btn-main" rel="permalink">... see more</a>
+<a href="{{ base_path }}/blog" class="btn btn-primary" id="btn-main" rel="permalink">... see more</a>
 </div>
 
 
@@ -47,7 +47,7 @@ Welcome here!
   {% include archive-single.html %}
 {% endfor %}
 
-<a href="{{ base_path }}/software" class="btn btn-primary" id="btn-main" rel="permalink">... see more</a>
+<a href="{{ base_path }}/projects" class="btn btn-primary" id="btn-main" rel="permalink">... see more</a>
 </div>
 
 

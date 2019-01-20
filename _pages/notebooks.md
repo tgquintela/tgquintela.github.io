@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Index of notebooks"
+title: "Index of Jupyter notebooks"
 permalink: /notebooks/
 author_profile: true
 redirect_from:
