@@ -14,10 +14,10 @@ categories:
 ---
 
 
-Imagina't tornar a casa des d'una reunió d'empresa a la oficina. Només sortir, un cotxe autoconduït unipersonal et recull i t'emporta en cinc minuts a una parada de bus. El bus passa just en aquest moment i t'emporta ràpidament per uns carrers més aviat vuits de trafic al teu barri a les afores. Allà passes uns cinc minuts caminant entre els carrers i gaudint com la gent volta pel barri i està a la plaça. Volies fruita fresca i t'apropes al mercat. Havies quedat amb la fruitera i t'havia dit que avui li acabava d'arribar nous productes frescos del camp.
+Imagina't tornar a casa des d'una reunió d'empresa a la oficina. Només sortir, un cotxe autoconduït unipersonal et recull i t'emporta en cinc minuts a una parada de bus. El bus passa just en aquest moment i t'emporta ràpidament per uns carrers més aviat buits de trafic al teu barri a les afores. Allà passes uns cinc minuts caminant entre els carrers i gaudint com la gent volta pel barri i està a la plaça. Volies fruita fresca i t'apropes al mercat. Havies quedat amb la fruitera i t'havia dit que avui li acabava d'arribar nous productes frescos del camp.
 
 Al passar pel teu carrer vas al magatzem. Hi ha magatzems a cada carrer on el correu i les compres online són dipositades pels missatgers.
-T'identifiques i demanes al magatzem des de el teu dispositiu l'oli que havies comprat del mati. Avui vols fer una ensalada i a casa ja no et quedava. El teu mòbil t'havia avisat i et preguntava si volies més. Just entres a casa, li dones l'oli a la teva cuina i et canvies de roba a la teva habitació. Quan tornes a la cuina l'arròs està a la taula i l'ensalada està preparada.
+T'identifiques i demanes al magatzem des de el teu dispositiu l'oli que havies comprat del matí. Avui vols fer una ensalada i a casa ja no et quedava. El teu mòbil t'havia avisat i et preguntava si volies més. Just entres a casa, li dones l'oli a la teva cuina i et canvies de roba a la teva habitació. Quan tornes a la cuina l'arròs està a la taula i l'ensalada està preparada.
 
 Això pot semblar un somni humit d'un mandrós però pot ser un futur proper. Fa vint anys no hi havia telefons mòbils, i les cabines telefòniques eren un ben públic ben preuat. Avui en dia ja no hi són ni es necessiten. La forma de viure en vint anys ha canviat, i els canvis han estat produïts des de la tecnologia. Noves formes de comunicació que han canviat els nostres hàbits de com gastar, com comprar, com comunicar-nos, com treballar i com esbargir-nos.
 
@@ -36,7 +36,7 @@ Els termes de Smarthome, Smart House o Domòtica van néixer al segle XX i van s
 Aquestes tasques van des de netejar la casa, netejar la roba, netejar els plats, cuinar fins a arreglar els problemes que apareguin a casa. El canvi cap a una casa domòtica ha estat un canvi molt gradual que va passar per crear electrodomèstics per cada una d'aquestes tasques i fomentar la cooperació, connectivitat entre aquestes abans que crear un robot humanoide que ens substitueixi.
 
 El futur proper d'una casa passarà poc a poc per:
-* Nous electrodomèstics o que ens facin algunes de les que ara difícilment es poden fer, com una cuina automàtica (per fregir, coure, o cuinar qualsevol cosa que pugui fer qualsevol persona).
+* Nous electrodomèstics que ens facin algunes de les que ara difícilment es poden fer, com una cuina automàtica (per fregir, coure, o cuinar qualsevol cosa que pugui fer qualsevol persona).
 * Noves millores als que ja hi ha, com millores al magatzem de productes alimenticis, com poder saber en cada moment que és el que tenim i quant ens queda de cada producte solament mirant en els nostres dispositius.
 * Més connectivitat entre ells. No volem tenir perquè saber que passa amb la roba durant el procés de neteja (neteja, assecat, planxat i doblat), la cuina o altres processos (tal i com no interessa a la gran majoria com és cada procés de creació dels productes que comprem). Una interacció inicial i rebre les coses fetes. Aquests processos que impliquen diferents tasques consecutives hauran de estar coordinades per oferir aquests tipus de serveis finalista. La confiança del client i la seva despreocupació és la clau.
 
