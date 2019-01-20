@@ -31,7 +31,7 @@ main:
     active: False
     right: False
 
-  - title: "Notebooks"
+  - title: "Jupyter Notebooks"
     url: /notebooks/
     active: False
     right: False
