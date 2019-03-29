@@ -14,6 +14,10 @@ Most of the notes only have value as aggregators of bibliography material or ide
 
 In that index of notes it is showed the title and the last modification date of each note.
 
+{% for note in site.notes %}
+{{ note }}
+{% endif %}
+
 * [**GDPR**](/notes/gdpr)    2018-04-10
 * [**AWS**](/notes/aws)    2018-03-17
 * [**Conflicts and wars statistics**](/notes/conflicts_and_wars_statistics)    2017-07-11
