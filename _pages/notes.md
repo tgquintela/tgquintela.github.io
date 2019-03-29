@@ -16,7 +16,7 @@ In that index of notes it is showed the title and the last modification date of 
 
 {% for note in site.notes %}
 {{ note }}
-{% endif %}
+{% endfor %}
 
 * [**GDPR**](/notes/gdpr)    2018-04-10
 * [**AWS**](/notes/aws)    2018-03-17
