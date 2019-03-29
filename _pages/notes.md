@@ -15,15 +15,10 @@ Most of the notes only have value as aggregators of bibliography material or ide
 In that index of notes it is showed the title and the last modification date of each note.
 
 {% for post in site.notes %}
-	{% include base_path %}
-    <h2 class="archive__item-title" itemprop="headline">
-      {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
-      {% else %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
-      {% endif %}
-    </h2>
+    {% include base_path %}
+    "{{ base_path }}{{ post.url }}"
 {% endfor %}
+
 
 * [**GDPR**](/notes/gdpr)    2018-04-10
 * [**AWS**](/notes/aws)    2018-03-17
@@ -276,7 +271,7 @@ In that index of notes it is showed the title and the last modification date of 
 <script type="text/javascript">
   var GOOG_FIXURL_LANG = 'en',
       GOOG_FIXURL_SITE = '{{ site.url }}'.concat('/notes/');
-//  		GOOG_FIXURL_SITE = 'https://tgquintela.github.io/notes/';
+//          GOOG_FIXURL_SITE = 'https://tgquintela.github.io/notes/';
 //      domain = '{{ site.url }}',
 //      domain = domain.concat('/notes/');
 </script>
