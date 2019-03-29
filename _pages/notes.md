@@ -15,7 +15,7 @@ Most of the notes only have value as aggregators of bibliography material or ide
 In that index of notes it is showed the title and the last modification date of each note.
 
 {% for post in site.notes %}
-    *[**{{ post.title }}**]({{ base_path }}{{ post.url }})
+    * [**{{ post.title }}**]({{ base_path }}{{ post.url }}) post.date
 {% endfor %}
 
 
