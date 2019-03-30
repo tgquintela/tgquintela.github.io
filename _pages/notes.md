@@ -15,8 +15,9 @@ Most of the notes only have value as aggregators of bibliography material or ide
 In that index of notes it is showed the title and the last modification date of each note.
 
 
+{% assign sortednotes = site.notes | sort: 'order_item' | reverse %}
 <ul>
-{% for post in site.notes | sort: 'order_item' | reverse %}
+{% for post in sortednotes %}
     <li><a href="{{ base_path }}{{ post.url }}"><strong>{{ post.title }}</strong></a> {{ post.date | date: '%Y-%m-%d' }}</li>
 {% endfor %}
 </ul>
