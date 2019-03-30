@@ -16,8 +16,8 @@ In that index of notes it is showed the title and the last modification date of 
 
 
 <ul>
-{% for post in site.notes %}
-    <li><a href="{{ base_path }}{{ post.url }}"><strong>{{ post.title }}</strong></a> {{ post.date.strftime('%Y-%m-%d') }}</li>
+{% for post in site.notes | sort(attribute='date') %}
+    <li><a href="{{ base_path }}{{ post.url }}"><strong>{{ post.title }}</strong></a> {{ post.date }}</li>
 {% endfor %}
 </ul>
 
