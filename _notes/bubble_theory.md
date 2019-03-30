@@ -1,21 +1,20 @@
 ---
-title: "# Bubble theory
-"
+title: "Bubble theory"
 collection: notes
+order_item: 219
 permalink: /notes/bubble_theory
 date: 2016-06-01
-
+Tags:
+  - Economics
 ---
 
-# Bubble theory
-
-2016-06-01
 
 
-
-***Tags***: Economics
 
 #### See also
+
+
+
 
 
 

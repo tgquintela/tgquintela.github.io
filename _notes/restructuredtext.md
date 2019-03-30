@@ -1,15 +1,14 @@
 ---
-title: "# reStructuredText
-"
+title: "reStructuredText"
 collection: notes
+order_item: 13
 permalink: /notes/restructuredtext
 date: 2016-06-01
-
+Tags:
+  - Computer engineering
+  - Software management tools
+  - Text format
 ---
-
-# reStructuredText
-
-2016-06-01
 
 reStructuredText is a file format for textual data used primarily in the Python programming language community for technical documentation.
 
@@ -21,14 +20,16 @@ b) easily readable by human programmers who are reading and writing Python sourc
 
 reStructuredText is sometimes abbreviated as RST, ReST, or reST.
 
-***Tags***: Computer engineering, Software management tools, Text format
 
 #### See also
 [Markdown](/notes/markdown)
 
+
 ## Material
 * http://docutils.sourceforge.net/rst.html
 * http://www.sphinx-doc.org/en/stable/
+
+
 
 
 

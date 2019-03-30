@@ -1,15 +1,12 @@
 ---
-title: "# Bayesian game
-"
+title: "Bayesian game"
 collection: notes
+order_item: 76
 permalink: /notes/bayesian_game
 date: 2016-06-01
-
+Tags:
+  - Game Theory
 ---
-
-# Bayesian game
-
-2016-06-01
 
 A Bayesian game is one in which information about characteristics of the other players (i.e. payoffs) is incomplete. Such games can be converted into games of complete but imperfect information under the "common prior assumption".
 
@@ -28,16 +25,18 @@ A Bayesian game can be formally defined as a 7-tuple (${\displaystyle G=\langle 
 
 A pure strategy is the ones which has only one strategy in the bayesian density. We can defined a *Bayesian Equilibrium* of the game ${\displaystyle G}$ is defined to be a (possibly mixed strategy) Nash equilibrium of the game. Each Bayesian Game always have at least one Bayesian Equilibria.
 
-***Tags***: Game Theory
 
 #### See also
 [Game Theory](/notes/game_theory)
 
+
 ## Material
 * [Game Theory Coursera's course](https://class.coursera.org/gametheory-003/lecture/109). Coursera. Retrieved 2016-06-16.
 
+
 ## Papers
 * Harsanyi, John C., 1967/1968. [Games with Incomplete Information Played by Bayesian Players, I-III](). Management Science 14 (3): 159-183 (Part I), 14 (5): 320-334 (Part II), 14 (7): 486-502 (Part III).
+
 
 
 

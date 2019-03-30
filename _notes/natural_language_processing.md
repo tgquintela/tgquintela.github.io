@@ -1,15 +1,14 @@
 ---
-title: "# Natural language processing
-"
+title: "Natural language processing"
 collection: notes
+order_item: 194
 permalink: /notes/natural_language_processing
 date: 2016-06-01
-
+Tags:
+  - Computer science
+  - Data Analysis
+  - Artificial Intelligence
 ---
-
-# Natural language processing
-
-2016-06-01
 
 Natural language processing (NLP) is a field of computer science, artificial intelligence, and computational linguistics which tries the understand human (natural) languages. It is a field strongly related with human-computer interaction, computational linguistics.
 
@@ -38,17 +37,19 @@ The main tasks related with NLP are:
 * _Information extraction_ (IE): this is concerned in general with the extraction of semantic information from text. This covers tasks such as named entity recognition, Coreference resolution, relationship extraction, etc.
 * _Speech processing_: this covers speech recognition, text-to-speech and related tasks.
 
-***Tags***: Computer science, Data Analysis, Artificial Intelligence
 
 #### See also
 [Computational intelligence](/notes/computational_intelligence), [Mathematical optimization](/notes/mathematical_optimization), [Computer vision](/notes/computer_vision), [Artificial Intelligence](/notes/artificial_intelligence), [Data Analysis](/notes/data_analysis), [Machine Learning](/notes/machine_learning)
+
 
 ## Material
 * http://research.google.com/pubs/NaturalLanguageProcessing.html
 * http://www.nltk.org/
 
+
 ## Papers
 * Bates, M (1995). [Models of natural language understanding](http://www.pnas.org/content/92/22/9977). Proceedings of the National Academy of Sciences of the United States of America 92 (22): 9977-9982
+
 
 ## Books
 * Manning, Christopher D.; Schütze, Hinrich (1999). [Foundations of Statistical Natural Language Processing](https://www.goodreads.com/book/show/776349.Foundations_of_Statistical_Natural_Language_Processing). MIT Press (MA)

@@ -1,15 +1,13 @@
 ---
-title: "# Neuroscience
-"
+title: "Neuroscience"
 collection: notes
+order_item: 89
 permalink: /notes/neuroscience
 date: 2016-06-01
-
+Tags:
+  - Neuroscience
+  - Imaging technique
 ---
-
-# Neuroscience
-
-2016-06-01
 
 Neuroscience is the scientific study of the nervous system. Traditionally, neuroscience is recognized as a branch of biology. However, it is currently an interdisciplinary science that collaborates with other fields such as chemistry, cognitive science, computer science, engineering, linguistics, mathematics, medicine (including neurology), genetics, and allied disciplines including philosophy, physics, and psychology. It also exerts influence on other fields, such as neuroeducation, neuroethics, and neurolaw. The term neurobiology is often used interchangeably with the term neuroscience, although the former refers specifically to the biology of the nervous system, whereas the latter refers to the entire science of the nervous system (thus can include elements of psychology as well as the purely physical sciences).
 
@@ -27,14 +25,16 @@ My main concerns and interests about this topic are:
 * Relations between connectomes and high-level emerged properties (behavior and personality).
 * Relation with connectionism (Artificial Neural Networks methods for pattern discovering and statistical modeling).
 
-***Tags***: Neuroscience, Imaging technique
 
 #### See also
 [fMRI](/notes/fmri), [EEG](/notes/eeg), [dMRI](/notes/dmri)
 
 
+
+
 ## Papers
 * Brown, E. N., Kass, R. E., & Mitra, P. P. (2004). [Multiple neural spike train data analysis: state-of-the-art and future challenges](http://www.nature.com/neuro/journal/v7/n5/abs/nn1228.html). Nature Neuroscience, 7, 456-461.
+
 
 ## Books
 * Bear, M. F., Connors, B. W., Paradiso, M., Bear, M. F., Connors, B. W., & Neuroscience, M. A. (1996). [Exploring the brain](https://www.goodreads.com/book/show/170011.Neuroscience). Neuroscience: Williams & Wilkins.

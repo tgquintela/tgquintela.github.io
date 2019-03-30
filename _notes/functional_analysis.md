@@ -1,15 +1,13 @@
 ---
-title: "# Functional analysis
-"
+title: "Functional analysis"
 collection: notes
+order_item: 241
 permalink: /notes/functional_analysis
 date: 2016-06-01
-
+Tags:
+  - Topology
+  - Functional analysis
 ---
-
-# Functional analysis
-
-2016-06-01
 
 Functional analysis is a branch of mathematical analysis, the core of which is formed by the study of vector spaces endowed with some kind of limit-related structure (e.g. inner product, norm, topology, etc.) and the linear operators acting upon these spaces and respecting these structures in a suitable sense. The historical roots of functional analysis lie in the study of spaces of functions and the formulation of properties of transformations of functions such as the Fourier transform as transformations defining continuous, unitary etc. operators between function spaces. This point of view turned out to be particularly useful for the study of differential and integral equations.
 
@@ -19,10 +17,12 @@ In modern introductory texts to functional analysis, the subject is seen as the 
 
 ![Hierharchy of topological spaces in functional analysis](http://i.stack.imgur.com/lbN6I.jpg)
 
-***Tags***: Topology, Functional analysis
 
 #### See also
 [Calculus of variations](/notes/calculus_of_variations)
+
+
+
 
 
 

@@ -1,15 +1,13 @@
 ---
-title: "# Target market
-"
+title: "Target market"
 collection: notes
+order_item: 170
 permalink: /notes/target_market
 date: 2016-06-01
-
+Tags:
+  - Marketing
+  - Business
 ---
-
-# Target market
-
-2016-06-01
 
 A target market is a group of customers a business has decided to aim its marketing efforts and ultimately its merchandise towards. A well-defined target market the first element of a marketing strategy. Product, price, promotion, and place are the four elements of a marketing mix strategy that can determine the success of a product or service in the marketplace. It is proven that businesses must have a clear definition of their target market as this can help reach its target consumers and analyze what their needs and suitability are.
 
@@ -21,10 +19,11 @@ It is important for a business to identify and select a target market so it can 
 
 ![Market hierarchy](https://upload.wikimedia.org/wikipedia/en/thumb/f/fd/TAM-SAM-Market.jpg/800px-TAM-SAM-Market.jpg)
 
-***Tags***: Marketing, Business
 
 #### See also
 [Business models](/notes/business_models), [Market segmentation](/notes/market_segmentation), [Business Intelligence](/notes/business_intelligence)
+
+
 
 
 ## Papers
@@ -32,6 +31,7 @@ It is important for a business to identify and select a target market so it can 
 * Lee, G., Morrison, A. M., & O’Leary, J. T. (2006). [The economic value portfolio matrix: A target market selection tool for destination marketing organizations](http://www.sciencedirect.com/science/article/pii/S0261517705000191). Tourism Management, 27(4), 576-588.
 * Credo (2011). [Profiling your target market. in Business: The ultimate resource](https://networkservices.aut.ac.nz/ezproxy.cgi?url=http://search.credoreference.com/content/entry/ultimatebusiness/profiling_your_target_market/0). Credo. Credo.
 * McQueen, J., & Miller, K. E. (1985). [Target market selection of tourists: A comparison of approaches](http://jtr.sagepub.com/content/24/1/2.short). Journal of Travel Research, 24(1), 2-6.
+
 
 
 

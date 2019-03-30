@@ -1,15 +1,12 @@
 ---
-title: "# Location intelligence
-"
+title: "Location intelligence"
 collection: notes
+order_item: 167
 permalink: /notes/location_intelligence
 date: 2016-06-01
+Tags:
 
 ---
-
-# Location intelligence
-
-2016-06-01
 
 Location intelligence (LI), or spatial intelligence, is the process of deriving meaningful insight from geospatial data relationships to solve a particular problem. It involves layering multiple data sets spatially and/or chronologically, for easy reference on a map, and its applications span industries, categories and organizations.
 
@@ -44,15 +41,17 @@ Some applications
 * Retail: Site selection, maximize per-store sales, identify under-performing stores, market analysis.
 * Transportation: Transport planning, route monitoring.
 
-***Tags***: 
 
 #### See also
+
 
 
 ## Material
 * [CartoDB](https://cartodb.com/)
 * ESRI. "[Using Location Intelligence to Maximize the Value of BI](https://www.esri.com/~/media/files/pdfs/library/whitepapers/pdfs/using-location-intelligence.pdf)".
 * Marcus Torchia (2009). "[Location Intelligence in Retail Banking](https://www.esri.com/~/media/files/pdfs/library/whitepapers/pdfs/using-location-intelligence.pdf)".
+
+
 
 
 

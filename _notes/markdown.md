@@ -1,15 +1,14 @@
 ---
-title: "# Markdown
-"
+title: "Markdown"
 collection: notes
+order_item: 17
 permalink: /notes/markdown
 date: 2016-06-01
-
+Tags:
+  - Computer engineering
+  - Software management tools
+  - Text format
 ---
-
-# Markdown
-
-2016-06-01
 
 Markdown is a lightweight markup language with plain text formatting syntax designed so that it can be converted to HTML and many other formats using a tool by the same name. Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.
 
@@ -22,10 +21,10 @@ Due it is consider abandonware there is a huge fragmentation and each site or pr
 Some extensions also appear in order to adding features (such as tables, footnotes, definition lists, and Markdown inside HTML blocks) not available in plain Markdown syntax. Among these are Markdown Extra, MultiMarkdown, and the Pandoc Markdown extension. In some cases, this is to enable conversion into more formats than just HTML, e.g., LaTeX, RTF, and DocBook.
 The original Markdown implementation interprets constructs like my_long_variable as a request to emphasize "long". Many users found this confusing, so many later implementations such as PHP Markdown and Python Markdown do not implement middle word emphasis with underscores.
 
-***Tags***: Computer engineering, Software management tools, Text format
 
 #### See also
 [reStructuredText](/notes/restructuredtext)
+
 
 ## Material
 * [Original Markdown](http://daringfireball.net/projects/markdown/)
@@ -34,6 +33,8 @@ The original Markdown implementation interprets constructs like my_long_variable
 * [Github Mastering Markdown Tutorial](https://guides.github.com/features/mastering-markdown/)
 * [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 * [Setting SublimeText for Markdown editing](http://plaintext-productivity.net/2-04-how-to-set-up-sublime-text-for-markdown-editing.html)
+
+
 
 
 

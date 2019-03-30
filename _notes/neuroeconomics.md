@@ -1,15 +1,14 @@
 ---
-title: "# Neuroeconomics
-"
+title: "Neuroeconomics"
 collection: notes
+order_item: 207
 permalink: /notes/neuroeconomics
 date: 2016-06-01
-
+Tags:
+  - Economics
+  - Neuroscience
+  - Decision Theory
 ---
-
-# Neuroeconomics
-
-2016-06-01
 
 Neuroeconomics is an interdisciplinary field that seeks to explain human decision making, the ability to process multiple alternatives and to follow a course of action that classic economic theories are not able to explain. It studies how economic behavior can shape our understanding of the brain, and how neuroscientific discoveries can constrain and guide models of economics.
 
@@ -17,10 +16,11 @@ It combines research methods from neuroscience, experimental and behavioral econ
 
 Behavioral economics emerged to account for these anomalies by integrating social, cognitive, and emotional factors in understanding economic decisions. Neuroeconomics adds another layer by using neuroscientific methods in understanding the interplay between economic behavior and neural mechanisms. By using tools from various fields, some scholars claim that neuroeconomics offers a more integrative way of understanding decision making.
 
-***Tags***: Economics, Neuroscience, Decision Theory
 
 #### See also
 [Behavioral economics](/notes/behavioral_economics)
+
+
 
 
 ## Papers
@@ -31,6 +31,7 @@ Behavioral economics emerged to account for these anomalies by integrating socia
 * Fehr, E., & Singer, T. (2005). [The neuroeconomics of mind reading and empathy](http://psydok.sulb.uni-saarland.de/volltexte/2008/1666/pdf/dp1647.pdf).
 * Platt, M. L., & Huettel, S. A. (2008). [Risky business: the neuroeconomics of decision making under uncertainty](http://www.nature.com/neuro/journal/v11/n4/full/nn2062.html). Nature neuroscience, 11(4), 398-403.
 * Rustichini A (2009). [Neuroeconomics: What have we found, and what should we search for?](http://linkinghub.elsevier.com/retrieve/pii/S0959438809001366). Current Opinion in Neurobiology 19: 672–677. doi:10.1016/j.conb.2009.09.012.
+
 
 ## Books
 * Glimcher, P. W., & Fehr, E. (2013). [Neuroeconomics: Decision making and the brain](https://www.goodreads.com/book/show/4292159-neuroeconomics). Academic Press.

@@ -1,15 +1,13 @@
 ---
-title: "# Hilbert space
-"
+title: "Hilbert space"
 collection: notes
+order_item: 237
 permalink: /notes/hilbert_space
 date: 2016-06-01
-
+Tags:
+  - Topology
+  - Functional analysis
 ---
-
-# Hilbert space
-
-2016-06-01
 
 Hilbert space, named after David Hilbert, is an *inner-product space* which generalizes the notion of Euclidean space. It extends the methods of vector algebra and calculus from the two-dimensional Euclidean plane and three-dimensional space to spaces with any finite or infinite number of dimensions. A Hilbert space is an abstract vector space possessing the structure of an inner product that allows length and angle to be measured. Furthermore, Hilbert spaces are complete: there are enough limits in the space to allow the techniques of calculus to be used.
 
@@ -19,10 +17,12 @@ When that set of axes is countably infinite, this means that the Hilbert space c
 
 Linear operators on a Hilbert space are likewise fairly concrete objects: in good cases, they are simply transformations that stretch the space by different factors in mutually perpendicular directions in a sense that is made precise by the study of their spectrum.
 
-***Tags***: Topology, Functional analysis
 
 #### See also
 [Functional analysis](/notes/functional_analysis), [Inner-product space](/notes/inner-product_space), [Quantum physics](/notes/quantum_physics), [Optimization](/notes/optimization)
+
+
+
 
 
 

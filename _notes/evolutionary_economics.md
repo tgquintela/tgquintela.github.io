@@ -1,15 +1,12 @@
 ---
-title: "# Evolutionary Economics
-"
+title: "Evolutionary Economics"
 collection: notes
+order_item: 211
 permalink: /notes/evolutionary_economics
 date: 2016-06-01
-
+Tags:
+  - Economics
 ---
-
-# Evolutionary Economics
-
-2016-06-01
 
 Evolutionary economics is a thought framework of economic theories inspired by evolutionary biology.
 Evolutionary economics is part of mainstream economics as well as a heterodox school of economic thought that is inspired by evolutionary biology. Much like mainstream economics, it stresses complex interdependencies, competition, growth, structural change, and resource constraints but differs in the approaches which are used to analyze these phenomena.
@@ -20,15 +17,17 @@ Evolutionary economics does not take the characteristics of either the objects o
 
 A different approach is to apply evolutionary psychology principles to economics which is argued to explain problems such as inconsistencies and biases in rational choice theory. Basic economic concepts such as utility may be better viewed as due to preferences that maximized evolutionary fitness in the ancestral environment but not necessarily in the current one.
 
-***Tags***: Economics
 
 #### See also
+
+
 
 
 
 ## Papers
 * Dosi, G., & Nelson, R. R. (1994). [An introduction to evolutionary theories in economics](http://faculty.neu.edu.cn/txiang/evolution/Ref/94An%20introduction%20to%20evolutionary%20theories%20in%20economics.pdf). Journal of evolutionary economics, 4(3), 153-172.
 * Dopfer, K., Foster, J., Potts, J. (2004). [Micro-meso-macro](http://www.academia.edu/download/45049290/Micro-meso-macro20160424-3609-1nrplyb.pdf). Journal of Evolutionary Economics. 14(3), 263-279
+
 
 ## Books
 * Dopfer, K. (2005). [The evolutionary foundations of economics](https://www.goodreads.com/book/show/95946.The_Evolutionary_Foundations_of_Economics). Cambridge University Press.

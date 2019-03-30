@@ -1,15 +1,12 @@
 ---
-title: "# Black-Scholes model
-"
+title: "Black-Scholes model"
 collection: notes
+order_item: 216
 permalink: /notes/black-scholes_model
 date: 2016-06-01
-
+Tags:
+  - Economics
 ---
-
-# Black-Scholes model
-
-2016-06-01
 
 The Black–Scholes or Black-Scholes-Merton model is a mathematical model of a financial market containing derivative investment instruments. From the model, one can deduce the Black-Scholes formula, which gives a theoretical estimate of the price of European-style options. The formula led to a boom in options trading and legitimised scientifically the activities of the Chicago Board Options Exchange and other options markets around the world. It is widely used, although often with adjustments and corrections, by options market participants. Many empirical tests have shown that the Black-Scholes price is "fairly close" to the observed prices, although there are well-known discrepancies such as the "option smile".
 
@@ -50,9 +47,9 @@ As above, the Black-Scholes equation is a partial differential equation, which d
 
 $${\displaystyle {\frac {\partial V}{\partial t}}+{\frac {1}{2}}\sigma ^{2}S^{2}{\frac {\partial ^{2}V}{\partial S^{2}}}+rS{\frac {\partial V}{\partial S}}-rV=0}$$
 
-***Tags***: Economics
 
 #### See also
+
 
 
 ## Material
@@ -60,9 +57,11 @@ $${\displaystyle {\frac {\partial V}{\partial t}}+{\frac {1}{2}}\sigma ^{2}S^{2}
 * [Step-by-step solution of the Black-Scholes PDE](http://planetmath.org/encyclopedia/AnalyticSolutionOfBlackScholesPDE.html), planetmath.org.
 * Ian Stewart, (2012). [The mathematical equation that caused the banks to crash](https://www.theguardian.com/science/2012/feb/12/black-scholes-equation-credit-crunch). TheGuardian
 
+
 ## Papers
 * Black, F., & Scholes, M. (1973). [The pricing of options and corporate liabilities](https://www.cs.princeton.edu/courses/archive/fall02/cs323/links/blackscholes.pdf). The journal of political economy, 637-654.
 * MacBeth, J. D., & Merville, L. J. (1979). [An Empirical Examination of the Black‐Scholes Call Option Pricing Model](http://efinance.org.cn/cn/fe/19791204An%20Empirical%20Examination%20of%20the%20Black-Scholes%20Call%20Option%20Pricing%20Model,%20pp..pdf). The Journal of Finance, 34(5), 1173-1186.
+
 
 ## Books
 * Stewart, I. (2012). [In pursuit of the unknown: 17 equations that changed the world](https://www.goodreads.com/book/show/13237758-in-pursuit-of-the-unknown). Basic Books.

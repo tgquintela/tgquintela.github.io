@@ -1,15 +1,12 @@
 ---
-title: "# Parametric and nonparametric statistics
-"
+title: "Parametric and nonparametric statistics"
 collection: notes
+order_item: 138
 permalink: /notes/parametric_and_nonparametric_statistics
 date: 2016-06-01
-
+Tags:
+  - Statistics
 ---
-
-# Parametric and nonparametric statistics
-
-2016-06-01
 
 Parametric statistics is a branch of statistics which assumes that sample data comes from a population that follows a probability distribution based on a fixed set of parameters. Most well-known elementary statistical methods are parametric. Conversely a non-parametric model differs precisely in that the parameter set (or feature set in machine learning) is not fixed and can increase, or even decrease if new relevant information is collected.
 
@@ -69,10 +66,12 @@ The most knwon non-parametric methods are:
 * Wald-Wolfowitz runs test: tests whether the elements of a sequence are mutually independent/random
 * Wilcoxon signed-rank test: tests whether matched pair samples are drawn from populations with different mean ranks
 
-***Tags***: Statistics
 
 #### See also
 [Statistical testing](/notes/statistical_testing)
+
+
+
 
 
 

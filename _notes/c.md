@@ -1,15 +1,14 @@
 ---
-title: "# C
-"
+title: "C"
 collection: notes
+order_item: 10
 permalink: /notes/c
 date: 2016-06-01
-
+Tags:
+  - Computer science
+  - Computer engineering
+  - Programming language
 ---
-
-# C
-
-2016-06-01
 
 C is the low-level, general-purpose, imperative computer programming language most used in computer science and computer engineering. C supports structured programming, lexical variable scope and recursion, while a static type system prevents many unintended operations. By design, C provides constructs that map efficiently to typical machine instructions, and therefore it has found lasting use in applications that had formerly been coded in assembly language, including operating systems, as well as various application software for computers ranging from supercomputers to embedded systems.
 
@@ -35,13 +34,15 @@ It provides three distinct ways to allocate memory for objects:
 * Automatic memory allocation: temporary objects can be stored on the stack, and this space is automatically freed and reusable after the block in which they are declared is exited.
 * Dynamic memory allocation: blocks of memory of arbitrary size can be requested at run-time using library functions such as _malloc_ from a region of memory called the heap; these blocks persist until subsequently freed for reuse by calling the library function _realloc_ or _free_.
 
-***Tags***: Computer science, Computer engineering, Programming language
 
 #### See also
 [Python](/notes/python), [Julia](/notes/julia), [SAS](/notes/sas), [Matlab](/notes/matlab), [Go (Programming language)](/notes/go_(programming_language)), [Java](/notes/java), [R](/notes/r), [Fortran](/notes/fortran)
 
+
 ## Material
 * https://en.wikibooks.org/wiki/C_Programming
+
+
 
 
 ## Books

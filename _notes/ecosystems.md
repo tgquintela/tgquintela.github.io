@@ -1,15 +1,12 @@
 ---
-title: "# Ecosystems
-"
+title: "Ecosystems"
 collection: notes
+order_item: 52
 permalink: /notes/ecosystems
 date: 2016-06-01
-
+Tags:
+  - Ecology
 ---
-
-# Ecosystems
-
-2016-06-01
 
 An ecosystem is a community of living organisms in conjunction with the nonliving components of their environment (things like air, water and mineral soil), interacting as a system. These biotic and abiotic components are regarded as linked together through nutrient cycles and energy flows. As ecosystems are defined by the network of interactions among organisms, and between organisms and their environment, they can be of any size but usually encompass specific, limited spaces (although some scientists say that the entire planet is an ecosystem).
 
@@ -17,15 +14,17 @@ Ecosystems are controlled both by external and internal factors. External factor
 
 Biodiversity affects ecosystem function, as do the processes of disturbance and succession. Ecosystems provide a variety of goods and services upon which people depend; the principles of ecosystem management suggest that rather than managing individual species, natural resources should be managed at the level of the ecosystem itself. Classifying ecosystems into ecologically homogeneous units is an important step towards effective ecosystem management, but there is no single, agreed-upon way to do this.
 
-***Tags***: Ecology
 
 #### See also
 [Ecology](/notes/ecology), [Mutualistic Networks](/notes/mutualistic_networks)
 
 
+
+
 ## Papers
 * Jones, C. G., Lawton, J. H., & Shachak, M. (1994). [Organisms as ecosystem engineers](http://webpages.fc.ul.pt/~vlamaral/EXPL_MAR-EST_1226_2013_files/7-Jones%201994.pdf). In Ecosystem management (pp. 130-147). Springer New York.
 * Odum, E. P. (1969). [The strategy of ecosystem development](http://phobos.ramapo.edu/~vasishth/Odum-Strategy_of_Ecosystem_Development.pdf). Sustainability: Sustainability, 164, 58.
+
 
 ## Books
 * Assessment, M. E. (2003). [Ecosystems and human well-being](https://www.goodreads.com/book/show/788886.Ecosystems_and_Human_Well_Being) (Vol. 200). Washington, DC: Island Press.

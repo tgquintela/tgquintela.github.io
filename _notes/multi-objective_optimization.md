@@ -1,15 +1,16 @@
 ---
-title: "# Multi-objective optimization
-"
+title: "Multi-objective optimization"
 collection: notes
+order_item: 130
 permalink: /notes/multi-objective_optimization
 date: 2016-06-01
-
+Tags:
+  - Computer science
+  - Mathematics
+  - Optimization
+  - Economics
+  - Operations Research
 ---
-
-# Multi-objective optimization
-
-2016-06-01
 
 Multi-objective optimization (also known as multi-objective programming, vector optimization, multicriteria optimization, multiattribute optimization or Pareto optimization) is an area of multiple criteria decision making, that is concerned with mathematical optimization problems involving more than one objective function to be optimized simultaneously. Multi-objective optimization consist on balance the tradeoffs properly using a decided criteria.
 
@@ -39,10 +40,10 @@ Often such problems are subject to linear equality constraints that prevent all 
 
 Multi-objective optimization has been applied in many fields of science, including engineering, economics and logistics (see the section on applications for detailed examples) where optimal decisions need to be taken in the presence of trade-offs between two or more conflicting objectives. Minimizing cost while maximizing comfort while buying a car, and maximizing performance whilst minimizing fuel consumption and emission of pollutants of a vehicle are examples of multi-objective optimization problems involving two and three objectives, respectively. In practical problems, there can be more than three objectives.
 
-***Tags***: Computer science, Mathematics, Optimization, Economics, Operations Research
 
 #### See also
 [Mathematical Optimization](/notes/mathematical_optimization), [Evolutionary algorithms](/notes/evolutionary_algorithms), [Pareto efficiency](/notes/pareto_efficiency)
+
 
 ## Material
 * http://demonstrations.wolfram.com/EvolutionaryMultiobjectiveOptimization/
@@ -51,10 +52,12 @@ Multi-objective optimization has been applied in many fields of science, includi
 * https://github.com/esa/pagmo
 * http://deap.readthedocs.io/en/master/
 
+
 ## Papers
 * Ruzika, S.; Wiecek, M. M. (2005). "Approximation Methods in Multiobjective Programming". Journal of Optimization Theory and Applications 126 (3): 473-501.
 * Meisel, W. L. (1973), J. L. Cochrane; M. Zeleny, eds., "Tradeoff decision in multiple criteria decision making", Multiple Criteria Decision Making (S.C. University of Columbia): 461-476
 * Ozlen, Melih; Burton, Benjamin A.; MacRae, Cameron A.G. (2014). "Multi-Objective Integer Programming: An Improved Recursive Algorithm". Journal of Optimization Theory and Applications 160 (2): 470-482.
+
 
 ## Books
 * Miettinen, Kaisa (1999). Nonlinear Multiobjective Optimization. Springer.

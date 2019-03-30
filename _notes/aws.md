@@ -1,15 +1,14 @@
 ---
-title: "# AWS
-"
+title: "AWS"
 collection: notes
+order_item: 244
 permalink: /notes/aws
 date: 2018-03-17
-
+Tags:
+  - Computer science
+  - Data Analysis
+  - Big Data
 ---
-
-# AWS
-
-2018-03-17
 
 Amazon Web Services are the services provided by Amazon to manage and drive some computational processes. The services provided by AWS create a big data ecosystem in which storage, cloud computing, networking and database between other more targeted services.
 
@@ -21,10 +20,12 @@ Amazon Web Services are the services provided by Amazon to manage and drive some
 * Amazon Simple Storage Service (S3) provides scalable object storage accessible from a Web Service interface. Applicable use cases include backup/archiving, file (including media) storage and hosting, static website hosting, application data hosting, and more.
 * Amazon Lambda serverless computing platform is able to launch EC2 instances on demand on reaction to AWS internal or external events such as http requests, transparently providing the resource required. Lambda is tightly integrated with AWS but similar services such as Google Cloud Functions and open solutions such as OpenWhisk.
 
-***Tags***: Computer science, Data Analysis, Big Data
 
 #### See also
 [Big Data](/notes/big_data), [Hive](/notes/hive), [MapReduce](/notes/mapreduce), [Spark](/notes/spark), [Data Extraction](/notes/data_extraction), [Data Management](/notes/data_management), [Hadoop](/notes/hadoop)
+
+
+
 
 
 

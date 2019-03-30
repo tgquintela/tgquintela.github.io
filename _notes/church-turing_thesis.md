@@ -1,15 +1,14 @@
 ---
-title: "# Church-Turing thesis
-"
+title: "Church-Turing thesis"
 collection: notes
+order_item: 222
 permalink: /notes/church-turing_thesis
 date: 2016-06-01
-
+Tags:
+  - Computer science
+  - Artificial Intelligence
+  - Computation theory
 ---
-
-# Church-Turing thesis
-
-2016-06-01
 
 Church-Turing thesis is a hypothesis about the nature of computable functions. It comes from the demonstration that a general solution to the Entscheidungsproblem is impossible. Church-Turing thesis states that a function on the natural numbers is computable by a human being following an algorithm, ignoring resource limitations, if and only if it is computable by a Turing machine. The thesis is named after American mathematician Alonzo Church and the British mathematician Alan Turing. Before the precise definition of computable function, mathematicians often used the informal term effectively calculable to describe functions that are computable by paper-and-pencil methods. In the 1930s, several independent attempts were made to formalize the notion of computability:
 * Kurt Gödel, with Jacques Herbrand, created a formal definition of a class called general recursive functions. Also known as μ-recursive functions.
@@ -22,17 +21,19 @@ On the other hand, the Church-Turing thesis states that the above three formally
 
 Since its inception, variations on the original thesis have arisen, including statements about what can physically be realized by a computer in our universe (Physical Church-Turing Thesis) and what can be efficiently computed (Complexity-Theoretic Church–Turing Thesis). These variations are not due to Church or Turing, but arise from later work in complexity theory and digital physics. The thesis also has implications for the philosophy of mind.
 
-***Tags***: Computer science, Artificial Intelligence, Computation theory
 
 #### See also
 [Artificial Intelligence](/notes/artificial_intelligence), [Computer Complexity](/notes/computer_complexity), [Turing Machines](/notes/turing_machines), [Automata theory](/notes/automata_theory), [Theory of computation](/notes/theory_of_computation)
 
+
 ## Material
 * Rabin, Michael O. (June 2012). [Turing, Church, Gödel, Computability, Complexity and Randomization: A Personal View](http://videolectures.net/turing100_rabin_turing_church_goedel/).
+
 
 ## Papers
 * Alonzo Church, [An unsolvable problem of elementary number theory](http://phil415.pbworks.com/f/Church.pdf), American Journal of Mathematics, 58 (1936), pp 345–363
 * Turing, Alan M. (1936-37). [On Computable Numbers, With An Application to the Entscheidungsproblem](http://plms.oxfordjournals.org/content/s2-42/1/230). Proceedings of the London Mathematical Society, Series 2 42: 230-265.
+
 
 
 

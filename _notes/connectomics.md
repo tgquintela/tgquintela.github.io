@@ -1,15 +1,12 @@
 ---
-title: "# Connectomics
-"
+title: "Connectomics"
 collection: notes
+order_item: 94
 permalink: /notes/connectomics
 date: 2016-06-01
-
+Tags:
+  - Neuroscience
 ---
-
-# Connectomics
-
-2016-06-01
 
 Connectomics is the subfield of neuroscience related with the production and study of connectomes by assembling and analyzing connectome data sets. Connectome is a map description of neural connections in the brain. More broadly, a connectome would include the mapping of all neural connections within an organism's nervous system.
 
@@ -30,10 +27,11 @@ Recent advances in mapping neural connectivity at the cellular level offer signi
 
 In March 2011, the journal Nature published a pair of articles on micro-connectomes: Bock et al. and Briggman et al. In both articles, the authors first characterized the functional properties of a small subset of cells, and then manually traced a subset of the processes emanating from those cells to obtain a partial subgraph. In alignment with the principles of open-science, the authors of Bock et al. (2011) have released their data for public access. The full resolution 12TB dataset from Bock et al. is available at the Open Connectome Project. In 2012, a Citizen science project called EyeWire began attempting to crowdsource the mapping of the connectome through an interactive game. Independently, important topologies of functional interactions among several hundred cells are also gradually going to be declared (Shimono and Beggs, 2014). Scaling up ultrastructural circuit mapping to the whole mouse brain is currently underway (Mikula, 2012). An alternative approach to mapping connectivity was recently proposed by Zador and colleagues (Zador et al., 2012). Zador's technique, called BOINC (barcoding of individual neuronal connections) uses high-throughput sequencing to map neural circuits. Briefly, the approach consists of (1) labelling each neuron with a unique DNA barcode; (2) transferring barcodes between synaptically coupled neurons (for example using PRV); and (3) fusion of barcodes to represent a synaptic pair. This approach has the potential to be cheap, fast, and extremely high-throughput.
 
-***Tags***: Neuroscience
 
 #### See also
 [Functional connectivity](/notes/functional_connectivity), [Effective connectivity](/notes/effective_connectivity), [Connectomics](/notes/connectomics)
+
+
 
 
 ## Papers
@@ -49,6 +47,7 @@ In March 2011, the journal Nature published a pair of articles on micro-connecto
 * Marcus, Daniel, et al. (2011). [Informatics and data mining tools and strategies for the human connectome project](http://journal.frontiersin.org/article/10.3389/fninf.2011.00004). Frontiers in neuroinformatics, 5, 4.
 * Guye, M., Bettus, G., Bartolomei, F., & Cozzone, P. J. (2010). [Graph theoretical analysis of structural and functional connectivity MRI in normal and pathological brain networks](http://link.springer.com/article/10.1007/s10334-010-0205-z). Magnetic Resonance Materials in Physics, Biology and Medicine, 23(5-6), 409-421.
 * de Kwaasteniet, Bart, et al. (2013). [Relation between structural and functional connectivity in major depressive disorder](https://www.researchgate.net/profile/Bart_Kwaasteniet2/publication/235521213_Relation_Between_Structural_and_Functional_Connectivity_in_Major_Depressive_Disorder/links/5677c48608ae0ad265c7e90d.pdf). Biological psychiatry, 74(1), 40-47.
+
 
 ## Books
 * Sporns, O. (2010). [Networks of the Brain](https://www.goodreads.com/book/show/9655037-networks-of-the-brain). MIT press.

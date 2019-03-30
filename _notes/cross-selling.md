@@ -1,15 +1,13 @@
 ---
-title: "# Cross-selling
-"
+title: "Cross-selling"
 collection: notes
+order_item: 171
 permalink: /notes/cross-selling
 date: 2016-06-01
-
+Tags:
+  - Marketing
+  - Business
 ---
-
-# Cross-selling
-
-2016-06-01
 
 Cross-selling is the action or practice of selling an additional product or service to an existing customer. In practice, businesses define cross-selling in many different ways. Elements that might influence the definition might include the size of the business, the industry sector it operates within and the financial motivations of those required to define the term.
 
@@ -19,10 +17,12 @@ Unlike the acquiring of new business, cross-selling involves an element of risk 
 
 In practice, large businesses usually combine cross-selling and up-selling techniques to increase revenue.
 
-***Tags***: Marketing, Business
 
 #### See also
 [Business Intelligence](/notes/business_intelligence), [Business models](/notes/business_models), [Upselling](/notes/upselling)
+
+
+
 
 
 

@@ -1,15 +1,13 @@
 ---
-title: "# Object-oriented programming
-"
+title: "Object-oriented programming"
 collection: notes
+order_item: 106
 permalink: /notes/object-oriented_programming
 date: 2016-06-01
-
+Tags:
+  - Computer engineering
+  - Programming
 ---
-
-# Object-oriented programming
-
-2016-06-01
 
 Object-oriented programming (OOP) is a programming paradigm based on the concept of "objects", which may contain data, in the form of fields, often known as attributes; and code, in the form of procedures, often known as methods. A feature of objects is that an object's procedures can access and often modify the data fields of the object with which they are associated (objects have a notion of "this" or "self"). In OOP, computer programs are designed by making them out of objects that interact with one another. There is significant diversity of OOP languages, but the most popular ones are class-based, meaning that objects are instances of classes, which typically also determine their type.
 
@@ -30,10 +28,12 @@ The main features of *OOP* are:
 * Polymorphism: Subtyping, a form of polymorphism, is when calling code can be agnostic as to whether an object belongs to a parent class or one of its descendants. This is another type of abstraction which simplifies code external to the class hierarchy and enables strong separation of concerns.
 * _Open recursion_: in languages that support open recursion, object methods can call other methods on the same object (including themselves), typically using a special variable or keyword called *this* or *self*.
 
-***Tags***: Computer engineering, Programming
 
 #### See also
 [Programming paradigm](/notes/programming_paradigm)
+
+
+
 
 
 

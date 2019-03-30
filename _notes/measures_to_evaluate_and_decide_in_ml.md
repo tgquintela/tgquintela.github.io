@@ -1,15 +1,14 @@
 ---
-title: "# Measures to evaluate and decide in ML
-"
+title: "Measures to evaluate and decide in ML"
 collection: notes
+order_item: 154
 permalink: /notes/measures_to_evaluate_and_decide_in_ml
 date: 2016-06-01
-
+Tags:
+  - Data Science
+  - Machine Learning
+  - List
 ---
-
-# Measures to evaluate and decide in ML
-
-2016-06-01
 
 Here is presented a collection of main measures useful to apply in Data Science and Machine Learning algorithms. That is a collection of association rules and performance measures and tools.
 
@@ -55,9 +54,11 @@ The main measures for clustering problems:
 * Homogeneity score: measures the average of the homogeneity of each cluster in the prediction labels.
 * Completeness score: complementary measure of homogeneity.
 
-***Tags***: Data Science, Machine Learning, List
 
 #### See also
+
+
+
 
 
 

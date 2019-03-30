@@ -1,24 +1,23 @@
 ---
-title: "# Neuromarketing
-"
+title: "Neuromarketing"
 collection: notes
+order_item: 180
 permalink: /notes/neuromarketing
 date: 2016-06-01
-
+Tags:
+  - Marketing
+  - Neuroscience
 ---
-
-# Neuromarketing
-
-2016-06-01
 
 Neuromarketing is a field of marketing research that studies consumers' sensorimotor, cognitive, and affective response to marketing stimuli. Researchers use technologies such as functional magnetic resonance imaging (fMRI) to measure changes in activity in parts of the brain, electroencephalography (EEG) and Steady state topography (SST) to measure activity in specific regional spectra of the brain response, or sensors to measure changes in one's physiological state, also known as biometrics, including heart rate and respiratory rate, galvanic skin response to learn why consumers make the decisions they do, and which brain areas are responsible. Certain companies, particularly those with large-scale ambitions to predict consumer behaviour, have invested in their own laboratories, science personnel or partnerships with academia. Present in over ten countries, the Neuromarketing Business Association today centralizes academic publications and certifications and serves as a networking platform for professionals in the field.
 
 Neuromarketing, marketing designed on the foundation of neuroscience, is the most recent mechanical method utilized to understand consumers. The concept of neuromarketing was therefore introduced to study relevant human emotions and behavioral patterns associated with new products, ads and decision-making. In recent times it is also focused to influence the decisions of the customers. Neuromarketing is dynamic, it can relate to nearly anyone who has developed an opinion about a product or brand and has formed preferences. Marketing focuses on constructing positive and unforgettable experiences in consumers minds; it is neuroscience that measures these impacts.
 
-***Tags***: Marketing, Neuroscience
 
 #### See also
 [Marketing intelligence](/notes/marketing_intelligence)
+
+
 
 
 ## Papers
@@ -28,6 +27,7 @@ Neuromarketing, marketing designed on the foundation of neuroscience, is the mos
 * Morin, C. (2011). [Neuromarketing: the new science of consumer behavior](http://fac.ksu.edu.sa/sites/default/files/neuromarketing_1.pdf). Society, 48(2), 131-135.
 * Fisher, C. E., Chin, L., & Klitzman, R. (2010). [Defining neuromarketing: Practices and professional challenges](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3152487/). Harvard review of psychiatry, 18(4), 230-237.
 * Wilson, R., Gaines, J., & Hill, R. P. (2008). [Neuromarketing and consumer free will](http://onlinelibrary.wiley.com/doi/10.1111/j.1745-6606.2008.00114.x/full). Journal of Consumer Affairs, 42(3), 389-410.
+
 
 ## Books
 * Zurawicki, L. (2010). [Neuromarketing: Exploring the brain of the consumer](https://www.goodreads.com/book/show/5788231-neuromarketing-exploring-the-brain-of-the-consumer). Springer Science & Business Media.

@@ -1,15 +1,14 @@
 ---
-title: "# Homo economicus
-"
+title: "Homo economicus"
 collection: notes
+order_item: 210
 permalink: /notes/homo_economicus
 date: 2016-06-01
-
+Tags:
+  - Economy
+  - Game Theory
+  - Decision Theory
 ---
-
-# Homo economicus
-
-2016-06-01
 
 Homo economicus is the concept in many economic theories portraying humans as consistently rational and narrowly self-interested agents who usually pursue their subjectively-defined ends optimally. Generally, homo economicus attempts to maximize utility as a consumer and profit as a producer. This theory stands in contrast to the concepts of behavioral economics (which examines actual economic behavior, including widespread cognitive biases and other irrationalities), and homo reciprocans (which emphasizes human cooperation).
 
@@ -25,14 +24,16 @@ Homo economicus assumption only consider the material incentives but not the mor
 
 Another related homo assumption is the *Homo biologicus* assumption.
 
-***Tags***: Economy, Game Theory, Decision Theory
 
 #### See also
 [Neuroeconomics](/notes/neuroeconomics)
 
 
+
+
 ## Papers
 * O'Boyle, E. J. (2007). [Requiem for homo economicus](http://www.marketsandmorality.com/index.php/mandm/article/download/235/225). Journal of Markets and Morality, 10(2).
+
 
 
 

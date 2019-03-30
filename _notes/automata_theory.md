@@ -1,15 +1,14 @@
 ---
-title: "# Automata theory
-"
+title: "Automata theory"
 collection: notes
+order_item: 225
 permalink: /notes/automata_theory
 date: 2016-06-01
-
+Tags:
+  - Computer science
+  - Artificial Intelligence
+  - Optimization
 ---
-
-# Automata theory
-
-2016-06-01
 
 Automata theory is the study of abstract machines and automata, as well as the computational problems that can be solved using them. It is a theory in theoretical computer science, under discrete mathematics (a subject of study in both mathematics and computer science). The word automata (the plural of automaton) comes from a Greek word, which means "self-acting".
 
@@ -46,13 +45,15 @@ The following is an incomplete list of types of automata:
 * Nondeterministic Büchi automaton: ω-regular languages
 * Rabin automaton, Streett automaton, Parity automaton, Muller automaton: ω-regular languages
 
-***Tags***: Computer science, Artificial Intelligence, Optimization
 
 #### See also
 [Artificial Intelligence](/notes/artificial_intelligence), [Mathematical optimization](/notes/mathematical_optimization)
 
+
 ## Material
 * http://scanftree.com/automata/
+
+
 
 
 ## Books

@@ -1,15 +1,13 @@
 ---
-title: "# Arrow's impossibility theorem
-"
+title: "Arrow's impossibility theorem"
 collection: notes
+order_item: 85
 permalink: /notes/arrow's_impossibility_theorem
 date: 2016-06-01
-
+Tags:
+  - Game Theory
+  - Social Choice Theory
 ---
-
-# Arrow's impossibility theorem
-
-2016-06-01
 
 Arrow's impossibility theorem is a theorem in the context of social choice theory in which is an Impossibility theorem stating that when voters have three or more distinct alternatives (options), no ranked order voting system can convert the ranked preferences of individuals into a community-wide (complete and transitive) ranking while also meeting a pre-specified set of criteria. These pre-specified criteria are called unrestricted domain, non-dictatorship, Pareto efficiency, and independence of irrelevant alternatives. The theorem is often
 It is also kwnon as the General Possibility Theorem or Arrow's paradox. The theorem is often cited in discussions of voting theory as it is further interpreted by the Gibbard-Satterthwaite theorem.
@@ -25,10 +23,11 @@ Voting systems that use cardinal utility (which conveys more information than ra
 
 The axiomatic approach Arrow adopted can treat all conceivable rules (that are based on preferences) within one unified framework. In that sense, the approach is qualitatively different from the earlier one in voting theory, in which rules were investigated one by one. One can therefore say that the contemporary paradigm of social choice theory started from this theorem.
 
-***Tags***: Game Theory, Social Choice Theory
 
 #### See also
 [Game Theory](/notes/game_theory), [Social Choice Theory](/notes/social_choice_theory)
+
+
 
 
 ## Papers
@@ -36,6 +35,7 @@ The axiomatic approach Arrow adopted can treat all conceivable rules (that are b
 * Geanakoplos, John (2005). [Three Brief Proofs of Arrow's Impossibility Theorem](https://web.archive.org/web/20111223062926/http://cowles.econ.yale.edu/P/cd/d11a/d1123-r3.pdf). Economic Theory 26 (1): 211-215.
 * Tao, Terence (2012). [Arrow’s Theorem](https://www.math.ucla.edu/~tao/arrow.pdf). cit, 05-24.
 * Hansen, Paul (2002). [Another Graphical Proof of Arrow's Impossibility Theorem](http://www.otago.ac.nz/economics/otago123843.pdf). The Journal of Economic Education 33 (3): 217-235.
+
 
 ## Books
 * Arrow, Kenneth J.; Sen, Amartya K.; Suzumura, Kōtarō, eds. (2002). [Handbook of social choice and welfare Volume 1](https://www.goodreads.com/book/show/1152328.Handbook_Of_Social_Choice_And_Welfare). Amsterdam, Netherlands: Elsevier.

@@ -1,29 +1,29 @@
 ---
-title: "# Big Data
-"
+title: "Big Data"
 collection: notes
+order_item: 190
 permalink: /notes/big_data
 date: 2016-06-01
-
+Tags:
+  - Computer science
+  - Data Analysis
 ---
 
-# Big Data
-
-2016-06-01
 
 
-
-***Tags***: Computer science, Data Analysis
 
 #### See also
 [Computational intelligence](/notes/computational_intelligence), [Mathematical optimization](/notes/mathematical_optimization), [Computer vision](/notes/computer_vision), [Machine learning](/notes/machine_learning), [Artificial Intelligence](/notes/artificial_intelligence), [Spatial Data Analysis](/notes/spatial_data_analysis), [Data Analysis](/notes/data_analysis)
+
 
 ## Material
 * http://hadoop.apache.org/
 * http://www.datascienceassn.org/content/data-locality-hpc-vs-hadoop-vs-spark
 
+
 ## Papers
 * Chang, et al. (2006). [Bigtable: A Distributed Storage System for Structured Data](https://www.usenix.org/legacy/events/osdi06/tech/chang/chang_html/) ACM Transactions on Computer Systems (TOCS) 26.2 (2008): 4.
+
 
 ## Books
 * EMC editor (2014) [Data Science and Big Data Analytics: Discovering, Analyzing, Visualizing and Presenting Data](https://www.goodreads.com/book/show/22263956-data-science-and-big-data-analytics). John Wiley & Sons.

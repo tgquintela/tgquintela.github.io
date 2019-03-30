@@ -1,15 +1,13 @@
 ---
-title: "# Marketing intelligence
-"
+title: "Marketing intelligence"
 collection: notes
+order_item: 176
 permalink: /notes/marketing_intelligence
 date: 2016-06-01
-
+Tags:
+  - Marketing
+  - Business
 ---
-
-# Marketing intelligence
-
-2016-06-01
 
 'Marketing intelligence (MI) is the everyday information relevant to a company’s markets, gathered and analyzed specifically for the purpose of accurate and confident decision-making in determining market opportunity, market penetration strategy, and market development metrics. Marketing intelligence is necessary when entering a foreign market.
 
@@ -18,14 +16,16 @@ Marketing intelligence determines the intelligence needed, collects it by search
 ### Segmentation and Positioning
 Marketers use segmentation and positioning to divide the market and choose the segments they will use to position themselves to strategically target their message. Using new scientific and technological tools, as *neuroscience* or *Big data*, marketers have now been able to target and tailor their offerings to better-fit buyers expectations
 
-***Tags***: Marketing, Business
 
 #### See also
 [Business models](/notes/business_models), [Market segmentation](/notes/market_segmentation), [Business Intelligence](/notes/business_intelligence), [Neuromarketing](/notes/neuromarketing)
 
 
+
+
 ## Papers
 * Kotler, P. (1972). [A generic concept of marketing](http://www1.eafit.edu.co/jbaby/agenericconcept.pdf). The Journal of Marketing, 46-54.
+
 
 ## Books
 * Lamb, Charles (2012). [Essentials of Marketing](https://www.goodreads.com/book/show/8716111-essentials-of-marketing). 7th Edition, Mason, OH: South-Western Cengage Learning

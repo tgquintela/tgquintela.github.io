@@ -1,15 +1,16 @@
 ---
-title: "# Search theory
-"
+title: "Search theory"
 collection: notes
+order_item: 1
 permalink: /notes/search_theory
 date: 2016-06-01
-
+Tags:
+  - Computer science
+  - Mathematics
+  - Optimization
+  - Economics
+  - Operations Research
 ---
-
-# Search theory
-
-2016-06-01
 
 Search theory is a theory which is strongly related with economics. Is a theory around the assignation problem. More precisely, search theory studies an individual's optimal strategy when choosing from a series of potential opportunities of random quality, under the assumption that delaying choice is costly. Search models illustrate how best to balance the cost of delay against the value of the option to try again. Mathematically, search models are optimal stopping problems.
 
@@ -18,13 +19,14 @@ Search theory is a theory which is strongly related with economics. Is a theory 
 * Consumer theory used to analyze purchasing decisions.
 * Macroeconomics in which is used to study general equilibrium models in which one or more types of searchers interact. These macroeconomic theories have been called 'matching theory', or 'search and matching theory'.
 
-***Tags***: Computer science, Mathematics, Optimization, Economics, Operations Research
 
 #### See also
 [Operations Research](/notes/operations_research)
 
+
 ## Material
 * http://www.nobelprize.org/nobel_prizes/economic-sciences/laureates/2010/press.pdf
+
 
 ## Papers
 * Stigler, George J. (1961). [The economics of information](http://home.uchicago.edu/~vlima/courses/econ200/spring01/stigler.pdf). Journal of Political Economy 69 (3): 213-225.
@@ -33,6 +35,7 @@ Search theory is a theory which is strongly related with economics. Is a theory 
 * Butters, G. R. (1977). [Equilibrium distributions of sales and advertising prices](http://www.jstor.org/stable/2296902?seq=1#page_scan_tab_contents). Review of Economic Studies 44: 465-491.
 * Mortensen, Dale; Pissarides, Christopher (1994). [Job creation and job destruction in the theory of unemployment](http://www.iab.de/UserFiles/File/downloads/gradab/Dokumente%20Garloff/Mortensen_Pissarides_1994_Job%20creation%20and%20job%20destruction%20in%20the%20theory%20of%20unemployment_RES_pp_397_415.pdf). Review of Economic Studies 61 (3): 397-415.
 * McDowell, J. J. [Matching theory in natural human environments](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2741957/pdf/behavan00059-0003.pdf). The Behavior Analyst 11.2 (1988): 95.
+
 
 ## Books
 * Lovász, László, and Michael D. Plummer. (2009). [Matching theory](https://www.goodreads.com/book/show/16385005-matching-theory) (Vol. 367). American Mathematical Soc.

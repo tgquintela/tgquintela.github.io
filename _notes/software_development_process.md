@@ -1,15 +1,13 @@
 ---
-title: "# Software development process
-"
+title: "Software development process"
 collection: notes
+order_item: 40
 permalink: /notes/software_development_process
 date: 2016-06-01
-
+Tags:
+  - Software engineering
+  - Software development
 ---
-
-# Software development process
-
-2016-06-01
 
 Software development is a process with different steps we have to accomplish.
 In software development methodology, the software development work is split in different phases for the sake of simplicity and efficiency of the planning and management.
@@ -44,15 +42,17 @@ Of course, depending on the nature of the project and the conditions among the p
 As I said before, there are not silver bullets and even for each design pattern we can create there are drawbacks associated, bad design patterns called anti-patterns, sometimes even with the same properties as the originals.
 So, any software development method or framework needs balance, be practical and easy to implement.
 
-***Tags***: Software engineering, Software development
 
 #### See also
 [Agile software development](/notes/agile_software_development), [Waterfall software development](/notes/waterfall_software_development)
 
 
+
+
 ## Papers
 * Brooks, F. P. , J. (1987). ["No Silver Bullet—Essence and Accidents of Software Engineering"](http://faculty.salisbury.edu/~xswang/Research/Papers/SERelated/no-silver-bullet.pdf)
 * Koenig, Andrew (March-April 1995). "Patterns and Antipatterns". Journal of Object-Oriented Programming 8 (1998). The patterns handbook: techniques, strategies, and applications. Cambridge, U.K.: Cambridge University Press.
+
 
 ## Books
 * Holzner, Steven; Purchase, Barbara. (2006). [Design Patterns for Dummies](https://www.goodreads.com/book/show/298107.Design_Patterns_for_Dummies).

@@ -1,15 +1,12 @@
 ---
-title: "# Cooperative game
-"
+title: "Cooperative game"
 collection: notes
+order_item: 86
 permalink: /notes/cooperative_game
 date: 2016-06-01
-
+Tags:
+  - Game Theory
 ---
-
-# Cooperative game
-
-2016-06-01
 
 A cooperative game is a game where groups of players ("coalitions") may enforce cooperative behavior, hence the game is a competition between coalitions of players, rather than between individual players. An example is a coordination game, when players choose the strategies by a consensus decision-making process.
 
@@ -27,15 +24,17 @@ There are important concepts related with cooperative games to know:
 * Shapley value
 * Matroids
 
-***Tags***: Game Theory
 
 #### See also
 [Game Theory](/notes/game_theory), [Non-cooperative game](/notes/non-cooperative_game)
 
 
+
+
 ## Papers
 * Shapley, Lloyd S. (1971), [Cores of convex games](), International Journal of Game Theory 1 (1): 11-26
 * Shapley, Lloyd S.; Shubik, M. (1966), [Quasi-cores in a monetary economy with non-convex preferences](), Econometrica (The Econometric Society) 34 (4): 805-827.
+
 
 
 

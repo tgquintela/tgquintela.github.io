@@ -1,15 +1,12 @@
 ---
-title: "# Milgram experiment
-"
+title: "Milgram experiment"
 collection: notes
+order_item: 145
 permalink: /notes/milgram_experiment
 date: 2016-06-01
-
+Tags:
+  - Sociology
 ---
-
-# Milgram experiment
-
-2016-06-01
 
 The Milgram experiment on obedience to authority figures was a series of social psychology experiments conducted by Yale University psychologist Stanley Milgram. They measured the willingness of study participants, men from a diverse range of occupations with varying levels of education, to obey an authority figure who instructed them to perform acts conflicting with their personal conscience; the experiment found, unexpectedly, that a very high proportion of people were prepared to obey, albeit unwillingly, even if apparently causing serious injury and distress. Milgram first described his research in 1963 in an article published in the Journal of Abnormal and Social Psychology and later discussed his findings in greater depth in his 1974 book, Obedience to Authority: An Experimental View.
 
@@ -31,16 +28,18 @@ The results highlight the perils of obedience and how the responsibility could b
 
 The experiment is done sequentially and increasing the commitment. Probably is related to *escalation of commitment*?
 
-***Tags***: Sociology
 
 #### See also
 [Somebody else's problem](/notes/somebody_else's_problem)
 
+
 ## Material
 * Milgram, Stanley (1974). [The Perils of Obedience](https://web.archive.org/web/20101216075927/http://home.swbell.net/revscat/perilsOfObedience.html). Harper's Magazine.
 
+
 ## Papers
 * Milgram, Stanley (1963). [Behavioral Study of Obedience](http://academic.evergreen.edu/curricular/social_dilemmas/fall/Readings/Week_06/milgram.pdf). Journal of Abnormal and Social Psychology 67 (4): 371-8.
+
 
 ## Books
 * Milgram, Stanley (1974). [Obedience to Authority; An Experimental View](https://www.goodreads.com/book/show/676723.Obedience_to_Authority). Harpercollins.

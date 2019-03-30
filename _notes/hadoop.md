@@ -1,15 +1,15 @@
 ---
-title: "# Hadoop
-"
+title: "Hadoop"
 collection: notes
+order_item: 189
 permalink: /notes/hadoop
 date: 2016-06-01
-
+Tags:
+  - Computer science
+  - Data Analysis
+  - Big Data
+  - Hadoop ecosystem
 ---
-
-# Hadoop
-
-2016-06-01
 
 Hadoop, formaly known as Apache Hadoop, is an open-source software framework for distributed storage and distributed processing of very large datasets on computer clusters from commodity hardware. Apache ease the management of the related tasks of distribute computations in an optimal way and solving the problems related with random fails that it can occur. Hadoop is the main software solutions in the ecosystem of Big Data.
 
@@ -27,16 +27,18 @@ Apache Hadoop's MapReduce and HDFS components were inspired by Google papers on 
 
 The Hadoop framework itself is mostly written in the Java programming language, with some native code in C and command line utilities written as shell scripts. Though MapReduce Java code is common, any programming language can be used with "Hadoop Streaming" to implement the "map" and "reduce" parts of the user's program. Other projects in the Hadoop ecosystem expose richer user interfaces.
 
-***Tags***: Computer science, Data Analysis, Big Data, Hadoop ecosystem
 
 #### See also
 [Computational intelligence](/notes/computational_intelligence), [Mathematical optimization](/notes/mathematical_optimization), [Computer vision](/notes/computer_vision), [Machine learning](/notes/machine_learning), [Artificial Intelligence](/notes/artificial_intelligence), [Spatial Data Analysis](/notes/spatial_data_analysis), [Data Analysis](/notes/data_analysis)
+
 
 ## Material
 * http://hadoop.apache.org/
 * http://www.ibm.com/analytics/us/en/technology/hadoop/
 * http://hortonworks.com/apache/hadoop/
 * http://www.datascienceassn.org/content/data-locality-hpc-vs-hadoop-vs-spark
+
+
 
 
 ## Books

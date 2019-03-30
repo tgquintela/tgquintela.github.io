@@ -1,15 +1,13 @@
 ---
-title: "# Market positioning
-"
+title: "Market positioning"
 collection: notes
+order_item: 182
 permalink: /notes/market_positioning
 date: 2016-06-01
-
+Tags:
+  - Marketing
+  - Business
 ---
-
-# Market positioning
-
-2016-06-01
 
 Market positioning is "the place a product occupies in consumers minds relative to competing products". Not to be confused with product positioning. Where the Journal of Advertising Research defines product positioning as a "brand’s objective (functional) attributes in relation to other brands". It comes down to the effectiveness of the Integrated Marketing Communications (IMC) strategy that the marketer uses as to how compelling the message is deciphered by the consumer. Which in turn, creates the position the brand/product occupies within the consumers mind. A well-positioned brand should accommodate the needs of the targeted segment and offer differentiation from other competing brands, where value proposition is achieved. Effective product positioning has the potential to create a powerful brand; however, if done poorly it can ruin a brands reputation, which will crush a businesses success.
 
@@ -27,16 +25,18 @@ Positioning is one of the most powerful marketing concepts and the meaning of po
 
 Enis & Cox explain to us that word positioning was introduced by an advertising executive in his 1969 article which was published in "Industrial Marketing" and "Advertising Age" Jack Trout, an advertising executive. A few years later in 1972, Jack Trout teamed up with Al Ries who was another advertising executive, in order to write an article called "Positioning cuts through chaos in marketplace" which was also published by "Advertising Age". In the early 1970s, positioning became a popular word with workers within marketing, especially those that were working in the area of advertising and promotion. Positioning continues to be a frequently used term in marketing literature as Maggard states positioning provides us with a valuable conceptual vehicle, which is effectively used to make various strategy techniques more meaningful and more productive.
 
-***Tags***: Marketing, Business
 
 #### See also
 [Market segmentation](/notes/market_segmentation), [Business Intelligence](/notes/business_intelligence), [Market penetration](/notes/market_penetration)
 
+
 ## Material
 * [Positioning book review](http://www.smevalueadvisors.com/wp-content/uploads/2014/01/Positioning-book-review.pdf)
 
+
 ## Papers
 * Trout, J., (1969) ["Positioning" is a game people play in today’s me-too market place](), Industrial Marketing, Vol.54, No.6, (June 1969), pp. 51-55.
+
 
 ## Books
 * Trout, J., & Ries, A. (1982). [Positioning: The battle for your mind](https://www.goodreads.com/book/show/760025.Positioning). Replay Radio, Radio New Zealand.

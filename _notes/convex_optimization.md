@@ -1,15 +1,16 @@
 ---
-title: "# Convex optimization
-"
+title: "Convex optimization"
 collection: notes
+order_item: 128
 permalink: /notes/convex_optimization
 date: 2016-06-01
-
+Tags:
+  - Computer science
+  - Mathematics
+  - Optimization
+  - Economics
+  - Operations Research
 ---
-
-# Convex optimization
-
-2016-06-01
 
 Convex optimization is the subfield of mathematical optimization which studies the specific problems in which the objective function is convex (minimization) or concave (maximization) and the constraint set is convex. The convexity property can make optimization in some sense "easier" than the general case since any local minimum must be a global minimum.
 
@@ -68,17 +69,19 @@ For ease the problem formulation sometimes is useful the *Lagrange multipliers* 
 * Karush-Kuhn-Tucker conditions
 * Quasiconvex minimization
 
-***Tags***: Computer science, Mathematics, Optimization, Economics, Operations Research
 
 #### See also
 [Mathematical Optimization](/notes/mathematical_optimization)
+
 
 ## Material
 * http://cvxr.com/cvx/
 * http://www.pyomo.org/
 
+
 ## Papers
 * Ben-Tal, Aharon; Nemirovski, Arkadi (1998). Robust convex optimization. Mathematics of operations research, 23(4), 769-805.
+
 
 ## Books
 * Boyd, Stephen; Vandenberghe, Lieven (2004). [Convex Optimization](https://www.goodreads.com/book/show/148030.Convex_Optimization). Cambridge University Press

@@ -1,15 +1,12 @@
 ---
-title: "# Wiener process
-"
+title: "Wiener process"
 collection: notes
+order_item: 49
 permalink: /notes/wiener_process
 date: 2016-06-01
-
+Tags:
+  - Stochastic processes
 ---
-
-# Wiener process
-
-2016-06-01
 
 The Wiener process, also known as Brownian motion after Robert Brown, is a continuous-time stochastic process named in honor of Norbert Wiener. It is one of the best known Lévy processes
 
@@ -40,14 +37,16 @@ Basic properties:
 * It is a martingale.
 * As quadratic variation [$W_t$, $W_t$] = $t$ the process $W_t - t$ it is also a martingale.
 
-***Tags***: Stochastic processes
 
 #### See also
 [Markov process](/notes/markov_process), [Levy process](/notes/levy_process)
 
 
+
+
 ## Papers
 * Shlesinger, Michael F.; Klafter, Joseph; Zumofen, Gert (December 1999). [Above, below and beyond Brownian motion](http://caos.fs.usb.ve/~srojas/Teaching/USB/MC_Intro/MC_readings_a/MC_a4_brownian_1.pdf). American Journal of Physics 67 (12): 1253-1259.
+
 
 ## Books
 * Kleinert, Hagen (2004). [Path Integrals in Quantum Mechanics, Statistics, Polymer Physics, and Financial Markets](http://users.physik.fu-berlin.de/~kleinert/b5/psfiles/pi.pdf) (4th ed.). Singapore: World Scientific

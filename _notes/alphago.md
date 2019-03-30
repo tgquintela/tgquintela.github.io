@@ -1,15 +1,15 @@
 ---
-title: "# AlphaGo
-"
+title: "AlphaGo"
 collection: notes
+order_item: 195
 permalink: /notes/alphago
 date: 2016-06-01
-
+Tags:
+  - Computer science
+  - Artificial Intelligence
+  - Algorithm
+  - Software
 ---
-
-# AlphaGo
-
-2016-06-01
 
 AlphaGo is a computer program developed by Google DeepMind to play Go. It was the first Computer Go program to beat a professional human Go player without handicaps on a full 19x19 board. He also wion a 5-game match with a top professional.
 
@@ -17,10 +17,10 @@ The algorithm of AlphaGo is based on a first machine learning extensive trainnin
 
 Go is a highly complex game due to the huge amount of possibilities that its possible moves offers. It is usually considered an intuition game.
 
-***Tags***: Computer science, Artificial Intelligence, Algorithm, Software
 
 #### See also
 [Artificial Intelligence](/notes/artificial_intelligence)
+
 
 ## Material
 * http://spectrum.ieee.org/automaton/robotics/artificial-intelligence/why-alphago-is-not-ai
@@ -29,8 +29,10 @@ Go is a highly complex game due to the huge amount of possibilities that its pos
 * http://www.bbc.com/news/technology-35785875
 * https://github.com/Rochester-NRT/RocAlphaGo
 
+
 ## Papers
 * Silver, D., Huang, A., Maddison, C. J., Guez, A., Sifre, L., Van Den Driessche, G. & Dieleman, S. (2016). [Mastering the game of Go with deep neural networks and tree search].(https://research.googleblog.com/2016/01/alphago-mastering-ancient-game-of-go.html) Nature, 529(7587), 484-489.
+
 
 
 

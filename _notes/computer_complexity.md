@@ -1,15 +1,13 @@
 ---
-title: "# Computer complexity
-"
+title: "Computer complexity"
 collection: notes
+order_item: 221
 permalink: /notes/computer_complexity
 date: 2016-06-01
-
+Tags:
+  - Computer science
+  - Artificial Intelligence
 ---
-
-# Computer complexity
-
-2016-06-01
 
 Complexity theory is the field of theoretical computer science in which is studied whether a problem can be solved at all on a computer, but also how efficiently the problem can be solved. Two major aspects are considered: time complexity and space complexity, which are respectively how many steps does it take to perform a computation, and how much memory is required to perform that computation.
 
@@ -19,16 +17,18 @@ To simplify this problem, computer scientists have adopted **Big O notation**, w
 
 Perhaps the most important open problem in all of computer science is the question of whether a certain broad class of problems denoted NP can be solved efficiently. This is discussed further at Complexity classes P and NP, and P versus NP problem is one of the seven Millennium Prize Problems stated by the Clay Mathematics Institute in 2000. The Official Problem Description was given by Turing Award winner Stephen Cook.
 
-***Tags***: Computer science, Artificial Intelligence
 
 #### See also
 [Artificial Intelligence](/notes/artificial_intelligence), [Computer Complexity](/notes/computer_complexity), [Turing Machines](/notes/turing_machines), [P versus NP problem](/notes/p_versus_np_problem)
 
+
 ## Material
 * https://en.wikipedia.org/wiki/File:Complexity_subsets_pspace.svg
 
+
 ## Papers
 * S. Aaronson & A. Wigderson (2008). [Algebrization: A New Barrier in Complexity Theory](http://www.scottaaronson.com/papers/alg.pdf). Proceedings of ACM STOC'2008. pp. 731-740.
+
 
 ## Books
 * Arora, Sanjeev; Barak, Boaz . [Computational complexity: a modern approach](https://www.goodreads.com/book/show/6535065-computational-complexity). Cambridge University Press, 2009.

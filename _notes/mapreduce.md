@@ -1,15 +1,13 @@
 ---
-title: "# MapReduce
-"
+title: "MapReduce"
 collection: notes
+order_item: 188
 permalink: /notes/mapreduce
 date: 2016-06-01
-
+Tags:
+  - Computer science
+  - Data Analysis
 ---
-
-# MapReduce
-
-2016-06-01
 
 MapReduce is a programming model and an associated implementation for processing and generating large data sets with a parallel, distributed algorithm on a cluster. Conceptually similar approaches have been very well known since 1995 with the Message Passing Interface standard having reduce and scatter operations.
 The "MapReduce System" (also called "infrastructure" or "framework") orchestrates the processing by marshalling the distributed servers, running the various tasks in parallel, managing all communications and data transfers between the various parts of the system, and providing for redundancy and fault tolerance.
@@ -26,10 +24,12 @@ MapReduce libraries have been written in many programming languages, with differ
 
 MapReduce could be not usable in some parallel solvable problems but for most of the problems could be used and save coding time between the developers.
 
-***Tags***: Computer science, Data Analysis
 
 #### See also
 [Computational intelligence](/notes/computational_intelligence), [Mathematical optimization](/notes/mathematical_optimization), [Computer vision](/notes/computer_vision), [Machine learning](/notes/machine_learning), [Artificial Intelligence](/notes/artificial_intelligence), [Spatial Data Analysis](/notes/spatial_data_analysis), [Data Analysis](/notes/data_analysis)
+
+
+
 
 
 

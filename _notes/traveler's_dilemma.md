@@ -1,15 +1,12 @@
 ---
-title: "# Traveler's dilemma
-"
+title: "Traveler's dilemma"
 collection: notes
+order_item: 61
 permalink: /notes/traveler's_dilemma
 date: 2016-06-01
-
+Tags:
+  - Game Theory
 ---
-
-# Traveler's dilemma
-
-2016-06-01
 
 The traveler's dilemma (sometimes abbreviated TD) is a type of non-zero-sum game in which two players attempt to maximize their own payoff, without any concern for the other player's payoff.
 The TD was formulated in 1994 by Kaushik Basu in this form:
@@ -20,16 +17,18 @@ To determine an honest appraised value of the antiques, the manager separates bo
 
 It is a symmetric game in which we have an optimum choice of $100 and a Nash equilibrium of $2. It could be understood as an extension of Prisoner's dilemma.
 
-***Tags***: Game Theory
 
 #### See also
 [Game Theory](/notes/game_theory), [Prisoner's dilemma](/notes/prisoner's_dilemma), [Social dilemma](/notes/social_dilemma)
 
+
 ## Material
 * Kaushik Basu,[The Traveler's Dilemma](http://www.scientificamerican.com/article/the-travelers-dilemma/); Scientific American Magazine, June 2007
 
+
 ## Papers
 * Kaushik Basu, [The Traveler's Dilemma: Paradoxes of Rationality in Game Theory](http://ftp.academicroom.com/article/travelers-dilemma-paradoxes-rationality-game-theory); American Economic Review, Vol. 84, No. 2, pp. 391-395; May 1994.
+
 
 
 

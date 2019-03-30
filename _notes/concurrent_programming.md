@@ -1,15 +1,13 @@
 ---
-title: "# Concurrent programming
-"
+title: "Concurrent programming"
 collection: notes
+order_item: 110
 permalink: /notes/concurrent_programming
 date: 2016-06-01
-
+Tags:
+  - Computer engineering
+  - Programming
 ---
-
-# Concurrent programming
-
-2016-06-01
 
 Concurrent programming is a form of modular programming, namely factoring an overall computation into subcomputations that may be executed concurrently (not sequentially, overlapping time periods. So a concurrent programming is the paradigm of programming that allows you to use concurrent computation.
 
@@ -36,17 +34,19 @@ Or other general purpose languages that they include this paradigm:
 * Scala
 * ...
 
-***Tags***: Computer engineering, Programming
 
 #### See also
 [Programming paradigm](/notes/programming_paradigm)
+
 
 ## Material
 * [Concurrency is not Parallelism](http://talks.golang.org/2012/waza.slide), Waza conference Jan 11, 2012, Rob Pike (slides)
 * https://wiki.haskell.org/Parallelism_vs._Concurrency
 
+
 ## Papers
 * Dijkstra, E. W. (1965). [Solution of a problem in concurrent programming control](http://dl.acm.org/citation.cfm?doid=365559.365617). Communications of the ACM 8 (9): 569
+
 
 ## Books
 * Taubenfeld, Gadi (2006). [Synchronization Algorithms and Concurrent Programming](https://www.goodreads.com/book/show/1523068.Synchronization_Algorithms_and_Concurrent_Programming). Pearson / Prentice Hall.

@@ -1,15 +1,13 @@
 ---
-title: "# fMRI
-"
+title: "fMRI"
 collection: notes
+order_item: 88
 permalink: /notes/fmri
 date: 2016-06-01
-
+Tags:
+  - Neuroscience
+  - Imaging technique
 ---
-
-# fMRI
-
-2016-06-01
 
 fMRI (from *functional magnetic resonance imaging* or *functional MRI*) is a functional neuroimaging procedure using MRI technology that measures brain activity by detecting changes associated with blood flow. This technique relies on the fact that cerebral blood flow and neuronal activation are coupled. When an area of the brain is in use, blood flow to that region also increases
 
@@ -19,10 +17,11 @@ Other methods of obtaining contrast are arterial spin labeling and diffusion MRI
 
 fMRI is used both in the research world, and to a lesser extent, in the clinical world. It can also be combined and complemented with other measures of brain physiology such as EEG and NIRS. Newer methods which improve both spatial and time resolution are being researched, and these largely use biomarkers other than the BOLD signal. Some companies have developed commercial products such as lie detectors based on fMRI techniques, but the research is not believed to be ripe enough for widespread commercialization.
 
-***Tags***: Neuroscience, Imaging technique
 
 #### See also
 [dMRI](/notes/dmri), [EEG](/notes/eeg), [PET](/notes/pet)
+
+
 
 
 ## Papers
@@ -38,6 +37,7 @@ fMRI is used both in the research world, and to a lesser extent, in the clinical
 * McKeown, M. J., Makeig, S., Brown, G. G., Jung, T. P., Kindermann, S. S., Bell, A. J., & Sejnowski, T. J. (1997). [Analysis of fMRI data by blind separation into independent spatial components](http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA460194) (No. NHRC-REPT-97-42). NAVAL HEALTH RESEARCH CENTER SAN DIEGO CA.
 * Friston, K. J., Williams, S., Howard, R., Frackowiak, R. S., & Turner, R. (1996). [Movement‐related effects in fMRI time‐series](https://www.researchgate.net/profile/Karl_Friston/publication/224880006_Movement-related_effects_in_fMRI_time-series/links/00b7d525c2e961c8af000000.pdf). Magnetic resonance in medicine, 35(3), 346-355.
 * Heeger, D. J., & Ress, D. (2002). [What does fMRI tell us about neuronal activity?](http://www.nature.com/nrn/journal/v3/n2/full/nrn730.html). Nature Reviews Neuroscience, 3(2), 142-151.
+
 
 ## Books
 * Ashby, F. G. (2011). [Statistical analysis of fMRI data](https://www.goodreads.com/book/show/10900709-statistical-analysis-of-fmri-data). MIT press.

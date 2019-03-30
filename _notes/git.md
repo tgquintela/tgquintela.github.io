@@ -1,15 +1,13 @@
 ---
-title: "# Git
-"
+title: "Git"
 collection: notes
+order_item: 15
 permalink: /notes/git
 date: 2016-06-01
-
+Tags:
+  - Computer engineering
+  - Software management tools
 ---
-
-# Git
-
-2016-06-01
 
 Git is a version control system that is widely used for software development and other version control tasks. It is a _distributed revision control system_ (not as Subversion or CVS which are client-server models) with an emphasis on speed, data integrity, and support for distributed, non-linear workflows. Git was created by **Linus Torvalds** in 2005 for development of the Linux kernel, with other kernel developers contributing to its initial development.
 
@@ -31,9 +29,9 @@ There are several Git server services. The most popular ones (or the ones I know
 * GitHub: is a website where copies of Git repositories can be uploaded. It is a Git repository hosting service, which offers all of the distributed revision control and source code management (SCM) functionality of Git as well as adding its own features. Unlike Git, which is strictly a command-line tool, GitHub provides a web-based graphical interface and desktop as well as mobile integration. It also provides access control and several collaboration features such as wikis, task management, bug tracking and other features that can be helpful for projects. It allows collaboration with other people on projects. It does that by providing a centralized location to share the repository, a web-based interface to view it, and features like forking, pull requests distributed revision control, issues, and wikis. It transformed the coding social.
 * Bitbucket is a web-based hosting service for projects that use either the Git (since October 2011) or the Mercurial (since launch) revision control systems.
 
-***Tags***: Computer engineering, Software management tools
 
 #### See also
+
 
 
 ## Material
@@ -41,6 +39,8 @@ There are several Git server services. The most popular ones (or the ones I know
 * https://try.github.io/levels/1/challenges/1
 * www.github.com
 * https://git-scm.com/book/en/v1/Getting-Started
+
+
 
 
 ## Books

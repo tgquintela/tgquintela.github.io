@@ -1,15 +1,15 @@
 ---
-title: "# Conflicts and wars statistics
-"
+title: "Conflicts and wars statistics"
 collection: notes
+order_item: 243
 permalink: /notes/conflicts_and_wars_statistics
 date: 2017-07-11
-
+Tags:
+  - Game Theory
+  - Sociology
+  - Statistics
+  - Statistial Mechanics
 ---
-
-# Conflicts and wars statistics
-
-2017-07-11
 
 * [Statistical Physics of Balance Theory](https://arxiv.org/abs/1705.03369): using game theory, social networks and Boltzmann-Gibbs statistical physics to model conflicts and wars. Case study of of wars from cold war including Syrian civil war. Related with the next item.
 * [Network Mathematics and Rival Factions](https://www.youtube.com/watch?v=qEKNFOaGQcc)
@@ -19,9 +19,9 @@ date: 2017-07-11
 conflicts](http://www.fooledbyrandomness.com/violence.pdf)
 * [What are the chances of a third world war?](http://www.fooledbyrandomness.com/longpeace.pdf)
 
-***Tags***: Game Theory, Sociology, Statistics, Statistial Mechanics
 
 #### See also
+
 
 
 ## Material
@@ -38,6 +38,7 @@ conflicts](http://www.fooledbyrandomness.com/violence.pdf)
 * Tags: Game Theory, Sociology, Statistics, Statistial Mechanics
 * See also:
 
+
 ## Papers
 * : Conflicts and wars statistics
 * Date: 2017-07-11
@@ -51,6 +52,7 @@ conflicts](http://www.fooledbyrandomness.com/violence.pdf)
 * * [What are the chances of a third world war?](http://www.fooledbyrandomness.com/longpeace.pdf)
 * Tags: Game Theory, Sociology, Statistics, Statistial Mechanics
 * See also:
+
 
 ## Books
 * e: Conflicts and wars statistics

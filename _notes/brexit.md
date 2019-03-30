@@ -1,15 +1,15 @@
 ---
-title: "# Brexit
-"
+title: "Brexit"
 collection: notes
+order_item: 192
 permalink: /notes/brexit
 date: 2016-06-01
-
+Tags:
+  - Economics
+  - Politics
+  - Hotnews
+  - Listing
 ---
-
-# Brexit
-
-2016-06-01
 
 Brexit is the British withdrawal from the European Union by the referendum celebrated on 23 June 2016. It suppose a huge break of the UK in:
 * Age (empire generation vs 
@@ -29,14 +29,16 @@ The main articles, comments and reactions I like most are:
 * [View from Wales: town showered with EU cash votes to leave EU](https://www.theguardian.com/uk-news/2016/jun/25/view-wales-town-showered-eu-cash-votes-leave-ebbw-vale)
 * [After this vote the UK is diminished, our politics poisoned](https://www.theguardian.com/commentisfree/2016/jun/24/eu-vote-uk-diminished-politics-poisoned-racism?CMP=share_btn_tw)
 
-***Tags***: Economics, Politics, Hotnews, Listing
 
 #### See also
 
 
 
+
+
 ## Papers
 * Helleiner, E. (2002). [Economic nationalism as a challenge to economic liberalism? Lessons from the 19th century](http://homes.ieu.edu.tr/~ibagdadi/INT230/Eric%20Helleiner%20-%20Economic%20Nationalism%20as%20a%20Challenge%20to%20Economic%20Liberalism.pdf). *Related paper with the situation of nationalism*.
+
 
 
 

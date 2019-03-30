@@ -1,15 +1,12 @@
 ---
-title: "# Hodgkin-Huxley model
-"
+title: "Hodgkin-Huxley model"
 collection: notes
+order_item: 87
 permalink: /notes/hodgkin-huxley_model
 date: 2016-06-01
-
+Tags:
+  - Neuroscience
 ---
-
-# Hodgkin-Huxley model
-
-2016-06-01
 
 The Hodgkin-Huxley model, or conductance-based model, is a mathematical model that describes how action potentials in neurons are initiated and propagated. It is a set of *nonlinear differential equations* that approximates the electrical characteristics of excitable cells such as neurons and cardiac myocytes, and hence it is a continuous time model, unlike the Rulkov map for example.
 
@@ -19,13 +16,14 @@ The studies are usually centered in the dynamic properties of the equations as t
 
 There are several of improvements and extensions of the Hodgkin-Huxley model considering other variables and equations.
 
-***Tags***: Neuroscience
 
 #### See also
 [Dynamical systems](/notes/dynamical_systems), [Differential equations](/notes/differential_equations), [Integrate-and-fire models](/notes/integrate-and-fire_models)
 
+
 ## Material
 * [ModelDB](https://senselab.med.yale.edu/ModelDB/)
+
 
 ## Papers
 * Hodgkin, A. L.; Huxley, A. F. (1952). [A quantitative description of membrane current and its application to conduction and excitation in nerve](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1392413/pdf/jphysiol01442-0106.pdf). The Journal of Physiology 117 (4): 500-544.
@@ -33,6 +31,7 @@ There are several of improvements and extensions of the Hodgkin-Huxley model con
 * Guckenheimer, J., & Oliva, R. A. (2002). [Chaos in the Hodgkin--Huxley Model](http://epubs.siam.org/doi/pdf/10.1137/S1111111101394040). SIAM Journal on Applied Dynamical Systems, 1(1), 105-114.
 * Abbott, L. F., & Kepler, T. B. (1990). [Model neurons: from hodgkin-huxley to hopfield](http://www.neurotheory.columbia.edu/Larry/HHtoH.pdf). In Statistical mechanics of neural networks (pp. 5-18). Springer Berlin Heidelberg.
 * Kistler, W. M., Gerstner, W., & van Hemmen, J. L. (1997). [Reduction of the Hodgkin-Huxley equations to a single-variable threshold model](http://infoscience.epfl.ch/record/97776/files/Gerstner97.pdf). Neural Computation, 9(5), 1015-1045.
+
 
 
 

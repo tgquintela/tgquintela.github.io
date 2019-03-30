@@ -1,15 +1,14 @@
 ---
-title: "# Artificial Neural Networks
-"
+title: "Artificial Neural Networks"
 collection: notes
+order_item: 35
 permalink: /notes/artificial_neural_networks
 date: 2016-06-01
-
+Tags:
+  - Artificial Intelligence
+  - Connectomics
+  - Machine Learning
 ---
-
-# Artificial Neural Networks
-
-2016-06-01
 
 Artificial neural networks (ANNs) are a family of bio-inspired models which are used to estimate or approximate functions that can depend on a large number of inputs and are generally unknown. Artificial neural networks are typically specified using three things:
 * *Architecture*: which specifies what variables are involved in the network and their topological relationships along with activities of the neurons. The architecture is defined by the number of neurons for each layer and the relationship between each ones through the definition of its weights.
@@ -36,15 +35,17 @@ The main learning algorithms:
 * Particle swarm optimization
 * ...
 
-***Tags***: Artificial Intelligence, Connectomics, Machine Learning
 
 #### See also
 [Random Forest](/notes/random_forest), [Machine Learning](/notes/machine_learning)
 
 
+
+
 ## Papers
 * Bertsekas, D. P., & Tsitsiklis, J. N. (1995, December). [Neuro-dynamic programming: an overview](http://web.mit.edu/people/dimitrib/NDP_Encycl.pdf). In Decision and Control, 1995., Proceedings of the 34th IEEE Conference on (Vol. 1, pp. 560-564). IEEE.
 * Van Roy, B., Bertsekas, D. P., Lee, Y., & Tsitsiklis, J. N. (1997, December). [A neuro-dynamic programming approach to retailer inventory management](http://neuron.tuke.sk/~hudecm/PDF_PAPERS/retail.pdf). In Decision and Control, 1997., Proceedings of the 36th IEEE Conference on (Vol. 4, pp. 4052-4057). IEEE.
+
 
 ## Books
 * Mehrotra, K., Mohan, C. K., & Ranka, S. (1997). [Elements of artificial neural networks](https://www.goodreads.com/book/show/2046567.Elements_of_Artificial_Neural_Networks). MIT press.

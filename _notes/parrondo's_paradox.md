@@ -1,15 +1,13 @@
 ---
-title: "# Parrondo's paradox
-"
+title: "Parrondo's paradox"
 collection: notes
+order_item: 64
 permalink: /notes/parrondo's_paradox
 date: 2016-06-01
-
+Tags:
+  - Game Theory
+  - Stochastic processes
 ---
-
-# Parrondo's paradox
-
-2016-06-01
 
 Parrondo's paradox, a paradox in game theory, has been described as: A combination of losing strategies becomes a winning strategy. It is named after its creator, Juan Parrondo, who discovered the paradox in 1996. The paradox states that:
 
@@ -24,10 +22,10 @@ There is a discussion about the use of the word paradox as the text by Dereck Ab
 
 Parrondo's paradox is used extensively in game theory, and its application in engineering, population dynamics, financial risk, among others. Parrondo's games are of little practical use such as for investing in stock markets as the original games require the payoff from at least one of the interacting games to depend on the player's capital. However, the games need not be restricted to their original form and work continues in generalizing the phenomenon. Similarities to volatility pumping and the two-envelope problem have been pointed out. Simple finance textbook models of security returns have been used to prove that individual investments with negative median long-term returns may be easily combined into diversified portfolios with positive median long-term returns. Similarly, a model that is often used to illustrate optimal betting rules has been used to prove that splitting bets between multiple games can turn a negative median long-term return into a positive one.
 
-***Tags***: Game Theory, Stochastic processes
 
 #### See also
 [Game Theory](/notes/game_theory), [Portfolio theory](/notes/portfolio_theory), [Stock market](/notes/stock_market)
+
 
 ## Material
 * https://scholar.google.com.au/citations?hl=en&user=aeNdbrUAAAAJ
@@ -38,6 +36,7 @@ Parrondo's paradox is used extensively in game theory, and its application in en
 * [Financial diversification and Parrondo](http://leeds.colorado.edu/uploadedFiles/Centers_of_Excellence/Burridge_Center/Working_Papers/ParadoxOfDiversification.pdf)
 * http://mathworld.wolfram.com/ParrondosParadox.html
 * Ball, Philip [Good news for losers](http://www.nature.com/news/1999/991223/full/news991223-13.html). Nature news
+
 
 ## Papers
 * Harmer, G. P., & Abbott, D. (1999). [Parrondo's paradox](http://projecteuclid.org/download/pdf_1/euclid.ss/1009212247). Statistical Science, 206-213.
@@ -51,6 +50,7 @@ Parrondo's paradox is used extensively in game theory, and its application in en
 * Iyengar, R., & Kohli, R. (2003). [Why Parrondo's paradox is irrelevant for utility theory, stock buying, and the emergence of life](https://www.researchgate.net/profile/Rajeev_Kohli/publication/220657468_Why_Parrondo's_paradox_is_irrelevant_for_utility_theory_stock_buying_and_the_emergence_of_life/links/0c9605274687aaad8e000000.pdf). Complexity, 9(1), 23-27.
 * Thomas K. Philips and Andrew B. Feldman, [Parrondo's Paradox is not Paradoxical](papers.ssrn.com/sol3/papers.cfm?abstract_id=581521), Social Science Research Network (SSRN) Working Papers, August 2004
 * Stutzer, M. (2010). [The Paradox of Diversification](http://www.iijournals.com/doi/pdfplus/10.3905/JOI.2010.19.1.032). The Journal of Investing, 19(1), 32-35.
+
 
 ## Books
 * Paulos, J. A. (2007). [A mathematician plays the stock market](https://www.goodreads.com/book/show/153708.A_Mathematician_Plays_The_Stock_Market). Basic Books.

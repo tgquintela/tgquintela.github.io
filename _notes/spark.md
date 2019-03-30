@@ -1,15 +1,15 @@
 ---
-title: "# Spark
-"
+title: "Spark"
 collection: notes
+order_item: 191
 permalink: /notes/spark
 date: 2016-06-01
-
+Tags:
+  - Computer science
+  - Data Analysis
+  - Big Data
+  - Hadoop ecosystem
 ---
-
-# Spark
-
-2016-06-01
 
 Apache Spark is an open source cluster computing framework. Originally developed at the University of California, Berkeley's AMPLab, the Spark codebase was later donated to the Apache Software Foundation that has maintained it since. Spark provides an interface for programming entire clusters with implicit data parallelism and fault-tolerance.
 
@@ -22,10 +22,10 @@ The Spark project has 5 main parts:
 * _Spark MLlib_: which is a distributed machine learning framework on top of Spark Core that, due in large part of the distributed memory-based Spark architecture, is as much as nine times as fast as the disk-based implementation used by Apache Mahout (according to benchmarks done by the MLlib developers against the Alternating Least Squares (ALS) implementations, and before Mahout itself gained a Spark interface), and scales better than Vowpal Wabbit. Many common machine learning and statistical algorithms have been implemented and are shipped with MLlib which simplifies large scale machine learning pipelines.
 * _GraphX_: which  is a distributed graph processing framework on top of Apache Spark. It provides an API for expressing graph computation that can model the Pregel abstraction. It also provides an optimized runtime for this abstraction.
 
-***Tags***: Computer science, Data Analysis, Big Data, Hadoop ecosystem
 
 #### See also
 [Computational intelligence](/notes/computational_intelligence), [Mathematical optimization](/notes/mathematical_optimization), [Computer vision](/notes/computer_vision), [Machine learning](/notes/machine_learning), [Artificial Intelligence](/notes/artificial_intelligence), [Spatial Data Analysis](/notes/spatial_data_analysis), [Data Analysis](/notes/data_analysis)
+
 
 ## Material
 * https://spark.apache.org/
@@ -38,8 +38,10 @@ The Spark project has 5 main parts:
 * http://www.slideshare.net/chaochen5496/mlllib-sparkmeetup8613finalreduced/
 * https://intellipaat.com/tutorial/spark-tutorial/
 
+
 ## Papers
 * Zaharia, Matei, et al. [Spark: Cluster Computing with Working Sets](https://amplab.cs.berkeley.edu/wp-content/uploads/2011/06/Spark-Cluster-Computing-with-Working-Sets.pdf). HotCloud 10 (2010): 10-10.
+
 
 ## Books
 * EMC editor (2014) [Data Science and Big Data Analytics: Discovering, Analyzing, Visualizing and Presenting Data](https://www.goodreads.com/book/show/22263956-data-science-and-big-data-analytics). John Wiley & Sons.

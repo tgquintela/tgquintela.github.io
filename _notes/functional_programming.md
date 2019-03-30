@@ -1,15 +1,13 @@
 ---
-title: "# Functional programming
-"
+title: "Functional programming"
 collection: notes
+order_item: 104
 permalink: /notes/functional_programming
 date: 2016-06-01
-
+Tags:
+  - Computer engineering
+  - Programming
 ---
-
-# Functional programming
-
-2016-06-01
 
 Functional programming is a programming paradigm that treats computation as the evaluation of mathematical functions and avoids changing-state and mutable data (not to be confused with procedure programming). It is a declarative programming paradigm, which means programming is done with expressions or declarations instead of statements. In functional code, the output value of a function depends only on the arguments that are input to the function, so calling a function f twice with the same value for an argument x will produce the same result f(x) each time. 
 
@@ -38,10 +36,12 @@ Other ones support functional analysis like:
 * Julia language also offers functional programming abilities
 * Scala (which is placed sometimes in the fuzzy border of imperative and functional languages.
 
-***Tags***: Computer engineering, Programming
 
 #### See also
 [Programming paradigm](/notes/programming_paradigm)
+
+
+
 
 
 

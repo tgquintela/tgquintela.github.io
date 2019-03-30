@@ -1,15 +1,15 @@
 ---
-title: "# Poincaré-Bendixson theorem
-"
+title: "Poincaré-Bendixson theorem"
 collection: notes
+order_item: 27
 permalink: /notes/poincaré-bendixson_theorem
 date: 2016-06-01
-
+Tags:
+  - Dynamical systems
+  - Chaos
+  - Fractals
+  - Differential equations
 ---
-
-# Poincaré-Bendixson theorem
-
-2016-06-01
 
 Poincaré-Bendixson theorem is one of the most important theorems in dynamical systesms. It is a statement about the long-term behaviour of orbits of continuous dynamical systems on a plane.
 
@@ -24,14 +24,16 @@ A weaker version of the theorem was originally conceived by Henri Poincaré, alt
 
 A direct consequence of this theorem is that chaotic behaviour can ***only*** arise in continuous dynamical systems whose phase space has three or more dimensions. However the theorem does not apply to discrete dynamical systems, where chaotic behaviour can arise in two-dim or even one-dimensional systems.
 
-***Tags***: Dynamical systems, Chaos, Fractals, Differential equations
 
 #### See also
 [Dynamical systems](/notes/dynamical_systems)
 
 
+
+
 ## Papers
 * Bendixson, I. (1901). [Sur les courbes définies par des équations différentielles](http://www.springerlink.com/index/FK25752882643H24.pdf). Acta Mathematica, 24(1), 1-88.
+
 
 
 

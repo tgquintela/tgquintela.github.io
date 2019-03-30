@@ -1,15 +1,16 @@
 ---
-title: "# Dynamic programming
-"
+title: "Dynamic programming"
 collection: notes
+order_item: 133
 permalink: /notes/dynamic_programming
 date: 2016-06-01
-
+Tags:
+  - Computer science
+  - Mathematics
+  - Optimization
+  - Economics
+  - Operations Research
 ---
-
-# Dynamic programming
-
-2016-06-01
 
 Dynamic programming (also known as dynamic optimization) is a method for solving a complex problem by breaking it down into a collection of simpler subproblems, solving each of those subproblems just once, and storing their solutions - ideally, using a memory-based data structure. The next time the same subproblem occurs, instead of recomputing its solution, one simply looks up the previously computed solution, thereby saving computation time at the expense of a (hopefully) modest expenditure in storage space. (Each of the subproblem solutions is indexed in some way, typically based on the values of its input parameters, so as to facilitate its lookup). The technique of storing solutions to subproblems instead of recomputing them is called "memoization". Dynamic programming is based on sacrificing computer memory in order to save computer time in each computation.
 
@@ -65,10 +66,10 @@ It is related with different field as:
 * Some approximate solution methods for the linear search problem
 * Kadane's algorithm for the maximum subarray problem
 
-***Tags***: Computer science, Mathematics, Optimization, Economics, Operations Research
 
 #### See also
 [Mathematical Optimization](/notes/mathematical_optimization)
+
 
 ## Material
 * http://20bits.com/article/introduction-to-dynamic-programming
@@ -78,8 +79,10 @@ It is related with different field as:
 * http://mat.gsia.cmu.edu/classes/dynamic/dynamic.html
 * http://www.topcoder.com/tc?module=Static&d1=tutorials&d2=dynProg
 
+
 ## Papers
 * Sniedovich, M. (2006), [Dijkstra’s algorithm revisited: the dynamic programming connexion](http://www.ifors.ms.unimelb.edu.au/tutorial/dijkstra_new/index.html), Journal of Control and Cybernetics 35 (3): 599-620
+
 
 ## Books
 * Bertsekas, Dimitri P. (2005). [Dynamic Programming And Optimal Control, Vol. 1](https://www.goodreads.com/book/show/1352345.Dynamic_Programming_And_Optimal_Control_Vol_1). Athena Scientific

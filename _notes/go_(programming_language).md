@@ -1,15 +1,14 @@
 ---
-title: "# Go (Programming language)
-"
+title: "Go (Programming language)"
 collection: notes
+order_item: 9
 permalink: /notes/go_(programming_language)
 date: 2016-06-01
-
+Tags:
+  - Computer science
+  - Computer engineering
+  - Programming language
 ---
-
-# Go (Programming language)
-
-2016-06-01
 
 Go (often referred to as golang) is an open source programming language created at Google in 2007 by Robert Griesemer, Rob Pike, and Ken Thompson. It is a compiled, statically typed language in the tradition of Algol and C, with garbage collection, limited structural typing, memory safety features and CSP-style concurrent programming features added.
 
@@ -30,10 +29,10 @@ Basic tools of Golang:
 * gorename, for renaming variables, functions, and so on in a type-safe way
 * go generate, a standard way to invoke code generators
 
-***Tags***: Computer science, Computer engineering, Programming language
 
 #### See also
 [Python](/notes/python), [Julia](/notes/julia), [SAS](/notes/sas), [Matlab](/notes/matlab), [R](/notes/r), [Java](/notes/java), [C](/notes/c), [Fortran](/notes/fortran), [Sage](/notes/sage)
+
 
 ## Material
 * http://www.golang-book.com/
@@ -41,6 +40,8 @@ Basic tools of Golang:
 * https://eng.uber.com/go-geofence/
 * https://blog.golang.org/go-slices-usage-and-internals
 * https://golang.org/doc/effective_go.html
+
+
 
 
 ## Books

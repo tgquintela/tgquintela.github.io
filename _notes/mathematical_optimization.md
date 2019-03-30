@@ -1,15 +1,14 @@
 ---
-title: "# Mathematical optimization
-"
+title: "Mathematical optimization"
 collection: notes
+order_item: 125
 permalink: /notes/mathematical_optimization
 date: 2016-06-01
-
+Tags:
+  - Computer science
+  - Mathematics
+  - Optimization
 ---
-
-# Mathematical optimization
-
-2016-06-01
 
 Mathematical optimization (also knwon as optimization or mathematical programming) is the selection of a best element (with regard to some criteria) from some set of available alternatives (domain).
 
@@ -19,13 +18,15 @@ The function which gives us the criteria of which element is the best is usually
 
 The _local optimal_ is the optimal solution of the optimization problem for a local neighborhood arbitrarily defined.
 
-***Tags***: Computer science, Mathematics, Optimization
 
 #### See also
 [Computational intelligence](/notes/computational_intelligence), [Mathematical optimization](/notes/mathematical_optimization), [Machine learning](/notes/machine_learning), [Artificial Intelligence](/notes/artificial_intelligence)
 
+
 ## Material
 * http://www.pyomo.org/
+
+
 
 
 ## Books

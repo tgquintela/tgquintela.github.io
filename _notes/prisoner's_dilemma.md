@@ -1,15 +1,12 @@
 ---
-title: "# Prisoner's dilemma
-"
+title: "Prisoner's dilemma"
 collection: notes
+order_item: 71
 permalink: /notes/prisoner's_dilemma
 date: 2016-06-01
-
+Tags:
+  - Game Theory
 ---
-
-# Prisoner's dilemma
-
-2016-06-01
 
 The prisoner's dilemma is a standard example of a game analyzed in game theory that shows why two completely "rational" individuals might not cooperate, even if it appears that it is in their best interests to do so. It was originally framed by Merrill Flood and Melvin Dresher working at RAND in 1950. Albert W. Tucker formalized the game with prison sentence rewards and named it, "prisoner's dilemma" (Poundstone, 1992), presenting it as follows:
 
@@ -26,15 +23,17 @@ The prisoner's dilemma game can be used as a model for many real world situation
 
 There are a lot of experimental studies carrying out experiments with this game.
 
-***Tags***: Game Theory
 
 #### See also
 [Game Theory](/notes/game_theory), [Social dilemma](/notes/social_dilemma)
 
 
+
+
 ## Papers
 * Fehr, Ernst; Fischbacher, Urs (Oct 23, 2003). [The Nature of human altruism](http://www.iwp.jku.at/born/mpwfst/04/nature02043_f_born.pdf). Nature (Nature Publishing Group) 425 (6960): 785-791.
 * William H.; Freeman J. Dyson (2012). [Iterated Prisoner’s Dilemma contains strategies that dominate any evolutionary opponent](http://www.pnas.org/content/109/26/10409.abstract). PNAS Early Edition. Retrieved 26 November 2013.
+
 
 
 

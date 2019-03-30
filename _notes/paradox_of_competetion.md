@@ -1,15 +1,13 @@
 ---
-title: "# Paradox of competetion
-"
+title: "Paradox of competetion"
 collection: notes
+order_item: 204
 permalink: /notes/paradox_of_competetion
 date: 2016-06-01
-
+Tags:
+  - Sociology
+  - Game Theory
 ---
-
-# Paradox of competetion
-
-2016-06-01
 
 Paradox of competition, or *Konkurrenzparadoxon*, is a term coined by German economist Wolfgang Stützel which names a model of a situation where measures, which offer a competitive advantage to an individual economic entity, lead to nullification of advantage if all others behave in the same way.
 
@@ -18,10 +16,12 @@ Stützel distinguishes three categories of paradoxes of competition:
 * Classical paradoxes
 * Marx paradoxes
 
-***Tags***: Sociology, Game Theory
 
 #### See also
 [Game Theory](/notes/game_theory), [Race to the bottom](/notes/race_to_the_bottom), [Public goods game](/notes/public_goods_game), [Prisoner's dilemma](/notes/prisoner's_dilemma), [Price dumping](/notes/price_dumping), [Social dumping](/notes/social_dumping), [Fiscal dumping](/notes/fiscal_dumping), [Tragedy of the commons](/notes/tragedy_of_the_commons)
+
+
+
 
 
 

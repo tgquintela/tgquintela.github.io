@@ -1,15 +1,14 @@
 ---
-title: "# Vi_Vim
-"
+title: "Vi_Vim"
 collection: notes
+order_item: 16
 permalink: /notes/vi_vim
 date: 2016-06-01
-
+Tags:
+  - Computer engineering
+  - Software management tools
+  - Text editor
 ---
-
-# Vi_Vim
-
-2016-06-01
 
 vi is a screen-oriented text editor originally created for the Unix operating system. The portable subset of the behavior of vi and programs based on it, and the ex editor language supported within these programs, is described by (and thus standardized by) the Single Unix Specification and POSIX.
 The original code for vi was written by Bill Joy in 1976, as the visual mode for a line editor called ex that Joy had written with Chuck Haley. Bill Joy's ex 1.1 was released as part of the first BSD Unix release in March, 1978. It was not until version 2.0 of ex, released as part of Second Berkeley Software Distribution in May, 1979 that the editor was installed under the name vi (which took users straight into ex's visual mode), and the name by which it is known today. Some current implementations of vi can trace their source code ancestry to Bill Joy; others are completely new, largely compatible reimplementations.
@@ -20,16 +19,18 @@ Although Vim was originally released for the Amiga, Vim has since been developed
 
 Vi and Vim are especially useful for command-line extension use.
 
-***Tags***: Computer engineering, Software management tools, Text editor
 
 #### See also
 [emacs](/notes/emacs)
+
 
 ## Material
 * http://www.openvim.com/tutorial.html
 * http://www.yolinux.com/TUTORIALS/LinuxTutorialAdvanced_vi.html
 * http://vim.wikia.com/wiki/Tutorial
 * http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html
+
+
 
 
 ## Books

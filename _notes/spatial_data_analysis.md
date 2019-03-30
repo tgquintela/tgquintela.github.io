@@ -1,22 +1,22 @@
 ---
-title: "# Spatial Data Analysis
-"
+title: "Spatial Data Analysis"
 collection: notes
+order_item: 158
 permalink: /notes/spatial_data_analysis
 date: 2016-06-01
-
+Tags:
+  - Computer science
+  - Data Analysis
 ---
 
-# Spatial Data Analysis
-
-2016-06-01
 
 
-
-***Tags***: Computer science, Data Analysis
 
 #### See also
 [Computational intelligence](/notes/computational_intelligence), [Mathematical optimization](/notes/mathematical_optimization), [Computer vision](/notes/computer_vision), [Machine learning](/notes/machine_learning), [Artificial Intelligence](/notes/artificial_intelligence), [Data Analysis](/notes/data_analysis)
+
+
+
 
 
 

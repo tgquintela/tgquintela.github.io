@@ -1,15 +1,12 @@
 ---
-title: "# Sequential game
-"
+title: "Sequential game"
 collection: notes
+order_item: 81
 permalink: /notes/sequential_game
 date: 2016-06-01
-
+Tags:
+  - Game Theory
 ---
-
-# Sequential game
-
-2016-06-01
 
 In game theory, a sequential game is a game where one player chooses their action before the others choose theirs. Importantly, the later players must have some information of the first's choice, otherwise the difference in time would have no strategic effect. Sequential games hence are governed by the time axis, and represented in the form of decision trees, instead of bimatrices of payoffs.
 
@@ -21,10 +18,12 @@ True games such as chess, backgammon, tic-tac-toe and Go are typical sequential 
 
 Sequential games with perfect information are often solved by backward induction.
 
-***Tags***: Game Theory
 
 #### See also
 [Game Theory](/notes/game_theory)
+
+
+
 
 
 

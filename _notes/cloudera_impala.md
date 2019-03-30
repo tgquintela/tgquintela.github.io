@@ -1,15 +1,15 @@
 ---
-title: "# Cloudera Impala
-"
+title: "Cloudera Impala"
 collection: notes
+order_item: 186
 permalink: /notes/cloudera_impala
 date: 2016-06-01
-
+Tags:
+  - Computer science
+  - Data Analysis
+  - Big Data
+  - Hadoop ecosystem
 ---
-
-# Cloudera Impala
-
-2016-06-01
 
 Cloudera Impala is Cloudera's open source massively parallel processing (MPP) SQL query engine for data stored in a computer cluster running Apache Hadoop. 
 
@@ -22,10 +22,10 @@ The main features of Cloudera Impala are:
 * MapR supports Impala.
 * Broad used in Business Intelligence field, among other fields.
 
-***Tags***: Computer science, Data Analysis, Big Data, Hadoop ecosystem
 
 #### See also
 [Computational intelligence](/notes/computational_intelligence), [Mathematical optimization](/notes/mathematical_optimization), [Computer vision](/notes/computer_vision), [Machine learning](/notes/machine_learning), [Artificial Intelligence](/notes/artificial_intelligence), [Spatial Data Analysis](/notes/spatial_data_analysis), [Data Analysis](/notes/data_analysis)
+
 
 ## Material
 * http://www.cloudera.com/products/apache-hadoop/impala.html
@@ -34,8 +34,10 @@ The main features of Cloudera Impala are:
 * Andrew Brust (October 25, 2012). [Cloudera’s Impala brings Hadoop to SQL and BI](http://blog.cloudera.com/blog/2013/05/cloudera-impala-1-0-its-here-its-real-its-already-the-standard-for-sql-on-hadoop/). ZDNet.
 * http://doc.mapr.com/display/MapR/Impala
 
+
 ## Papers
 * Wanderman-Milne, Skye, and Nong Li. [Runtime Code Generation in Cloudera Impala](ftp://131.107.65.22/pub/debull/A14mar/p31.pdf). IEEE Data Eng. Bull. 37.1 (2014): 31-37.
+
 
 ## Books
 * Russell, John (2013). [Cloudera Impala](https://www.goodreads.com/book/show/18739825-cloudera-impala). O’Reilly Media

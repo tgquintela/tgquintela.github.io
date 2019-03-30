@@ -1,15 +1,12 @@
 ---
-title: "# Data visualization
-"
+title: "Data visualization"
 collection: notes
+order_item: 153
 permalink: /notes/data_visualization
 date: 2016-06-01
-
+Tags:
+  - Data science
 ---
-
-# Data visualization
-
-2016-06-01
 
 Data visualization is viewed by many disciplines as a modern equivalent of visual communication. It involves the creation and study of the visual representation of data, meaning "information that has been abstracted in some schematic form, including attributes or variables for the units of information".
 
@@ -54,14 +51,16 @@ The main static visualization are:
 * Gantt chart: show processes as bars. It is useful for scheduling and planning tasks.
 * Heat map: 2d grid with each square colored depending on the value. It is like a histogram or bar chart but for 2 independent variables.
 
-***Tags***: Data science
 
 #### See also
 [Data extraction](/notes/data_extraction), [Data munging](/notes/data_munging)
 
+
 ## Material
 * [Big Data Visualization: Review of the 20 Best Tools](http://inspire.blufra.me/big-data-visualization-review-of-the-20-best-tools/)
 * [VisualComplexity](http://visualcomplexity.com/)
+
+
 
 
 ## Books

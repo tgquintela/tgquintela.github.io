@@ -1,15 +1,13 @@
 ---
-title: "# Market segmentation
-"
+title: "Market segmentation"
 collection: notes
+order_item: 177
 permalink: /notes/market_segmentation
 date: 2016-06-01
-
+Tags:
+  - Business
+  - Marketing
 ---
-
-# Market segmentation
-
-2016-06-01
 
 Market segmentation is a marketing strategy which involves dividing a broad target market into subsets of consumers, businesses, or countries that have, or are perceived to have, common needs, interests, and priorities, and then designing and implementing strategies to target them. Market segmentation strategies are generally used to identify and further define the target customers, and provide supporting data for marketing plan elements such as positioning to achieve certain marketing plan objectives. Businesses may develop product differentiation strategies, or an undifferentiated approach, involving specific products or product lines depending on the specific demand and attributes of the target segment.
 
@@ -34,9 +32,10 @@ The main decisions to take are the 4 p's:
 * Promotion
 * Place
 
-***Tags***: Business, Marketing
 
 #### See also
+
+
 
 
 
@@ -50,6 +49,7 @@ The main decisions to take are the 4 p's:
 * Goodman, A. C., & Thibodeau, T. G. (1998). [Housing market segmentation](ftp://131.252.97.79/Transfer/ES_Pubs/ESVal/hedonics/goodman_98_prophedonic_segmentation_multilevel.pdf). Journal of housing economics, 7(2), 121-143.
 * Moorthy, K. S. (1984). [Market segmentation, self-selection, and product line design](pubsonline.informs.org/doi/abs/10.1287/mksc.3.4.288). Marketing Science, 3(4), 288-307.
 * Reich, M., Gordon, D. M., & Edwards, R. C. (1973). [A theory of labor market segmentation](http://digitalcommons.unl.edu/cgi/viewcontent.cgi?article=1002&context=econfacpub). The American Economic Review, 63(2), 359-365.
+
 
 ## Books
 * Wedel, M., & Kamakura, W. A. (2012). [Market segmentation: Conceptual and methodological foundations](https://www.goodreads.com/book/show/14912644-market-segmentation) (Vol. 8). Springer Science & Business Media.
