@@ -14,11 +14,12 @@ Most of the notes only have value as aggregators of bibliography material or ide
 
 In that index of notes it is showed the title and the last modification date of each note.
 
+
+<ul>
 {% for post in site.notes %}
-    * **[{{ post.title }}]({{ base_path }}{{ post.url }})** {{ post.date }}
-
+    <li><a href="{{ base_path }}{{ post.url }}"><strong>{{ post.title }}</strong></a> {{ post.date }}</li>
 {% endfor %}
-
+</ul>
 
 * [**GDPR**](/notes/gdpr)    2018-04-10
 * [**AWS**](/notes/aws)    2018-03-17
