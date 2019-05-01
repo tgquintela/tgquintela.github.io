@@ -49,6 +49,7 @@ The classification in fields is merely an orientation. The fields and my specifi
 * Spatial Data Analysis and GIS, and its applications to the new urbanism required in the world of IoT and reactive and smart spaces and services.
 * Mobility optimization by understanding patterns and using proper statistical matching algorithms.
 * Data visualization and dashboards. The improvement of my skills in data visualization and mastering *D3.js*, *Tableau* and other Data Visualization tools.
+* User behaviour understanding. Collective behaviours and which are the patterns they follow to understand the use.
 
 ### *Programming*
 * Python development. From pure data science applications to more web-based framework to automatize interaction with databases and show visualizations. Python is my main computation language. Improving from the point of view of software design and coding efficiency is a everyday purpose challenge.
@@ -59,14 +60,14 @@ The classification in fields is merely an orientation. The fields and my specifi
 
 ## Mathematics
 ### *Optimization*
-* PSO methods.
-* Genetic programming and discrete optimization.
-* Methods of optimization for multi-peak problems.
+* PSO methods and the use of the knowledge about dynamical systems to tackle the problems of optimization.
+* Genetic programming and discrete optimization. Combinatorial problems are in everyday life. That is why the interest of that type of problems come to me from practical reasons.
+* Methods of optimization for multi-peak problems. One of the most amazing and challenging problems you can have in optimization are those which very different solutions can have similar fitness scores. In those problems hill climbing like solvers or traditional solvers cannot do anything. More imaginative and distributed solutions can do good job.
 
 ### *Control Theory and Operations Research*
 * Optimization of transport systems.
-* Optimization of supply-chain management systems.
-* Urban planning.
+* Optimization of supply-chain management systems. 
+* Urban planning. As Ildefons Cerdà though, we must use urbanism to optimize and improve social and economical situation of our cities. Specially in the next demographic era of cities, we should be aware of the problem and search the best solutions for that. That problem involves optimization, complexity theory and amazing collection of interdisciplinary fields that make it really sexy problem.
 
 ### *Information Theory*
 * Information theory and its applications on inferring structural connections in time-series data.
