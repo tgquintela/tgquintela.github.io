@@ -26,6 +26,7 @@ The classification in fields is merely an orientation. The fields and my specifi
   - [Non-linear dynamics](#non-linear-dynamics)
   - [Complex Systems](#complex-systems)
 * [Economics and Digital humanities](#economics-and-digital-humanities)
+  - [Marketing](#marketing)
   - [Finance](#finance)
   - [Macroeconomics](#macroeconomics)
   - [Game Theory](#game-theory)
@@ -91,12 +92,17 @@ The classification in fields is merely an orientation. The fields and my specifi
 * Study how network infraestracture can help prediction of collapse or ensure network growth.
 
 ## Economics & Digital humanities
+### *Marketing*
+* Prediction of customer actions and reactive marketing.
+* Launching target marketing campaigns through different channels (mail, in-app comunication tools, social media, ...) to push customer actions.
+
 ### *Finance*
 * Inferring structure over networks and find correlations with other probably structure networks (boards of companies, social network, politic-driven or regions-driven networks) in order to help predict and control financial observables.
 * Understanding of the bubble dynamics and the collapse of the economics.
+* Customer scores which profile customers and help companies to understand their customer basis and better create strategies in a lower granularity level possible. 
 
 ### *Macroeconomics*
-* Creation of artificial economics and self-organization.
+* Creation of artificial economics and self-organization. Study of real economical trends from simulation of microeconomics.
 * How complexity study (as the economic complexity index) can explain and help to predict economic growth.
 * How statistical physics can help to infer macroeconomic features.
 * Political economics and how to control incentives to help to improve certain micro and macro economic variables.
@@ -108,7 +114,4 @@ The classification in fields is merely an orientation. The fields and my specifi
 ### Digital humanities
 * Understanding collapse of civilizations and social structures.
 * Cultural evolution, post-humanity road-map and its implications.
-
-
-
 
