@@ -1,7 +1,7 @@
 ---
 title: "Dictator game"
 collection: notes
-order_item: 73
+order_item: 88
 permalink: /notes/dictator_game
 date: 2016-06-01
 Tags:

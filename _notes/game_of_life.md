@@ -1,7 +1,7 @@
 ---
 title: "Game of life"
 collection: notes
-order_item: 229
+order_item: 164
 permalink: /notes/game_of_life
 date: 2016-06-01
 Tags:

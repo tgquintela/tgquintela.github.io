@@ -1,7 +1,7 @@
 ---
 title: "Complete metric space"
 collection: notes
-order_item: 232
+order_item: 138
 permalink: /notes/complete_metric_space
 date: 2016-06-01
 Tags:

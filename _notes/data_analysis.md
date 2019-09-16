@@ -1,7 +1,7 @@
 ---
 title: "Data Analysis"
 collection: notes
-order_item: 150
+order_item: 50
 permalink: /notes/data_analysis
 date: 2016-06-01
 Tags:

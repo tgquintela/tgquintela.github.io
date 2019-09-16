@@ -1,7 +1,7 @@
 ---
 title: "Renormalization group"
 collection: notes
-order_item: 163
+order_item: 145
 permalink: /notes/renormalization_group
 date: 2016-06-01
 Tags:

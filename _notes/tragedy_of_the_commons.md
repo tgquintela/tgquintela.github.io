@@ -1,7 +1,7 @@
 ---
 title: "Tragedy of the commons"
 collection: notes
-order_item: 69
+order_item: 94
 permalink: /notes/tragedy_of_the_commons
 date: 2016-06-01
 Tags:

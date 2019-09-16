@@ -1,7 +1,7 @@
 ---
 title: "Digital economy"
 collection: notes
-order_item: 215
+order_item: 216
 permalink: /notes/digital_economy
 date: 2016-06-01
 Tags:

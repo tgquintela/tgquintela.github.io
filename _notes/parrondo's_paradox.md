@@ -1,7 +1,7 @@
 ---
 title: "Parrondo's paradox"
 collection: notes
-order_item: 64
+order_item: 108
 permalink: /notes/parrondo's_paradox
 date: 2016-06-01
 Tags:

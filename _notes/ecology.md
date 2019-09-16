@@ -1,7 +1,7 @@
 ---
 title: "Ecology"
 collection: notes
-order_item: 55
+order_item: 13
 permalink: /notes/ecology
 date: 2016-06-01
 Tags:

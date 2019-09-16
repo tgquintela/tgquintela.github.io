@@ -1,7 +1,7 @@
 ---
 title: "Broca-Wernicke model of language"
 collection: notes
-order_item: 90
+order_item: 128
 permalink: /notes/broca-wernicke_model_of_language
 date: 2016-06-01
 Tags:

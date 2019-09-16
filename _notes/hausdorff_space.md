@@ -1,7 +1,7 @@
 ---
 title: "Hausdorff space"
 collection: notes
-order_item: 235
+order_item: 139
 permalink: /notes/hausdorff_space
 date: 2016-06-01
 Tags:

@@ -1,7 +1,7 @@
 ---
 title: "Smale's horseshoe map"
 collection: notes
-order_item: 28
+order_item: 233
 permalink: /notes/smale's_horseshoe_map
 date: 2016-06-01
 Tags:

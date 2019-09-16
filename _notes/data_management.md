@@ -1,7 +1,7 @@
 ---
 title: "Data management"
 collection: notes
-order_item: 159
+order_item: 51
 permalink: /notes/data_management
 date: 2016-06-01
 Tags:

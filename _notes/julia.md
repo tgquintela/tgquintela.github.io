@@ -1,7 +1,7 @@
 ---
 title: "Julia"
 collection: notes
-order_item: 12
+order_item: 23
 permalink: /notes/julia
 date: 2016-06-01
 Tags:

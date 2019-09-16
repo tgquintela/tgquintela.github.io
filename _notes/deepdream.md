@@ -1,7 +1,7 @@
 ---
 title: "DeepDream"
 collection: notes
-order_item: 24
+order_item: 43
 permalink: /notes/deepdream
 date: 2016-06-01
 Tags:

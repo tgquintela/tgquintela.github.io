@@ -1,7 +1,7 @@
 ---
 title: "Capitalism"
 collection: notes
-order_item: 202
+order_item: 197
 permalink: /notes/capitalism
 date: 2016-06-01
 Tags:

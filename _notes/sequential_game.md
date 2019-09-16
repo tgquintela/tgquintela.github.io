@@ -1,7 +1,7 @@
 ---
 title: "Sequential game"
 collection: notes
-order_item: 81
+order_item: 84
 permalink: /notes/sequential_game
 date: 2016-06-01
 Tags:

@@ -1,7 +1,7 @@
 ---
 title: "Market penetration"
 collection: notes
-order_item: 179
+order_item: 177
 permalink: /notes/market_penetration
 date: 2016-06-01
 Tags:

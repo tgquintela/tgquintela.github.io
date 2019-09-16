@@ -1,7 +1,7 @@
 ---
 title: "MapReduce"
 collection: notes
-order_item: 188
+order_item: 168
 permalink: /notes/mapreduce
 date: 2016-06-01
 Tags:

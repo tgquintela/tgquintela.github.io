@@ -1,7 +1,7 @@
 ---
 title: "Fokker-Planck equation"
 collection: notes
-order_item: 161
+order_item: 141
 permalink: /notes/fokker-planck_equation
 date: 2016-06-01
 Tags:

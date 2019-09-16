@@ -1,7 +1,7 @@
 ---
 title: "Hive"
 collection: notes
-order_item: 187
+order_item: 170
 permalink: /notes/hive
 date: 2016-06-01
 Tags:

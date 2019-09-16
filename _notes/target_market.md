@@ -1,7 +1,7 @@
 ---
 title: "Target market"
 collection: notes
-order_item: 170
+order_item: 178
 permalink: /notes/target_market
 date: 2016-06-01
 Tags:

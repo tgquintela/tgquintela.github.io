@@ -1,7 +1,7 @@
 ---
 title: "AB testing"
 collection: notes
-order_item: 143
+order_item: 61
 permalink: /notes/ab_testing
 date: 2016-06-01
 Tags:

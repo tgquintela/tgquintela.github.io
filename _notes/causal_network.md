@@ -1,7 +1,7 @@
 ---
 title: "Causal network"
 collection: notes
-order_item: 119
+order_item: 77
 permalink: /notes/causal_network
 date: 2016-06-01
 Tags:

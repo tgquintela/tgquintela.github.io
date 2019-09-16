@@ -1,7 +1,7 @@
 ---
 title: "Spatial Data Analysis"
 collection: notes
-order_item: 158
+order_item: 58
 permalink: /notes/spatial_data_analysis
 date: 2016-06-01
 Tags:

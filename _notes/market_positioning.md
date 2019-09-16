@@ -1,7 +1,7 @@
 ---
 title: "Market positioning"
 collection: notes
-order_item: 182
+order_item: 187
 permalink: /notes/market_positioning
 date: 2016-06-01
 Tags:

@@ -1,7 +1,7 @@
 ---
 title: "Markdown"
 collection: notes
-order_item: 17
+order_item: 6
 permalink: /notes/markdown
 date: 2016-06-01
 Tags:

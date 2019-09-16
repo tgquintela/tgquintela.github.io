@@ -1,7 +1,7 @@
 ---
 title: "Tsallis entropy"
 collection: notes
-order_item: 165
+order_item: 142
 permalink: /notes/tsallis_entropy
 date: 2016-06-01
 Tags:

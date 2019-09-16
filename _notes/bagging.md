@@ -1,7 +1,7 @@
 ---
 title: "Bagging"
 collection: notes
-order_item: 33
+order_item: 149
 permalink: /notes/bagging
 date: 2016-06-01
 Tags:

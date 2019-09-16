@@ -1,7 +1,7 @@
 ---
 title: "Functional connectivity"
 collection: notes
-order_item: 100
+order_item: 129
 permalink: /notes/functional_connectivity
 date: 2016-06-01
 Tags:

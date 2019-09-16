@@ -1,7 +1,7 @@
 ---
 title: "Semantic Hashing"
 collection: notes
-order_item: 114
+order_item: 80
 permalink: /notes/semantic_hashing
 date: 2016-06-01
 Tags:

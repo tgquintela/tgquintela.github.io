@@ -1,7 +1,7 @@
 ---
 title: "Poincaré-Bendixson theorem"
 collection: notes
-order_item: 27
+order_item: 231
 permalink: /notes/poincaré-bendixson_theorem
 date: 2016-06-01
 Tags:

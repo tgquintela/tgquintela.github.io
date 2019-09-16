@@ -1,7 +1,7 @@
 ---
 title: "Statistical testing"
 collection: notes
-order_item: 137
+order_item: 69
 permalink: /notes/statistical_testing
 date: 2016-06-01
 Tags:

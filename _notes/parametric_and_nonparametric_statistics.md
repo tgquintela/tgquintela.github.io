@@ -1,7 +1,7 @@
 ---
 title: "Parametric and nonparametric statistics"
 collection: notes
-order_item: 138
+order_item: 67
 permalink: /notes/parametric_and_nonparametric_statistics
 date: 2016-06-01
 Tags:

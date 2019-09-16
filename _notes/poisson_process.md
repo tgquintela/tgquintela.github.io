@@ -1,7 +1,7 @@
 ---
 title: "Poisson process"
 collection: notes
-order_item: 43
+order_item: 190
 permalink: /notes/poisson_process
 date: 2016-06-01
 Tags:

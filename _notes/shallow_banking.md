@@ -1,7 +1,7 @@
 ---
 title: "Shallow banking"
 collection: notes
-order_item: 213
+order_item: 209
 permalink: /notes/shallow_banking
 date: 2016-06-01
 Tags:

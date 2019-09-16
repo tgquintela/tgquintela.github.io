@@ -1,7 +1,7 @@
 ---
 title: "TF-IDF"
 collection: notes
-order_item: 113
+order_item: 83
 permalink: /notes/tf-idf
 date: 2016-06-01
 Tags:

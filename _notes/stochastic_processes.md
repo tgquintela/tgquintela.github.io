@@ -1,7 +1,7 @@
 ---
 title: "Stochastic processes"
 collection: notes
-order_item: 45
+order_item: 193
 permalink: /notes/stochastic_processes
 date: 2016-06-01
 Tags:

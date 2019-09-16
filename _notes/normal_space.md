@@ -1,7 +1,7 @@
 ---
 title: "Normal space"
 collection: notes
-order_item: 236
+order_item: 134
 permalink: /notes/normal_space
 date: 2016-06-01
 Tags:

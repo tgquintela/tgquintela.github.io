@@ -1,7 +1,7 @@
 ---
 title: "Market segmentation"
 collection: notes
-order_item: 177
+order_item: 188
 permalink: /notes/market_segmentation
 date: 2016-06-01
 Tags:

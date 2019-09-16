@@ -1,7 +1,7 @@
 ---
 title: "Economic Liberalism"
 collection: notes
-order_item: 205
+order_item: 200
 permalink: /notes/economic_liberalism
 date: 2016-06-01
 Tags:

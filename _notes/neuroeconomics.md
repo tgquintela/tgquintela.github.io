@@ -1,7 +1,7 @@
 ---
 title: "Neuroeconomics"
 collection: notes
-order_item: 207
+order_item: 202
 permalink: /notes/neuroeconomics
 date: 2016-06-01
 Tags:

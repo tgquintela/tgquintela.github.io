@@ -1,7 +1,7 @@
 ---
 title: "Economic freedom"
 collection: notes
-order_item: 208
+order_item: 204
 permalink: /notes/economic_freedom
 date: 2016-06-01
 Tags:

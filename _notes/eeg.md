@@ -1,7 +1,7 @@
 ---
 title: "EEG"
 collection: notes
-order_item: 97
+order_item: 120
 permalink: /notes/eeg
 date: 2016-06-01
 Tags:

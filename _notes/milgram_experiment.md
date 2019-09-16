@@ -1,7 +1,7 @@
 ---
 title: "Milgram experiment"
 collection: notes
-order_item: 145
+order_item: 46
 permalink: /notes/milgram_experiment
 date: 2016-06-01
 Tags:

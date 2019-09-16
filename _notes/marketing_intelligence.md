@@ -1,7 +1,7 @@
 ---
 title: "Marketing intelligence"
 collection: notes
-order_item: 176
+order_item: 179
 permalink: /notes/marketing_intelligence
 date: 2016-06-01
 Tags:

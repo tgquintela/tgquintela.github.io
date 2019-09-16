@@ -1,7 +1,7 @@
 ---
 title: "Business models for open-source software"
 collection: notes
-order_item: 169
+order_item: 181
 permalink: /notes/business_models_for_open-source_software
 date: 2016-06-01
 Tags:

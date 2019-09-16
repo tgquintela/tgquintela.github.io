@@ -1,7 +1,7 @@
 ---
 title: "Chainstore paradox"
 collection: notes
-order_item: 67
+order_item: 104
 permalink: /notes/chainstore_paradox
 date: 2016-06-01
 Tags:

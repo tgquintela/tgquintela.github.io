@@ -1,7 +1,7 @@
 ---
 title: "Economies of scale"
 collection: notes
-order_item: 218
+order_item: 215
 permalink: /notes/economies_of_scale
 date: 2016-06-01
 Tags:

@@ -1,7 +1,7 @@
 ---
 title: "Combinatorial optimization"
 collection: notes
-order_item: 132
+order_item: 33
 permalink: /notes/combinatorial_optimization
 date: 2016-06-01
 Tags:

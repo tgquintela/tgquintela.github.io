@@ -1,7 +1,7 @@
 ---
 title: "Lyapunov exponent"
 collection: notes
-order_item: 32
+order_item: 229
 permalink: /notes/lyapunov_exponent
 date: 2016-06-01
 Tags:

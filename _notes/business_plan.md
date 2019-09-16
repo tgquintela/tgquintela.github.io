@@ -1,7 +1,7 @@
 ---
 title: "Business plan"
 collection: notes
-order_item: 178
+order_item: 175
 permalink: /notes/business_plan
 date: 2016-06-01
 Tags:

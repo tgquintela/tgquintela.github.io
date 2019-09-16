@@ -1,7 +1,7 @@
 ---
 title: "Bootstrapping"
 collection: notes
-order_item: 136
+order_item: 63
 permalink: /notes/bootstrapping
 date: 2016-06-01
 Tags:

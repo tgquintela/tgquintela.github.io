@@ -1,7 +1,7 @@
 ---
 title: "Connectomics"
 collection: notes
-order_item: 94
+order_item: 114
 permalink: /notes/connectomics
 date: 2016-06-01
 Tags:

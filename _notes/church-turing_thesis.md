@@ -1,7 +1,7 @@
 ---
 title: "Church-Turing thesis"
 collection: notes
-order_item: 222
+order_item: 160
 permalink: /notes/church-turing_thesis
 date: 2016-06-01
 Tags:

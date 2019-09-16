@@ -1,7 +1,7 @@
 ---
 title: "Functional analysis"
 collection: notes
-order_item: 241
+order_item: 135
 permalink: /notes/functional_analysis
 date: 2016-06-01
 Tags:

@@ -1,7 +1,7 @@
 ---
 title: "fMRI"
 collection: notes
-order_item: 88
+order_item: 121
 permalink: /notes/fmri
 date: 2016-06-01
 Tags:

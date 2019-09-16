@@ -1,7 +1,7 @@
 ---
 title: "Linear programming"
 collection: notes
-order_item: 129
+order_item: 35
 permalink: /notes/linear_programming
 date: 2016-06-01
 Tags:

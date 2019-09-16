@@ -1,7 +1,7 @@
 ---
 title: "AI-complete"
 collection: notes
-order_item: 197
+order_item: 3
 permalink: /notes/ai-complete
 date: 2016-06-01
 Tags:

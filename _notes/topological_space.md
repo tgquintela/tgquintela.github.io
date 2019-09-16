@@ -1,7 +1,7 @@
 ---
 title: "Topological space"
 collection: notes
-order_item: 238
+order_item: 136
 permalink: /notes/topological_space
 date: 2016-06-01
 Tags:

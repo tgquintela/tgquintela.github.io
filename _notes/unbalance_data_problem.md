@@ -1,7 +1,7 @@
 ---
 title: "Unbalance data problem"
 collection: notes
-order_item: 152
+order_item: 53
 permalink: /notes/unbalance_data_problem
 date: 2016-06-01
 Tags:

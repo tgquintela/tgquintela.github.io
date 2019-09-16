@@ -1,7 +1,7 @@
 ---
 title: "Statistical physics"
 collection: notes
-order_item: 164
+order_item: 144
 permalink: /notes/statistical_physics
 date: 2016-06-01
 Tags:

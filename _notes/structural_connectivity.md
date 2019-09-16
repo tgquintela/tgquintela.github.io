@@ -1,7 +1,7 @@
 ---
 title: "Structural connectivity"
 collection: notes
-order_item: 102
+order_item: 117
 permalink: /notes/structural_connectivity
 date: 2016-06-01
 Tags:

@@ -1,7 +1,7 @@
 ---
 title: "Tyranny of small decisions"
 collection: notes
-order_item: 72
+order_item: 89
 permalink: /notes/tyranny_of_small_decisions
 date: 2016-06-01
 Tags:

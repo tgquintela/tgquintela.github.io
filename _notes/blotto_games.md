@@ -1,7 +1,7 @@
 ---
 title: "Blotto games"
 collection: notes
-order_item: 65
+order_item: 102
 permalink: /notes/blotto_games
 date: 2016-06-01
 Tags:

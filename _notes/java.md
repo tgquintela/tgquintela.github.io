@@ -1,7 +1,7 @@
 ---
 title: "Java"
 collection: notes
-order_item: 7
+order_item: 20
 permalink: /notes/java
 date: 2016-06-01
 Tags:

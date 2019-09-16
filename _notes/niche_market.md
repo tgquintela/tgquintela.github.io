@@ -1,7 +1,7 @@
 ---
 title: "Niche market"
 collection: notes
-order_item: 175
+order_item: 189
 permalink: /notes/niche_market
 date: 2016-06-01
 Tags:

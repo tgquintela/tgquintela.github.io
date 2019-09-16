@@ -1,7 +1,7 @@
 ---
 title: "Programming paradigm"
 collection: notes
-order_item: 107
+order_item: 236
 permalink: /notes/programming_paradigm
 date: 2016-06-01
 Tags:

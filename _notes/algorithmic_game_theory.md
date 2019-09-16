@@ -1,7 +1,7 @@
 ---
 title: "Algorithmic game theory"
 collection: notes
-order_item: 80
+order_item: 111
 permalink: /notes/algorithmic_game_theory
 date: 2016-06-01
 Tags:

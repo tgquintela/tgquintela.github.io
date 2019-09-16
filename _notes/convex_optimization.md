@@ -1,7 +1,7 @@
 ---
 title: "Convex optimization"
 collection: notes
-order_item: 128
+order_item: 34
 permalink: /notes/convex_optimization
 date: 2016-06-01
 Tags:

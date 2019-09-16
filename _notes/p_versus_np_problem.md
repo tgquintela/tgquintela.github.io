@@ -1,7 +1,7 @@
 ---
 title: "P versus NP problem"
 collection: notes
-order_item: 224
+order_item: 163
 permalink: /notes/p_versus_np_problem
 date: 2016-06-01
 Tags:

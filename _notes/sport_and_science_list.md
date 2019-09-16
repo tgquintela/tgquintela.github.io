@@ -1,7 +1,7 @@
 ---
 title: "Sport and science list"
 collection: notes
-order_item: 50
+order_item: 140
 permalink: /notes/sport_and_science_list
 date: 2016-06-01
 Tags:

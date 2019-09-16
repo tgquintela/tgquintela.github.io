@@ -1,7 +1,7 @@
 ---
 title: "Permutation tests"
 collection: notes
-order_item: 141
+order_item: 66
 permalink: /notes/permutation_tests
 date: 2016-06-01
 Tags:

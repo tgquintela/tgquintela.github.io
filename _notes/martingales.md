@@ -1,7 +1,7 @@
 ---
 title: "Martingales"
 collection: notes
-order_item: 25
+order_item: 112
 permalink: /notes/martingales
 date: 2016-06-01
 Tags:

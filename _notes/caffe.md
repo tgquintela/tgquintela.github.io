@@ -1,7 +1,7 @@
 ---
 title: "Caffe"
 collection: notes
-order_item: 19
+order_item: 45
 permalink: /notes/caffe
 date: 2016-06-01
 Tags:

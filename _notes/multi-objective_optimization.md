@@ -1,7 +1,7 @@
 ---
 title: "Multi-objective optimization"
 collection: notes
-order_item: 130
+order_item: 31
 permalink: /notes/multi-objective_optimization
 date: 2016-06-01
 Tags:

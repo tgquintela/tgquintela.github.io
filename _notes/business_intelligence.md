@@ -1,7 +1,7 @@
 ---
 title: "Business Intelligence"
 collection: notes
-order_item: 181
+order_item: 180
 permalink: /notes/business_intelligence
 date: 2016-06-01
 Tags:

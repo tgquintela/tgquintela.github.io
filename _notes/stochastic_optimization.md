@@ -1,7 +1,7 @@
 ---
 title: "Stochastic optimization"
 collection: notes
-order_item: 124
+order_item: 30
 permalink: /notes/stochastic_optimization
 date: 2016-06-01
 Tags:

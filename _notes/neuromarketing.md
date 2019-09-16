@@ -1,7 +1,7 @@
 ---
 title: "Neuromarketing"
 collection: notes
-order_item: 180
+order_item: 182
 permalink: /notes/neuromarketing
 date: 2016-06-01
 Tags:

@@ -1,7 +1,7 @@
 ---
 title: "Artificial Intelligence"
 collection: notes
-order_item: 198
+order_item: 0
 permalink: /notes/artificial_intelligence
 date: 2016-06-01
 Tags:

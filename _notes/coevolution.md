@@ -1,7 +1,7 @@
 ---
 title: "Coevolution"
 collection: notes
-order_item: 54
+order_item: 18
 permalink: /notes/coevolution
 date: 2016-06-01
 Tags:

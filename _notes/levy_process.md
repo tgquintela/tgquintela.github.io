@@ -1,7 +1,7 @@
 ---
 title: "Levy process"
 collection: notes
-order_item: 47
+order_item: 191
 permalink: /notes/levy_process
 date: 2016-06-01
 Tags:

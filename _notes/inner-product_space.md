@@ -1,7 +1,7 @@
 ---
 title: "Inner-product space"
 collection: notes
-order_item: 240
+order_item: 130
 permalink: /notes/inner-product_space
 date: 2016-06-01
 Tags:

@@ -1,7 +1,7 @@
 ---
 title: "Spatial ecology"
 collection: notes
-order_item: 57
+order_item: 12
 permalink: /notes/spatial_ecology
 date: 2016-06-01
 Tags:

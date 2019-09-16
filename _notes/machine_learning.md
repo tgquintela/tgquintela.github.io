@@ -1,7 +1,7 @@
 ---
 title: "Machine Learning"
 collection: notes
-order_item: 34
+order_item: 150
 permalink: /notes/machine_learning
 date: 2016-06-01
 Tags:

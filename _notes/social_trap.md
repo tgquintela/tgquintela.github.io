@@ -1,7 +1,7 @@
 ---
 title: "Social trap"
 collection: notes
-order_item: 147
+order_item: 49
 permalink: /notes/social_trap
 date: 2016-06-01
 Tags:

@@ -1,7 +1,7 @@
 ---
 title: "Computer complexity"
 collection: notes
-order_item: 221
+order_item: 156
 permalink: /notes/computer_complexity
 date: 2016-06-01
 Tags:

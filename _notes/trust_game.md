@@ -1,7 +1,7 @@
 ---
 title: "Trust game"
 collection: notes
-order_item: 59
+order_item: 110
 permalink: /notes/trust_game
 date: 2016-06-01
 Tags:

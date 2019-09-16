@@ -1,7 +1,7 @@
 ---
 title: "Natural language processing"
 collection: notes
-order_item: 194
+order_item: 4
 permalink: /notes/natural_language_processing
 date: 2016-06-01
 Tags:

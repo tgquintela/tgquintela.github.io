@@ -1,7 +1,7 @@
 ---
 title: "Traveler's dilemma"
 collection: notes
-order_item: 61
+order_item: 91
 permalink: /notes/traveler's_dilemma
 date: 2016-06-01
 Tags:

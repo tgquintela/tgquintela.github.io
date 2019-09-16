@@ -1,7 +1,7 @@
 ---
 title: "Metric space"
 collection: notes
-order_item: 233
+order_item: 131
 permalink: /notes/metric_space
 date: 2016-06-01
 Tags:

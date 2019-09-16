@@ -1,7 +1,7 @@
 ---
 title: "Behavioral economics"
 collection: notes
-order_item: 206
+order_item: 214
 permalink: /notes/behavioral_economics
 date: 2016-06-01
 Tags:

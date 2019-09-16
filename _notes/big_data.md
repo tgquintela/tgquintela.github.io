@@ -1,7 +1,7 @@
 ---
 title: "Big Data"
 collection: notes
-order_item: 190
+order_item: 171
 permalink: /notes/big_data
 date: 2016-06-01
 Tags:

@@ -1,7 +1,7 @@
 ---
 title: "Paradox of competetion"
 collection: notes
-order_item: 204
+order_item: 198
 permalink: /notes/paradox_of_competetion
 date: 2016-06-01
 Tags:

@@ -1,7 +1,7 @@
 ---
 title: "Operations Research"
 collection: notes
-order_item: 0
+order_item: 220
 permalink: /notes/operations_research
 date: 2016-06-01
 Tags:

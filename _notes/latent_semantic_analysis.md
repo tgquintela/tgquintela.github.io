@@ -1,7 +1,7 @@
 ---
 title: "Latent Semantic Analysis"
 collection: notes
-order_item: 116
+order_item: 81
 permalink: /notes/latent_semantic_analysis
 date: 2016-06-01
 Tags:

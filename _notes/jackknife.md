@@ -1,7 +1,7 @@
 ---
 title: "Jackknife"
 collection: notes
-order_item: 140
+order_item: 62
 permalink: /notes/jackknife
 date: 2016-06-01
 Tags:

@@ -1,7 +1,7 @@
 ---
 title: "Statistic Type errors"
 collection: notes
-order_item: 135
+order_item: 64
 permalink: /notes/statistic_type_errors
 date: 2016-06-01
 Tags:

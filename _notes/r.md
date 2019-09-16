@@ -1,7 +1,7 @@
 ---
 title: "R"
 collection: notes
-order_item: 11
+order_item: 21
 permalink: /notes/r
 date: 2016-06-01
 Tags:

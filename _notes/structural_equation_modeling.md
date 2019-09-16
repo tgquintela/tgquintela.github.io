@@ -1,7 +1,7 @@
 ---
 title: "Structural Equation Modeling"
 collection: notes
-order_item: 120
+order_item: 75
 permalink: /notes/structural_equation_modeling
 date: 2016-06-01
 Tags:

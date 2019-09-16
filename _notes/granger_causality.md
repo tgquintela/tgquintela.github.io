@@ -1,7 +1,7 @@
 ---
 title: "Granger causality"
 collection: notes
-order_item: 122
+order_item: 72
 permalink: /notes/granger_causality
 date: 2016-06-01
 Tags:

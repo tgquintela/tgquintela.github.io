@@ -1,7 +1,7 @@
 ---
 title: "Levy flight"
 collection: notes
-order_item: 44
+order_item: 192
 permalink: /notes/levy_flight
 date: 2016-06-01
 Tags:

@@ -1,7 +1,7 @@
 ---
 title: "Exploratory Data Analysis"
 collection: notes
-order_item: 149
+order_item: 59
 permalink: /notes/exploratory_data_analysis
 date: 2016-06-01
 Tags:

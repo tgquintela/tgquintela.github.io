@@ -1,7 +1,7 @@
 ---
 title: "Dissipative structures"
 collection: notes
-order_item: 162
+order_item: 143
 permalink: /notes/dissipative_structures
 date: 2016-06-01
 Tags:

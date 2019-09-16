@@ -1,7 +1,7 @@
 ---
 title: "Artificial Neural Networks"
 collection: notes
-order_item: 35
+order_item: 151
 permalink: /notes/artificial_neural_networks
 date: 2016-06-01
 Tags:

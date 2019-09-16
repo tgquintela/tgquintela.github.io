@@ -1,7 +1,7 @@
 ---
 title: "Somebody else's problem"
 collection: notes
-order_item: 66
+order_item: 101
 permalink: /notes/somebody_else's_problem
 date: 2016-06-01
 Tags:

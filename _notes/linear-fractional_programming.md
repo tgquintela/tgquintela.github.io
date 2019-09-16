@@ -1,7 +1,7 @@
 ---
 title: "Linear-fractional programming"
 collection: notes
-order_item: 131
+order_item: 37
 permalink: /notes/linear-fractional_programming
 date: 2016-06-01
 Tags:

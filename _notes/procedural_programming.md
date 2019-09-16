@@ -1,7 +1,7 @@
 ---
 title: "Procedural programming"
 collection: notes
-order_item: 105
+order_item: 235
 permalink: /notes/procedural_programming
 date: 2016-06-01
 Tags:

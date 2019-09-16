@@ -1,7 +1,7 @@
 ---
 title: "Free rider problem"
 collection: notes
-order_item: 79
+order_item: 87
 permalink: /notes/free_rider_problem
 date: 2016-06-01
 Tags:

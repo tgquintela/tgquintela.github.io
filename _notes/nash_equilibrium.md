@@ -1,7 +1,7 @@
 ---
 title: "Nash equilibrium"
 collection: notes
-order_item: 63
+order_item: 106
 permalink: /notes/nash_equilibrium
 date: 2016-06-01
 Tags:

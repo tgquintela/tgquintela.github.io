@@ -1,7 +1,7 @@
 ---
 title: "dMRI"
 collection: notes
-order_item: 91
+order_item: 119
 permalink: /notes/dmri
 date: 2016-06-01
 Tags:

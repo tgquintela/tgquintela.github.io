@@ -1,7 +1,7 @@
 ---
 title: "Markov process"
 collection: notes
-order_item: 46
+order_item: 195
 permalink: /notes/markov_process
 date: 2016-06-01
 Tags:

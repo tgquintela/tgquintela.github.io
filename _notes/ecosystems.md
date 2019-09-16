@@ -1,7 +1,7 @@
 ---
 title: "Ecosystems"
 collection: notes
-order_item: 52
+order_item: 17
 permalink: /notes/ecosystems
 date: 2016-06-01
 Tags:

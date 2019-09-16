@@ -1,7 +1,7 @@
 ---
 title: "Zero-sum games"
 collection: notes
-order_item: 75
+order_item: 85
 permalink: /notes/zero-sum_games
 date: 2016-06-01
 Tags:

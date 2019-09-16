@@ -1,7 +1,7 @@
 ---
 title: "Evolutionary Economics"
 collection: notes
-order_item: 211
+order_item: 201
 permalink: /notes/evolutionary_economics
 date: 2016-06-01
 Tags:

@@ -1,7 +1,7 @@
 ---
 title: "Location intelligence"
 collection: notes
-order_item: 167
+order_item: 186
 permalink: /notes/location_intelligence
 date: 2016-06-01
 Tags:

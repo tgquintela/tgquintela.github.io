@@ -1,7 +1,7 @@
 ---
 title: "Action potentials"
 collection: notes
-order_item: 92
+order_item: 115
 permalink: /notes/action_potentials
 date: 2016-06-01
 Tags:

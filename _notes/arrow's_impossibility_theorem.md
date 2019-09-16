@@ -1,7 +1,7 @@
 ---
 title: "Arrow's impossibility theorem"
 collection: notes
-order_item: 85
+order_item: 96
 permalink: /notes/arrow's_impossibility_theorem
 date: 2016-06-01
 Tags:

@@ -1,7 +1,7 @@
 ---
 title: "Go (Programming language)"
 collection: notes
-order_item: 9
+order_item: 26
 permalink: /notes/go_(programming_language)
 date: 2016-06-01
 Tags:

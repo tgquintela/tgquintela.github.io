@@ -1,7 +1,7 @@
 ---
 title: "Stable distribution"
 collection: notes
-order_item: 26
+order_item: 113
 permalink: /notes/stable_distribution
 date: 2016-06-01
 Tags:

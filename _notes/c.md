@@ -1,7 +1,7 @@
 ---
 title: "C"
 collection: notes
-order_item: 10
+order_item: 22
 permalink: /notes/c
 date: 2016-06-01
 Tags:

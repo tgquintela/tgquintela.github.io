@@ -1,7 +1,7 @@
 ---
 title: "Prisoner's dilemma"
 collection: notes
-order_item: 71
+order_item: 105
 permalink: /notes/prisoner's_dilemma
 date: 2016-06-01
 Tags:

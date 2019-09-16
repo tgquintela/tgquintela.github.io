@@ -1,7 +1,7 @@
 ---
 title: "Game theory"
 collection: notes
-order_item: 74
+order_item: 90
 permalink: /notes/game_theory
 date: 2016-06-01
 Tags:

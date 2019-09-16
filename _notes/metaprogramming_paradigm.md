@@ -1,7 +1,7 @@
 ---
 title: "Metaprogramming paradigm"
 collection: notes
-order_item: 103
+order_item: 239
 permalink: /notes/metaprogramming_paradigm
 date: 2016-06-01
 Tags:

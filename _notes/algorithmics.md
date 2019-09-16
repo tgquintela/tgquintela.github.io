@@ -1,7 +1,7 @@
 ---
 title: "Algorithmics"
 collection: notes
-order_item: 223
+order_item: 154
 permalink: /notes/algorithmics
 date: 2016-06-01
 Tags:

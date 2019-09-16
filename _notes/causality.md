@@ -1,7 +1,7 @@
 ---
 title: "Causality"
 collection: notes
-order_item: 121
+order_item: 74
 permalink: /notes/causality
 date: 2016-06-01
 Tags:

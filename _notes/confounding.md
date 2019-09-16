@@ -1,7 +1,7 @@
 ---
 title: "Confounding"
 collection: notes
-order_item: 123
+order_item: 73
 permalink: /notes/confounding
 date: 2016-06-01
 Tags:

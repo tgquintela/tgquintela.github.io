@@ -1,7 +1,7 @@
 ---
 title: "Homo economicus"
 collection: notes
-order_item: 210
+order_item: 213
 permalink: /notes/homo_economicus
 date: 2016-06-01
 Tags:

@@ -1,7 +1,7 @@
 ---
 title: "AlphaGo"
 collection: notes
-order_item: 195
+order_item: 5
 permalink: /notes/alphago
 date: 2016-06-01
 Tags:

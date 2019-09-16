@@ -1,7 +1,7 @@
 ---
 title: "Locality Sensitive Hashing"
 collection: notes
-order_item: 112
+order_item: 78
 permalink: /notes/locality_sensitive_hashing
 date: 2016-06-01
 Tags:

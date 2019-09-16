@@ -1,7 +1,7 @@
 ---
 title: "Feigenbaum constant"
 collection: notes
-order_item: 31
+order_item: 228
 permalink: /notes/feigenbaum_constant
 date: 2016-06-01
 Tags:

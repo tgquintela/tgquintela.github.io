@@ -1,7 +1,7 @@
 ---
 title: "Supply chain management"
 collection: notes
-order_item: 2
+order_item: 219
 permalink: /notes/supply_chain_management
 date: 2016-06-01
 Tags:

@@ -1,7 +1,7 @@
 ---
 title: "emacs"
 collection: notes
-order_item: 14
+order_item: 10
 permalink: /notes/emacs
 date: 2016-06-01
 Tags:

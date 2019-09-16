@@ -1,7 +1,7 @@
 ---
 title: "Social Choice Theory"
 collection: notes
-order_item: 78
+order_item: 92
 permalink: /notes/social_choice_theory
 date: 2016-06-01
 Tags:

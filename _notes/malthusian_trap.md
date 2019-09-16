@@ -1,7 +1,7 @@
 ---
 title: "Malthusian trap"
 collection: notes
-order_item: 200
+order_item: 217
 permalink: /notes/malthusian_trap
 date: 2016-06-01
 Tags:

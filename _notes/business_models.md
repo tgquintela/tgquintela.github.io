@@ -1,7 +1,7 @@
 ---
 title: "Business models"
 collection: notes
-order_item: 173
+order_item: 174
 permalink: /notes/business_models
 date: 2016-06-01
 Tags:

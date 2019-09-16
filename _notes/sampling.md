@@ -1,7 +1,7 @@
 ---
 title: "Sampling"
 collection: notes
-order_item: 142
+order_item: 65
 permalink: /notes/sampling
 date: 2016-06-01
 Tags:

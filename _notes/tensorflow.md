@@ -1,7 +1,7 @@
 ---
 title: "TensorFlow"
 collection: notes
-order_item: 20
+order_item: 44
 permalink: /notes/tensorflow
 date: 2016-06-01
 Tags:

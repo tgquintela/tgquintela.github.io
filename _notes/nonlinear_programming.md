@@ -1,7 +1,7 @@
 ---
 title: "Nonlinear programming"
 collection: notes
-order_item: 126
+order_item: 38
 permalink: /notes/nonlinear_programming
 date: 2016-06-01
 Tags:

@@ -1,7 +1,7 @@
 ---
 title: "Resampling methods"
 collection: notes
-order_item: 134
+order_item: 70
 permalink: /notes/resampling_methods
 date: 2016-06-01
 Tags:

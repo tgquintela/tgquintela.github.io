@@ -1,7 +1,7 @@
 ---
 title: "Measures to evaluate and decide in ML"
 collection: notes
-order_item: 154
+order_item: 55
 permalink: /notes/measures_to_evaluate_and_decide_in_ml
 date: 2016-06-01
 Tags:

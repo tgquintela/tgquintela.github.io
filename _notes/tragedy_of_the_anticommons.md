@@ -1,7 +1,7 @@
 ---
 title: "Tragedy of the anticommons"
 collection: notes
-order_item: 82
+order_item: 107
 permalink: /notes/tragedy_of_the_anticommons
 date: 2016-06-01
 Tags:

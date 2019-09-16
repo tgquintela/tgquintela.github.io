@@ -1,7 +1,7 @@
 ---
 title: "Cooperative game"
 collection: notes
-order_item: 86
+order_item: 98
 permalink: /notes/cooperative_game
 date: 2016-06-01
 Tags:

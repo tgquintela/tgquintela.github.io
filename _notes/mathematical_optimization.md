@@ -1,7 +1,7 @@
 ---
 title: "Mathematical optimization"
 collection: notes
-order_item: 125
+order_item: 32
 permalink: /notes/mathematical_optimization
 date: 2016-06-01
 Tags:

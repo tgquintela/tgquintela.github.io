@@ -1,7 +1,7 @@
 ---
 title: "Ultimatum game"
 collection: notes
-order_item: 60
+order_item: 86
 permalink: /notes/ultimatum_game
 date: 2016-06-01
 Tags:

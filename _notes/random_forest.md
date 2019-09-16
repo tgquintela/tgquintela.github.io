@@ -1,7 +1,7 @@
 ---
 title: "Random Forest"
 collection: notes
-order_item: 36
+order_item: 152
 permalink: /notes/random_forest
 date: 2016-06-01
 Tags:

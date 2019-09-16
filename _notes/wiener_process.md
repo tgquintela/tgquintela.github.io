@@ -1,7 +1,7 @@
 ---
 title: "Wiener process"
 collection: notes
-order_item: 49
+order_item: 196
 permalink: /notes/wiener_process
 date: 2016-06-01
 Tags:

@@ -1,7 +1,7 @@
 ---
 title: "Python"
 collection: notes
-order_item: 5
+order_item: 25
 permalink: /notes/python
 date: 2016-06-01
 Tags:

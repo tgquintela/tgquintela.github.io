@@ -1,7 +1,7 @@
 ---
 title: "Latent Dirichlet Allocation"
 collection: notes
-order_item: 111
+order_item: 79
 permalink: /notes/latent_dirichlet_allocation
 date: 2016-06-01
 Tags:

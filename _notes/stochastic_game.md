@@ -1,7 +1,7 @@
 ---
 title: "Stochastic game"
 collection: notes
-order_item: 77
+order_item: 93
 permalink: /notes/stochastic_game
 date: 2016-06-01
 Tags:

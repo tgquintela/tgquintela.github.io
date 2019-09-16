@@ -1,7 +1,7 @@
 ---
 title: "Efficient market hypothesis"
 collection: notes
-order_item: 214
+order_item: 212
 permalink: /notes/efficient_market_hypothesis
 date: 2016-06-01
 Tags:

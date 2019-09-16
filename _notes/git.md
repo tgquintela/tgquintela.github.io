@@ -1,7 +1,7 @@
 ---
 title: "Git"
 collection: notes
-order_item: 15
+order_item: 9
 permalink: /notes/git
 date: 2016-06-01
 Tags:

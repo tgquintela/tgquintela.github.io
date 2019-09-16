@@ -1,7 +1,7 @@
 ---
 title: "Chomsky hierarchy"
 collection: notes
-order_item: 220
+order_item: 155
 permalink: /notes/chomsky_hierarchy
 date: 2016-06-01
 Tags:

@@ -1,7 +1,7 @@
 ---
 title: "Causal diagram"
 collection: notes
-order_item: 118
+order_item: 71
 permalink: /notes/causal_diagram
 date: 2016-06-01
 Tags:

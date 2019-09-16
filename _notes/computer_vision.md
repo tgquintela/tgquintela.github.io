@@ -1,7 +1,7 @@
 ---
 title: "Computer vision"
 collection: notes
-order_item: 193
+order_item: 2
 permalink: /notes/computer_vision
 date: 2016-06-01
 Tags:

@@ -1,7 +1,7 @@
 ---
 title: "Risk-return tradeoff"
 collection: notes
-order_item: 209
+order_item: 205
 permalink: /notes/risk-return_tradeoff
 date: 2016-06-01
 Tags:

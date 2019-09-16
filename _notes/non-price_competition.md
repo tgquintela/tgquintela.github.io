@@ -1,7 +1,7 @@
 ---
 title: "Non-price competition"
 collection: notes
-order_item: 172
+order_item: 183
 permalink: /notes/non-price_competition
 date: 2016-06-01
 Tags:

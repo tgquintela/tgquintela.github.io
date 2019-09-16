@@ -1,7 +1,7 @@
 ---
 title: "Automata theory"
 collection: notes
-order_item: 225
+order_item: 153
 permalink: /notes/automata_theory
 date: 2016-06-01
 Tags:

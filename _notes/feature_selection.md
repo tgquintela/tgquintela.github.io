@@ -1,7 +1,7 @@
 ---
 title: "Feature Selection"
 collection: notes
-order_item: 157
+order_item: 60
 permalink: /notes/feature_selection
 date: 2016-06-01
 Tags:

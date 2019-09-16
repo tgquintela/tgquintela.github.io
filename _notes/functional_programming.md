@@ -1,7 +1,7 @@
 ---
 title: "Functional programming"
 collection: notes
-order_item: 104
+order_item: 234
 permalink: /notes/functional_programming
 date: 2016-06-01
 Tags:

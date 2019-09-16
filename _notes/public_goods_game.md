@@ -1,7 +1,7 @@
 ---
 title: "Public goods game"
 collection: notes
-order_item: 68
+order_item: 95
 permalink: /notes/public_goods_game
 date: 2016-06-01
 Tags:

@@ -1,7 +1,7 @@
 ---
 title: "Bayesian game"
 collection: notes
-order_item: 76
+order_item: 109
 permalink: /notes/bayesian_game
 date: 2016-06-01
 Tags:

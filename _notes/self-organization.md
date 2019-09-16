@@ -1,7 +1,7 @@
 ---
 title: "Self-organization"
 collection: notes
-order_item: 166
+order_item: 147
 permalink: /notes/self-organization
 date: 2016-06-01
 Tags:

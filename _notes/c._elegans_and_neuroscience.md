@@ -1,7 +1,7 @@
 ---
 title: "C. Elegans and Neuroscience"
 collection: notes
-order_item: 95
+order_item: 122
 permalink: /notes/c._elegans_and_neuroscience
 date: 2016-06-01
 Tags:

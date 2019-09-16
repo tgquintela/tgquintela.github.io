@@ -1,7 +1,7 @@
 ---
 title: "Race to the bottom"
 collection: notes
-order_item: 146
+order_item: 47
 permalink: /notes/race_to_the_bottom
 date: 2016-06-01
 Tags:

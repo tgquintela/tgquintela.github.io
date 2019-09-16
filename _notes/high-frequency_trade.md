@@ -1,7 +1,7 @@
 ---
 title: "High-frequency trade"
 collection: notes
-order_item: 212
+order_item: 208
 permalink: /notes/high-frequency_trade
 date: 2016-06-01
 Tags:

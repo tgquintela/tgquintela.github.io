@@ -1,7 +1,7 @@
 ---
 title: "Cloudera Impala"
 collection: notes
-order_item: 186
+order_item: 172
 permalink: /notes/cloudera_impala
 date: 2016-06-01
 Tags:

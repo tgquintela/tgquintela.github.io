@@ -1,7 +1,7 @@
 ---
 title: "Vi_Vim"
 collection: notes
-order_item: 16
+order_item: 11
 permalink: /notes/vi_vim
 date: 2016-06-01
 Tags:

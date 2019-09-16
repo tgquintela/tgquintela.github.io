@@ -1,7 +1,7 @@
 ---
 title: "Banach space"
 collection: notes
-order_item: 239
+order_item: 137
 permalink: /notes/banach_space
 date: 2016-06-01
 Tags:

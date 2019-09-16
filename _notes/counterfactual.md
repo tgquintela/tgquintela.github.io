@@ -1,7 +1,7 @@
 ---
 title: "Counterfactual"
 collection: notes
-order_item: 117
+order_item: 76
 permalink: /notes/counterfactual
 date: 2016-06-01
 Tags:

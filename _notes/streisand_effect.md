@@ -1,7 +1,7 @@
 ---
 title: "Streisand effect"
 collection: notes
-order_item: 144
+order_item: 48
 permalink: /notes/streisand_effect
 date: 2016-06-01
 Tags:

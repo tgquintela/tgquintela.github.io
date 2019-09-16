@@ -1,7 +1,7 @@
 ---
 title: "Halting problem"
 collection: notes
-order_item: 231
+order_item: 161
 permalink: /notes/halting_problem
 date: 2016-06-01
 Tags:

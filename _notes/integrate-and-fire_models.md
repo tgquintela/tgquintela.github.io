@@ -1,7 +1,7 @@
 ---
 title: "Integrate-and-fire models"
 collection: notes
-order_item: 101
+order_item: 125
 permalink: /notes/integrate-and-fire_models
 date: 2016-06-01
 Tags:

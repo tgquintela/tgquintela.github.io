@@ -1,7 +1,7 @@
 ---
 title: "Torch"
 collection: notes
-order_item: 22
+order_item: 40
 permalink: /notes/torch
 date: 2016-06-01
 Tags:

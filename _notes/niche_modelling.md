@@ -1,7 +1,7 @@
 ---
 title: "Niche modelling"
 collection: notes
-order_item: 56
+order_item: 15
 permalink: /notes/niche_modelling
 date: 2016-06-01
 Tags:

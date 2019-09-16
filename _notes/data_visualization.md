@@ -1,7 +1,7 @@
 ---
 title: "Data visualization"
 collection: notes
-order_item: 153
+order_item: 56
 permalink: /notes/data_visualization
 date: 2016-06-01
 Tags:

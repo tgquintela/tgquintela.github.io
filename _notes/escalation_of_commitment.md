@@ -1,7 +1,7 @@
 ---
 title: "Escalation of commitment"
 collection: notes
-order_item: 83
+order_item: 99
 permalink: /notes/escalation_of_commitment
 date: 2016-06-01
 Tags:

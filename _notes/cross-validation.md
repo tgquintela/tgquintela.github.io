@@ -1,7 +1,7 @@
 ---
 title: "Cross-validation"
 collection: notes
-order_item: 139
+order_item: 68
 permalink: /notes/cross-validation
 date: 2016-06-01
 Tags:

@@ -1,7 +1,7 @@
 ---
 title: "Effective connectivity"
 collection: notes
-order_item: 93
+order_item: 123
 permalink: /notes/effective_connectivity
 date: 2016-06-01
 Tags:

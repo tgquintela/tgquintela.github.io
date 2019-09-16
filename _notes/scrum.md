@@ -1,7 +1,7 @@
 ---
 title: "Scrum"
 collection: notes
-order_item: 37
+order_item: 225
 permalink: /notes/scrum
 date: 2016-06-01
 Tags:

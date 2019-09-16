@@ -1,7 +1,7 @@
 ---
 title: "Theano"
 collection: notes
-order_item: 23
+order_item: 42
 permalink: /notes/theano
 date: 2016-06-01
 Tags:

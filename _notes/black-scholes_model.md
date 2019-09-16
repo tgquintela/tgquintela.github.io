@@ -1,7 +1,7 @@
 ---
 title: "Black-Scholes model"
 collection: notes
-order_item: 216
+order_item: 203
 permalink: /notes/black-scholes_model
 date: 2016-06-01
 Tags:

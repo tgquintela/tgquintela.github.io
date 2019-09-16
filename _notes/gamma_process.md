@@ -1,7 +1,7 @@
 ---
 title: "Gamma process"
 collection: notes
-order_item: 48
+order_item: 194
 permalink: /notes/gamma_process
 date: 2016-06-01
 Tags:

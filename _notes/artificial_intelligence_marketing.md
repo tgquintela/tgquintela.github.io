@@ -1,7 +1,7 @@
 ---
 title: "Artificial intelligence marketing"
 collection: notes
-order_item: 174
+order_item: 185
 permalink: /notes/artificial_intelligence_marketing
 date: 2016-06-01
 Tags:

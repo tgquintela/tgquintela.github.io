@@ -1,7 +1,7 @@
 ---
 title: "Hodgkin-Huxley model"
 collection: notes
-order_item: 87
+order_item: 124
 permalink: /notes/hodgkin-huxley_model
 date: 2016-06-01
 Tags:

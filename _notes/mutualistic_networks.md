@@ -1,7 +1,7 @@
 ---
 title: "Mutualistic networks"
 collection: notes
-order_item: 51
+order_item: 19
 permalink: /notes/mutualistic_networks
 date: 2016-06-01
 Tags:

@@ -1,7 +1,7 @@
 ---
 title: "Non-cooperative game"
 collection: notes
-order_item: 84
+order_item: 97
 permalink: /notes/non-cooperative_game
 date: 2016-06-01
 Tags:

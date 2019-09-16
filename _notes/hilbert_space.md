@@ -1,7 +1,7 @@
 ---
 title: "Hilbert space"
 collection: notes
-order_item: 237
+order_item: 133
 permalink: /notes/hilbert_space
 date: 2016-06-01
 Tags:

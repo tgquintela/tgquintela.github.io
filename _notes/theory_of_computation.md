@@ -1,7 +1,7 @@
 ---
 title: "Theory of computation"
 collection: notes
-order_item: 230
+order_item: 158
 permalink: /notes/theory_of_computation
 date: 2016-06-01
 Tags:

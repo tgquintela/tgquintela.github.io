@@ -1,7 +1,7 @@
 ---
 title: "Alpha-beta pruning"
 collection: notes
-order_item: 62
+order_item: 100
 permalink: /notes/alpha-beta_pruning
 date: 2016-06-01
 Tags:

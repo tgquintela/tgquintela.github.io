@@ -1,7 +1,7 @@
 ---
 title: "reStructuredText"
 collection: notes
-order_item: 13
+order_item: 8
 permalink: /notes/restructuredtext
 date: 2016-06-01
 Tags:

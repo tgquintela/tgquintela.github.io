@@ -1,7 +1,7 @@
 ---
 title: "Haussdorff dimension"
 collection: notes
-order_item: 29
+order_item: 232
 permalink: /notes/haussdorff_dimension
 date: 2016-06-01
 Tags:

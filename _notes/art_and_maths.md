@@ -1,7 +1,7 @@
 ---
 title: "Art and maths"
 collection: notes
-order_item: 148
+order_item: 227
 permalink: /notes/art_and_maths
 date: 2016-06-01
 Tags:

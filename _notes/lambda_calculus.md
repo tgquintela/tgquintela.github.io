@@ -1,7 +1,7 @@
 ---
 title: "Lambda calculus"
 collection: notes
-order_item: 227
+order_item: 162
 permalink: /notes/lambda_calculus
 date: 2016-06-01
 Tags:

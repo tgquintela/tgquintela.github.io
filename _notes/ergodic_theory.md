@@ -1,7 +1,7 @@
 ---
 title: "Ergodic Theory"
 collection: notes
-order_item: 30
+order_item: 230
 permalink: /notes/ergodic_theory
 date: 2016-06-01
 Tags:

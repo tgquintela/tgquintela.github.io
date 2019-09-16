@@ -1,7 +1,7 @@
 ---
 title: "Computational intelligence"
 collection: notes
-order_item: 196
+order_item: 1
 permalink: /notes/computational_intelligence
 date: 2016-06-01
 Tags:

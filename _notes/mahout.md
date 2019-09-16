@@ -1,7 +1,7 @@
 ---
 title: "Mahout"
 collection: notes
-order_item: 184
+order_item: 173
 permalink: /notes/mahout
 date: 2016-06-01
 Tags:

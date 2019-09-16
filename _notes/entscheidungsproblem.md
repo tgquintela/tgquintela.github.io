@@ -1,7 +1,7 @@
 ---
 title: "Entscheidungsproblem"
 collection: notes
-order_item: 228
+order_item: 159
 permalink: /notes/entscheidungsproblem
 date: 2016-06-01
 Tags:

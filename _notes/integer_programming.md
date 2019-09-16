@@ -1,7 +1,7 @@
 ---
 title: "Integer programming"
 collection: notes
-order_item: 127
+order_item: 36
 permalink: /notes/integer_programming
 date: 2016-06-01
 Tags:

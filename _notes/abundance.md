@@ -1,7 +1,7 @@
 ---
 title: "Abundance"
 collection: notes
-order_item: 53
+order_item: 14
 permalink: /notes/abundance
 date: 2016-06-01
 Tags:
