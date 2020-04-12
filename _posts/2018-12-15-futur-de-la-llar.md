@@ -2,7 +2,7 @@
 title: 'Futur de la llar a mig termini'
 excerpt: 'Exploració del futur de la llar en uns anys.'
 date: 2018-12-15
-permalink: /temporales/2018/12/futur-de-la-llar/
+permalink: /blog/2018/12/futur-de-la-llar/
 tags:
   - robolution
   - education

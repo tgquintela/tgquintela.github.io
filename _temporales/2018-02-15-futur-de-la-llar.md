@@ -28,12 +28,12 @@ Ens han dit que en pocs anys tindrem cotxes autoconduïts, cotxes elèctrics (po
 El titòl d'aquesta secció no és res nou. Ja és practicament el centre de la nostra vida. Però tal i com diuen que les ciutats tindrán molt pes en la vida ciutadana, la llar de cadascun potser tindrà un pes molt important també. La possibilitat de comprar des de casa, de treballar des de casa, de consumir oci (productes audiovisuals) des de casa...
 Però aquesta conquesta s'està produint també d'una manera contraria. L'augment de preus als pisos de la ciutat està creant molts pisos compartits, amb cuines i altres serveis compartits. Productes audiovisuals PPV incentiven al compartir per reduir costos, i la alliberació de certes tasques de treball rutinari està modelant la societat cap a unes activitats culturals i socials
 
-És difícil de preveure els canvis socials al detall, perquè hi ha conseqüències que depenen d'activitat política pel damunt de la tecnològica, però podem jugar aquí a fer aquesta activitat de visionaris. El que sí sembla clar és que cada cop caminem cap a més possibilitats a la llar i amb més llar fora de la llar.
+És difícil de preveure els canvis socials al detall, perquè hi ha conseqüències que depenen **d'activitat política pel damunt de la tecnològica**, però podem jugar aquí a fer aquesta activitat de visionaris. El que sí sembla clar és que cada cop caminem cap a més possibilitats a la llar i amb més llar fora de la llar.
 
 
 ## Smarthome al segle XXI
-Els termes de Smarthome, Smart House o Domòtica van néixer al segle XX i van ser somnis des de el principi d'aquest segle i els primers autòmats. La possibilitat de lliurar les persones dels seus treballs domèstics diaris per poder invertir el temps en tasques més productives social i personalment.
-Aquestes tasques van des de netejar la casa, netejar la roba, netejar els plats, cuinar fins a arreglar els problemes que apareguin a casa. El canvi cap a una casa domòtica ha estat un canvi molt gradual que va passar per crear electrodomèstics per cada una d'aquestes tasques i fomentar la cooperació, connectivitat entre aquestes abans que crear un robot humanoide que ens substitueixi.
+Els termes de *Smarthome*, *Smart House* o *Domòtica* van néixer al segle XX i van ser somnis des de el principi d'aquest segle i els primers autòmats. La possibilitat de lliurar les persones dels seus treballs domèstics diaris per poder invertir el temps en tasques més productives social i personalment.
+Aquestes tasques van des de netejar la casa, netejar la roba, netejar els plats, cuinar fins a arreglar els problemes que apareguin a casa. El canvi cap a una casa domòtica ha estat un canvi molt gradual que va passar per crear electrodomèstics per cada una d'aquestes tasques i fomentar la cooperació, connectivitat entre aquestes i no pas crear un robot humanoide que ens substitueixi.
 
 El futur proper d'una casa passarà poc a poc per:
 * Nous electrodomèstics que ens facin algunes de les que ara difícilment es poden fer, com una cuina automàtica (per fregir, coure, o cuinar qualsevol cosa que pugui fer qualsevol persona).
