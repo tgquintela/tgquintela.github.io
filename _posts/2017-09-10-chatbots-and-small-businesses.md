@@ -138,11 +138,8 @@ Unha solución posible é basear o chatbot en *FSM*, de maneira que o usuario po
 
 
 ## Referencias
-* [1] http://www.businessinsider.com/chatbot-monetization-market-business-strategies-opportunites-2016-11
-* [2] http://www.businessinsider.com/how-to-create-chatbot-business-2017-10
-* [3] http://www.microsiervos.com/archivo/gadgets/aplicaciones-mensajerias-redes-sociales.html
-* [4] https://github.com/tgquintela/chatbot_query
-* [5] https://tgquintela.github.io/software/chatbotquery
-
-
-
+* [1] [THE CHATBOT MONETIZATION REPORT](http://www.businessinsider.com/chatbot-monetization-market-business-strategies-opportunites-2016-11)
+* [2] [Open source and API driven chatbots allow businesses to build cross-platform chatbots with ease](http://www.businessinsider.com/how-to-create-chatbot-business-2017-10)
+* [3] [Las apps de mensajería ya se utilizan más que las redes sociales](http://www.microsiervos.com/archivo/gadgets/aplicaciones-mensajerias-redes-sociales.html)
+* [4] [ChatbotQuery github package](https://github.com/tgquintela/chatbot_query)
+* [5] [ChatbotQuery project](https://tgquintela.github.io/software/chatbotquery)
