@@ -53,3 +53,6 @@
     <span class="page__hero-caption">{{ page.header.caption | markdownify | remove: "<p>" | remove: "</p>" }}</span>
   {% endif %}
 </div>
+      {% if site.read_time and page.read_time %}
+        <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
+      {% endif %}
