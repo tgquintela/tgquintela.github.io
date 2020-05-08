@@ -10,7 +10,7 @@ redirect_from:
 
 # Who am I
 
-I was a Physics Degree and Artificial Intelligence master student who started his professional career as a Data Scientist. I've worked as a freelance or salaried, both working in team with different levels of autonomously. My interests are described in the [section of interests](https://tgquintela.github.io/interests/). If you want to know more, visit my [collection of notes](https://tgquintela.github.io/notes/).
+I was a Physics Degree and Artificial Intelligence master student who started his professional career as a Data Scientist. I've worked as a freelance or salaried, both working in team with different levels of autonomously. My interests are described in the [section of interests]({{ site.url }}/interests/). If you want to know more, visit my [collection of notes]({{ site.url }}/notes/).
 
 # Languages
 
