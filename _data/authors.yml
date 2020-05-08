@@ -2,7 +2,7 @@
 
 Name Name:
   name        : "Antonio G. Quintela"
-  uri         : "https://tgquintela.github.io/"
+  uri         : "{{ site.url }}/"
   email       : "tgq.spm@gmail.com"
   bio         : "This is the first name."
   avatar      : "bio-photo-2.jpg"
