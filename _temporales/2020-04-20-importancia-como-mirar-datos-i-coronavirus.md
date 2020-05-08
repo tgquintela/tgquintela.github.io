@@ -25,7 +25,7 @@ Si lo que buscabas en este artículo era algo de esto ya puedes parar aquí.
 
 La verdadera intención de este artículo es poner en contexto todos los datos que nos lanzan a la cara por todos lados.
 La importancia de entenderlos como dije anteriormente es una cuestión de responsabilidad cívica.
-Y puede evitar a reducir la contaminación informativa que contenplamos todos en las redes sociales.
+Y puede evitar a reducir la contaminación informativa que contemplamos todos en las redes sociales.
 
 
 ## La introducción sobre las problemáticas matemáticas
@@ -35,10 +35,8 @@ Conceptos de los cuales no tenemos una familiaridad suficiente y por tanto no te
 ### La problemática exponencial
 Durante estos últimos días hemos escuchado esto del crecimiento exponencial de forma constante.
 Culturalmente tenemos una idea de lo que significa. Se malutiliza siempre para decir que algo crece muy rápido.
-Pero hay muchas cosas que crecen muy rápido. ¿Cómo de rápido?
-
-
-El problema 
+Pero hay muchas cosas que crecen muy rápido. De hecho el crecimiento factorial es más rápido que el exponencial.
+Crecimiento exponencial es una forma de crecimiento que es más rápido que la proporcional o también conocido como lineal (a la que estamos más habituados).
 
 
 
@@ -49,7 +47,7 @@ El problema
 
 - Exponenciales
 - Medida (colapso de medidas)
-
+- porque prisas?
 
 
 
