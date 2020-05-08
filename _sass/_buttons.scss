@@ -23,8 +23,7 @@
   cursor: pointer;
 
   &:hover {
-/*    background-color: mix(white, #000, 20%);*/
-      background-color: #3339;
+    background-color: mix(white, #000, 20%);
   }
 
   .icon {
@@ -125,7 +124,8 @@
   (linkedin, $linkedin-color),
   (xing, $xing-color),
   (whatsapp, $whatsapp-color),
-  (telegram, $telegram-color);
+  (telegram, $telegram-color)
+;
 
   @each $socialnetwork, $color in $social {
     &--#{$socialnetwork} {

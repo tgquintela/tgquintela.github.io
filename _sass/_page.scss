@@ -48,6 +48,11 @@
   font-size: $type-size-4;
 }
 
+/* Added personally */
+.page__date {
+  padding: 0.5em;
+}
+
 .page__content {
 
   h2 {
@@ -61,7 +66,7 @@
 
   /* paragraph indents */
   p {
-    margin: 0 0 $indent-var;
+    margin: 0 0 0.1em;
 
     /* sibling indentation*/
     @if $paragraph-indent == true {
