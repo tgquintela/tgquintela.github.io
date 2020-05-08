@@ -81,7 +81,7 @@ Os puntos nos que se basa ista proposición són especialmente en:
 * Non é un chatbot xenérico. Non trata de poder facer unha conversación xenérica. Dentro de un contexto delimitado con unhas posibles tipo de preguntas.
 * Configurable en términos abstractos como a delicadez, educación, efectivista o simpatía. Característicos da personalidade humana.
 
-As soluciones presentadas estan disponible baixo licencia de código aperto en [[4](https://github.com/tgquintela/chatbot_query)][[5](https://tgquintela.github.io/software/chatbotquery)]. Sentídevos libres pra xogar e propoñer melloras.
+As soluciones presentadas estan disponible baixo licencia de código aperto en [[4](https://github.com/tgquintela/chatbot_query)][[5]({{ site.url }}/software/chatbotquery)]. Sentídevos libres pra xogar e propoñer melloras.
 
 ### Modelo
 A miña solución está basada en *Finite State Machines* (FSM), o Máquinas de estados finitos. Cada nodo do grafo representa un posible *intend* (intención) e as transicións concentran a "intelixencia" do chatbot.
@@ -142,4 +142,4 @@ Unha solución posible é basear o chatbot en *FSM*, de maneira que o usuario po
 * [2] [Open source and API driven chatbots allow businesses to build cross-platform chatbots with ease](http://www.businessinsider.com/how-to-create-chatbot-business-2017-10)
 * [3] [Las apps de mensajería ya se utilizan más que las redes sociales](http://www.microsiervos.com/archivo/gadgets/aplicaciones-mensajerias-redes-sociales.html)
 * [4] [ChatbotQuery github package](https://github.com/tgquintela/chatbot_query)
-* [5] [ChatbotQuery project](https://tgquintela.github.io/software/chatbotquery)
+* [5] [ChatbotQuery project]({{ site.url }}/software/chatbotquery)

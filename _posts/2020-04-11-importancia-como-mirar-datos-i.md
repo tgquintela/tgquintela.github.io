@@ -1,6 +1,6 @@
 ---
 title: 'La importancia de como mirar los datos (I): Introducción'
-excerpt: 'La importancia de como mirar los datos.'
+excerpt: 'En la era de la información, lo importante no son los datos per se si no cómo los miramos.'
 date: 2020-04-11
 permalink: /blog/2020/04/importancia-como-mirar-datos-i-introduccion/
 tags:
