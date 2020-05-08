@@ -9,5 +9,7 @@ comments:
   disqus:
     shortname            : "mmistakes-dev"
 
+# Sass/SCSS
 sass:
-  style: expanded
+  sass_dir: _sass
+  style: expanded # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
