@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Antonio G. Quintela"
-  avatar           : "profile.png"
+  avatar           : "profile_jordan.jpg" #"profile.png"
   bio              : "Data Scientist/Physicist. Intrepid explorer of the highest peaks and deepest pits of life."
   location         : "Berlin, Europe"
   employer         :
