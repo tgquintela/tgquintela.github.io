@@ -1,5 +1,6 @@
 ---
 title: "NoteManager"
+excerpt: "Program to manage notes. It can help to format them or store them properly from raw text files, as well as create a DB from them to use them later by some different applications."
 collection: software
 type: "Software package"
 date: 2017-07-01

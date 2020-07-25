@@ -1,6 +1,6 @@
 ---
 title: "ElectionsTools"
-excerpt: Tools for tracking and understanding elections and opinion polls
+excerpt: "Tools for tracking and understanding elections and opinion polls."
 collection: software
 type: "Software package"
 date: 2015-10-01

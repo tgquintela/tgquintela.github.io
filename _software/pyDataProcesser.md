@@ -1,6 +1,6 @@
 ---
 title: "pyDataProcesser"
-excerpt: "Program to process data in python for ETL tasks."
+excerpt: "Program to process data in python for ETL tasks. Allows you to have different data aggregations metrics."
 collection: software
 type: "Software package"
 date: 2015-07-01
