@@ -1,6 +1,6 @@
 ---
 title: "ChatbotQuery"
-excerpt: "Framework to build easily contextual chatbots for small business."
+excerpt: "Framework to build easily contextual chatbots for small business. The software provides with the possibility to configure conversations from basic configuration files."
 collection: projects
 type: "Software package"
 date: 2017-10-01
