@@ -1,6 +1,7 @@
 ---
 title: 'Poder, parlamentos y democracia (I)'
-excerpt: 'Un primer análisis sobre los parlamentos de Catalunya y España en 2015'
+subtitle: 'Un primer análisis sobre los parlamentos de Catalunya y España en 2015'
+excerpt: 'Un primer análisis sobre los parlamentos de Catalunya y España en 2015. Para ello utilizaremos medidas de teoria de juegos cooperativos y lo adaptaremos para entender el equilibrio de poderes en los parlamentos.'
 date: 2016-09-15
 permalink: /blog/2016/09/poder-parlamentos-y-democracia-i/
 

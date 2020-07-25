@@ -1,6 +1,7 @@
 ---
 title: 'How to code a framework software?'
-excerpt: 'Description of the whole adventure coding a framework'
+subtitle: 'Description of the whole adventure coding a framework'
+excerpt: 'This post contains main guidelines to code a framework. These guidelines are language abnostic and try to prepare you to face this trip with patience and strengh.'
 date: 2016-10-20
 permalink: /blog/2016/10/how-to-code-a-framework-software/
 

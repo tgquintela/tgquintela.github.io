@@ -1,6 +1,7 @@
 ---
 title: 'Futur de la llar a mig termini'
-excerpt: 'Exploració del futur de la llar en uns anys.'
+subtitle: 'Exploració del futur de la llar'
+excerpt: 'Com viurem la nostra rutina d\`aquí a uns anys? Còm afectarà la tecnología al nostre dia a dia. Exploració del futur de la llar en uns anys.'
 date: 2018-12-15
 permalink: /blog/2018/12/futur-de-la-llar/
 tags:

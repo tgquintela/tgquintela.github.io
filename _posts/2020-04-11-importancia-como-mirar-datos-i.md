@@ -1,6 +1,7 @@
 ---
 title: 'La importancia de como mirar los datos (I): Introducción'
-excerpt: 'En la era de la información, lo importante no son los datos per se si no cómo los miramos.'
+subtitle: 'En la era de la información, lo importante no son los datos per se, si no cómo los miramos.'
+excerpt: 'En la era de la información, lo importante no son los datos per se, si no cómo los miramos. La calidad está por encima de de cantidad.'
 date: 2020-04-11
 permalink: /blog/2020/04/importancia-como-mirar-datos-i-introduccion/
 tags:
@@ -39,6 +40,9 @@ Y esto está lejos de la verdad.
 
 ## Los datos y la ciencia, una lección de humildad
 Muchas veces cuando la gente piensa en la ciencia piensa en peculiares hombres mayores con batas y tras ellos pizarras llenas de extrañas fórmulas inentendibles. Ellos dictan lo que es verdad y lo que no en sus ámbitos. Y a veces llegan a maravillosos y revolucionarios descubrimientos que lo cambian todo. Sólo los compañeros de profesión celosos y los malos científicos entonces se atreven a discutirles...
+
+![La ciencia no es política](https://pbs.twimg.com/media/EXGfyYGXQAAZ1qF?format=jpg&name=large)
+
 
 La verdad está lejos de esta visión. La ciencia es un **trabajo colectivo**. Todo comienza con un intenso trabajo de grupo, desde los jefes de equipo que indican el camino hasta los doctorantes que desarrollan sus primeros pasos profesionales en el mundo de la investigación y ejecutan las labores más tediosas.
 
@@ -110,4 +114,4 @@ Al final, en esta era, se nos dice lo importante que es mirar los datos cuando e
 * [3] ["Barçagate": Así actúan los ejércitos de bots maliciosos](https://www.lavanguardia.com/deportes/20200223/473679658708/i3-ventures-cuentas-falsas-barcelona-bartomeu-bots-redes-sociales-twitter.html)
 * [4] [Twitter y Facebook acusan al PP de haber estado detrás de varias cuentas falsas y bots en las plataformas](https://www.businessinsider.es/twitter-acusa-pp-haber-utilizado-bots-red-social-495859)
 * [5] [Mentiras, malditas mentiras y estadísticas](https://es.wikipedia.org/wiki/Mentiras,_malditas_mentiras_y_estad%C3%ADsticas)
-* [6] [ Cómo mentir con estadísticas](https://www.goodreads.com/book/show/15983828-c-mo-mentir-con-estad-sticas?from_search=true&from_srp=true&qid=438MEUnOBq&rank=1)
+* [6] [Cómo mentir con estadísticas](https://www.goodreads.com/book/show/15983828-c-mo-mentir-con-estad-sticas?from_search=true&from_srp=true&qid=438MEUnOBq&rank=1)

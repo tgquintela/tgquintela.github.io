@@ -1,6 +1,7 @@
 ---
 title: 'Sistema educativo y robolución'
-excerpt: 'Exploración de la coexistencia entre la educación y la nueva tecnología.'
+subtitle: 'Exploración de la coexistencia entre la educación y la nueva tecnología.'
+excerpt: 'En este post exploramos la coexistencia entre la educación y la nueva tecnología. Los nuevos avances tecnologicos están moviendo'
 date: 2017-06-10
 permalink: /blog/2017/06/sistema-educativo-y-robolucion/
 

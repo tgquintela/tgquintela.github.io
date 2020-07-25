@@ -1,6 +1,7 @@
 ---
 title: 'Job revolution (I)'
-excerpt: 'Qualitative basics and considerations about job dynamics and information revolution. A first approach.'
+subtitle: 'Qualitative basics and considerations about job dynamics and information revolution. A first approach.'
+excerpt: 'Qualitative basics and considerations about job dynamics and information revolution. In this first approach we visit basic concepts of job market and how can be changes by new techonologies.'
 date: 2016-12-26
 permalink: /blog/2016/12/job-revolution-i/
 

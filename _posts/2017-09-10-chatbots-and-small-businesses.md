@@ -1,6 +1,7 @@
 ---
 title: 'Chatbot: oportunidades e a miña propia proposición'
-excerpt: 'Descrición da miña aventura experimentando con chatbots.'
+subtitle: 'Descrición da miña aventura experimentando con chatbots.'
+excerpt: 'Descrición da miña aventura experimentando con chatbots. Fallaremos de cal será o futuro dos chatbots e cales serán as oportunidades do mercado.'
 date: 2017-09-10
 permalink: /blog/2017/09/chatbot-my-own-solution/
 
