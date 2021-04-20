@@ -4,23 +4,27 @@ I think I've got things running smoothly and fixed some major bugs, but feel fre
 
 # Instructions
 
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
+For make it run in the local computer:
 
-See more info at https://academicpages.github.io/
+1. Update bundle
 
-# Changelog -- bugfixes and enhancements
 
-There is one logistical issue with a ready-to-fork template theme like academic pages that makes it a little tricky to get bug fixes and updates to the core theme. If you fork this repository, customize it, then pull again, you'll probably get merge conflicts. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch. 
+```
+export JEKYLL_VERSION=3.8
+sudo docker run --rm   --volume="$PWD:/srv/jekyll"   -it jekyll/jekyll:$JEKYLL_VERSION   bundle update
+```
 
-To support this, here is a manually-curated list of bugs that have been fixed since this project was released. If you have a bug, you can go through and manually update. (If you have a better idea about how to support this, please let me know!)
+2. Build the page (prepare all the dependencies) 
 
-- 2017-03-27: In author sidebar, link for Google Scholar displays site URL instead of Google Scholar URL in _config.yml
-  - [Issue #6](https://github.com/academicpages/academicpages.github.io/issues/6), fixed in [34bg699](https://github.com/academicpages/academicpages.github.io/commit/34bd6990aa335c40cdadc01b5561797860d5eaa6)
-- 2017-03-27: Markdown generator is now functioning properly and is well-documented, see the Jupyter notebooks in `markdown_generator`
-  - [Issue #8](https://github.com/academicpages/academicpages.github.io/issues/8), fixed in [4528221](https://github.com/academicpages/academicpages.github.io/commit/4528221629bb93508c6ed149b9035d75bb38b402)
+```
+sudo docker run --rm   --volume="$PWD:/srv/jekyll"   -it jekyll/jekyll:$JEKYLL_VERSION   jekyll build
+```
+
+3. Serve the page
+
+```
+sudo docker run --rm   --volume="$PWD:/srv/jekyll" -p "4000:4000"  -it jekyll/jekyll:$JEKYLL_VERSION   jekyll serve
+```
+
+
+For more information visit [this page](https://ddewaele.github.io/running-jekyll-in-docker/)
