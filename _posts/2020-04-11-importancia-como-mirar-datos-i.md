@@ -6,6 +6,7 @@ date: 2020-04-11
 permalink: /blog/2020/04/importancia-como-mirar-datos-i-introduccion/
 tags:
   - data
+  - science
 categories:
   - data
   - statistics
