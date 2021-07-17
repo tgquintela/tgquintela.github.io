@@ -3,7 +3,7 @@ title: '¿Para qué sirven los modelos?'
 subtitle: 'La utilidad de tener modelos para mejorar gestiones y la toma de decisiones'
 excerpt: 'Se han hablado mucho de los modelos matemáticos, pero poco se ha dicho de ellos. ¿Para qué sirven? ¿Cuáles son sus limitaciones? Son algunas de las preguntas que nos hacemos en este post.'
 date: 2020-06-10
-permalink: /temporales/2020/06/para-que-sirven-los-modelos/
+permalink: /blog/2020/06/para-que-sirven-los-modelos/
 
 header:
   overlay_image: https://www.sciencemag.org/sites/default/files/styles/article_main_image_-_1280w__no_aspect_/public/ma_0817_Sato_main_15245D6373E_6770702%3B5.jpg
