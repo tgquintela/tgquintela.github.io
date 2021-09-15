@@ -3,6 +3,8 @@ permalink: /
 title: ""
 excerpt: "Personal Webpage"
 author_profile: true
+redirect_from:
+  - /index.html
 
 ---
 
