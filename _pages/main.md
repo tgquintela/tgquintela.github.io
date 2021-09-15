@@ -1,11 +1,10 @@
 ---
-permalink: /
+permalink: ""
 title: ""
 excerpt: "Personal Webpage"
 author_profile: true
 redirect_from:
-  - ""
-redirect_to: /
+  - "/"
 ---
 
 <style>
