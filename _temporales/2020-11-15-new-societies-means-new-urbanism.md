@@ -60,6 +60,10 @@ That will be only possible due to sensorization of the spaces and new level of g
 
 More reactive ways to consume and interact with spaces are coming. We go to experience a time of connected spaces or what some people called smart spaces or reactive spaces.
 
+## Efficience use of space
+Space in urban places is becoming a very valuable asset.
+
+
 
 ## Conclusion
 Spatial features still matter and with new spatial data we have to be aware, for the good and the bad, how powerful it is to predict and categorize human behavior. In the new hyper-connected world, freedom could be an issue, and due to the lack of degrees of freedom and the physical bounding of the natural laws, we are even more exposed to that lose of freedom in our day life activities outside the virtual world. Wihout being dramatic, a bad city plan can worsen the situation of lack of freedom making us choose between the efficiency of certain spatial decisions or the cost in time or money of that decisions.
@@ -75,4 +79,3 @@ Spatial features still matter and with new spatial data we have to be aware, for
 
  TALK ABOUT DENSE SPACES CYCLING...
 
- 
