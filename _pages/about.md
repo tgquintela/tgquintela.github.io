@@ -21,7 +21,7 @@ If you want to know more, visit my [collection of notes]({{ site.url }}/notes/).
     * [Programming languages](#programming-languages)
     * [Software programs](#software-programs)
     * [Programming packages](#programming-packages)
-* [Data Science skills](#data-science-skills)
+* [Data skills](#data-skills)
 
 
 # Languages
@@ -188,9 +188,15 @@ The next table is the summary dictionary code for that experience context.
 | [`AWS CDK`](https://aws.amazon.com/cdk/) | 5/10 | python | Prof | Setting up infrastructure in AWS programmatically.                                      |
 
 
-# Data Science skills
+# Data skills
+As a professional in the data field, my main skills to offer in the job market are related in
+how to manage data in order to extract its value,
+how to use it to get insights,
+boost performance in the organization,
+and produce prescriptive actions.
 
-## Data Science skills in different type of data
+
+## By type of data
 
 By evaluating different type of data processed:
 
@@ -204,14 +210,22 @@ By evaluating different type of data processed:
 | Spatial data          | 7/10   | Complete   | Specially experience with geospatial data (points, lines and polygons). Dealing with `geojson` and `topojson` files and with geospatial oriented databases as `PostGIS` and `SpatialLite` or the use of `Carto` and `QGIS` for data visualization and spatial intelligence.           |
 
 
+## By type of problem
 By evaluating the different type of problems trying to solve with data we can list:
 
-| Type of data problem  | Level  | Experience[^1]| Description of knowledge                 |
-| --------------------- |:------:|:----------:|:--------------------------------------------|
-| Performance management| 7/10   | Prof   | Creating measurable performance-based KPIs (Customer Support and Sales) and data products to help the interested teams to improve them.|
+| Type of data problem  | Level  | Description of knowledge                 |
+| --------------------- |:------:|:--------------------------------------------|
+| Performance management| 7/10   | Creating measurable performance-based KPIs (Customer Support and Sales) and data products to help the interested teams to improve them.|
+| Business Intelligence | 9/10   | Building KPIs that tracks high-level performance of the business.|
+| Sales analytics       | 9/10   | Tracking sales performance, studying incentives of sales processes and creating attribution of success on different sales sources.|
+| Product analytics     | 7/10   | Study of product behavioral data in order to understand patterns of usage in the application, create attributions on feature usage and identifying usage trends.|
+| Compliance and data governance | 7.5/10   | Working with legal and other departments to ensure the right use of the data in agreement with the most up-to-date legal and data governance standards.|
+| Marketing Intelligence | 5/10  | Creating targeting for email campaigns on existing customers and triggering in-product communication and blocking campaigns to free users.|
 
 
 
 # Curious?
 
-Are you interested to collaborate with me in some project or hire me? Don't hesitate and contact me: [antoniogquintela@gmail.com](mailto:antoniogquintela@gmail.com)
+Are you interested to collaborate with me in some project?
+Interested on assessment with data problems? 
+Don't hesitate and contact me: [antoniogquintela@gmail.com](mailto:antoniogquintela@gmail.com)

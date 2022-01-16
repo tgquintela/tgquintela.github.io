@@ -36,8 +36,12 @@ The classification in fields is merely an orientation. The fields and my specifi
 ## Computer Science
 ### *Data Engineering*
 * Flexible and scalable data architectures for highly parallelization requirements. Using Cloud Computation to run applications able to handle huge data volumes in an efficient way.
-* ETL process and new software to deal with multiple heterogeneous sources, automatize transformation and accelerate the process of populating the databases.
+* Data pipelines process and new software to deal with multiple heterogeneous sources, automatize transformation and accelerate the process of populating the databases.
+* Data flows of integrating data and building generic data models to serve analytical purposes.
 * Microservices for the integration of machine learning techniques in the new requirements data infrastructure. The Data science in a IoT world requires an adapted infrastructure to deal with that, not only new machine learning techniques.
+
+### Cloud infrastructure
+* Create cloud infrastructure for DataManagement, MLOps and automation.
 
 ### *Artificial Intelligence* and *Machine Learning*
 * Small data science and One Shot Learners: there are problems with too few samples but high dimensionality. In this problems we can learn the "mechanics" of each sample in order to extract and use that information. It is been developed mainly in the context of OCR problem but it could be very useful for problems in *digital humanities*.
