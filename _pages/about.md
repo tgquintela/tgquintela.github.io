@@ -10,7 +10,19 @@ redirect_from:
 
 # Who am I
 
-I was a Physics Degree and Artificial Intelligence master student who started his professional career as a Data Scientist. I've worked as a freelance or salaried, both working in team with different levels of autonomously. My interests are described in the [section of interests]({{ site.url }}/interests/). If you want to know more, visit my [collection of notes]({{ site.url }}/notes/).
+I was a Physics Degree and Artificial Intelligence master student who started his professional career as a Data Scientist.
+I've worked as a freelance or salaried, both working in team with different levels of autonomously.
+My interests are described in the [section of interests]({{ site.url }}/interests/).
+If you want to know more, visit my [collection of notes]({{ site.url }}/notes/).
+
+
+* [Languages](#languages)
+* [Technical skills](#technical-skills)
+    * [Programming languages](#programming-languages)
+    * [Software programs](#software-programs)
+    * [Programming packages](#programming-packages)
+* [Data Science skills](#data-science-skills)
+
 
 # Languages
 
@@ -45,6 +57,7 @@ The next table is the summary dictionary code for that experience context.
 
 [^1]: Experience codes: Described in the [table](#code_experience) of its [main section](#technical-skills).
 
+
 ## Programming languages
 
 | Languages             | Level  | Experience[^1]| Description of knowledge|
@@ -72,17 +85,15 @@ The next table is the summary dictionary code for that experience context.
 
 ## Software programs
 
-<details>
-  <summary>Listing of some *generic software* that I used intensively at some moment of my career.</summary>
+
+#### Generic Software
 
 | Software              | Level  | Experience[^1]| Description of knowledge                 |
 | --------------------- |:------:|:----------:|:--------------------------------------------|
 | Office Suites         | 9/10   | Prof + PP  | Basic and advance operations. Pivot table, coding macros and solving problems of optimization using MS excel and LibreOffice. Basic use of OpenOffice and Google Docs.                                                                                                       |
 
-</details>
 
-<details>
-  <summary>Listing of some development software that I used intensively at some moment of my career.</summary>
+#### Development Software
 
 | Software              | Level  | Experience[^1]| Description of knowledge                 |
 | --------------------- |:------:|:----------:|:--------------------------------------------|
@@ -90,10 +101,8 @@ The next table is the summary dictionary code for that experience context.
 | Git                   | 8/10   | Prof + PP  | Use of git to control versions and manage a project development.                                            |
 | Pycharm               | 5/10   | Prof       | To write code and manage git projects.                                    |
 
-</details>
 
-<details>
-  <summary>Listing of some data management software that I used intensively at some moment of my career.</summary>
+#### Data Management Software
 
 | Software              | Level  | Experience[^1]| Description of knowledge                 |
 | --------------------- |:------:|:----------:|:--------------------------------------------|
@@ -114,11 +123,8 @@ The next table is the summary dictionary code for that experience context.
 | Apache Mahout         | 2/10   | Ed         | Applying clustering techniques for data modeling purposes.                                                  |
 | Apache Hive           | 1/10   | Ed         | Set a database for studying and practicing with MapReduce in Big Data Ecosystem.                            |
 
-</details>
 
 ## Programming packages
-<details>
-  <summary>Listing of some packages that I used intensively at some moment of my career.</summary>
 
 | Software packages     | Level  | Language | Experience[^1]| Description of knowledge|
 | --------------------- |:------:|:--------:|:-------------:|:------------------------|
@@ -181,14 +187,15 @@ The next table is the summary dictionary code for that experience context.
 | [`MPI`]() | 2/10 | Fortran | Ed | Parallelization of Fortran code to high-performance molecular dynamic simulations.                                      |
 | [`AWS CDK`](https://aws.amazon.com/cdk/) | 5/10 | python | Prof | Setting up infrastructure in AWS programmatically.                                      |
 
-</details>
+
+# Data Science skills
 
 ## Data Science skills in different type of data
 
 By evaluating different type of data processed:
 
 | Type of data          | Level  | Experience[^1]| Description of knowledge                 |
-| --------------------- |:------:|:----------:|:--------------------------------------------|
+|:---------------------:|:------:|:----------:|:--------------------------------------------|
 | Tabular data          | 8/10   | Complete   | Manipulating data, doing feature engineering and creating MLOps processes around it.                                                                                             |
 | Images                | 2/10   | Ed         | Manipulating image collections by processing and filtering noise, patching images using RANSAC with SIFT descriptors, object detection using Machine Learning techniques (SVM and ANN).                                                                                             |
 | Text                  | 4/10   | Ed + PP    | Ability to process text data and extracting usable features. I faced problems of Named Entity Segmentation, Topic Recognition and Sentiment Analysis.                                                                                                                           |
@@ -202,7 +209,6 @@ By evaluating the different type of problems trying to solve with data we can li
 | Type of data problem  | Level  | Experience[^1]| Description of knowledge                 |
 | --------------------- |:------:|:----------:|:--------------------------------------------|
 | Performance management| 7/10   | Prof   | Creating measurable performance-based KPIs (Customer Support and Sales) and data products to help the interested teams to improve them.|
-
 
 
 
