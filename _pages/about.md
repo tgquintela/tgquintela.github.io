@@ -28,7 +28,10 @@ I was a Physics Degree and Artificial Intelligence master student who started hi
 # Technical skills
 
 This is an exercise of the always subjective task to rank and score my different skills related with my technical knowledge of my professional activities.
-In order to help me to do it, I will put into context every skill in how I acquired the knowledge. The next table is the summary dictionary code for that experience context.
+Of course, this is a cumulative catalog and it would not be a surprise to find in it very old technologies
+that I eventually used.
+In order to help me to do this catalog, I will put into context every skill in how I acquired the knowledge.
+The next table is the summary dictionary code for that experience context.
 
 
 <a name="code_experience"></a>
@@ -46,18 +49,19 @@ In order to help me to do it, I will put into context every skill in how I acqui
 
 | Languages             | Level  | Experience[^1]| Description of knowledge|
 | --------------------- |:------:|:----------:|:---------------------------|
-| Fortran               | 6/10   | PP + Ed    | Coding programs in order to do simulations of multi-body systems (solid, gases, planetary systems) or quantum systems, in some cases using MPI parallelization framework.                                                                                                       |
-| Matlab/Octave/Scilab  | 7.5/10 | Prof + Ed  | Linking to DBs, processing images for image segmentation, object detection or other applications of Computer Vision,  processing data and the application to Business problems by coding a predictive models using Machine Learning in a back-end product.                     |
-| Python                | 8.5/10 | Complete   | Able to design and code large and complex structures with good defensive programming skills applied to process data, applying machine learning algorithms, solving mathematic optimization problems and other heterogeneous experiences applying it to very different problems. I use to code in python to process data (`pandas`, `geopandas`, `networkx`, `nltk`), model that data using machine learning techniques (`sklearn`, `Keras`, `TensorFlow`, `Theano`, `pyMC3`), solving mathematical optimization problems (`DEAP`, `CVX`), and administrative coding to connect with DB or build Backend products (`Django`, `GeoDjango`, `Flask`, `mongoengine`). I used to be up to date in each new great version of some of that packages and experience coding in different versions of python (specially in 2.7 and 3.5).                                                                                                                                            |
-| R                     | 7/10   | PP + Ed    | The use of the language to code scripts to explore data, transform it by creating new features, visualize data and the use of packages as `plyr` for data processing or `caret`, `randomforest`, `Rankcluster` among others to apply machine learning to problems. Able to code easily small structures and programs of less than 2500 lines.                                                                                                         |
-| SAS                   | 6/10   | Prof       | Predictive models using ordinal logistic regression to rank customers possibility to buy a product.      |
-| SQL                   | 7.5/10 | Prof       | Managing the DB by keeping order in the schema and the types of each data column in tables for proper indexing, ensuring correct insertions of data and running complex queries to obtain the desired data.                                                                       |
-| HTML                  | 5/10   | PP + Prof  | Creating simple front-ends for data visualization (dashboards) within `python`, `Jinja2`, `Bootstrap` and `Javascript`.                                            |
+| Python                | 8.5/10 | Complete   | Able to design and code large and complex structures with good defensive programming skills applied to process data, applying machine learning algorithms, solving mathematical optimization problems and other heterogeneous experiences applying it to very different problems. I use to code in python to process data, model that data using machine learning techniques , solving mathematical optimization problems, administrative coding to connect with DB or build Backend products, and even setting up cloud infrastructure.                                                                                                                                            |
+| SQL                   | 8.5/10 | Prof       | Managing the DB by keeping order in the schema and the types of each data column in tables for proper indexing, ensuring correct insertions of data and running complex queries to obtain the desired data. Also, maintain complex data flows in a DWH, in order to proper layer.                                                                      |
 | Javascript            | 4/10   | PP + Prof  | Creating scripts to support front-end environments. |
+| Scala                 | 2.5/10 | Prof       | Contributing in repositories to create utils for Data Pipelines and translating code from them to python. |
+| HTML                  | 5/10   | PP + Prof  | Creating simple front-ends for data visualization (dashboards) within `python`, `Jinja2`, `Bootstrap` and `Javascript`.                                            |
+| R                     | 7/10   | PP + Ed    | The use of the language to code scripts to explore data, transform it by creating new features, visualize data and the use of packages as `plyr` for data processing or `caret`, `randomforest`, `Rankcluster` among others to apply machine learning to problems. Able to code easily small structures and programs of less than 2500 lines.                                                                                                         |
+| Matlab/Octave/Scilab  | 7.5/10 | Prof + Ed  | Linking to DBs, processing images for image segmentation, object detection or other applications of Computer Vision,  processing data and the application to Business problems by coding a predictive models using Machine Learning in a back-end product.                     |
+| Fortran               | 6/10   | PP + Ed    | Coding programs in order to do simulations of multi-body systems (solid, gases, planetary systems) or quantum systems, in some cases using MPI parallelization framework.                                                                                                       |
+| Java                  | 4/10   | Ed         | OOP coding an AI planner for solving generic Hanoi tower problem or multi-agent systems to help to optimize MAS grid-like problems.                                                                                                                                           |
+| SAS                   | 6/10   | Prof       | Predictive models using ordinal logistic regression to rank customers possibility to buy a product.      |
 | Bash                  | 4/10   | PP         | Using bash for automatic tasking some administration of the system from simple launching processes, sending mails through SMTP protocols or running scripts.                                                                                                               |
 | C                     | 4/10   | Ed + PP    | Coding basic Computer Science algorithms for activities or high performance computing in personal projects.|
 | C++                   | 2/10   | PP         | Small administrative snippets of code to manage and format some data.                                    |
-| Java                  | 4/10   | Ed         | OOP coding an AI planner for solving generic Hanoi tower problem or multi-agent systems to help to optimize MAS grid-like problems.                                                                                                                                           |
 | Mathematica           | 4/10   | Ed         | Coding small programs in order to do some computations and calculus, specially to solve ODEs and SDEs.   |
 | Sage                  | 3/10   | Ed         | Symbolic programming for solve algebraic and geometric problems.                                         |
 | Netlogo (Logo)        | 3/10   | Ed         | Coding for presentations and show the emergence of complexity from simple rules.                         |
@@ -68,29 +72,53 @@ In order to help me to do it, I will put into context every skill in how I acqui
 
 ## Software programs
 
+<details>
+  <summary>Listing of some *generic software* that I used intensively at some moment of my career.</summary>
+
 | Software              | Level  | Experience[^1]| Description of knowledge                 |
 | --------------------- |:------:|:----------:|:--------------------------------------------|
 | Office Suites         | 9/10   | Prof + PP  | Basic and advance operations. Pivot table, coding macros and solving problems of optimization using MS excel and LibreOffice. Basic use of OpenOffice and Google Docs.                                                                                                       |
-| Weka                  | 5/10   | Ed         | Use and parse `*.arff` format files with external programs, run some algorithms of the suite over datasets. |
-| QGIS                  | 7/10   | Prof + PP  | Manage geo-data, parse or acquire some geo-data from external sources, create visualization of that data and code some scripts in python to develop some tasks using the `qgis` program framework.                                                                                 |
+
+</details>
+
+<details>
+  <summary>Listing of some development software that I used intensively at some moment of my career.</summary>
+
+| Software              | Level  | Experience[^1]| Description of knowledge                 |
+| --------------------- |:------:|:----------:|:--------------------------------------------|
+| Docker                | 7/10   | Prof + PP  | Manage software development and deploying code. Creating containerized applications to run them locally for testing or deploying them to the cloud.                                                                                                                             |
+| Git                   | 8/10   | Prof + PP  | Use of git to control versions and manage a project development.                                            |
+| Pycharm               | 5/10   | Prof       | To write code and manage git projects.                                    |
+
+</details>
+
+<details>
+  <summary>Listing of some data management software that I used intensively at some moment of my career.</summary>
+
+| Software              | Level  | Experience[^1]| Description of knowledge                 |
+| --------------------- |:------:|:----------:|:--------------------------------------------|
+| DBT                   | 9/10   | Prof       | Data Management of the DWH, by developing any data flows querying Redshift and producing test on the data. |
+| Apache-Airflow        | 9/10   | Prof       | My first relationship with Airflow was about deploying it, first by using single machine and thin architecture, later on going with Terraform in ECS. Later on, I was used to facilitated small data processing flows and orchestrating the rest of them.|
 | Gephi                 | 7/10   | Complete   | Create proper visualizations for network data.                                                              |
 | Pajek                 | 6/10   | Ed         | Create proper visualizations for network data.                                                              |
-| Git                   | 8/10   | Prof + PP  | Use of git to control versions and manage a project development.                                            |
-| Docker                | 7/10   | Prof + PP  | Manage software development and deploying code. Simulate software environment in my computer in order to replicate server connection to DataBases.                                                                                                                             |
+| Weka                  | 5/10   | Ed         | Use and parse `*.arff` format files with external programs, run some algorithms of the suite over datasets. |
+| QGIS                  | 7/10   | Prof + PP  | Manage geo-data, parse or acquire some geo-data from external sources, create visualization of that data and code some scripts in python to develop some tasks using the `qgis` program framework.                                                                                 |
 | Carto                 | 4/10   | Prof + PP  | Processing data and creating interactive visualizations for geospatial data process.                        |
-| MySQL                 | 7/10   | Prof + PP  | Managing data, interacting with the data by inputing, deleting or querying. Automatizing some of that processes for external interactions.                                                                                                                                      |
+| MySQL                 | 7/10   | Prof + PP  | Managing data, interacting with the data by inputting, deleting or querying. Automatizing some of that processes for external interactions.                                                                                                                                      |
 | SQLite3               | 4/10   | Prof + PP  | Prototyping data infrastructures.                 |
 | SpatialLite           | 3/10   | PP         | Prototyping data infrastructures for spatial data analysis projects.                                        |
-| PostgreSQL            | 5/10   | Prof + PP  | Managing data, interacting with the data by inputing, deleting or querying. Automatizing some of that processes for external interactions.                                                                                                                                      |
-| PostGIS               | 5/10   | Prof + PP  | Managing data, interacting with the data by inputing, deleting or querying. Automatizing some of that processes for external interactions. For geospatial projects.                                                                                                             |
-| MongoDB               | 3/10   | Prof + PP  | Managing database with flexible and semistructured data inputs.                                             |
-| Apache Hadoop         | 2/10   | Ed         | Setting Big Data infraestructure in local computer for educational purposes.                                |
+| PostgreSQL            | 5/10   | Prof + PP  | Managing data, interacting with the data by inputting, deleting or querying. Automatizing some of that processes for external interactions.                                                                                                                                      |
+| PostGIS               | 5/10   | Prof + PP  | Managing data, interacting with the data by inputting, deleting or querying. Automatizing some of that processes for external interactions. For geospatial projects.                                                                                                             |
+| MongoDB               | 3/10   | Prof + PP  | Managing database with flexible and semi-structured data inputs.                                             |
+| Apache Hadoop         | 2/10   | Ed         | Setting Big Data infrastructure in local computer for educational purposes.                                |
 | Apache Mahout         | 2/10   | Ed         | Applying clustering techniques for data modeling purposes.                                                  |
 | Apache Hive           | 1/10   | Ed         | Set a database for studying and practicing with MapReduce in Big Data Ecosystem.                            |
 
-
+</details>
 
 ## Programming packages
+<details>
+  <summary>Listing of some packages that I used intensively at some moment of my career.</summary>
 
 | Software packages     | Level  | Language | Experience[^1]| Description of knowledge|
 | --------------------- |:------:|:--------:|:-------------:|:------------------------|
@@ -151,12 +179,17 @@ In order to help me to do it, I will put into context every skill in how I acqui
 | [`CUDA`](https://developer.nvidia.com/cuda-zone) | 1/10 | Fortran | Ed | Parallelization of Fortran code to high-performance molecular dynamic simulations.|
 | [`OpenMP`](http://www.openmp.org/) | 1/10 | Fortran | Ed | Parallelization of Fortran code to high-performance molecular dynamic simulations.             |
 | [`MPI`]() | 2/10 | Fortran | Ed | Parallelization of Fortran code to high-performance molecular dynamic simulations.                                      |
+| [`AWS CDK`](https://aws.amazon.com/cdk/) | 5/10 | python | Prof | Setting up infrastructure in AWS programmatically.                                      |
 
+</details>
 
 ## Data Science skills in different type of data
 
+By evaluating different type of data processed:
+
 | Type of data          | Level  | Experience[^1]| Description of knowledge                 |
 | --------------------- |:------:|:----------:|:--------------------------------------------|
+| Tabular data          | 8/10   | Complete   | Manipulating data, doing feature engineering and creating MLOps processes around it.                                                                                             |
 | Images                | 2/10   | Ed         | Manipulating image collections by processing and filtering noise, patching images using RANSAC with SIFT descriptors, object detection using Machine Learning techniques (SVM and ANN).                                                                                             |
 | Text                  | 4/10   | Ed + PP    | Ability to process text data and extracting usable features. I faced problems of Named Entity Segmentation, Topic Recognition and Sentiment Analysis.                                                                                                                           |
 | Time Series           | 7/10   | Complete   | Study and modeling stochastic and structural properties of a system of time series. Using Machine learning algorithms (Random Forest and ANN) to create predictions of future values in the timeseries.                                                                             |
@@ -164,6 +197,15 @@ In order to help me to do it, I will put into context every skill in how I acqui
 | Spatial data          | 7/10   | Complete   | Specially experience with geospatial data (points, lines and polygons). Dealing with `geojson` and `topojson` files and with geospatial oriented databases as `PostGIS` and `SpatialLite` or the use of `Carto` and `QGIS` for data visualization and spatial intelligence.           |
 
 
+By evaluating the different type of problems trying to solve with data we can list:
+
+| Type of data problem  | Level  | Experience[^1]| Description of knowledge                 |
+| --------------------- |:------:|:----------:|:--------------------------------------------|
+| Performance management| 7/10   | Prof   | Creating measurable performance-based KPIs (Customer Support and Sales) and data products to help the interested teams to improve them.|
+
+
+
+
 # Curious?
 
-Are you interested to collaborate with me in some project or hire me? Don't hesitate and contact me: [tgq.spm@gmail.com](mailto:tgq.spm@gmail.com)
+Are you interested to collaborate with me in some project or hire me? Don't hesitate and contact me: [antoniogquintela@gmail.com](mailto:antoniogquintela@gmail.com)

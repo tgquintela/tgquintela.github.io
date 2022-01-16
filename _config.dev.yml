@@ -13,3 +13,5 @@ comments:
 sass:
   sass_dir: _sass
   style: expanded # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+exclude: [vendor]
