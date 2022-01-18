@@ -211,7 +211,7 @@ En estos resultados podemos ver que la CUP pasa a tener más poder que otros com
 
 
 <div id="2015_catalan_parliament" style="width:100%">
-<iframe src="{{ base_path }}/files/parliament_html/D3 Parliament Power Measures: Catalan parliament 2015 Case Study.html" scrolling="no" frameborder="0" width="100%" height="100%"></iframe>
+<iframe src="{{ base_path }}/files/parliament_html/D3 Parliament Power Measures Catalan parliament 2015 Case Study.html" scrolling="no" frameborder="0" width="100%" height="100%"></iframe>
 </div>
 <script>
 $("#2015_catalan_parliament").height($("#2015_catalan_parliament").width() * 0.4);
@@ -289,7 +289,7 @@ No hemos incluido los pequeños matices, ni otros ejes que pueden ser relevantes
 
 
 <div id="2015_spanish_parliament" style="width:100%">
-<iframe src="{{ base_path }}/files/parliament_html/D3 Parliament Power Measures: Spanish parliament 2015 Case Study.html" scrolling="no" frameborder="0" width="100%" height="100%"></iframe>
+<iframe src="{{ base_path }}/files/parliament_html/D3 Parliament Power Measures Spanish parliament 2015 Case Study.html" scrolling="no" frameborder="0" width="100%" height="100%"></iframe>
 </div>
 <script>
 $("#2015_spanish_parliament").height($("#2015_spanish_parliament").width() * 0.4);
