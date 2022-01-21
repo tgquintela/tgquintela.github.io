@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 
-
+# Detailed technical skills
 
 ## Legend tables
 
