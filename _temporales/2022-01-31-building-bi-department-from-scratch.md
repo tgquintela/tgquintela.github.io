@@ -1,8 +1,8 @@
 ---
-title: 'Building a BI department from scratch (I) - Infrastructure'
-excerpt: 'Exploració del futur de la llar en uns anys.'
-date: 2018-02-15
-permalink: /temporales/2022/01/building-bi-department-from-scratch/
+title: 'Building a BI department from scratch (I) - Introduction'
+excerpt: 'Understanding your new company data-wise.'
+date: 2022-01-31
+permalink: /temporales/2022/01/building-bi-department-from-scratch-i-introduction/
 tags:
   - data
 categories:
@@ -10,115 +10,197 @@ categories:
   - data
 ---
 
-The main reason to write this post is to materialize my thoughts and experiences around working in data analytics
-for corporate environment. 
-Being specific, working in a department with highly focus on financial data, but having some degree of responsibilities 
-around product, marketing, customer support and sales analytics.
+This is the first post of a collection of them which are created to talk about how to create a data analytics
+department.
+The main reason to write them is to materialize my thoughts and experiences around working in data analytics
+for corporate environment.
+Those thoughts are opinions being created in a very specific context of experiences
+that were composed by working in a department with highly focus on financial data,
+but having some degree of responsibilities around product, marketing, customer support and sales analytics.
 
-In it I will try to place the ideas about technologies to be considered, guidelines on how to balance tradeoffs
-and better strategic paths to follow in order to grow quickly to a stable state and deliver fast and good.
+In this collection of articles I will try to place the ideas about technologies to be considered, 
+guidelines on how to balance tradeoffs
+and better strategic paths to take in order to grow quickly to a steady stable state 
+and deliver fast and good along the way.
 
-
-# Infrastructure: the always first challenge
-The always first challenge when you don't have anything is the infrastructure.
-When everything comes around starting extracting value to data that is an undesirable but unavoidable path.
-Decisions taken at this stage can condition the future of the performance and success of initiatives to come.
-
-The best way to move on is to take an iterative approach by first do quick moves that can later be iterated
-from them, but being sure that those are not going to condition future processes.
-
-From here on, we have to give for granted that our infrastructure will be hosted in the cloud.
-Some of the points and guidelines that will be mentioned in this posts are also valid for
-on-premise infrastructure but for sure there are better sources of knowledge around them than this one post.
-
-From that, what to do?
-
-## Identify main components and categorize them
-In order to start taking decisions about future tasks, before it is better to understand which are those tasks,
-and by that which are the technical problems we really want to solve. 
-Those decisions will be taken by you alone with with the help of your first hiring.
-
-Those main tasks are around solving the next questions:
-* How to consume data from? Without no data there is no data tasks. And without no data tasks there is no need for data
-professionals.
-* How to store the data? When we consume the data we have to place it elsewhere. The decision on where to store
-the data will depend on different factors that we will explore in next steps.
-* How to process data? We need to compute KPIs, do statistics, understand behaviours and identify patterns in the data.
-We need a way to perform all these transformations on them efficiently and easily.
-* How to give output to this data? Without any purpose for processing or any end-consumer of the data, all the job
-of consuming and processing makes no sense.
-
-Those points translate to different technical concepts as:
-* Cloud provider: mainly which cloud provider to select. That decision probably will not be in your initial scope as
-company for sure has some cloud to start with.
-There are companies that approach that topic with a multi-cloud solution but it is always recommended to start with
-only one of them.
-Cloud providers include easy to use services that can help to ease some of the tasks that you need to have done.
-the criteria on how to select a cloud can be discuss more in this same article in the future.
-* VPC and security: all the data and operations that you do must need to be secured somehow and being able to control
-the traffic to our data and basic services.
-* Services to move the data: that can vary from proprietary tools, services provided by your cloud provider or
-code launched in some computational resource.
-* Data lake: it is where to store data cheaply but being able to retrieve it easily and start using it.
-* Data Warehouse: a place to store but also process and make data highly available for analytical purposes.
-* Reporting: way to visualize your data and help other teams to share the insights of the data.
-
-And also in addition to these others:
-* Access layer: a way to deliver raw data to the external data consumers.
-* Down-streaming pipelines (or export pipelines): a way to export data to the operational systems in order to
-make the data useful as soon as possible in the systems where process are taking place.
-* Orchestration layer: we need a way to run the tasks in the proper sequence according to their inter-dependencies, 
-and in the right time.
+The post does not have vocation to become a bible for building data analytics department,
+but to give some guidance that can be helpful.
+If you landed here because it is your first experience building teams,
+I hope that it can help you gather a wide landscape view of your problems to come.
+If you have already experience but you want to explore new opinions about the topic,
+I hope you can find here an innovative point of view about these problems.
 
 
-# Main criteria points to decide infrastructure
-There are no good or bad decisions or systems per se.
-Those questions can not be answered without understanding the context,
-understanding then the tradeoffs needed to be taken,
-creating a proper prioritization on what it is needed to have or what we can afford to not have, 
-and do proper balances around all of them.
+# Which are the high-level challenges you will have to face?
+The first weeks themselves will be a whole challenge.
+A lot of new people and new information are coming after you and filling your time.
 
-All of that is a matching problem.
-You need to match infrastructure and tools to needs that your company has.
-That involves knowing in depth what each tool and service can offer to you,
-which are the limitations of these tools,
-and how much this set of specifications cover your needs.
+You will have to carry out your first steps wisely and be quick identifying black holes of time
+and energy that you will have to avoid, and also shortcut paths that can be good to walk through.
+
+Understanding the business model of the company,
+learning about key processes around IT or HR,
+meeting the contact people that are key touching points
+and hearing about what it is expected from you are the first things to come.
+
+But no matter how chaotic or overwhelming these first steps can be,
+you will have keep your mental anchor and always have in mind
+the high-level points that you will have to address.
+
+* **Manage context**: you will be sitting in a company surrounded by co-workers.
+You will have to work with them. For that probably you will have to define and establish dependencies with them.
+Also a framework of collaboration and interaction between your team and them in order to be as much productive
+as possible.
+* **Business understanding**: by understanding the business model it can help to trace the best way to 
+support the specialized domain business units with data more efficiently.
+Also it can help you to define an ideal way to represent the company data in one unified data model.
+That can be useful if the end-goal of the data team can be unified analytics and provide a single source of truth.
+* **Tech strategy**: decide which is the best tech stack to ease your problems.
+A good decision about technology can solve a lot of problems and avoid to reinvent the wheel.
+That can allow the team to focus and spent their energy creating value.
+* **Data needs**: we need to understand which are the needs in terms of data
+and mainly which are the most pressing needs to be solved first.
+* **Organization management**: how to the exposed problems translate into roles to hire and organization structure.
+
+## Manage context
+You are in a company and you have to understand that company is paying to obtain an outcome.
+The outcome sometimes is difficult to measure and for the others will be only measured in a very subjective way.
+
+Understanding your labor context is always the key to success, specially in data.
+And among all your surroundings, the most important context is the people.
+
+You will need to work together with many other people and understanding them culturally and personally is a must.
+Many capable people demonstrate themselves failing in some people surroundings.
+They are un-capable to flexible adapt to the labor context and shine there.
+
+The first point you have to understand is that your future will be tied to them and so for your future successes.
+Building trust and on-boarding them in your challenges is as important as understanding their problems.
+I saw so many times technical service providers to fail in here just because they are driven by their own ego.
+They are so attached to their own ego that they can not establish a constructive relationship with other co-workers
+that probably are also driven by ego. At the end all of them, and the company, lose.
+
+Once you build a relationship, the efforts must not end up there.
+Having a trust sometimes does not mean having their respect.
+Having a respect means establishing equal and balanced relationships.
+You need to make the outcome of the relationship be credited equally.
+This point can seem that is driven by ego, or by a need of recognition that of course it should not be the main
+driver of a data lead (as individual).
+But remember, you represent a team and the people on this team needs to have their work recognized and respected
+outside the boundaries of the team.
+If you want to make the team members happy and motivated to grow, don't forget on building respect for your team
+and team work. And you have to keep it in mind while you draw your plannings.
 
 
-## Data consumer and data user type
-Another important thing is to know the **context** in which this environment will be placed.
-Most importantly the context about the professionals involved around data and their tasks.
+## Business understanding
+Another of the key context environment points is the business.
+You need to understand what is making your company earn money,
+how are the processes done and how this processes translate into data.
 
-We always have to distinguish data consumers between the ones that have technical abilities to process
-and to contribute to the whole data ecosystem and the ones that are not technical enough but they need to consume
-this data.
-
-Depending on which is the proportion of people around, working with that you can focus on different strategies,
-or either focus on giving data access to as many data as possible in the company in one place,
-or either trying to give quality integrated data that can act to a single source of truth.
-Most of the case will be a compromise between the two extremes.
-
-One extreme will put the burden on extracting value from the data to the edge data teams or data units,
-the other one will put the burden in a centralized team or unit.
+By understanding this 
 
 
-## Content data properties
-Other topic that can become decisive in how to focus your energy is 
-what is the content of the data you have to work with.
-Sensitive data requires way more security and governance that non-sensitive PII data.
-Compliance is a big deal in a company,
-and if it is not take seriously can damage hugely its reputation or even its treasury.
 
-Being able to control what your data is used for is always a plus.
-But when you are processing Personally Identifiable Information then it is a must.
-
-Some tools offer quite handy usability for that purpose and can alleviate a lot of effort.
+by understanding the business model it can help to trace the best way to 
+support the specialized domain business units with data more efficiently.
+Also it can help you to define an ideal way to represent the company data in one unified data model.
+That can be useful if the end-goal of the data team can be unified analytics and provide a single source of truth.
 
 
-## Metadata properties
-Size and structure of the data is also into the game.
-Depending in how big is the data to move, we will have to choose a different type of infrastructure and architecture.
-Some of the options can be directly out of the picture.
+
+
+
+# What is your purpose of existence?
+Along solving all these questions exposed previously, we have this transcendental question.
+A key question to be ask to yourself.
+Why your position exists? How was it decided to spent the budget they commit in your role?
+What is it expected from you and your team?
+
+Without not being able to answer these questions you will lost in your new journey. 
+It is not a just simple silent exercise of observing, guessing and inferring.
+It is highly recommended that you ask direct questions to your colleges
+in order to understand the history of the decision.
+How the decision was backed and taken?
+
+By failing in doing it can put you in a painful trip in direction of the exit door.
+Now, in the first weeks, it is the moment to re-assess expectations
+and also search for an alignment with the rest of the organization.
+Probably they have unrealistic ideas of what is expected from you to deliver.
+Or probably you realize which are the main problems and pain points that you can alleviate.
+
+The first weeks in the company are critical and will condition the rest of your performance.
+You need to understand your role, the pain points of the stakeholders, build trust
+and carry out some quick delivers.
+But all that must be done without losing the long term view of what it is needed to be build.
+
+
+## Understanding the company needs
+The first round is about **hearing but not listening**.
+Data is one of the key start components of a company to operate.
+The company survived without you or your data team.
+So for sure there are a lot of data processes established all across the company.
+By understanding how there are done and being able which is the maturity level of the company
+towards data, you can save a lot of miss-understandings and open you a door for quick delivers.
+
+In this step, collecting information like:
+* Which is the data that they use to carry out with their data dependent processes?
+* How they collect the data?
+* Which tools they use in order to transform and process this data?
+* What are the data that they missed and they would like to have available?
+
+Going across different people in the company with their different data needs 
+and their own implemented solution for their unique problems will get you the opportunity
+to find unnecessary redundancies and inefficiencies that can be easily solved by your data team.
+
+All these high-level information will help you do define tech requirements
+and to set direction of your data team and identify the low hanging fruits to collect.
+
+## Understanding the company direction
+The next round of understanding 
+
+
+
+### On-boarding them as stakeholders
+Your impact will not be conditioned to who gets the credit. 
+You come from nowhere and the company will the opportunity to compare the state before your arrival
+and after your arrival. Don't bother yourself in credit fights and try to maximize output delivered around data.
+
+Making the stakeholder believe that they are on top of the whole design of your data infrastructure
+and data ecosystem will not be a 
+
+### 
+
+
+
+
+what is being done and what is the reason for which is done in that way
+
+
+Talk about
+
+Understand context as first task:
+* You need to understand which kind of challenges 
+
+
+
+
+# Game of balances
+
+
+Self-sustainability of the data team.
+Avoid lock-in.
+
+
+
+
+
+Key points:
+* Infrastructure
+* Team
+* Data strategy (self-service, distributed, centralized. Dynamic from one to another)
+* Data outputs
+
+
+## Measuring an analytics team
 
 
 
