@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Berlin 2023 -- Power & Policy (interactive)</title>
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+  <style>
+    body { font-family: -apple-system, "Segoe UI", Roboto, sans-serif; color: #222;
+           max-width: 960px; margin: 24px auto; padding: 0 16px; }
+    h1 { font-size: 1.5rem; } h2 { font-size: 1.1rem; margin-top: 2rem; }
+    .note { color: #666; font-size: 0.9rem; }
+    .axis text { font-size: 12px; } .axis path, .axis line { stroke: #999; }
+    .legend text { font-size: 12px; }
+  </style>
+</head>
+<body>
+  <h1>Berlin 2023 &mdash; Party Power &amp; Policy Projection</h1>
+  <p class="note">Official 2023 results (159 seats, majority 80). Power indices and
+     coalition projections computed with the <code>cooperativegames</code> package.
+     Interactive companion to the article.</p>
+
+  <h2>1. Arithmetic power vs seat share</h2>
+  <div id="power"></div>
+
+  <h2>2. Likely governing coalition's policy position</h2>
+  <p class="note">The CDU&ndash;SPD grand coalition is the most natural government; adding the
+      Brandmauer (the AfD is excluded from *every* coalition, not just a CDU one)
+      makes it even more dominant.</p>
+  <div id="projection"></div>
+
+<script>
+// ---- Data (Berlin 2023 results) ----
+const parties = ["CDU", "SPD", "Grüne", "Die Linke", "AfD"];
+const seats   = [52, 34, 34, 22, 17];
+const banzhaf = [0.385, 0.231, 0.231, 0.077, 0.077];
+const sspi    = [0.400, 0.233, 0.233, 0.067, 0.067];
+const axes    = ["housing", "transport", "middle_east", "security", "fiscal", "climate"];
+const projNo  = [4.61, 4.71, 2.45, 6.75, 5.01, 5.45];   // proximity only
+const projTab = [4.81, 4.96, 2.58, 6.55, 5.19, 5.71];   // + Brandmauer (AfD excluded)
+
+// ---- Chart 1: power (grouped bars) ----
+(function () {
+  const W = 900, H = 380, m = { top: 30, right: 20, bottom: 60, left: 50 };
+  const svg = d3.select("#power").append("svg").attr("viewBox", `0 0 ${W} ${H}`);
+  const x0 = d3.scaleBand().domain(parties).range([m.left, W - m.right]).padding(0.25);
+  const series = [
+    { key: "Banzhaf", values: banzhaf, color: "#2c7bb6" },
+    { key: "Shapley-Shubik", values: sspi, color: "#abd9e9" },
+  ];
+  const x1 = d3.scaleBand().domain(series.map(s => s.key)).range([0, x0.bandwidth()]).padding(0.08);
+  const y = d3.scaleLinear().domain([0, 0.35]).range([H - m.bottom, m.top]);
+  svg.append("g").attr("class", "axis").attr("transform", `translate(0,${H - m.bottom})`)
+     .call(d3.axisBottom(x0));
+  svg.append("g").attr("class", "axis").attr("transform", `translate(${m.left},0)`)
+     .call(d3.axisLeft(y));
+  const g = svg.selectAll(".series").data(series).enter().append("g")
+     .attr("transform", d => `translate(${x0(d.key === "Banzhaf" ? 0 : 0)},0)`);
+  series.forEach((s, si) => {
+    svg.selectAll(`.bar-${si}`).data(parties.map((p, i) => ({ p, v: s.values[i] })))
+       .enter().append("rect")
+       .attr("x", d => x0(d.p) + x1(s.key))
+       .attr("y", d => y(d.v))
+       .attr("width", x1.bandwidth())
+       .attr("height", d => y(0) - y(d.v))
+       .attr("fill", s.color);
+  });
+  // seat share markers
+  svg.selectAll(".seat").data(parties.map((p, i) => ({ p, v: seats[i] / 148 })))
+     .enter().append("circle")
+     .attr("cx", d => x0(d.p) + x0.bandwidth() / 2)
+     .attr("cy", d => y(d.v)).attr("r", 3).attr("fill", "#000");
+  // legend
+  const leg = svg.append("g").attr("class", "legend").attr("transform", `translate(${m.left},${m.top - 12})`);
+  leg.selectAll("t").data(series.concat([{ key: "Seat share", color: "#000" }])).enter()
+     .append("rect").attr("x", (d, i) => i * 120).attr("y", 0)
+     .attr("width", 12).attr("height", 12).attr("fill", d => d.color);
+  leg.selectAll("t").data(series.concat([{ key: "Seat share", color: "#000" }])).enter()
+     .append("text").attr("x", (d, i) => i * 120 + 16).attr("y", 10).text(d => d.key);
+})();
+
+// ---- Chart 2: coalition projection (grouped bars + midpoint) ----
+(function () {
+  const W = 900, H = 380, m = { top: 30, right: 20, bottom: 60, left: 50 };
+  const svg = d3.select("#projection").append("svg").attr("viewBox", `0 0 ${W} ${H}`);
+  const x0 = d3.scaleBand().domain(axes).range([m.left, W - m.right]).padding(0.25);
+  const series = [
+    { key: "Proximity only", values: projNo, color: "#ab5779" },
+    { key: "+ Brandmauer", values: projTab, color: "#4d4d4d" },
+  ];
+  const x1 = d3.scaleBand().domain(series.map(s => s.key)).range([0, x0.bandwidth()]).padding(0.08);
+  const y = d3.scaleLinear().domain([0, 10]).range([H - m.bottom, m.top]);
+  svg.append("g").attr("class", "axis").attr("transform", `translate(0,${H - m.bottom})`)
+     .call(d3.axisBottom(x0));
+  svg.append("g").attr("class", "axis").attr("transform", `translate(${m.left},0)`)
+     .call(d3.axisLeft(y));
+  series.forEach(s => {
+    svg.selectAll(`.bar-${s.key}`).data(axes.map((a, i) => ({ a, v: s.values[i] })))
+       .enter().append("rect")
+       .attr("x", d => x0(d.a) + x1(s.key))
+       .attr("y", d => y(d.v))
+       .attr("width", x1.bandwidth())
+       .attr("height", d => y(0) - y(d.v))
+       .attr("fill", s.color);
+  });
+  svg.append("line").attr("x1", m.left).attr("x2", W - m.right)
+     .attr("y1", y(5.5)).attr("y2", y(5.5))
+     .attr("stroke", "red").attr("stroke-dasharray", "4,3");
+  svg.append("text").attr("x", W - m.right).attr("y", y(5.5) - 5)
+     .attr("text-anchor", "end").attr("fill", "red").text("midpoint 5.5");
+  const leg = svg.append("g").attr("class", "legend").attr("transform", `translate(${m.left},${m.top - 12})`);
+  leg.selectAll("t").data(series).enter().append("rect").attr("x", (d, i) => i * 160)
+     .attr("width", 12).attr("height", 12).attr("fill", d => d.color);
+  leg.selectAll("t").data(series).enter().append("text")
+     .attr("x", (d, i) => i * 160 + 16).attr("y", 10).text(d => d.key);
+})();
+</script>
+</body>
+</html>
