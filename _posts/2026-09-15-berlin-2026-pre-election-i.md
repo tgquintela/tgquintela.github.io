@@ -51,7 +51,6 @@ Throughout, we introduce the concepts and assumptions used to model the result,
 and we draw on public **policy data and party positions** — not vote-intent
 polls — to characterise where each party stands.
 
----
 
 ## 1. Power in voting games — why and how
 
@@ -418,6 +417,6 @@ election, on 20 September 2026**.
 
 &nbsp;
 
-&nbsp;
-
 See you there!
+
+&nbsp;
