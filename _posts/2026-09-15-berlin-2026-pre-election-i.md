@@ -4,7 +4,7 @@ excerpt: 'Lets know the Berlin parties.'
 date: 2026-09-15
 permalink: /temporales/2026/09/berlin-elections-20-d-i-intro-analysis/
 header:
-  overlay_image: blog\2026-09-berlin-elections\berlin_vector_header_data_analysis.jpg
+  overlay_image: blog/2026-09-berlin-elections/berlin_vector_header_data_analysis.jpg
   overlay_filter: 0.4
 
 tags:
