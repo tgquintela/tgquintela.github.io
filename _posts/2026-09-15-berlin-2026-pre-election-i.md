@@ -1,12 +1,13 @@
 ---
 title: 'Berlin Elections 2026 - (I) Looking into the party landscape'
-subtitle: 'Politics to policies. An intro of the maths of power through Berlin political landscape'
+subtitle: 'Politics to policies: An intro of the maths of power through Berlin political landscape.'
 excerpt: 'Lets know the Berlin parties.'
 date: 2026-09-15
 permalink: /temporales/2026/09/berlin-elections-20-d-i-intro-analysis/
 header:
   overlay_image: blog/2026-09-berlin-elections/berlin_vector_header_data_analysis.jpg
   overlay_filter: 0.4
+  tall: true
 
 tags:
   - politics
@@ -26,7 +27,7 @@ In this first installment, we lay the quantitative baseline for our analysis:
 * **Standardized Party Positioning**: Converting empirical datasets from voting advice applications (Wahl-O-Mat, WahlSwiper) and thematic policy audits into normalized 1.0–10.0 numerical scales for each major competing party.
 * **Methodological Mechanics**: Establishing the mathematical scoring formula used to weight parliamentary seat shares against party stances to calculate future coalition policy trajectories.
 
-
+With that we will know who is who in Berlin politics and how can we calibrate our policy expectations.
 
 # Who Really Holds Power in Berlin?
 ### A voting-game analysis of the Abgeordnetenhaus (2023 results)
