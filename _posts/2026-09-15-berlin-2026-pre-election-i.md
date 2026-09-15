@@ -29,6 +29,11 @@ In this first installment, we lay the quantitative baseline for our analysis:
 
 With that we will know who is who in Berlin politics and how can we calibrate our policy expectations.
 
+&nbsp;
+
+&nbsp;
+
+
 # Who Really Holds Power in Berlin?
 ### A voting-game analysis of the Abgeordnetenhaus (2023 results)
 
