@@ -1,5 +1,6 @@
 ---
 title: 'Berlin Elections 2026 - (I) Looking into the party landscape'
+subtitle: 'Politics to policies. An intro of the maths of power through Berlin political landscape'
 excerpt: 'Lets know the Berlin parties.'
 date: 2026-09-15
 permalink: /temporales/2026/09/berlin-elections-20-d-i-intro-analysis/
