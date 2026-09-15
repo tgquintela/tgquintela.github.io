@@ -10,6 +10,17 @@ tags:
   - Data visualization
 ---
 
+# Introduction
+It has been a while since I last published, but I am breaking the silence for a focused multi-part series on politics, power, and policy ahead of the Berlin state election on September 20, 2026.
+
+Rather than treating the election as a simple headcount of parliamentary seats, this series looks under the hood of local governance to examine its core driving engine: how raw political power translates into actual policy outcomes. By modeling seat distributions alongside ideological stances across key municipal axes, we will explore how shifting electoral outcomes alter the tangible direction of the city.
+
+In this first installment, we lay the quantitative baseline for our analysis:
+* **The Multi-Axis Policy Framework**: Mapping Berlin's political landscape across core municipal policy dimensions (Housing, Transport, Public Safety, Climate, Fiscal Policy, and International Alignment) using empirical survey data.
+* **Standardized Party Positioning**: Converting empirical datasets from voting advice applications (Wahl-O-Mat, WahlSwiper) and thematic policy audits into normalized 1.0–10.0 numerical scales for each major competing party.
+* **Methodological Mechanics**: Establishing the mathematical scoring formula used to weight parliamentary seat shares against party stances to calculate future coalition policy trajectories.
+
+
 # Who Really Holds Power in Berlin?
 ### A voting-game analysis of the Abgeordnetenhaus (2023 results)
 
@@ -20,8 +31,6 @@ power indices and policy projections are computed with the
 [`cooperativegames`](https://github.com/tgquintela/CooperativeGames) package.
 This is an analysis of **policy power** — no vote-intent polls are used, only
 party policy positions.*
-
----
 
 Before a government is formed, the real question in a parliamentary system is not
 *who won the most seats*, but **who can govern** — and what they will govern. In
@@ -99,7 +108,6 @@ too small to be decisive on their own, so their power is *conditional* on which
 side of the house they can pull. *(The FDP won no seats in 2023 and BSW had not
 yet been founded, so neither is in this game.)*
 
----
 
 ## 2. Policy topology — why the policy dimension matters
 
@@ -186,7 +194,6 @@ This is the whole point of doing the analysis in two layers: **arithmetic power
 tells you who is strong; policy topology + common knowledge tells you what they
 will actually do.**
 
----
 
 ## 3. Data sources and methodology
 
@@ -261,7 +268,7 @@ surveillance.
 **Fiscal** 1 = austerity / debt-brake → 10 = debt reform / borrowing.
 **Climate** 1 = market / sceptical → 10 = accelerated neutrality.
 
----
+
 
 ## 4. Where each party stands — an opinionated read
 
@@ -343,7 +350,7 @@ potentially pivotal liberal partner: its value to CDU is fiscal discipline (the
 economics suggest. As a small party its power would be *conditional* — a junior
 partner at best.
 
----
+
 
 ## Bottom line
 
@@ -368,7 +375,7 @@ applied to the official 2023 seat results and the party policy-position data.
 An interactive version of the charts is available in
 [`interactive/`]({{ base_path }}/images/blog/2026-09-berlin-elections/interactive/).*
 
----
+
 
 ## A simple model of a complex system — and where this goes next
 
@@ -409,5 +416,8 @@ likely government robust, and where can it flip? Put differently: how much
 influence does a single vote have? All of it centred on the **next Berlin state
 election, on 20 September 2026**.
 
+&nbsp;
 
-See you there.
+&nbsp;
+
+See you there!
