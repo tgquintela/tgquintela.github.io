@@ -3,12 +3,17 @@ title: 'Berlin Elections 2026 - (I) Looking into the party landscape'
 excerpt: 'Lets know the Berlin parties.'
 date: 2026-09-15
 permalink: /temporales/2026/09/berlin-elections-20-d-i-intro-analysis/
+header:
+  overlay_image: blog\2026-09-berlin-elections\berlin_vector_header_data_analysis.jpg
+  overlay_filter: 0.4
+
 tags:
   - politics
   - python
   - Data Analysis
   - Data visualization
 ---
+
 
 # Introduction
 It has been a while since I last published, but I am breaking the silence for a focused multi-part series on politics, power, and policy ahead of the Berlin state election on September 20, 2026.
@@ -19,6 +24,7 @@ In this first installment, we lay the quantitative baseline for our analysis:
 * **The Multi-Axis Policy Framework**: Mapping Berlin's political landscape across core municipal policy dimensions (Housing, Transport, Public Safety, Climate, Fiscal Policy, and International Alignment) using empirical survey data.
 * **Standardized Party Positioning**: Converting empirical datasets from voting advice applications (Wahl-O-Mat, WahlSwiper) and thematic policy audits into normalized 1.0–10.0 numerical scales for each major competing party.
 * **Methodological Mechanics**: Establishing the mathematical scoring formula used to weight parliamentary seat shares against party stances to calculate future coalition policy trajectories.
+
 
 
 # Who Really Holds Power in Berlin?
