@@ -4,7 +4,7 @@ excerpt: 'The real current polls run through a voting-game engine: who can gover
 date: 2026-09-20
 permalink: /temporales/2026/09/berlin-elections-2026-ii-scenario-engine/
 header:
-  overlay_image: blog/2026-09-berlin-elections/berlin_vector_header_data_analysis.jpg
+  overlay_image: blog/2026-09-berlin-elections/berlin_votes_to_power_header.jpg
   overlay_filter: 0.4
   tall: true
 
