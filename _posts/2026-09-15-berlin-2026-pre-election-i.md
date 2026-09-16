@@ -3,9 +3,9 @@ title: 'Berlin Elections 2026 - (I) Looking into the party landscape'
 subtitle: 'Politics to policies: An intro of the maths of power through Berlin political landscape.'
 excerpt: 'Lets know the Berlin parties.'
 date: 2026-09-15
-permalink: /temporales/2026/09/berlin-elections-20-d-i-intro-analysis/
+permalink: /blog/2026/09/berlin-elections-20-d-i-intro-analysis/
 header:
-  overlay_image: blog/2026-09-berlin-elections/berlin_vector_header_data_analysis.jpg
+  overlay_image: blog/2026-09-berlin-elections/berlin_votes_to_power_header.jpg
   overlay_filter: 0.4
   tall: true
 
@@ -109,7 +109,7 @@ Shapley–Shubik indices; the chart below plots the same against raw seat share
 | **Die Linke** | 22 | 13.8% | 0.077 | 0.067 |
 | **AfD** | 17 | 10.7% | 0.077 | 0.067 |
 
-![Party power vs seat share]({{ base_path }}/images/blog/2026-09-berlin-elections/party-power-vs-seat-share.svg)
+![Party power vs seat share]({{ base_path }}/images/blog/2026-09-berlin-elections/berlin2026-i-party-power-vs-seat-share.svg)
 
 Three things jump out. First, **CDU** is not just the largest party — it is the
 *pivot*: its power (0.38–0.40) sits well above its 32.7% seat share, because a
@@ -160,7 +160,7 @@ We do two things to turn arithmetic power into **realistic** power:
 
 ### The result: realistic policy, with and without the firewall
 
-![Coalition policy projection]({{ base_path }}/images/blog/2026-09-berlin-elections/governing-coalition-policy-projection.svg)
+![Coalition policy projection]({{ base_path }}/images/blog/2026-09-berlin-elections/berlin2026-i-governing-coalition-policy-projection.svg)
 
 | Axis | Proximity only | + Brandmauer (AfD excluded) | Reading | Direction (which side) |
 | --- | ---: | ---: | --- | --- |
@@ -240,7 +240,7 @@ party opposes every item, **10.0** when it supports every item, and **5.5** when
 its weighted stance is balanced. The result is the 6-axis position matrix used
 throughout this article:
 
-![Party policy positions]({{ base_path }}/images/blog/2026-09-berlin-elections/party-policy-positions.svg)
+![Party policy positions]({{ base_path }}/images/blog/2026-09-berlin-elections/berlin2026-i-party-policy-positions.svg)
 
 | Party | Housing | Transport | Mid-East | Security | Fiscal | Climate |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
