@@ -3,6 +3,10 @@ title: 'Berlin Elections 2026 - (III) The result: landing on the tipping point'
 excerpt: 'The official result through the engine of Posts 1-2: a power jump on exactly the line the model had drawn, a government vector that jumped, and a parliament that barely moved.'
 date: 2026-09-27
 permalink: /temporales/2026/09/berlin-elections-2026-iii-post-election/
+header:
+  overlay_image: blog/2026-09-berlin-elections/berlin_vector_header_data_analysis.jpg
+  overlay_filter: 0.4
+  tall: true
 tags:
   - politics
   - python
@@ -350,6 +354,85 @@ governments are exactly two (RRG 95, Kenia 82 — every other majority
 coalition contains a forbidden pair), so the question is a head-to-head:
 *under which axis weights is the CDU-led coalition the more natural
 government?*
+
+**How the distance is computed.** Every party is a point in the six-axis
+policy space of the position matrix (Post 1 §3) — the CDU at (2.5, 2.5,
+1.5, 9.0, 3.0, 3.5), the SPD at (5.5, 5.5, 2.5, 5.5, 6.0, 6.5), the Grüne
+at (8.5, 9.5, 4.0, 3.0, 8.5, 9.5) and Die Linke at (10.0, 9.5, 8.5, 1.5,
+10.0, 9.0) for (Housing, Transport, Mid-East, Security, Fiscal, Climate).
+The engine's pairwise **distance** is the Euclidean distance between those
+points,
+
+```text
+d(p, q)  =  √  Σᵢ ( xₚ,ᵢ − x_q,ᵢ )²                over the six axes i
+```
+
+which lives on a 0 → 9√6 ≈ 22.0 scale (0 = identical on every axis,
+22.0 = opposite on every axis). The engine maps it to a **proximity** in
+[0, 1] by dividing by that maximum,
+
+```text
+proximity(p, q)  =  1 − d(p, q) / ( 9√6 )
+```
+
+and the **naturalness** of a coalition is the product of the proximities
+of all its pairs (Post 1 §2): RRG multiplies Linke–Grüne, Linke–SPD and
+Grüne–SPD; Kenia multiplies CDU–Grüne, CDU–SPD and Grüne–SPD. At equal
+weights this is the engine's naturalness (RRG 0.273 vs Kenia 0.172), and
+the CDU–Grüne pair sits at 0.369 — the weakest pair in either coalition.
+
+**What re-weighting does.** Re-weighting an axis is exactly what a salient
+topic does to this space: it stretches it along that axis. Give the
+Mid-East axis a weight λ (the other five stay at 1) and the distance
+becomes the weighted Euclidean distance
+
+```text
+d_λ(p, q)  =  √ ( Σᵢ≠Mid ( xₚ,ᵢ − x_q,ᵢ )²  +  λ ( xₚ,Mid − x_q,Mid )² )
+```
+
+(first sum over the other five axes), with the normalization following the
+stretch — the maximum weighted distance is 9√(5+λ), so
+proximity_λ(p, q) = 1 − d_λ(p, q) / ( 9√(5+λ) ). A pair's proximity then
+moves in the direction set by one comparison only — **how far apart the
+pair is on the emphasized axis, relative to its gaps on the other five**:
+
+- a pair **close** on the emphasized axis is stretched *less* than the
+  space itself — its normalized distance shrinks and its proximity
+  **rises**;
+- a pair **far** on the emphasized axis is stretched *more* than the
+  space — its proximity **falls**.
+
+As λ → ∞ the other five axes drop out entirely and the proximity of two
+parties reduces to **1 minus their gap on the emphasized axis** (1 −
+Δ/9): the space collapses onto its one-dimensional shadow along that
+axis. The sweep λ = 1 → 16 moves continuously between the full
+six-dimensional geometry and that shadow — nothing about the parties
+changes, only which dimension the distance listens to.
+
+**In plain terms.** Picture the parties as cities on a map, and the
+distance between two parties as the distance between two cities.
+Emphasizing one axis is like stretching the map along that one
+direction: cities that were already close along the stretch get even
+closer, cities that were far apart along it get pushed farther — while
+everything in the other five directions is compressed by comparison. No
+city has moved; only the shape of the map has changed.
+
+That is exactly what it means for a single topic to dominate a debate.
+On the Mid-East axis the CDU (1.5) sits next to both its Kenia partners
+— the SPD (2.5) and the Grüne (4.0) — while Die Linke (8.5) sits alone
+at the opposite end, 6 points from the SPD and 4.5 from the Grüne. If
+the Mid-East were the only issue being talked about, the CDU would read
+as a natural partner of both, and the Linke as an unnatural partner of
+either — no matter what the five other issues say. The λ dial is that
+made continuous: λ = 1 is the full six-topic conversation, and the
+larger λ, the more the ranking is decided by a single topic.
+
+Concrete case, Mid-East at λ = 8: the CDU and the Grüne are only 2.5
+apart on the Mid-East (1.5 vs 4.0) — the smallest of their six gaps — and
+their proximity rises from 0.369 to 0.525; Die Linke and the SPD are 6.0
+apart (8.5 vs 2.5) — the largest of their six gaps — and their proximity
+falls from 0.523 to 0.413. Same parties, same five other axes: the change
+of focus alone re-arranged the geometry.
 
 **Method.** Raise the weight λ of one axis (the others stay at 1), from
 λ = 1 (equal weights — where the weighted computation reproduces the

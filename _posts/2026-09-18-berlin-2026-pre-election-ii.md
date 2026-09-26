@@ -2,7 +2,7 @@
 title: 'Berlin Elections 2026 - (II) The scenario engine: polls, seats, and the policy that follows'
 excerpt: 'The real current polls run through a voting-game engine: who can govern, what they will do, and what a few points can still change.'
 date: 2026-09-18
-permalink: /blog/2026/09/berlin-elections-2026-ii-scenario-engine/
+permalink: /blog/2026/09/berlin-elections-2026-ii-scenario-engine/berlin_vector_berlin_votes_to_power_header.jpg
 header:
   overlay_image: blog/2026-09-berlin-elections/berlin_votes_to_power_header.jpg
   overlay_filter: 0.4
