@@ -4,7 +4,7 @@ excerpt: 'The official result through the engine of Posts 1-2: a power jump on e
 date: 2026-09-27
 permalink: /temporales/2026/09/berlin-elections-2026-iii-post-election/
 header:
-  overlay_image: blog/2026-09-berlin-elections/berlin_vector_header_data_analysis.jpg
+  overlay_image: blog/2026-09-berlin-elections/berlin_vector_berlin_votes_to_power_header.jpg
   overlay_filter: 0.4
   tall: true
 tags:
