@@ -17,7 +17,7 @@ tags:
 
 # Post 2: The Scenario Engine — Polls, Seats, Coalitions, and the Policy That Follows
 
-*Continuation of [Post 1 — Who Really Holds Power in Berlin?](post1-who-holds-power.md)*
+*Continuation of [Post 1 — Who Really Holds Power in Berlin?]({{ base_path }}/blog/2026/09/berlin-elections-20-d-i-intro-analysis/)*
 
 Post 1 analysed a single fixed snapshot — the 2023 result. But elections are
 decided by **movements**, not snapshots. In Post 2 we start from the
