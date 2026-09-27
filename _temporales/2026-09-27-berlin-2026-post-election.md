@@ -20,7 +20,7 @@ tags:
 
 Post 2 ended by mapping the election's **tipping points**: the specific
 seat configurations at which the power distribution — and therefore the
-policy center of gravity — would jump. Now the official result of the
+policy center of gravity (CoG) — would jump. Now the official result of the
 20 September 2026 election is in, and the interesting question is not
 *who won* (the polls said it), but **how close the result came to those
 lines** — and what it did to the power structure and the policy projections.
@@ -55,10 +55,7 @@ Official allocation — **158 seats, 80 needed for a majority**:
 house (majority 66) as a simplification; the actual 2026 house has 158
 seats (majority 80). Everything below is therefore re-run on the **real
 158-seat house** — same allocation rule (largest-remainder, 5% threshold),
-same six-axis positions, same taboo set. The first thing the engine
-reproduces is the official allocation itself: applying
-`allocate_seats(official votes, total=158)` yields 47/34/29/26/22 — an
-**exact match** with the official result, seat for seat.
+same six-axis positions, same taboo set.
 
 **The final two weeks.** Compared with the last polling window
 (6 polls, 13 Aug – 14 Sep), the election day result was a **concentrated
@@ -247,17 +244,18 @@ the winning party sits relative to the centre of gravity of the house it
 just entered** — the model's parliament projection (power-weighted,
 158-seat house, §5):
 
-| Axis | Die Linke | Parliament CoG | Gap (Linke − CoG) | Distance |
-| --- | ---: | ---: | ---: | ---: |
-| Mid-East | 8.5 | 3.93 | +4.57 | **4.57** |
-| Housing | 10.0 | 5.86 | +4.14 | **4.14** |
-| Security | 1.5 | 5.57 | −4.07 | **4.07** |
-| Fiscal | 10.0 | 6.14 | +3.86 | 3.86 |
-| Transport | 9.5 | 5.71 | +3.79 | 3.79 |
-| Climate | 9.0 | 6.00 | +3.00 | 3.00 |
+| Axis | Die Linke | Parliament CoG | Gap (Linke − CoG) | Distance | Partners CoG (Grüne+SPD) | Gap (Linke − partners) | Distance to partners |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| Mid-East | 8.5 | 3.93 | +4.57 | **4.57** | 3.31 | +5.19 | **5.19** |
+| Housing | 10.0 | 5.86 | +4.14 | **4.14** | 7.13 | +2.88 | **2.88** |
+| Security | 1.5 | 5.57 | −4.07 | **4.07** | 4.15 | −2.65 | 2.65 |
+| Fiscal | 10.0 | 6.14 | +3.86 | 3.86 | 7.35 | +2.65 | 2.65 |
+| Transport | 9.5 | 5.71 | +3.79 | 3.79 | 7.67 | +1.83 | 1.83 |
+| Climate | 9.0 | 6.00 | +3.00 | 3.00 | 8.13 | +0.88 | 0.88 |
 
-*(Sorted by distance: the axes where the winner sits farthest from the
-house's status quo.)*
+*(Sorted by distance to the parliament CoG. Partners CoG = the
+seat-weighted centre of the winner's anticipated RRG partners — Grüne
+(26) and SPD (22) — on each axis.)*
 
 **The top three axes by distance — Mid-East, housing, security — are
 exactly the three topics the post-election record lists as driving the
@@ -271,10 +269,25 @@ toward them, attacks aimed at the winner on them — is, in the model, a
 direct consequence of the Linke sitting farthest from the CoG on exactly
 those axes.
 
+**The same distance, against the government it will actually form.** The
+last three columns repeat the measurement with a different reference: not
+the whole house, but the seat-weighted centre of the winner's own
+anticipated partners (Grüne 26 + SPD 22). Two things stand out. On the
+Mid-East the winner sits *farther* from its future partners (5.19) than
+from the whole parliament (4.57): both partners (Grüne 4.0, SPD 2.5) sit
+at the opposite pole, so the axis where the whole house clusters against
+the Linke is at the same time the widest gap *inside* the coming
+government. On the other axes the internal gaps are far smaller than the
+house gaps — climate 0.88, transport 1.83, fiscal and security 2.65 —
+there the distance to the status quo is mostly a distance to the
+opposition, not to the coalition. The one that matters is housing (2.88:
+the Linke's 10.0 against its partners' 7.13) — the internal make-or-break
+the record describes, the expropriation red line of §5.
+
 The three topics have three different structures, and the record's
 wording reflects each one:
 
-- **The Mid-East is the coordinated-attack axis.** In the house, the CDU
+- **The Mid-East is the discrepancy axis.** In the house, the CDU
   (1.5) and the AfD (1.0) — the two out-of-government parties — sit 0.5
   points apart at the pole opposite the Linke (8.5), and even the
   in-government SPD (2.5) and Grüne (4.0) stand 6.0 and 4.5 points from
@@ -304,20 +317,57 @@ the government vector's two largest deltas (+0.15, +0.33): the campaign's
 attention structure, the coalition's sensitivity structure, and the
 winner's distance from the status quo all point at the same axes.
 
-**Smear and attack campaigns move shares, not positions — and that has a
-visible limit.** Attacks on the center parties (CDU, SPD) are pure
-input-1 levers: they move vote shares, hence seat weights — they cannot
-move a party's stance on any axis, and they cannot move the government
-vector beyond the re-weighting that follows. The result shows both the
-effect and the limit: the center lost or stagnated (CDU −1.0 in the final
-window and −9.4 points since 2023; SPD flat at 12.1 after collapsing from
-18.4), the right bloc lost −2.4 overall, and — because the government's
-*composition* never changed — the entire effect of two years of center
-erosion on the *enacted* policy vector is a ≤0.33 re-weighting, not a
-direction change. The one structural effect the center's decline *did*
-have is geometric: the CDU kept 34 seats, which — with the Linke's 47 —
-is what pushed the CDU+Linke pair to 81 and broke the tie (T2). The
-attacks helped build the power jump without being able to direct it.
+**And the record shows the §7 narrative lever in action after the vote.**
+Given the result, the seats are fixed: the only way to still change who
+governs — to close the power gap between the two viable coalitions — is
+to make the less natural one (the CDU-led Kenia) look more natural. §7
+says that requires over-focusing on the one axis where the natural
+coalition is internally divided: the Mid-East, where the Linke (8.5) and
+the SPD (2.5) sit 6 points apart inside the RRG — i.e. campaigns that
+change the given narratives on exactly that axis. That is what the
+post-election antisemitism campaign did. The pro-Palestinian positions
+that drove the Linke's surge (the +5.7 mobilization axis, §1) were
+re-coded as antisemitism — in German public argument the two are
+routinely conflated — and within days the question dominating the
+coverage was no longer who had won but whether the Linke could govern
+at all (the governability debate,
+[tagesschau, 22 Sep 2026](https://www.tagesschau.de/inland/regional/berlin/rbb-debatte-ueber-regierungsfaehigkeit-der-linken-reisst-alte-wunden-auf-102.html)).
+The campaign was read as having precisely the function the model
+predicts: a sociologist describing the debate said its function was to
+put pressure on the Linke — and on the SPD and the Grüne — so that they
+do not coalise with it, or to weaken the Linke's other issues in
+coalition talks
+([taz, 23 Sep 2026](https://taz.de/Linke-und-Antisemitismus/!6215302/)).
+The Linke's own Palästina-LAG had called the wave a "tiring media
+campaign," and party figures rejected the accusations as a smear
+([B.Z. Berlin](https://www.bz-berlin.de/berlin/ulrike-eifler-und-die-linke-das-antisemitismusproblem-ist-real-6aae46f8b1857e86757a6f4c);
+[ruhrbarone, 8 Sep 2026](https://www.ruhrbarone.de/die-linke-berlin-antisemitismus-im-gepaeck-das-freizeitprogramm-steht/265836/)).
+And the target was moving: the prospective partners were publicly
+drawing further red lines before any left coalition
+([WELT, 25 Sep 2026](https://www.welt.de/politik/deutschland/plus6ab383ffa15a9fecb668c756/linke-das-war-auch-die-haltung-der-nazis-wirft-gysi-dann-merz-vor.html)),
+on a question the pre-election wave had already put on the agenda —
+"how deep antisemitism sits in the Berlin Linke"
+([Tagesspiegel, 1 Sep 2026](https://www.tagesspiegel.de/berlin/judenhass-in-den-eigenen-reihen-so-tief-sitzt-der-antisemitismus-in-der-berliner-linkspartei-16001270.html)).
+The vote was already in; what the campaign moved was the salience of
+the RRG's internal discrepancy axis — the lever of §7. Whether that
+alone flips the naturalness ranking (the model says it needs the
+Mid-East weighted ≈3.1×) is what the coming coalition talks will
+measure.
+
+Selected German coverage of the wave (30 Aug – 25 Sep 2026):
+
+| Date | Source | Story |
+| --- | --- | --- |
+| 30 Aug | [Tagesspiegel](https://www.tagesspiegel.de/berlin/yalla-yalla-intifada-offener-judenhass-im-wahlkampf-der-neukollner-linken--grune-zweifeln-an-regierungsfahigkeit-15997499.html) | Neukölln rally — "Yalla Yalla Intifada": the Grüne publicly doubt the Linke's government capability |
+| 1 Sep | [Tagesspiegel](https://www.tagesspiegel.de/berlin/judenhass-in-den-eigenen-reihen-so-tief-sitzt-der-antisemitismus-in-der-berliner-linkspartei-16001270.html) | "How deep antisemitism sits in the Berlin Linke" — the accusation wave peaks pre-election |
+| 7 Sep | [Tagesspiegel](https://www.tagesspiegel.de/berlin/yalla-yalla-intifada-polizei-ermittelt-nach-umstrittenem-konzert-bei-neukollner-linken-16025615.html) | Police open an investigation into the Dahabflex appearance at a Linke event |
+| 8 Sep | [ruhrbarone](https://www.ruhrbarone.de/die-linke-berlin-antisemitismus-im-gepaeck-das-freizeitprogramm-steht/265836/) | Chronicle of the inner fight; the party's own Palästina-LAG calls the criticism wave a "tiring media campaign" |
+| 18 Sep | [Tagesspiegel](https://www.tagesspiegel.de/berlin/antisemitismus-und-anti-polizei-plakate-elif-eralp-geraet-beim-tagesspiegel-hauptstadtgesprach-in-erklarungsnot-16071379.html) | Eralp in *Erklärungsnot* over the antisemitism accusations in the last pre-election debate |
+| 22 Sep | [tagesschau](https://www.tagesschau.de/inland/regional/berlin/rbb-debatte-ueber-regierungsfaehigkeit-der-linken-reisst-alte-wunden-auf-102.html) | "Can the Linke govern Berlin — and does it want to?" — the governability debate becomes the dominant frame |
+| 23 Sep | [taz](https://taz.de/Linke-und-Antisemitismus/!6215302/) | Sociologist Ullrich: the debate's function is pressure on the Linke, SPD and Grüne not to coalise |
+| 23 Sep | [3sat](https://www.3sat.de/kultur/kulturzeit/antisemitismusvorwuerfe-gegen-die-linke-berlin-sendung-vom-23-09-2026-100.html) | Kulturzeit devotes a 36-minute segment to the accusations against the Berlin Linke |
+| 25 Sep | [WELT](https://www.welt.de/politik/deutschland/plus6ab383ffa15a9fecb668c756/linke-das-war-auch-die-haltung-der-nazis-wirft-gysi-dann-merz-vor.html) | Gysi–Merz exchange escalates; Grüne and SPD draw further red lines before a left coalition |
+| 25 Sep | [Tagesspiegel](https://www.tagesspiegel.de/berlin/kann-die-linke-berlin-regieren-gebt-elif-eralp-eine-faire-chance-16090239.html) | Counter-voice: "Give Elif Eralp a fair chance" |
 
 **The firewall is the record's quietest — and the model's loudest —
 finding.** The AfD gained 12 seats (29) but *lost* in the final window
@@ -507,6 +557,12 @@ keep a third option (CDU+AfD) off the table at all.
   flips the "natural" government from RRG to a CDU-led Kenia — while
   emphasizing any other axis keeps or strengthens the left's naturalness.
 
+Given the results of the election, the only way to change the final results and close power gaps is to make less natural colations seen as more natural.
+The only way to achieve that effect is by over focusing on the axis that creates differences in the more natural coalition creating campaigns that change the given narratives.
+This aligns with what we have seen after the elections with the smearing campaigns
+to Die Linke and anti-semitism (usually conflated in Germany with Palestinian rights).
+We can see that in the media articles cited above.
+
 ## Bottom line
 
 - **The engine reproduces the official result seat for seat** (47/34/29/
@@ -541,15 +597,3 @@ keep a third option (CDU+AfD) off the table at all.
   policy is capped at re-weighting; and the firewall — a pure narrative
   object — is what keeps 29 far-right seats at 0.000 policy power.
 
-*All figures are computed by `postelection_analysis.py` (official result
-from `data/berlin_2026_results.csv`, run through the unchanged
-`scenario_engine.py` of Posts 1–2 on the real 158-seat house, majority
-80; the tipping-point diagnostics and both power-index families come from
-the same run) and `postelection_depth.py` (the §6 Linke-vs-CoG distances
-and the §7 weighted-naturalness sweep), with the charts by
-`postelection_charts.py` (the six SVGs above); all are reproducible from
-this folder. The post-election context (exit-poll issue salience,
-mobilization drivers, coalition statements) is from the collected
-post-election record. This is an analysis of the result, not a forecast of
-the coalition talks — the RRG's internal weights, not its existence, are
-what the talks will decide.*
