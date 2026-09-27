@@ -1,8 +1,9 @@
 ---
 title: 'Berlin Elections 2026 - (III) The result: landing on the tipping point'
+subtitle: 'The Result: Landing on the Tipping Point. And now what to expect?'
 excerpt: 'The official result through the engine of Posts 1-2: a power jump on exactly the line the model had drawn, a government vector that jumped, and a parliament that barely moved.'
 date: 2026-09-27
-permalink: /temporales/2026/09/berlin-elections-2026-iii-post-election/
+permalink: /blog/2026/09/berlin-elections-2026-iii-post-election/
 header:
   overlay_image: blog/2026-09-berlin-elections/berlin_vector_berlin_votes_to_power_header.jpg
   overlay_filter: 0.4
@@ -13,8 +14,6 @@ tags:
   - Data Analysis
   - Data visualization
 ---
-
-# Post 3: The Result — Landing on the Tipping Point
 
 *Continuation of [Post 1 — Looking into the Party Landscape]({{ base_path }}/blog/2026/09/berlin-elections-20-d-i-intro-analysis/) and [Post 2 — The Scenario Engine]({{ base_path }}/blog/2026/09/berlin-elections-2026-ii-scenario-engine/)*
 
